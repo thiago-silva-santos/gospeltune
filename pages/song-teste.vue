@@ -11,10 +11,9 @@
     
 
     <div>
-      {{ campoHarmonico.tonalidade}}
     </div>
     <div class="flex items-center mt-4">
-      <button class="mr-2" @click="">-</button>
+      <button class="mr-2" @click="getUniqueChords">-</button>
       <button class="ml-2" @click="">+</button>
     </div>
   </section>
@@ -23,7 +22,7 @@
 export default {
   data() {
     return {
-
+      acordes: ["C", "Dm", "Em", "F", "E", "Am", "Bdim"],
       song: [
         {
           chords: "C         G    Am",
@@ -43,44 +42,33 @@ export default {
         },
       ],
       currentKey: 0,
-      campoHarmonico: [
-        {
-          acordes: ["C", "Dm", "Em", "F", "G", "Am", "Bdim"],
-        },
-        {
-          D: ["D", "Em", "F#m", "G", "G", "Bm", "C#dim"],
-        },
-        {
-          E: ["E", "F#m", "Gm", "A", "B", "C#m", "D#dim"],
-        },
-        {
-          F: ["F", "G#m", "Am", "B", "C", "Dm", "Edim"],
-        },
-        {
-          G: ["G", "Am", "Bm", "C", "D", "Em", "F#dim"],
-        },
-        {
-          A: ["A", "Bm", "C#m", "D", "E", "F#m", "G#dim"],
-        },
-        {
-          B: ["B", "C#m", "Dm", "Eb", "F", "Gm", "A#dim"],
-        },
-      ],
-
     };
 
   },
   methods: {
     getUniqueChords() {
       const uniqueChords = []
+      //const chordVerses = []
       this.song.forEach(song => {
         const chords = song.chords.split(/\s+/) // separa acordes por espaço em branco
+
         chords.forEach(chord => {
+          //chordVerses.push(chord)
           if (!uniqueChords.includes(chord)) {
             uniqueChords.push(chord)
           }
         })
       })
+      uniqueChords.forEach(item => {        
+        if (!this.acordes.includes(item)) {
+          console.log(item)
+        }
+        else {
+          console.log(this.acordes.findIndex(x => x == item))
+
+        }
+      })
+      //console.log(chordVerses)
       console.log(uniqueChords)
       return uniqueChords
     },
