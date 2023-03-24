@@ -1,18 +1,23 @@
 <template>
   <section class="container flex flex-col items-center m-auto justify-center pt-10">
-    <div class="verso" v-for="verse in song.verses" :key="verse">
-      <div v-for="item in verse.verse" :key="item">
-        <span class="chord">{{ item.chord }}</span>
-        <p class="word">{{ item.verse }}</p>
-      </div>
-    </div>
     <!-- <div class="verso" v-for="verse in song.verses" :key="verse">
       <div v-for="item in verse.verse" :key="item">
         <span class="chord">{{ item.chord }}</span>
         <p class="word">{{ item.verse }}</p>
       </div>
     </div> -->
-
+    <!-- <div class="verso" v-for="verse in song.verses" :key="verse">
+      <div v-for="item in verse.verse" :key="item">
+        <span class="chord">{{ item.chord }}</span>
+        <p class="word">{{ item.verse }}</p>
+      </div>
+    </div> -->
+    <pre class="flex flex-col justify-center">
+               <template v-for="linha in song" :key="linha">
+                    <b class="mt-4">{{ linha.chords }}</b>
+                    <span>{{ linha.verse }}</span>
+               </template>
+          </pre>
     <div class="pt-20">
       <input type="file" @change="selecionarArquivo">
     </div>
@@ -53,26 +58,39 @@ export default {
       //return { song: { verses: [{ verse: verses }] } };
     },
 
-    createSong(text) {
-      const lines = text.split('\n');
-      const song = { verses: [] };
+    // createSong(text) {
+    //   const lines = text.split('\n');
+    //   const song = { verses: [] };
 
-      for (let i = 0; i < lines.length; i++) {
-        const words = lines[i].split(' ');
-        const verse = { verse: [] };
+    //   for (let i = 0; i < lines.length; i++) {
+    //     const words = lines[i].split(' ');
+    //     const verse = { verse: [] };
 
-        for (let j = 0; j < words.length; j++) {
-          verse.verse.push({ chord: '', verse: words[j] });
-        }
+    //     for (let j = 0; j < words.length; j++) {
+    //       verse.verse.push({ chord: '', verse: words[j] });
+    //     }
 
-        song.verses.push(verse);
+    //     song.verses.push(verse);
+    //   }
+
+    //   return song;
+    // },
+
+
+
+    createSong(song) {
+      const lines = song.split("\n");
+
+      const result = [];
+
+      for (let i = 0; i < lines.length; i += 2) {
+        const chords = lines[i].trim();
+        const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
+        result.push({ chords, verse });
       }
-
-      return  song;
+      console.log(result)
+      return result
     },
-
-
-
 
     async selecionarArquivo(evento) {
       const arquivo = evento.target.files[0];
@@ -86,6 +104,7 @@ export default {
     },
 
   },
+
 
 
 };

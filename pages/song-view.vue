@@ -1,16 +1,21 @@
 <template>
      <div>
+
+          <div class="w-full flex justify-center mt-10">
+               <div class="button_container flex gap-6">
+                    <button class="tom_button" @click="changeTom('C')"> C </button>
+                    <button class="tom_button" @click="changeTom('D')"> D </button>
+                    <button class="tom_button" @click="changeTom('E')"> E </button>
+                    <button class="tom_button" @click="changeTom('F')"> F </button>
+                    <button class="tom_button" @click="changeTom('G')"> G </button>
+                    <button class="tom_button" @click="changeTom('A')"> A </button>
+                    <button class="tom_button" @click="changeTom('B')"> B </button>
+               </div>
+          </div>
           <Song :song="item"></Song>
 
-          <div class="w-full flex items-center mt-4 gap-10 mx-auto ">
-               <button @click="changeTom('C')"> C </button>
-               <button @click="changeTom('D')"> D </button>
-               <button @click="changeTom('E')"> E </button>
-               <button @click="changeTom('F')"> F </button>
-               <button @click="changeTom('G')"> G </button>
-               <button @click="changeTom('A')"> A </button>
-               <button @click="changeTom('B')"> B </button>
-          </div>
+
+          <button @click="createSong(teste)" >CLIQUE TESTE</button>
      </div>
 </template>
 <script>
@@ -22,6 +27,15 @@ export default {
                acordes: ["C", "Dm", "Em", "F", "E", "Am", "Bdim"],
                tonalidadeAtual: "C",
                currentKey: 0,
+               teste: `C                 Am7
+Todos os dias quando acordo
+Bm                   Em
+   Não tenho mais o tempo que passou
+           C          Am7
+Mas tenho muito tempo
+       Bm              Em
+Temos todo o tempo do mundo
+               `
           };
 
      },
@@ -35,7 +49,7 @@ export default {
           item() {
                return [
                     {
-                         chords: `${this.tom[0]}         ${this.tom[6]} ${this.tom[5]}`,
+                         chords: `${this.tom[0]}        ${this.tom[6]}  ${this.tom[5]}`,
                          verse: "Vamos adorar a Deus,"
                     },
                     {
@@ -51,12 +65,27 @@ export default {
                          verse: "Vamos adorar a Deus"
                     },
                ];
+
           }
      },
      methods: {
           changeTom(value) {
                console.log(value)
                this.tonalidadeAtual = value;
+          },
+
+          createSong(song) {
+               const lines = song.split("\n");
+
+               const result = [];
+
+               for (let i = 0; i < lines.length; i += 2) {
+                    const chords = lines[i].trim();
+                    const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
+                    result.push({ chords, verse });
+               }
+               console.log(result)
+               return result
           }
      },
      created() {
@@ -67,6 +96,14 @@ export default {
      }
 }
 </script>
-<style lang="">
-     
+<style scoped>
+.tom_button {
+     @apply rounded-full shadow-md bg-red-100 w-8 h-8 text-black
+}
+
+@media (max-width: 400px) {
+     .button_container {
+          @apply gap-4
+     }
+}
 </style>

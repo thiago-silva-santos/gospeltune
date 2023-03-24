@@ -1,12 +1,11 @@
 <template>
-     <section class="container flex flex-col items-center m-auto justify-center pt-10">
-
-          <pre class="flex flex-col justify-center w-full">
-                           <div v-for="linha in song" :key="linha">
-                           <b>{{ linha.chords }}</b>
-                           <span>{{ linha.verse }}</span>
-                           </div>
-                         </pre>
+     <section class="container flex m-auto justify-center pt-10">
+          <pre class="flex flex-col justify-center">
+               <template v-for="linha in song" :key="linha">
+                    <b class="mt-4">{{ linha.chords }}</b>
+                    <span>{{ linha.verse }}</span>
+               </template>
+          </pre>
      </section>
 </template>
 <script>
