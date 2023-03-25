@@ -1,14 +1,20 @@
 <template>
      <section class="container flex m-auto justify-center pt-10">
           <pre class="flex flex-col justify-center">
-               <template v-for="linha in song" :key="linha">
-                    <b class="mt-4">{{ linha.chords }}</b>
-                    <span>{{ linha.verse }}</span>
-               </template>
-          </pre>
+                         <template v-for="linha in song" :key="linha">                         
+                                   <span class="flex" >
+                                        <template v-for="item in linha.chords">
+                                             <b class="w-2">{{ tom[item] }}</b>
+                                        </template>
+                                   </span>    
+                              <span class="linha-verso">{{ linha.verse }}</span>
+                         </template>
+                    </pre>
+
      </section>
 </template>
 <script>
+import campoJSON from '../assets/campo.json'
 export default {
 
      props: {
@@ -16,12 +22,32 @@ export default {
                type: Array,
                required: true,
           },
+          tonalidade: {
+               type: String,
+               default: "C"
+          }
      },
      data() {
           return {
           };
 
      },
+     computed: {
+          campo() {
+               return campoJSON;
+          },
+          tom() {
+
+               return this.campo[this.tonalidade];
+          },
+     },
+
+     beforeMount() {
+          console.log(this.tom[0])
+          this.song.map(item => {
+               return item.chords = item.chords.split("")
+          })
+     }
 
 }
 </script>
@@ -37,5 +63,13 @@ export default {
 
 b {
      @apply text-red-600
+}
+
+b:not(:empty) {
+     @apply w-fit;
+}
+.linha-verso {
+     letter-spacing: 1px;
+     margin-bottom: 10px;
 }
 </style>
