@@ -16,19 +16,20 @@
      </div>
 </template>
 <script>
-import corinhos from '../assets/corinhosdata.json'
+import corinhos from '@/assets/corinhosdata.json'
 
 export default {
      data() {
           return {
                tonalidadeAtual: "C",
+               nomeArquivo: ''
           };
 
      },
      computed: {
 
           corinho() {
-               const song = corinhos['Vamos adorar a Deus 2']
+               const song = corinhos[this.$route.params.id]
                return song
           },
 
@@ -38,7 +39,11 @@ export default {
                console.log(value)
                this.tonalidadeAtual = value;
           },
+     },
+     mounted() {
+          console.log(this.corinho)
      }
+
 }
 </script>
 <style scoped>
