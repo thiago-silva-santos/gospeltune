@@ -1,157 +1,459 @@
 {
     "101": [
         {
-             "chords":"0      6       5",
-             "verse": "Vamos adorar a Deus,"
+            "chords": [
+                "0",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "5",
+                ""
+            ],
+            "verse": "Vamos adorar a Deus,"
         },
         {
-             "chords": "3        0        1     4",
-             "verse": "Vamos adorar a Deus"
+            "chords": [
+                "3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "1",
+                "",
+                "4",
+                "",
+                ""
+            ],
+            "verse": "Vamos adorar a Deus"
         },
         {
-             "chords": "0           4         5",
-             "verse": "Vamos exaltar seu Nome"
+            "chords": [
+                "0",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "5",
+                "",
+                "",
+                ""
+            ],
+            "verse": "Vamos exaltar seu Nome."
         },
         {
-             "chords": "1         4      0",
-             "verse": "Vamos adorar a Deus"
+            "chords": [
+                "1",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0"
+            ],
+            "verse": "Vamos adorar a Deus"
         }
-   ],
-   "102": [
-     {
-         "chords": "   0",
-         "verse": "Visitante seja bem vindo"
-     },
-     {
-         "chords": "                        4",
-         "verse": "Sua presença é um prazer"
-     },
-     {
-         "chords": "       0       7        3",
-         "verse": "Com Jesus estamos dizendo"
-     },
-     {
-         "chords": "        0      4      0",
-         "verse": "Esta Igreja ama você"
-     },
-     {
-         "chords": "0                3",
-         "verse": "Deus te ama e eu te amo"
-     },
-     {
-         "chords": "      0    5         1   4",
-         "verse": "E assim devemos viver"
-     },
-     {
-         "chords": "0                3",
-         "verse": "Deus te ama e eu te amo"
-     },
-     {
-         "chords": "     0            4          0  3  0",
-         "verse": "Visitante nós amamos você"
-     }
- ],
-
- "103": [
-     {
-         "chords": "D G A D G",
-         "verse": "Renova-me, Senhor Jesus"
-     },
-     {
-         "chords": "Em A A7",
-         "verse": "Já não quero ser igual"
-     },
-     {
-         "chords": "D G A Bm G",
-         "verse": "Renova-me Senhor Jesus"
-     },
-     {
-         "chords": "Em A A7",
-         "verse": "Põe em mim seu coração"
-     },
-     {
-         "chords": "D A/C# Bm Bm/A G",
-         "verse": "Porquê tudo que há dentro de mim"
-     },
-     {
-         "chords": "Em A A7",
-         "verse": "Necessita ser mudado Senhor"
-     },
-     {
-         "chords": "D A/C# Bm Bm/A G",
-         "verse": "Porque tudo que há dentro do meu coração"
-     },
-     {
-         "chords": "A D",
-         "verse": "Necessita mais de ti"
-     }
- ],
-
- "104": [
-     {
-         "chords": "D G9 A D",
-         "verse": "Jesus em tua presença reunimo-nos aqui"
-     },
-     {
-         "chords": "D G9 A D A/C#",
-         "verse": "Contemplamos tua face rendemo-nos a ti"
-     },
-     {
-         "chords": "Bm7 F#m7 G9 D",
-         "verse": "Pois um dia a tua morte trouxe vida a todos nós"
-     },
-     {
-         "chords": "D G9 A D A/C#",
-         "verse": "E nos deu completo acesso ao coração do pai"
-     },
-     {
-         "chords": "Bm7 F#m7 G9 A Bm7",
-         "verse": "O véu que separava já não separa mais"
-     },
-     {
-         "chords": "Bm7 F#m7 G9",
-         "verse": "A luz que outrora apagada agora brilha"
-     },
-     {
-         "chords": "A B4 B",
-         "verse": "E cada dia brilha mais"
-     },
-     {
-         "chords": "G9 A D",
-         "verse": "Só pra te adorar"
-     },
-     {
-         "chords": "G9 A9 Bm7",
-         "verse": "E fazer Teu nome grande"
-     },
-     {
-         "chords": "G9 A D A/C# E",
-         "verse": "E___e te dar o louvor que é devido"
-     },
-     {
-         "chords": "G9 A D",
-         "verse": "Estamos nós aqui"
-     }
- ],
-
- "105": [
-     {
-         "chords": "D Em",
-         "verse": "Reunimo-nos aqui para glorificar o Rei Jesus"
-     },
-     {
-         "chords": "A4 A7 D D7+",
-         "verse": "Reunimo-nos aqui para glorificar o Rei Jesus"
-     },
-     {
-         "chords": "Am7 D7 G Bm Em",
-         "verse": "Reunimo-nos aqui para glorificar o Rei Jesus Se_nhor"
-     },
-     {
-         "chords": "D Bm7 Em7 A7 D",
-         "verse": "A__dorai o Rei Jesus Senhor"
-     }
- ]
-
-
+    ],
+    "102": [
+        {
+            "chords": "   0",
+            "verse": "Visitante seja bem vindo"
+        },
+        {
+            "chords": "                        4",
+            "verse": "Sua presença é um prazer"
+        },
+        {
+            "chords": "       0       7        3",
+            "verse": "Com Jesus estamos dizendo"
+        },
+        {
+            "chords": "        0      4      0",
+            "verse": "Esta Igreja ama você"
+        },
+        {
+            "chords": "0                3",
+            "verse": "Deus te ama e eu te amo"
+        },
+        {
+            "chords": "      0    5         1   4",
+            "verse": "E assim devemos viver"
+        },
+        {
+            "chords": "0                3",
+            "verse": "Deus te ama e eu te amo"
+        },
+        {
+            "chords": "     0            4          0  3  0",
+            "verse": "Visitante nós amamos você"
+        }
+    ],
+    "103": [
+        {
+            "chords": "D G A D G",
+            "verse": "Renova-me, Senhor Jesus"
+        },
+        {
+            "chords": "Em A A7",
+            "verse": "Já não quero ser igual"
+        },
+        {
+            "chords": "D G A Bm G",
+            "verse": "Renova-me Senhor Jesus"
+        },
+        {
+            "chords": "Em A A7",
+            "verse": "Põe em mim seu coração"
+        },
+        {
+            "chords": "D A/C# Bm Bm/A G",
+            "verse": "Porquê tudo que há dentro de mim"
+        },
+        {
+            "chords": "Em A A7",
+            "verse": "Necessita ser mudado Senhor"
+        },
+        {
+            "chords": "D A/C# Bm Bm/A G",
+            "verse": "Porque tudo que há dentro do meu coração"
+        },
+        {
+            "chords": "A D",
+            "verse": "Necessita mais de ti"
+        }
+    ],
+    "104": [
+        {
+            "chords": [
+                "",
+                "",
+                "",
+                "",
+                "0",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0"
+            ],
+            "verse": "Jesus em tua presença reunimo-nos aqui"
+        },
+        {
+            "chords": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0",
+                "",
+                "4",
+                "",
+                ""
+            ],
+            "verse": "Contemplamos tua face rendemo-nos a ti"
+        },
+        {
+            "chords": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "5",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "2",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0"
+            ],
+            "verse": "Pois um dia a tua morte trouxe vida a todos nós"
+        },
+        {
+            "chords": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "4",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "0",
+                "",
+                "4"
+            ],
+            "verse": "E nos deu completo acesso ao coração do pai"
+        }
+    ],
+    "105": [
+        {
+            "chords": "D Em",
+            "verse": "Reunimo-nos aqui para glorificar o Rei Jesus"
+        },
+        {
+            "chords": "A4 A7 D D7+",
+            "verse": "Reunimo-nos aqui para glorificar o Rei Jesus"
+        },
+        {
+            "chords": "Am7 D7 G Bm Em",
+            "verse": "Reunimo-nos aqui para glorificar o Rei Jesus Se_nhor"
+        },
+        {
+            "chords": "D Bm7 Em7 A7 D",
+            "verse": "A__dorai o Rei Jesus Senhor"
+        }
+    ]
 }

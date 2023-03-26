@@ -1,15 +1,15 @@
 <template>
      <section class="container flex m-auto justify-center pt-10">
 
-          <pre class="flex flex-col justify-center">
-                              <template v-for="linha in song" :key="linha">                         
-                                        <span class="flex" >
-                                             <template v-for="item in linha.chords">
-                                                  <b class="w-[0.350rem]">{{ tom[item] }}</b>
-                                             </template>
-                                        </span>    
-                                   <span class="linha-verso">{{ linha.verse }}</span>
-                              </template>
+          <pre class="flex flex-col">
+               <template v-for="linha in song" :key="linha">                         
+                    <span class="flex" >
+                       <template v-for="item in linha.chords">
+                               <b class="w-[0.350rem]">{{ tom[item] }}</b>
+                         </template>
+                            </span>    
+                   <span class="linha-verso">{{ linha.verse }}</span>
+             </template>
                          </pre>
 
      </section>
@@ -52,7 +52,7 @@ export default {
      }
 }
 </script>
-<style lang="css">
+<style lang="css" scoped>
 .verso {
      @apply px-2 w-full flex items-end gap-4 py-4;
 }
@@ -70,8 +70,4 @@ b:not(:empty) {
      @apply w-fit;
 }
 
-.linha-verso {
-     letter-spacing: 1px;
-     margin-bottom: 10px;
-}
 </style>

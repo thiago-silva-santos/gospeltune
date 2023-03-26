@@ -1,31 +1,27 @@
 <template>
-  <section class="container flex flex-col items-center m-auto justify-center pt-10">
-    <pre class="flex flex-col justify-center mb-20">
-                       <!-- <template v-for="linha in song" :key="linha">
-                          <b class="mt-4">{{ linha.chords }}</b>
-                          <span>{{ linha.verse }}</span>
-                     </template> -->
-
-                       <template v-for="linha in song" :key="linha">                         
-                                          <span class="flex" >
-                                               <template v-for="item in linha.chords">
-                                                    <b class="w-[0.350rem]">{{ item }}</b>
-                                               </template>
-                                          </span>    
-                                     <span class="linha-verso">{{ linha.verse }}</span>
-                                </template>
-        </pre>
-    <textarea ref="textArea" class="p-4 bg-slate-200 w-full h-[500px]" @change="teste" />
-
-    <!-- <div class="pt-20">
-      <input type="file" ref="fileInput" @change="selecionarArquivo">
-    </div> -->
-    <div class="pt-20">
-      <button @click="limpar">CLIQUE PARA LIMPAR</button>
+  <div class=" flex flex-col items-center m-auto h-fit justify-center p-10">
+    <div class="grid grid-cols-2 justify-between w-full">
+      <div class="flex flex-col gap-10">
+        <pre class="flex flex-col mt-10 min-h-[300px]">
+                <template v-for="linha in song" :key="linha">                         
+                    <span class="flex" >
+                      <template v-for="item in linha.chords">
+                          <b class="w-[0.350rem]">{{ item }}</b>
+                      </template>
+                    </span>    
+                    <span class="linha-verso">{{ linha.verse }}</span>
+                </template>
+              </pre>
+        <textarea ref="textArea" class="p-4 bg-slate-200 w-full h-[300px]" @change="teste" />
+        <div>
+          <button @click="limpar">CLIQUE PARA LIMPAR</button>
+        </div>
+      </div>
+      <div class="p-4">
+        <campo-harmonico />
+      </div>
     </div>
-
-
-  </section>
+  </div>
 </template>
 <script>
 export default {
@@ -77,7 +73,7 @@ export default {
 
 };
 </script>
-<style lang="css">
+<style lang="css" scoped>
 .verso {
   @apply px-2 w-full flex items-end gap-4 py-4;
 }

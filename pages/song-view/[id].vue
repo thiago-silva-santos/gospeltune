@@ -46,9 +46,6 @@ export default {
                console.log(value)
                this.tonalidadeAtual = value;
           },
-     },
-     mounted() {
-          console.log(this.corinho)
      }
 
 }
