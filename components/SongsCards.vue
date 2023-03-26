@@ -9,7 +9,7 @@
             <nuxt-link :to="`/song-view/${item.id}`">
             <!-- Card Item -->
             <div
-              class="flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg shadow-gray-200  bg-white duration-300 cursor-pointer">
+              class="flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg bg-white duration-300 cursor-pointer">
               <div class="song_number text-center font-bold text-lg">
                 {{ item.numero }}
               </div>
