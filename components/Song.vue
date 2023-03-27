@@ -15,7 +15,7 @@
      </section>
 </template>
 <script>
-import campoJSON from '../assets/campo.json'
+import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoData.json'
 export default {
 
      props: {

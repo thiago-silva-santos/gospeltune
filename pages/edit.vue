@@ -15,7 +15,7 @@
 
       </div>
       <div class="flex flex-col gap-10 p-4">
-        <campo-harmonico />
+        <campo-harmonico @tune="getTuneEmitted"/>
         <textarea ref="textArea" class="p-4 bg-slate-200 w-full h-[300px]" @change="teste" />
         <div>
           <button @click="limpar">CLIQUE PARA LIMPAR</button>
@@ -26,7 +26,7 @@
   </div>
 </template>
 <script>
-import campoJSON from '../assets/campo.json'
+import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoData.json'
 export default {
   data() {
     return {
@@ -58,6 +58,10 @@ export default {
       }
       console.log(result)
       return result
+    },
+
+    getTuneEmitted(value) {
+      this.tonalidade = value
     },
 
     async selecionarArquivo(evento) {
