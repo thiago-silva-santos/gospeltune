@@ -6,31 +6,44 @@
                 <template v-for="linha in song" :key="linha">                         
                     <span class="flex" >
                       <template v-for="item in linha.chords">
-                          <b class="w-[0.350rem]">{{ item }}</b>
+                          <b class="w-[0.350rem]">{{ tom[item] }}</b>
                       </template>
                     </span>    
                     <span class="linha-verso">{{ linha.verse }}</span>
                 </template>
               </pre>
+
+      </div>
+      <div class="flex flex-col gap-10 p-4">
+        <campo-harmonico />
         <textarea ref="textArea" class="p-4 bg-slate-200 w-full h-[300px]" @change="teste" />
         <div>
           <button @click="limpar">CLIQUE PARA LIMPAR</button>
         </div>
       </div>
-      <div class="p-4">
-        <campo-harmonico />
-      </div>
+
     </div>
   </div>
 </template>
 <script>
+import campoJSON from '../assets/campo.json'
 export default {
   data() {
     return {
       song: {},
-      arquivo: null
-
+      tonalidade: "C",
+      arquivo: null,
+      
     };
+  },
+  computed: {
+    campo() {
+      return campoJSON;
+    },
+    tom() {
+
+      return this.campo[this.tonalidade];
+    },
   },
 
   methods: {
