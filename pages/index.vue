@@ -6,6 +6,7 @@
     <section class="cards_container w-full">
       <songs-cards :items="corinhos" :text-search="search"></songs-cards>
     </section>
+    <edit-button/>
   </div>
 </template>
 <script>

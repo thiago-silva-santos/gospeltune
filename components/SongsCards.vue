@@ -4,12 +4,12 @@
       <!-- Card Grid -->
 
       <div
-        class="grid grid-flow-row justify-center items-center gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <template v-for="item in searchResults" :key="item">
             <nuxt-link :to="`/song-view/${item.id}`">
             <!-- Card Item -->
             <div
-              class="flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg bg-white duration-300 cursor-pointer">
+              class="card_ ">
               <div class="song_number text-center font-bold text-lg">
                 {{ item.numero }}
               </div>
@@ -55,5 +55,9 @@ export default {
   watch: {},
 };
 </script>
-<style lang="" scoped>
+<style lang="css" scoped>
+
+.card_ {
+  @apply w-full flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg bg-white duration-300 cursor-pointer hover:bg-red-50 transition ease-in-out delay-150
+}
 </style>
