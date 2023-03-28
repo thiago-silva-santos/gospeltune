@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html, body {
-     @apply bg-yellow-900;
+     @apply bg-slate-50;
 }

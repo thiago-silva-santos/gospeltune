@@ -4,17 +4,14 @@
       <input-search @search="onSearch"></input-search>
     </div>
     <section class="cards_container w-full">
-      <songs-cards :items="corinhos" :text-search="search"></songs-cards>
+      <SongsCards :items="corinhos" :text-search="search"/>
     </section>
     <edit-button/>
   </div>
 </template>
 <script>
-import SongsCards from "~~/components/SongsCards.vue";
-//import hinos from '@/assets/hinos.json'
-import corinhos from '../assets/CardData/corinhos.json'
+import corinhos from '../assets/corinhos.json'
 export default {
-  components: { SongsCards },
   data() {
     return {
       search: '',
@@ -27,9 +24,11 @@ export default {
   },
   computed: {
     corinhos() {
-      return corinhos
+     const arrayDeObjetos = Object.values(corinhos).map(objeto => ({...objeto}));
+      return arrayDeObjetos
     }
-  }
+  },
+
 };
 </script>
 <style lang="css">

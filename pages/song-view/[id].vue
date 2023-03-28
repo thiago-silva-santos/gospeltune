@@ -1,29 +1,15 @@
 <template>
      <div>
 
-          <div class="w-full flex justify-center mt-10">
-               <div class="button_container flex gap-6">
-                    <button :class="[this.tonalidadeAtual === 'C' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('C')"> C </button>
-                    <button :class="[this.tonalidadeAtual === 'D' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('D')"> D </button>
-                    <button :class="[this.tonalidadeAtual === 'E' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('E')"> E </button>
-                    <button :class="[this.tonalidadeAtual === 'F' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('F')"> F </button>
-                    <button :class="[this.tonalidadeAtual === 'G' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('G')"> G </button>
-                    <button :class="[this.tonalidadeAtual === 'A' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('A')"> A </button>
-                    <button :class="[this.tonalidadeAtual === 'B' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('B')"> B </button>
-               </div>
+          <div class="pt-10">
+
+               <Song :song="corinho" :tonalidade="tonalidadeAtual"></Song>
           </div>
-          <Song :song="corinho" :tonalidade="tonalidadeAtual"></Song>
+          <tuning @tuning-component-tune="getTeste"></tuning>
      </div>
 </template>
 <script>
-import corinhos from '@/assets/corinhosdata.json'
+import corinhos from '@/assets/corinhos.json'
 
 export default {
      data() {
@@ -36,7 +22,7 @@ export default {
      computed: {
 
           corinho() {
-               const song = corinhos[this.$route.params.id]
+               const song = corinhos[this.$route.params.id].cifra
                return song
           },
 
@@ -46,7 +32,15 @@ export default {
                console.log(value)
                this.tonalidadeAtual = value;
           },
+          getTeste(value) {
+               console.log("EMIT RESGATADO " + value)
+               this.tonalidadeAtual = value
+          }
+     },
+     created() {
+          console.log(corinhos[this.$route.params.id])
      }
+     
 
 }
 </script>
@@ -54,11 +48,17 @@ export default {
 .tom_button {
      @apply rounded-full shadow-sm w-8 h-8 text-rose-600 bg-rose-200
 }
+
 .active {
      @apply bg-rose-600 text-white
 }
+
 @media (max-width: 400px) {
      .button_container {
           @apply gap-2
+     }
+
+     .button_container2 {
+          @apply gap-3.5
      }
 }</style>
