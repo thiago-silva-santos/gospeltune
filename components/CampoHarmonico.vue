@@ -67,11 +67,11 @@ td {
 }
 
 th {
-     @apply bg-cyan-600 text-white;
+     @apply bg-red-500 text-white;
 }
 
 tr:nth-child(1) {
-    @apply bg-slate-100
+    @apply bg-red-100 font-semibold
 }
 
 select {
@@ -85,13 +85,13 @@ select {
      font-family: inherit;
      font-size: 16px;
      transition: all 150ms ease;
-     @apply mb-4 bg-cyan-600 text-white;
+     @apply mb-4 bg-red-400 text-white;
      outline: none;
 
 }
 
 option {
-     @apply bg-slate-200 text-slate-900
+     @apply bg-red-50 text-slate-900
 }
 </style>
    

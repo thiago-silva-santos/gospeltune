@@ -1,6 +1,6 @@
 <template>
   <div class=" flex flex-col items-center m-auto h-fit justify-center p-10">
-    <div class="grid grid-cols-2 justify-between w-full">
+    <div class="edit_container grid justify-between w-full">
       <div class="song_preview">
         <pre class="flex flex-col mt-10 min-h-[300px]">
                 <template v-for="linha in song" :key="linha">                         
@@ -14,11 +14,22 @@
               </pre>
 
       </div>
-      <div class="flex flex-col gap-10 p-4">
-        <campo-harmonico @tune="getTuneEmitted"/>
-        <textarea ref="textArea" class="p-4 bg-slate-200 w-full h-[300px]" @change="teste" />
-        <div>
-          <button @click="limpar">CLIQUE PARA LIMPAR</button>
+      <div class="flex flex-col gap-10">
+        <campo-harmonico @tune="getTuneEmitted" />
+        <textarea ref="textArea" class="p-4 bg-red-100 w-full h-[300px]" />
+        <div class="edit_actions">
+          <button class="edit_btn_actions bg-green-500" @click="gerarJSON">
+            <span class="material-symbols-outlined">
+              check_circle
+            </span></button>
+          <button class="edit_btn_actions bg-yellow-500" @click="limpar">
+            <span class="material-symbols-outlined">
+              content_copy
+            </span></button>
+          <button class="edit_btn_actions bg-red-500" @click="limpar">
+            <span class="material-symbols-outlined">
+              delete
+            </span></button>
         </div>
       </div>
 
@@ -33,187 +44,7 @@ export default {
       song: {},
       tonalidade: "C",
       arquivo: null,
-      editCifra: [
-             {
-                 "chords": [
-                     "0",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "6",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "5"
-                 ],
-                 "verse": "Deus, está   aqui"
-             },
-             {
-                 "chords": [
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "3"
-                 ],
-                 "verse": "Tão certo como o ar"
-             },
-             {
-                 "chords": [
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "4",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "0"
-                 ],
-                 "verse": "que eu    respiro"
-             },
-             {
-                 "chords": [
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "3",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "4"
-                 ],
-                 "verse": "Tão certo como o amanhã"
-             },
-             {
-                 "chords": [
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "0",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "6",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "5"
-                 ],
-                 "verse": "que se leva_____nta"
-             },
-             {
-                 "chords": [
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "1",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "",
-                     "4"
-                 ],
-                 "verse": "Tão certo como eu te falo"
-             },
-             {
-                 "chords": [
-                     "",
-                     "",
-                     "",
-                     "",
-                     "0",
-                     "",
-                     ""
-                 ],
-                 "verse": "e podes me ouvir"
-             }
-         ]
+      copiedObject: null,
     };
   },
   computed: {
@@ -260,9 +91,14 @@ export default {
         //this.$refs.fileInput.value = ''
         this.$refs.textArea.value = ''
     },
-    teste(e) {
-      console.log(e.target.value)
-      this.song = this.createSong(e.target.value)
+    gerarJSON() {
+      console.log(this.$refs.textArea.value)
+      this.song = this.createSong(this.$refs.textArea.value)
+    },
+    // CRIAR A LOGICA DEPOIS
+    copyAndSave() {
+      copiedObject.value = _.cloneDeep(originalObject.value);
+      console.log('Object copied and saved:', copiedObject.value);
     }
   },
 
@@ -275,13 +111,48 @@ export default {
   @apply px-2 w-full flex items-end gap-4 py-4;
 }
 
+.edit_container {
+  grid-template-columns: 340px 1fr;
+}
+
+.edit_actions {
+  @apply flex justify-end gap-4
+}
+
+.edit_btn_actions {
+  @apply p-2 text-white rounded-full flex justify-center items-center;
+  transition: all .5s ease;
+
+}
+
+.edit_btn_actions:visited {
+  text-decoration: none;
+  display: inline-block;
+  /*   Insert choice of font-color here! */
+  color: #000;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 0;
+  transition: all .5s ease;
+  position: relative;
+}
+.edit_btn_actions:active {
+  box-shadow: 0 5px 0;
+  transform: translateY(5px);
+}
+textarea {
+  border-radius: 15px;
+}
+
 .chord {
   height: 24px;
   @apply text-red-600;
 }
+
 .song_preview {
-  @apply flex flex-col gap-10 w-[300px] bg-violet-300
+  @apply flex flex-col gap-10 w-[320px] bg-red-300 p-4
 }
+
 b:not(:empty) {
   @apply w-fit;
 }
