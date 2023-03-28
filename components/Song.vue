@@ -1,5 +1,5 @@
 <template>
-     <section class="container flex m-auto pt-10">
+     <section class="flex pt-10">
 
           <pre class="flex flex-col">
                <template v-for="linha in song" :key="linha">                         

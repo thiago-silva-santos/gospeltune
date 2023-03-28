@@ -1,6 +1,5 @@
 <template>
      <div>
-
           <div class="song_container">
                <h1 class="song_title">{{ corinho.nome }}</h1>
                <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
@@ -54,7 +53,7 @@ export default {
      @apply bg-rose-600 text-white
 }
 .song_container {
-     @apply  p-10  flex flex-col max-w-[400px] mx-auto
+     @apply py-10 px-5  flex flex-col max-w-[400px] mx-auto
 }
 @media (max-width: 400px) {
      .button_container {

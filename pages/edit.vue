@@ -1,29 +1,36 @@
 <template>
-  <div class=" flex flex-col items-center m-auto h-fit justify-center p-10">
-    <div class="edit_container grid justify-between w-full">
+  <div class=" flex flex-col items-center m-auto h-fit justify-center px-5 py-10">
+    <div class="edit_container grid gap-4">
       <div class="song_preview">
-        <pre class="flex flex-col mt-10 min-h-[300px]">
-                <template v-for="linha in song" :key="linha">
+        <pre class="mt-10 min-h-[300px] w-full">
+                  <template v-for="linha in song" :key="linha">
                   
-                  <template v-if="linha.verse">
-                    <span class="flex" >
-                      <template v-for="item in linha.chords">
-                          <b class="w-[0.350rem]">{{ tom[item] }}</b>
-                      </template>
-                    </span>    
-                    <span class="linha-verso">{{ linha.verse }}</span>
-                  </template>
-                  <div v-else class="h-10">
+                    <template v-if="linha.verse">
+                      <span class="flex" >
+                        <template v-for="item in linha.chords">
+                            <b class="w-[0.350rem]">{{ tom[item] }}</b>
+                        </template>
+                      </span>    
+                      <span class="linha-verso">{{ linha.verse }}</span>
+                    </template>
+                    <div v-else class="h-10">
 
-                  </div>
-                </template>
-              </pre>
+                    </div>
+                  </template>
+                </pre>
 
       </div>
-      <div class="flex flex-col gap-10">
+      <div class="flex flex-col gap-10 max-w-[950px]">
         <campo-harmonico @tune="getTuneEmitted" />
-        <textarea ref="textArea" class="p-4 bg-red-100 w-full h-[300px]" />
+        <textarea ref="textArea" class="p-4 bg-red-100 w-[500px] h-[300px]" />
         <div class="edit_actions">
+          <nuxt-link to="/">
+            <button class="edit_btn_actions bg-sky-500">
+              <span class="material-symbols-outlined">
+                home
+              </span>
+            </button>
+          </nuxt-link>
           <button class="edit_btn_actions bg-green-500" @click="gerarJSON">
             <span class="material-symbols-outlined">
               check_circle
@@ -35,7 +42,7 @@
             <span class="copied_message" ref="copied">Copiado!</span>
           </button>
           <button class="edit_btn_actions bg-red-500" @click="limpar">
-            <span  class="material-symbols-outlined">
+            <span class="material-symbols-outlined">
               delete
             </span></button>
         </div>
@@ -75,7 +82,6 @@ export default {
         const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
         result.push({ chords, verse });
       }
-      console.log(result)
       return result
     },
 
@@ -83,26 +89,14 @@ export default {
       this.tonalidade = value
     },
 
-    async selecionarArquivo(evento) {
-      const arquivo = evento.target.files[0];
-      this.arquivo = evento.target.files[0]
-      const leitor = new FileReader();
-      leitor.onload = async () => {
-        console.log(leitor.result)
-        this.song = this.createSong(leitor.result);
-      };
-      leitor.readAsText(arquivo);
-    },
-
     limpar() {
       this.song = {},
-        this.$refs.textArea.value = ''
+      this.$refs.textArea.value = ''
     },
     gerarJSON() {
-      console.log(this.$refs.textArea.value)
       this.song = this.createSong(this.$refs.textArea.value)
     },
-    // CRIAR A LOGICA DEPOIS
+
     copyAndSave(e) {
       navigator.clipboard.writeText(JSON.stringify(this.song))
         .then(() => {
@@ -115,9 +109,6 @@ export default {
         .catch((error) => {
           console.error('Failed to copy object:', error);
         });
-
-
-
     }
   },
 
@@ -131,7 +122,7 @@ export default {
 }
 
 .edit_container {
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 367px 1fr;
 }
 
 .edit_actions {
@@ -146,6 +137,7 @@ export default {
 
 textarea {
   border-radius: 15px;
+  outline: none;
 }
 
 .chord {
@@ -154,7 +146,7 @@ textarea {
 }
 
 .song_preview {
-  @apply flex flex-col gap-10 w-[320px] bg-red-300 p-4
+  @apply flex flex-col bg-red-300 p-4 rounded-md
 }
 
 
@@ -169,4 +161,5 @@ b:not(:empty) {
   color: black;
   transition: all .3s ease;
 }
+
 </style>
