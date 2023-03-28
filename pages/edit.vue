@@ -3,13 +3,19 @@
     <div class="edit_container grid justify-between w-full">
       <div class="song_preview">
         <pre class="flex flex-col mt-10 min-h-[300px]">
-                <template v-for="linha in song" :key="linha">                         
+                <template v-for="linha in song" :key="linha">
+                  
+                  <template v-if="linha.verse">
                     <span class="flex" >
                       <template v-for="item in linha.chords">
                           <b class="w-[0.350rem]">{{ tom[item] }}</b>
                       </template>
                     </span>    
                     <span class="linha-verso">{{ linha.verse }}</span>
+                  </template>
+                  <div v-else class="h-10">
+
+                  </div>
                 </template>
               </pre>
 
@@ -22,12 +28,14 @@
             <span class="material-symbols-outlined">
               check_circle
             </span></button>
-          <button class="edit_btn_actions bg-yellow-500" @click="limpar">
+          <button class="edit_btn_actions bg-yellow-500" @click="copyAndSave">
             <span class="material-symbols-outlined">
               content_copy
-            </span></button>
+            </span>
+            <span class="copied_message" ref="copied">Copiado!</span>
+          </button>
           <button class="edit_btn_actions bg-red-500" @click="limpar">
-            <span class="material-symbols-outlined">
+            <span  class="material-symbols-outlined">
               delete
             </span></button>
         </div>
@@ -88,7 +96,6 @@ export default {
 
     limpar() {
       this.song = {},
-        //this.$refs.fileInput.value = ''
         this.$refs.textArea.value = ''
     },
     gerarJSON() {
@@ -96,9 +103,21 @@ export default {
       this.song = this.createSong(this.$refs.textArea.value)
     },
     // CRIAR A LOGICA DEPOIS
-    copyAndSave() {
-      copiedObject.value = _.cloneDeep(originalObject.value);
-      console.log('Object copied and saved:', copiedObject.value);
+    copyAndSave(e) {
+      navigator.clipboard.writeText(JSON.stringify(this.song))
+        .then(() => {
+          this.$refs.copied.style.display = 'block'
+          setTimeout(() => {
+            this.$refs.copied.style.display = 'none'
+          }, 500);
+
+        })
+        .catch((error) => {
+          console.error('Failed to copy object:', error);
+        });
+
+
+
     }
   },
 
@@ -120,26 +139,11 @@ export default {
 }
 
 .edit_btn_actions {
-  @apply p-2 text-white rounded-full flex justify-center items-center;
+  @apply p-2 text-white rounded-full flex justify-center items-center shadow-md relative;
   transition: all .5s ease;
 
 }
 
-.edit_btn_actions:visited {
-  text-decoration: none;
-  display: inline-block;
-  /*   Insert choice of font-color here! */
-  color: #000;
-  padding: 20px 40px;
-  border-radius: 10px;
-  box-shadow: 0 10px 0;
-  transition: all .5s ease;
-  position: relative;
-}
-.edit_btn_actions:active {
-  box-shadow: 0 5px 0;
-  transform: translateY(5px);
-}
 textarea {
   border-radius: 15px;
 }
@@ -153,7 +157,16 @@ textarea {
   @apply flex flex-col gap-10 w-[320px] bg-red-300 p-4
 }
 
+
 b:not(:empty) {
   @apply w-fit;
+}
+
+.copied_message {
+  display: none;
+  position: absolute;
+  top: -30px;
+  color: black;
+  transition: all .3s ease;
 }
 </style>
