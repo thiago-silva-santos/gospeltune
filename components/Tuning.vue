@@ -22,16 +22,16 @@
                               @click="changeTom('B')"> B </button>
                     </div>
                     <div class="button_container flex gap-6 mt-2">
-                         <button :class="[this.tonalidadeAtual === 'C' ? 'tom_button active' : 'tom_button']"
-                              @click="changeTom('C')"> Db </button>
-                         <button :class="[this.tonalidadeAtual === 'D' ? 'tom_button active' : 'tom_button']"
-                              @click="changeTom('D')"> Eb </button>
-                         <button :class="[this.tonalidadeAtual === 'E' ? 'tom_button active' : 'tom_button']"
-                              @click="changeTom('E')"> Gb </button>
-                         <button :class="[this.tonalidadeAtual === 'F' ? 'tom_button active' : 'tom_button']"
-                              @click="changeTom('F')"> Ab </button>
-                         <button :class="[this.tonalidadeAtual === 'F' ? 'tom_button active' : 'tom_button']"
-                              @click="changeTom('F')"> Bb </button>
+                         <button :class="[this.tonalidadeAtual === 'Db' ? 'tom_button active' : 'tom_button']"
+                              @click="changeTom('Db')"> Db </button>
+                         <button :class="[this.tonalidadeAtual === 'Eb' ? 'tom_button active' : 'tom_button']"
+                              @click="changeTom('Eb')"> Eb </button>
+                         <button :class="[this.tonalidadeAtual === 'Gb' ? 'tom_button active' : 'tom_button']"
+                              @click="changeTom('Gb')"> Gb </button>
+                         <button :class="[this.tonalidadeAtual === 'Ab' ? 'tom_button active' : 'tom_button']"
+                              @click="changeTom('Ab')"> Ab </button>
+                         <button :class="[this.tonalidadeAtual === 'Bb' ? 'tom_button active' : 'tom_button']"
+                              @click="changeTom('Bb')"> Bb </button>
                     </div>
                </div>
           </div>

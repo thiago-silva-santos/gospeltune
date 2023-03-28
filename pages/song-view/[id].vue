@@ -1,9 +1,9 @@
 <template>
      <div>
 
-          <div class="pt-10">
-
-               <Song :song="corinho" :tonalidade="tonalidadeAtual"></Song>
+          <div class="song_container">
+               <h1 class="song_title">{{ corinho.nome }}</h1>
+               <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
           <tuning @tuning-component-tune="getTeste"></tuning>
      </div>
@@ -22,9 +22,10 @@ export default {
      computed: {
 
           corinho() {
-               const song = corinhos[this.$route.params.id].cifra
+               const song = corinhos[this.$route.params.id]
                return song
           },
+
 
      },
      methods: {
@@ -52,7 +53,9 @@ export default {
 .active {
      @apply bg-rose-600 text-white
 }
-
+.song_container {
+     @apply  p-10  flex flex-col max-w-[400px] mx-auto
+}
 @media (max-width: 400px) {
      .button_container {
           @apply gap-2

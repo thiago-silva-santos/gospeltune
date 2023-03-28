@@ -1,7 +1,7 @@
 <template>
   <div class=" flex flex-col items-center m-auto h-fit justify-center p-10">
     <div class="grid grid-cols-2 justify-between w-full">
-      <div class="flex flex-col gap-10">
+      <div class="song_preview">
         <pre class="flex flex-col mt-10 min-h-[300px]">
                 <template v-for="linha in song" :key="linha">                         
                     <span class="flex" >
@@ -33,7 +33,187 @@ export default {
       song: {},
       tonalidade: "C",
       arquivo: null,
-      
+      editCifra: [
+             {
+                 "chords": [
+                     "0",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "6",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "5"
+                 ],
+                 "verse": "Deus, está   aqui"
+             },
+             {
+                 "chords": [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "3"
+                 ],
+                 "verse": "Tão certo como o ar"
+             },
+             {
+                 "chords": [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "4",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "0"
+                 ],
+                 "verse": "que eu    respiro"
+             },
+             {
+                 "chords": [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "3",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "4"
+                 ],
+                 "verse": "Tão certo como o amanhã"
+             },
+             {
+                 "chords": [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "0",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "6",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "5"
+                 ],
+                 "verse": "que se leva_____nta"
+             },
+             {
+                 "chords": [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "1",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "",
+                     "4"
+                 ],
+                 "verse": "Tão certo como eu te falo"
+             },
+             {
+                 "chords": [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "0",
+                     "",
+                     ""
+                 ],
+                 "verse": "e podes me ouvir"
+             }
+         ]
     };
   },
   computed: {
@@ -99,7 +279,9 @@ export default {
   height: 24px;
   @apply text-red-600;
 }
-
+.song_preview {
+  @apply flex flex-col gap-10 w-[300px] bg-violet-300
+}
 b:not(:empty) {
   @apply w-fit;
 }
