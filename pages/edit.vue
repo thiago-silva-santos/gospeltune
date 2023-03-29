@@ -8,10 +8,10 @@
                     <template v-if="linha.verse">
                       <span class="flex" >
                         <template v-for="item in linha.chords">
-                            <b class="w-[0.350rem]">{{ tom[item] }}</b>
+                            <b class="w-[0.450rem]">{{ tom[item] }}</b>
                         </template>
                       </span>    
-                      <span class="linha-verso">{{ linha.verse }}</span>
+                      <span class="linha-verso mb-4">{{ linha.verse }}</span>
                     </template>
                     <div v-else class="h-10">
 
@@ -78,7 +78,7 @@ export default {
       const lines = song.split("\n");
       const result = [];
       for (let i = 0; i < lines.length; i += 2) {
-        const chords = lines[i].trim();
+        const chords = lines[i].split(" ");
         const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
         result.push({ chords, verse });
       }
@@ -118,9 +118,7 @@ export default {
 };
 </script>
 <style lang="css" scoped>
-.verso {
-  @apply px-2 w-full flex items-end gap-4 py-4;
-}
+
 
 .edit_container {
   grid-template-columns: 367px 1fr;

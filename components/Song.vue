@@ -53,9 +53,7 @@ export default {
 }
 </script>
 <style lang="css" scoped>
-.verso {
-     @apply px-2 w-full flex items-end gap-4 py-4;
-}
+
 
 .chord {
      height: 24px;
