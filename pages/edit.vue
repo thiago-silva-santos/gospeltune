@@ -2,7 +2,7 @@
   <div class=" flex flex-col items-center m-auto h-fit justify-center px-5 py-10">
     <div class="edit_container grid gap-4">
       <div class="song_preview">
-        <pre class="mt-10 min-h-[300px] w-full">
+        <pre class="flex flex-col mt-10 min-h-[300px] w-full">
                   <template v-for="linha in song" :key="linha">
                   
                     <template v-if="linha.verse">
@@ -78,7 +78,7 @@ export default {
       const lines = song.split("\n");
       const result = [];
       for (let i = 0; i < lines.length; i += 2) {
-        const chords = lines[i].split(" ");
+        const chords = lines[i].trim();
         const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
         result.push({ chords, verse });
       }
@@ -95,6 +95,7 @@ export default {
     },
     gerarJSON() {
       this.song = this.createSong(this.$refs.textArea.value)
+      console.log(this.song)
     },
 
     copyAndSave(e) {
@@ -150,9 +151,9 @@ textarea {
 }
 
 
-b:not(:empty) {
+/* b:not(:empty) {
   @apply w-fit;
-}
+} */
 
 .copied_message {
   display: none;
