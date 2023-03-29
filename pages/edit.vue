@@ -2,27 +2,11 @@
   <div class=" flex flex-col items-center m-auto h-fit justify-center px-5 py-10">
     <div class="edit_container grid gap-4">
       <div class="song_preview">
-        <pre class="flex flex-col mt-10 min-h-[300px] w-full">
-                  <template v-for="linha in song" :key="linha">
-                  
-                    <template v-if="linha.verse">
-                      <span class="flex" >
-                        <template v-for="item in linha.chords">
-                            <b class="w-[0.450rem]">{{ tom[item] }}</b>
-                        </template>
-                      </span>    
-                      <span class="linha-verso mb-4">{{ linha.verse }}</span>
-                    </template>
-                    <div v-else class="h-10">
-
-                    </div>
-                  </template>
-                </pre>
-
+        <Song :song="song" :tonalidade="tonalidade"/>
       </div>
-      <div class="flex flex-col gap-10 max-w-[950px]">
+      <div class="flex flex-col gap-10 max-w-[950px] w-[500px]">
         <campo-harmonico @tune="getTuneEmitted" />
-        <textarea ref="textArea" class="p-4 bg-red-100 w-[500px] h-[300px]" />
+        <textarea ref="textArea" class="p-4 bg-red-100 w-[500px] h-[400px]" />
         <div class="edit_actions">
           <nuxt-link to="/">
             <button class="edit_btn_actions bg-sky-500">
@@ -31,20 +15,22 @@
               </span>
             </button>
           </nuxt-link>
-          <button class="edit_btn_actions bg-green-500" @click="gerarJSON">
-            <span class="material-symbols-outlined">
-              check_circle
-            </span></button>
-          <button class="edit_btn_actions bg-yellow-500" @click="copyAndSave">
-            <span class="material-symbols-outlined">
-              content_copy
-            </span>
-            <span class="copied_message" ref="copied">Copiado!</span>
-          </button>
-          <button class="edit_btn_actions bg-red-500" @click="limpar">
-            <span class="material-symbols-outlined">
-              delete
-            </span></button>
+          <div class="flex gap-4">
+            <button class="edit_btn_actions bg-green-500" @click="gerarJSON">
+              <span class="material-symbols-outlined">
+                check_circle
+              </span></button>
+            <button class="edit_btn_actions bg-yellow-500" @click="copyAndSave">
+              <span class="material-symbols-outlined">
+                content_copy
+              </span>
+              <span class="copied_message" ref="copied">Copiado!</span>
+            </button>
+            <button class="edit_btn_actions bg-red-500" @click="limpar">
+              <span class="material-symbols-outlined">
+                delete
+              </span></button>
+          </div>
         </div>
       </div>
 
@@ -56,7 +42,7 @@ import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoData.json'
 export default {
   data() {
     return {
-      song: {},
+      song: [],
       tonalidade: "C",
       arquivo: null,
       copiedObject: null,
@@ -91,7 +77,7 @@ export default {
 
     limpar() {
       this.song = {},
-      this.$refs.textArea.value = ''
+        this.$refs.textArea.value = ''
     },
     gerarJSON() {
       this.song = this.createSong(this.$refs.textArea.value)
@@ -119,13 +105,12 @@ export default {
 </script>
 <style lang="css" scoped>
 
-
 .edit_container {
   grid-template-columns: 367px 1fr;
 }
 
 .edit_actions {
-  @apply flex justify-end gap-4
+  @apply flex justify-between gap-4
 }
 
 .edit_btn_actions {
@@ -139,19 +124,9 @@ textarea {
   outline: none;
 }
 
-.chord {
-  height: 24px;
-  @apply text-red-600;
-}
-
 .song_preview {
   @apply flex flex-col bg-red-300 p-4 rounded-md
 }
-
-
-/* b:not(:empty) {
-  @apply w-fit;
-} */
 
 .copied_message {
   display: none;
@@ -160,5 +135,4 @@ textarea {
   color: black;
   transition: all .3s ease;
 }
-
 </style>
