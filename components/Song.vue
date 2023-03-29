@@ -5,7 +5,7 @@
                <template v-for="linha in song" :key="linha">                         
                     <span class="flex" >
                        <template v-for="item in linha.chords">
-                               <b class="w-[0.350rem]">{{ tom[item] }}</b>
+                               <b class="w-[0.550rem]">{{ tom[item] }}</b>
                          </template>
                             </span>    
                    <span class="linha-verso">{{ linha.verse }}</span>
@@ -66,8 +66,8 @@ b {
      @apply text-red-600
 }
 
-b:not(:empty) {
+/* b:not(:empty) {
      @apply w-fit;
-}
+} */
 
 </style>

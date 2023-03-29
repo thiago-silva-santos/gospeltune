@@ -4,4 +4,8 @@
 
 html, body {
      @apply bg-slate-50;
+     font-family: 'Roboto', sans-serif;
+}
+pre {
+     font-family: 'Roboto', sans-serif;
 }
