@@ -108,7 +108,7 @@
         "nome": "Visitantes",
         "cifra": [
             {
-                "chords": "   0",
+                "chords": "    0",
                 "verse": "Visitante seja bem vindo"
             },
             {
@@ -116,27 +116,31 @@
                 "verse": "Sua presença é um prazer"
             },
             {
-                "chords": "       0       7        3",
+                "chords": "         0      7      3 3",
                 "verse": "Com Jesus estamos dizendo"
             },
             {
-                "chords": "        0      4      0",
+                "chords": "      0      4   0    3 0",
                 "verse": "Esta Igreja ama você"
             },
             {
-                "chords": "0                3",
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "0              3",
                 "verse": "Deus te ama e eu te amo"
             },
             {
-                "chords": "      0    5         1   4",
+                "chords": "    0     5       1   4",
                 "verse": "E assim devemos viver"
             },
             {
-                "chords": "0                3",
+                "chords": "0             3",
                 "verse": "Deus te ama e eu te amo"
             },
             {
-                "chords": "     0            4          0  3  0",
+                "chords": "    0            4     0    3 0",
                 "verse": "Visitante nós amamos você"
             }
         ]

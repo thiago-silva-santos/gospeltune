@@ -5,36 +5,36 @@
 
           </transition>
           <button class="tuning_button" @click="openTuningOptions">
-               {{ this.tonalidadeAtual }}
+               {{ this.tonalidadeAtualString }}
           </button>
           <div class="tuning_items" v-if="isOpen">
                <div class="button_container flex gap-6">
                     <button :class="[this.tonalidadeAtual === 'C' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('C')"> C </button>
+                         @click="changeTom(0)"> C </button>
                     <button :class="[this.tonalidadeAtual === 'D' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('D')"> D </button>
+                         @click="changeTom(1)"> D </button>
                     <button :class="[this.tonalidadeAtual === 'E' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('E')"> E </button>
+                         @click="changeTom(2)"> E </button>
                     <button :class="[this.tonalidadeAtual === 'F' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('F')"> F </button>
+                         @click="changeTom(3)"> F </button>
                     <button :class="[this.tonalidadeAtual === 'G' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('G')"> G </button>
+                         @click="changeTom(4)"> G </button>
                     <button :class="[this.tonalidadeAtual === 'A' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('A')"> A </button>
+                         @click="changeTom(5)"> A </button>
                     <button :class="[this.tonalidadeAtual === 'B' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('B')"> B </button>
+                         @click="changeTom(6)"> B </button>
                </div>
                <div class="button_container flex gap-6 mt-2">
                     <button :class="[this.tonalidadeAtual === 'Db' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('Db')"> Db </button>
+                         @click="changeTom(7)"> Db </button>
                     <button :class="[this.tonalidadeAtual === 'Eb' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('Eb')"> Eb </button>
+                         @click="changeTom(8)"> Eb </button>
                     <button :class="[this.tonalidadeAtual === 'Gb' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('Gb')"> Gb </button>
+                         @click="changeTom(9)"> Gb </button>
                     <button :class="[this.tonalidadeAtual === 'Ab' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('Ab')"> Ab </button>
+                         @click="changeTom(10)"> Ab </button>
                     <button :class="[this.tonalidadeAtual === 'Bb' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom('Bb')"> Bb </button>
+                         @click="changeTom(11)"> Bb </button>
                </div>
           </div>
 
@@ -47,7 +47,7 @@ export default {
      data() {
           return {
                isOpen: false,
-               tonalidadeAtual: "C"
+               tonalidadeAtual: 0
           }
      },
 
@@ -65,15 +65,66 @@ export default {
                this.sendTune()
                this.isOpen = false
           }
+
+     },
+     computed: {
+          tonalidadeAtualString() {
+               let tom = 0
+               switch (this.tonalidadeAtual) {
+                    case 0:
+                         tom = "C"
+                         break;
+                    case 1:
+                         tom = "D"
+                         break;
+                    case 2:
+                         tom = "E"
+                         break;
+                    case 3:
+                         tom = "F"
+                         break;
+                    case 4:
+                         tom = "G"
+                         break;
+                    case 5:
+                         tom = "A"
+                         break;
+                    case 6:
+                         tom = "B"
+                         break;
+                    case 7:
+                         tom = "Db"
+                         break;
+                    case 8:
+                         tom = "Eb"
+                         break;
+                    case 9:
+                         tom = "Gb"
+                         break;
+                    case 10:
+                         tom = "Ab"
+                         break;
+                    case 11:
+                         tom = "Bb"
+                         break;
+
+                    default:
+                         break;
+               }
+               return tom
+          }
      },
      watch: {
           isOpen(value) {
-               if(value) {
+               if (value) {
                     document.body.style.overflowY = 'hidden'
                } else {
                     document.body.style.overflowY = 'auto'
                }
           }
+     },
+     created() {
+          console.log(this.tonalidadeAtualString)
      }
 }
 </script>
@@ -140,6 +191,7 @@ export default {
           opacity: 1;
      }
 }
+
 @media (max-width: 500px) {
      .tuning_items {
           @apply w-[200px] h-80 p-4 gap-4;

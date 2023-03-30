@@ -6,7 +6,7 @@
                          <template v-if="linha.verse">
                               <span class="flex" >
                                  <template v-for="item in linha.chords">
-                                         <b class="w-[0.450rem]">{{ tom[item] }}</b>
+                                         <b class="w-[0.450rem]">{{tom[item]?.notacao}}</b>
                                    </template>
                                       </span>    
                              <span class="linha-verso">{{ linha.verse }}</span>
@@ -19,7 +19,8 @@
      </section>
 </template>
 <script>
-import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoData.json'
+//import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoData.json'
+import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
 export default {
 
      props: {
@@ -28,8 +29,8 @@ export default {
                required: true,
           },
           tonalidade: {
-               type: String,
-               default: "C"
+               type: Number,
+               default: 0
           }
      },
      data() {
@@ -43,13 +44,14 @@ export default {
           },
           tom() {
 
-               return this.campo[this.tonalidade];
+               return this.campo[this.tonalidade].acordes;
           },
      },
 
      created() {
-          console.log(this.tom[0])
+          console.log(this.tom[6].notacao)
           console.log(this.song)
+          //console.log(this.campo[0].acordes[6].notacao)
           // this.song.map(item => {
           //      return item.chords = item.chords.split("")
           // })

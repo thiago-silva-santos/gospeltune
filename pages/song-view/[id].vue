@@ -13,7 +13,7 @@ import corinhos from '@/assets/corinhos.json'
 export default {
      data() {
           return {
-               tonalidadeAtual: "C",
+               tonalidadeAtual: 0,
                nomeArquivo: ''
           };
 

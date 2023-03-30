@@ -33,39 +33,6 @@
         ]
     },
     {
-        "tom": "Db",
-        "acordes": [
-            {
-                "grau": 0,
-                "notacao": "Db"
-            },
-            {
-                "grau": 1,
-                "notacao": "Ebm"
-            },
-            {
-                "grau": 2,
-                "notacao": "Fm"
-            },
-            {
-                "grau": 3,
-                "notacao": "Gb"
-            },
-            {
-                "grau": 4,
-                "notacao": "Ab"
-            },
-            {
-                "grau": 5,
-                "notacao": "Bbm"
-            },
-            {
-                "grau": 6,
-                "notacao": "Cº"
-            }
-        ]
-    },
-    {
         "tom": "D",
         "acordes": [
             {
@@ -95,39 +62,6 @@
             {
                 "grau": 6,
                 "notacao": "C#º"
-            }
-        ]
-    },
-    {
-        "tom": "Eb",
-        "acordes": [
-            {
-                "grau": 0,
-                "notacao": "Eb"
-            },
-            {
-                "grau": 1,
-                "notacao": "Fm"
-            },
-            {
-                "grau": 2,
-                "notacao": "Gm"
-            },
-            {
-                "grau": 3,
-                "notacao": "Ab"
-            },
-            {
-                "grau": 4,
-                "notacao": "Bb"
-            },
-            {
-                "grau": 5,
-                "notacao": "Cm"
-            },
-            {
-                "grau": 6,
-                "notacao": "Dº"
             }
         ]
     },
@@ -198,39 +132,6 @@
         ]
     },
     {
-        "tom": "Gb",
-        "acordes": [
-            {
-                "grau": 0,
-                "notacao": "Gb"
-            },
-            {
-                "grau": 1,
-                "notacao": "Abm"
-            },
-            {
-                "grau": 2,
-                "notacao": "Bbm"
-            },
-            {
-                "grau": 3,
-                "notacao": "Cb"
-            },
-            {
-                "grau": 4,
-                "notacao": "Db"
-            },
-            {
-                "grau": 5,
-                "notacao": "Ebm"
-            },
-            {
-                "grau": 6,
-                "notacao": "Fº"
-            }
-        ]
-    },
-    {
         "tom": "G",
         "acordes": [
             {
@@ -260,39 +161,6 @@
             {
                 "grau": 6,
                 "notacao": "F#º"
-            }
-        ]
-    },
-    {
-        "tom": "Ab",
-        "acordes": [
-            {
-                "grau": 0,
-                "notacao": "Ab"
-            },
-            {
-                "grau": 1,
-                "notacao": "Bbm"
-            },
-            {
-                "grau": 2,
-                "notacao": "Cm"
-            },
-            {
-                "grau": 3,
-                "notacao": "Db"
-            },
-            {
-                "grau": 4,
-                "notacao": "Eb"
-            },
-            {
-                "grau": 5,
-                "notacao": "Fm"
-            },
-            {
-                "grau": 6,
-                "notacao": "Gº"
             }
         ]
     },
@@ -330,39 +198,6 @@
         ]
     },
     {
-        "tom": "Bb",
-        "acordes": [
-            {
-                "grau": 0,
-                "notacao": "Bb"
-            },
-            {
-                "grau": 1,
-                "notacao": "Cm"
-            },
-            {
-                "grau": 2,
-                "notacao": "Dm"
-            },
-            {
-                "grau": 3,
-                "notacao": "Eb"
-            },
-            {
-                "grau": 4,
-                "notacao": "F"
-            },
-            {
-                "grau": 5,
-                "notacao": "Gm"
-            },
-            {
-                "grau": 6,
-                "notacao": "Aº"
-            }
-        ]
-    },
-    {
         "tom": "B",
         "acordes": [
             {
@@ -392,6 +227,171 @@
             {
                 "grau": 6,
                 "notacao": "A#º"
+            }
+        ]
+    },
+    {
+        "tom": "Db",
+        "acordes": [
+            {
+                "grau": 0,
+                "notacao": "Db"
+            },
+            {
+                "grau": 1,
+                "notacao": "Ebm"
+            },
+            {
+                "grau": 2,
+                "notacao": "Fm"
+            },
+            {
+                "grau": 3,
+                "notacao": "Gb"
+            },
+            {
+                "grau": 4,
+                "notacao": "Ab"
+            },
+            {
+                "grau": 5,
+                "notacao": "Bbm"
+            },
+            {
+                "grau": 6,
+                "notacao": "Cº"
+            }
+        ]
+    },
+    {
+        "tom": "Eb",
+        "acordes": [
+            {
+                "grau": 0,
+                "notacao": "Eb"
+            },
+            {
+                "grau": 1,
+                "notacao": "Fm"
+            },
+            {
+                "grau": 2,
+                "notacao": "Gm"
+            },
+            {
+                "grau": 3,
+                "notacao": "Ab"
+            },
+            {
+                "grau": 4,
+                "notacao": "Bb"
+            },
+            {
+                "grau": 5,
+                "notacao": "Cm"
+            },
+            {
+                "grau": 6,
+                "notacao": "Dº"
+            }
+        ]
+    },
+    {
+        "tom": "Gb",
+        "acordes": [
+            {
+                "grau": 0,
+                "notacao": "Gb"
+            },
+            {
+                "grau": 1,
+                "notacao": "Abm"
+            },
+            {
+                "grau": 2,
+                "notacao": "Bbm"
+            },
+            {
+                "grau": 3,
+                "notacao": "Cb"
+            },
+            {
+                "grau": 4,
+                "notacao": "Db"
+            },
+            {
+                "grau": 5,
+                "notacao": "Ebm"
+            },
+            {
+                "grau": 6,
+                "notacao": "Fº"
+            }
+        ]
+    },
+    {
+        "tom": "Ab",
+        "acordes": [
+            {
+                "grau": 0,
+                "notacao": "Ab"
+            },
+            {
+                "grau": 1,
+                "notacao": "Bbm"
+            },
+            {
+                "grau": 2,
+                "notacao": "Cm"
+            },
+            {
+                "grau": 3,
+                "notacao": "Db"
+            },
+            {
+                "grau": 4,
+                "notacao": "Eb"
+            },
+            {
+                "grau": 5,
+                "notacao": "Fm"
+            },
+            {
+                "grau": 6,
+                "notacao": "Gº"
+            }
+        ]
+    },
+    {
+        "tom": "Bb",
+        "acordes": [
+            {
+                "grau": 0,
+                "notacao": "Bb"
+            },
+            {
+                "grau": 1,
+                "notacao": "Cm"
+            },
+            {
+                "grau": 2,
+                "notacao": "Dm"
+            },
+            {
+                "grau": 3,
+                "notacao": "Eb"
+            },
+            {
+                "grau": 4,
+                "notacao": "F"
+            },
+            {
+                "grau": 5,
+                "notacao": "Gm"
+            },
+            {
+                "grau": 6,
+                "notacao": "Aº"
             }
         ]
     }
