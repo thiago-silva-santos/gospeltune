@@ -38,7 +38,7 @@
   </div>
 </template>
 <script>
-import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoData.json'
+import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
 export default {
   data() {
     return {
