@@ -2,7 +2,7 @@
      <div>
 
           <select v-model="tomSelecionado" @change="sendTune">
-               <option v-for="tom in acordes" :key="tom.tom" :value="tom.tom">{{ tom.tom }}</option>
+               <option v-for="tom in acordes" :key="tom.tom" :value="tom.id">{{ tom.tom }}</option>
           </select>
           <table>
                <thead>
@@ -36,19 +36,69 @@ export default {
      emits: ['tune'],
      data() {
           return {
-               tomSelecionado: "C",
+               tomSelecionado: 0,
                acordes: CampoHarmonicoComponentData
           };
      },
      computed: {
+          tonalidadeAtualString() {
+               let tom = 0
+               switch (this.tomSelecionado) {
+                    case 0:
+                         tom = "C"
+                         break;
+                    case 1:
+                         tom = "D"
+                         break;
+                    case 2:
+                         tom = "E"
+                         break;
+                    case 3:
+                         tom = "F"
+                         break;
+                    case 4:
+                         tom = "G"
+                         break;
+                    case 5:
+                         tom = "A"
+                         break;
+                    case 6:
+                         tom = "B"
+                         break;
+                    case 7:
+                         tom = "Db"
+                         break;
+                    case 8:
+                         tom = "Eb"
+                         break;
+                    case 9:
+                         tom = "Gb"
+                         break;
+                    case 10:
+                         tom = "Ab"
+                         break;
+                    case 11:
+                         tom = "Bb"
+                         break;
+
+                    default:
+                         break;
+               }
+               return tom
+          },
+
           acordesFiltrados() {
-               return this.acordes.filter((tom) => tom.tom === this.tomSelecionado);
+               return this.acordes.filter((tom) => tom.tom === this.tonalidadeAtualString);
           }
      },
      methods: {
           sendTune() {
                this.$emit('tune', this.tomSelecionado)
           }
+     },
+
+     created() {
+          console.log(this.acordesFiltrados)
      }
 };
 </script>

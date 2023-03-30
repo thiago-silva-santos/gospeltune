@@ -43,7 +43,7 @@ export default {
   data() {
     return {
       song: [],
-      tonalidade: "C",
+      tonalidade: 0,
       arquivo: null,
       copiedObject: null,
     };
@@ -72,6 +72,7 @@ export default {
     },
 
     getTuneEmitted(value) {
+      console.log(' valor recebido     >>'+ value )
       this.tonalidade = value
     },
 
