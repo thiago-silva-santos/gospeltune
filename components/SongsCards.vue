@@ -1,13 +1,10 @@
 <template>
   <div>
-    <section class=" py-10">
-      <!-- Card Grid -->
-
+    <section class=" py-10" v-if="hasItems">
       <div
         class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <template v-for="item in searchResults" :key="item">
             <nuxt-link :to="`/song-view/${item.id}`">
-            <!-- Card Item -->
             <div
               class="card_ ">
               <div class="song_number text-center font-bold text-lg">
@@ -21,10 +18,14 @@
         </template>
       </div>
     </section>
+    <div v-else>
+      nenhum item encontrado...
+    </div>
   </div>
 </template>
 <script>
 export default {
+  emits: ['length'],
   props: {
     items: {
       type: Object,
@@ -36,7 +37,9 @@ export default {
     },
   },
   data() {
-    return {};
+    return {
+      hasItems: true
+    };
   },
 
   computed: {
@@ -53,12 +56,25 @@ export default {
   methods: {},
   created() {
   },
-  watch: {},
+  watch: {
+    searchResults(value) {
+      if(value.length == 0) {
+        this.hasItems = false
+      }
+      else {
+        this.hasItems = true
+      }
+    }
+  },
 };
 </script>
 <style lang="css" scoped>
 
 .card_ {
-  @apply w-full flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg bg-white duration-300 cursor-pointer hover:bg-red-50 transition ease-in-out delay-150
+  @apply w-full flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg bg-white cursor-pointer;
+  transition: all ease-in-out .3s;
+}
+.card_:hover{
+  @apply bg-gray-100 text-black
 }
 </style>

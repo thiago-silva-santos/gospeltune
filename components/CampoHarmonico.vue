@@ -19,17 +19,17 @@
                <tbody>
                     <tr>
                          <td v-for="acorde in primeirosAcordes" :key="acorde.grau">
-                              {{ acorde.notacao }} ({{ acorde.grau }})
+                              <span class="text-red-700"> {{ acorde.notacao }} </span> ({{ acorde.grau }})
                          </td>
                     </tr>
                     <tr>
                          <td v-for="acorde in demaisAcordes" :key="acorde.grau">
-                              {{ acorde.notacao }} ({{ acorde.grau }})
+                              <span class="text-red-700"> {{ acorde.notacao }} </span> ({{ acorde.grau }})
                          </td>
                     </tr>
                     <tr>
                          <td v-for="acorde in outrosAcordes" :key="acorde.grau">
-                              {{ acorde.notacao }} ({{ acorde.grau }})
+                              <span class="text-red-700"> {{ acorde.notacao }} </span> ({{ acorde.grau }})
                          </td>
                     </tr>
                </tbody>
@@ -106,8 +106,7 @@ export default {
                return this.acordesFiltrados[0].acordes.slice(7, -6)
           },
           outrosAcordes() {
-               return this.acordesFiltrados[0].acordes.slice(14)
-          
+               return this.acordesFiltrados[0].acordes.slice(14)          
           }
      },
      methods: {
@@ -137,11 +136,17 @@ td {
 }
 
 th {
-     @apply bg-red-500 text-white;
+     @apply bg-slate-500 text-white;
 }
 
 tr:nth-child(1) {
-    @apply bg-red-100 font-semibold
+    @apply bg-slate-200 font-semibold
+}
+tr:nth-child(2) {
+    @apply bg-slate-100 font-semibold
+}
+tr:nth-child(3) {
+    @apply bg-slate-100 font-semibold
 }
 
 select {
@@ -155,13 +160,13 @@ select {
      font-family: inherit;
      font-size: 16px;
      transition: all 150ms ease;
-     @apply mb-4 bg-red-400 text-white;
+     @apply mb-4 bg-red-700 text-white;
      outline: none;
 
 }
 
 option {
-     @apply bg-red-50 text-slate-900
+     @apply bg-slate-100 text-slate-900
 }
 </style>
    

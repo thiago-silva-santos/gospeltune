@@ -7,7 +7,7 @@
         <div class="w-full max-w-[940px] ">
           <campo-harmonico @tune="getTuneEmitted" />
         </div>
-        <textarea ref="textArea" class="p-4 bg-red-100 h-[400px]" />
+        <textarea ref="textArea"/>
         <div class="edit_actions">
           <nuxt-link to="/">
             <button class="edit_btn_actions bg-sky-500">
@@ -34,7 +34,6 @@
           </div>
         </div>
       </div>
-
     </div>
 </template>
 <script>
@@ -134,10 +133,11 @@ textarea {
   outline: none;
   width: 100%;
   max-width: 940px;
+  @apply p-4 bg-gray-100 h-[400px]
 }
 
 .song_preview {
-  @apply flex flex-col bg-red-300 p-4 rounded-md
+  @apply flex flex-col bg-gray-100 p-4 rounded-md
 }
 
 .copied_message {

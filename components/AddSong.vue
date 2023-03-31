@@ -25,6 +25,7 @@
 <script>
 
 import corinhos from '../assets/corinhos.json'
+import { readFile, writeFile } from 'fs/promises'
 export default {
      props: {
           cifra: {
@@ -46,12 +47,18 @@ export default {
           enviar() {
                this.song.cifra = this.cifra
                const objetoComIdExiste = corinhos.some(objeto => objeto.id === this.id);
-               if(objetoComIdExiste) {
+               if (objetoComIdExiste) {
                     alert('id já existe')
                } else {
                     corinhos.push(this.song)
                }
           }
+     },
+     async mounted() {
+          const caminhoArquivo = join(this.$config.staticDir, 'dados.json');
+          const conteudoArquivo = await readFile(caminhoArquivo, 'utf-8');
+          this.objetos = JSON.parse(conteudoArquivo);
+
      }
 }
 </script>
@@ -61,6 +68,6 @@ export default {
 }
 
 input {
-     @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight  focus:bg-white;
+     @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:bg-white;
 }
 </style>
