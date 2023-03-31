@@ -30,7 +30,40 @@
             {
                 "grau": 6,
                 "notacao": "Bº"
+            },
+            {
+                "grau": 7,
+                "notacao": "C7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Dm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Em7"
+            },
+            {
+                "grau": 10,
+                "notacao": "F7"
+            },
+            {
+                "grau": 11,
+                "notacao": "G7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Am7"
+            },
+            {
+                "grau": 13,
+                "notacao": "B°7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Cm"
             }
+            
         ]
     },
     {

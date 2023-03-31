@@ -64,7 +64,7 @@ export default {
       const lines = song.split("\n");
       const result = [];
       for (let i = 0; i < lines.length; i += 2) {
-        const chords = lines[i];
+        const chords = lines[i].split(" ");
         const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
         result.push({ chords, verse });
       }

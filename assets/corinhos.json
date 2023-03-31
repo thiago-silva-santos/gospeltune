@@ -1,7 +1,7 @@
 [
     {
-        "id": "102",
-        "numero": 2,
+        "id": "1",
+        "numero": 1,
         "nome": "Visitantes",
         "cifra": [
             {
@@ -39,68 +39,6 @@
             {
                 "chords": "    0            4     0    3 0",
                 "verse": "Visitante nós amamos você"
-            }
-        ]
-    },
-    {
-        "id": "103",
-        "numero": 3,
-        "nome": "Renova-me",
-        "cifra": [
-            {
-                "chords": "D G A D G",
-                "verse": "Renova-me, Senhor Jesus"
-            },
-            {
-                "chords": "Em A A7",
-                "verse": "Já não quero ser igual"
-            },
-            {
-                "chords": "D G A Bm G",
-                "verse": "Renova-me Senhor Jesus"
-            },
-            {
-                "chords": "Em A A7",
-                "verse": "Põe em mim seu coração"
-            },
-            {
-                "chords": "D A/C# Bm Bm/A G",
-                "verse": "Porquê tudo que há dentro de mim"
-            },
-            {
-                "chords": "Em A A7",
-                "verse": "Necessita ser mudado Senhor"
-            },
-            {
-                "chords": "D A/C# Bm Bm/A G",
-                "verse": "Porque tudo que há dentro do meu coração"
-            },
-            {
-                "chords": "A D",
-                "verse": "Necessita mais de ti"
-            }
-        ]
-    },
-    {
-        "id": "105",
-        "numero": 5,
-        "nome": "Reunimo-nos aqui",
-        "cifra": [
-            {
-                "chords": "D Em",
-                "verse": "Reunimo-nos aqui para glorificar o Rei Jesus"
-            },
-            {
-                "chords": "A4 A7 D D7+",
-                "verse": "Reunimo-nos aqui para glorificar o Rei Jesus"
-            },
-            {
-                "chords": "Am7 D7 G Bm Em",
-                "verse": "Reunimo-nos aqui para glorificar o Rei Jesus Se_nhor"
-            },
-            {
-                "chords": "D Bm7 Em7 A7 D",
-                "verse": "A__dorai o Rei Jesus Senhor"
             }
         ]
     }

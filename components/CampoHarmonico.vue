@@ -7,7 +7,6 @@
           <table>
                <thead>
                     <tr>
-                         <th>TOM</th>
                          <th>1º</th>
                          <th>2º</th>
                          <th>3º</th>
@@ -18,14 +17,19 @@
                     </tr>
                </thead>
                <tbody>
-                    <tr v-for="tom in acordesFiltrados" :key="tom.tom">
-                         <td>{{ tom.tom }}</td>
-                         <td v-for="acorde in tom.acordes" :key="acorde.grau">
+                    <tr>
+                         <td v-for="acorde in primeirosAcordes" :key="acorde.grau">
+                              {{ acorde.notacao }} ({{ acorde.grau }})
+                         </td>
+                    </tr>
+                    <tr>
+                         <td v-for="acorde in demaisAcordes" :key="acorde.grau">
                               {{ acorde.notacao }} ({{ acorde.grau }})
                          </td>
                     </tr>
                </tbody>
           </table>
+          
      </div>
 </template>
    
@@ -34,7 +38,7 @@ import CampoHarmonicoComponentData from '../assets/CampoHarmonico/CampoHarmonico
 export default {
 
      emits: ['tune'],
-     data() {
+     data() { 
           return {
                tomSelecionado: 0,
                acordes: CampoHarmonicoComponentData
@@ -89,6 +93,12 @@ export default {
 
           acordesFiltrados() {
                return this.acordes.filter((tom) => tom.tom === this.tonalidadeAtualString);
+          },
+          primeirosAcordes() {
+               return this.acordesFiltrados[0].acordes.slice(0, 7)
+          },
+          demaisAcordes(){
+               return this.acordesFiltrados[0].acordes.slice(7)
           }
      },
      methods: {
@@ -99,6 +109,7 @@ export default {
 
      created() {
           console.log(this.acordesFiltrados)
+          console.log(this.demaisAcordes)
      }
 };
 </script>
