@@ -10,7 +10,7 @@
         <textarea ref="textArea"/>
         <div class="edit_actions">
           <nuxt-link to="/">
-            <button class="edit_btn_actions bg-sky-500">
+            <button class="edit_btn_actions bg-sky-700">
               <span class="material-symbols-outlined">
                 home
               </span>

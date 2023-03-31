@@ -4,11 +4,11 @@
       <div
         class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <template v-for="item in searchResults" :key="item">
-            <nuxt-link :to="`/song-view/${item.id}`">
+            <nuxt-link :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
             <div
               class="card_ ">
               <div class="song_number text-center font-bold text-lg">
-                {{ item.numero }}
+                {{ item.id }}
               </div>
               <div class="song_title text-center">
                 {{ item.nome }}
@@ -18,8 +18,8 @@
         </template>
       </div>
     </section>
-    <div v-else>
-      nenhum item encontrado...
+    <div v-else class="fallback">
+      Nenhuma cifra encontrada...
     </div>
   </div>
 </template>
@@ -48,7 +48,7 @@ export default {
         const lowerCaseSearchTerm = this.textSearch.toLowerCase();
         return (
           item.nome.toLowerCase().includes(lowerCaseSearchTerm) ||
-          item.numero.toString().includes(lowerCaseSearchTerm)
+          item.id.toString().includes(lowerCaseSearchTerm)
         );
       });
     },
@@ -75,6 +75,9 @@ export default {
   transition: all ease-in-out .3s;
 }
 .card_:hover{
-  @apply bg-gray-100 text-black
+  @apply bg-gray-200 text-black
+}
+.fallback {
+  @apply flex items-center w-full h-20 py-6 px-2 text-slate-600 text-lg
 }
 </style>

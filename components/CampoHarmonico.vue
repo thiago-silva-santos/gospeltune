@@ -116,8 +116,6 @@ export default {
      },
 
      created() {
-          console.log(this.acordesFiltrados)
-          console.log(this.demaisAcordes)
      }
 };
 </script>
@@ -160,7 +158,7 @@ select {
      font-family: inherit;
      font-size: 16px;
      transition: all 150ms ease;
-     @apply mb-4 bg-red-700 text-white;
+     @apply mb-4 bg-slate-700 text-white;
      outline: none;
 
 }

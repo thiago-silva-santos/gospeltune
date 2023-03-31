@@ -45,9 +45,15 @@ export default {
 
                return this.campo[this.tonalidade].acordes;
           },
+          primeirosAcordes() {
+               //CRIAR LOGICA PRA SEPARAR REFRÃO
+               return this.song.slice(0, 2)
+          },
      },
 
      created() {
+          console.log(this.song)
+          console.log(this.primeirosAcordes)
      }
 }
 </script>

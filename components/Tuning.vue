@@ -9,31 +9,31 @@
           </button>
           <div class="tuning_items" v-if="isOpen">
                <div class="button_container flex gap-6">
-                    <button :class="[this.tonalidadeAtual === 'C' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'C' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(0)"> C </button>
-                    <button :class="[this.tonalidadeAtual === 'D' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'D' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(1)"> D </button>
-                    <button :class="[this.tonalidadeAtual === 'E' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'E' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(2)"> E </button>
-                    <button :class="[this.tonalidadeAtual === 'F' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'F' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(3)"> F </button>
-                    <button :class="[this.tonalidadeAtual === 'G' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'G' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(4)"> G </button>
-                    <button :class="[this.tonalidadeAtual === 'A' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'A' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(5)"> A </button>
-                    <button :class="[this.tonalidadeAtual === 'B' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'B' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(6)"> B </button>
                </div>
                <div class="button_container flex gap-6 mt-2">
-                    <button :class="[this.tonalidadeAtual === 'Db' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'Db' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(7)"> Db </button>
-                    <button :class="[this.tonalidadeAtual === 'Eb' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'Eb' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(8)"> Eb </button>
-                    <button :class="[this.tonalidadeAtual === 'Gb' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'Gb' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(9)"> Gb </button>
-                    <button :class="[this.tonalidadeAtual === 'Ab' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'Ab' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(10)"> Ab </button>
-                    <button :class="[this.tonalidadeAtual === 'Bb' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[this.tonalidadeAtualString === 'Bb' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(11)"> Bb </button>
                </div>
           </div>
@@ -159,9 +159,12 @@ export default {
 }
 
 .tom_button {
-     @apply rounded-full shadow-sm w-8 h-8 text-rose-600 bg-rose-200
+     @apply rounded-full shadow-slate-400 w-8 h-8 text-slate-700 bg-slate-200;
+     transition: all .3s ease;
 }
-
+.tom_button:hover {
+     @apply bg-slate-300
+}
 .active {
      @apply bg-rose-600 text-white
 }

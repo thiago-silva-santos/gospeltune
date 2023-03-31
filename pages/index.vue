@@ -12,12 +12,13 @@
       <h1>Hinos da Harpa Cristã</h1>
       <SongsCards :items="hinos" :text-search="search"/>
     </section>
-    <edit-button/>
+    <ScrollTop/>
+    <!-- <edit-button/> -->
   </div>
 </template>
 <script>
 import corinhos from '../assets/corinhos.json'
-import hinos from '../assets/hinos.json'
+import hinos from '../assets/hinos-harpa-crista.json'
 export default {
   data() {
     return {

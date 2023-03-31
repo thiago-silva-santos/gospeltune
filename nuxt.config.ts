@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Coffee Music',
+      title: 'Heavenly Harmony',
       htmlAttrs: {
         lang: 'pt-BR'
       },
