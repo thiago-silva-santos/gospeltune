@@ -4,7 +4,7 @@
                <h1 class="song_title">{{ corinho.nome }}</h1>
                <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
-          <tuning @tuning-component-tune="getTeste"></tuning>
+          <tuning @tuning-component-tune="getTom"></tuning>
      </div>
 </template>
 <script>
@@ -21,7 +21,7 @@ export default {
      computed: {
 
           corinho() {
-               const song = corinhos[this.$route.params.id]
+               const song = corinhos.filter(item => item.id == this.$route.params.id)[0]
                return song
           },
 
@@ -32,13 +32,11 @@ export default {
                console.log(value)
                this.tonalidadeAtual = value;
           },
-          getTeste(value) {
-               console.log("EMIT RESGATADO " + value)
+          getTom(value) {
                this.tonalidadeAtual = value
           }
      },
      created() {
-          console.log(corinhos[this.$route.params.id])
      }
      
 

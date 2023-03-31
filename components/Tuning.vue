@@ -53,14 +53,12 @@ export default {
 
      methods: {
           sendTune() {
-               console.log('tom:  ' + this.tonalidadeAtual)
                this.$emit("tuning-component-tune", this.tonalidadeAtual);
           },
           openTuningOptions() {
                this.isOpen = !this.isOpen
           },
           changeTom(value) {
-               console.log(value)
                this.tonalidadeAtual = value;
                this.sendTune()
                this.isOpen = false
@@ -124,7 +122,6 @@ export default {
           }
      },
      created() {
-          console.log(this.tonalidadeAtualString)
      }
 }
 </script>

@@ -51,7 +51,8 @@ export default {
     },
   },
   methods: {},
-
+  created() {
+  },
   watch: {},
 };
 </script>

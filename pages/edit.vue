@@ -1,12 +1,13 @@
 <template>
-  <div class=" flex flex-col items-center m-auto h-fit justify-center px-5 py-10">
-    <div class="edit_container grid gap-4">
+    <div class="edit_container ">
       <div class="song_preview">
         <Song :song="song" :tonalidade="tonalidade"/>
       </div>
-      <div class="flex flex-col gap-10 max-w-[950px] w-[500px]">
-        <campo-harmonico @tune="getTuneEmitted" />
-        <textarea ref="textArea" class="p-4 bg-red-100 w-[500px] h-[400px]" />
+      <div class="edit_tools">
+        <div class="w-full max-w-[940px] ">
+          <campo-harmonico @tune="getTuneEmitted" />
+        </div>
+        <textarea ref="textArea" class="p-4 bg-red-100 h-[400px]" />
         <div class="edit_actions">
           <nuxt-link to="/">
             <button class="edit_btn_actions bg-sky-500">
@@ -35,7 +36,6 @@
       </div>
 
     </div>
-  </div>
 </template>
 <script>
 import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
@@ -77,7 +77,7 @@ export default {
     },
 
     limpar() {
-      this.song = {},
+      this.song = [],
         this.$refs.textArea.value = ''
     },
     gerarJSON() {
@@ -107,11 +107,20 @@ export default {
 <style lang="css" scoped>
 
 .edit_container {
+  display: grid;
   grid-template-columns: 367px 1fr;
+  @apply gap-4 p-10
 }
-
+.edit_tools {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+  align-items: center
+}
 .edit_actions {
-  @apply flex justify-between gap-4
+  @apply flex justify-between gap-4 w-full max-w-[940px]
 }
 
 .edit_btn_actions {
@@ -123,6 +132,8 @@ export default {
 textarea {
   border-radius: 15px;
   outline: none;
+  width: 100%;
+  max-width: 940px;
 }
 
 .song_preview {

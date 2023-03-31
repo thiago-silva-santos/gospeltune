@@ -48,12 +48,6 @@ export default {
      },
 
      created() {
-          console.log(this.tom[6].notacao)
-          console.log(this.song)
-          //console.log(this.campo[0].acordes[6].notacao)
-          // this.song.map(item => {
-          //      return item.chords = item.chords.split("")
-          // })
      }
 }
 </script>

@@ -23,9 +23,9 @@ export default {
     },
   },
   computed: {
+
     corinhos() {
-     const arrayDeObjetos = Object.values(corinhos).map(objeto => ({...objeto}));
-      return arrayDeObjetos
+      return corinhos
     }
   },
 
