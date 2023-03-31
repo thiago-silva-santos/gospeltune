@@ -27,6 +27,11 @@
                               {{ acorde.notacao }} ({{ acorde.grau }})
                          </td>
                     </tr>
+                    <tr>
+                         <td v-for="acorde in outrosAcordes" :key="acorde.grau">
+                              {{ acorde.notacao }} ({{ acorde.grau }})
+                         </td>
+                    </tr>
                </tbody>
           </table>
           
@@ -98,7 +103,11 @@ export default {
                return this.acordesFiltrados[0].acordes.slice(0, 7)
           },
           demaisAcordes(){
-               return this.acordesFiltrados[0].acordes.slice(7)
+               return this.acordesFiltrados[0].acordes.slice(7, -6)
+          },
+          outrosAcordes() {
+               return this.acordesFiltrados[0].acordes.slice(14)
+          
           }
      },
      methods: {

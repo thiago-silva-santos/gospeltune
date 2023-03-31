@@ -29,7 +29,7 @@
             },
             {
                 "grau": 6,
-                "notacao": "Bº"
+                "notacao": "Bdim"
             },
             {
                 "grau": 7,
@@ -57,11 +57,31 @@
             },
             {
                 "grau": 13,
-                "notacao": "B°7"
+                "notacao": "Bdim7"
             },
             {
                 "grau": 14,
                 "notacao": "Cm"
+            },
+            {
+                "grau": 15,
+                "notacao": "D"
+            },
+            {
+                "grau": 16,
+                "notacao": "E"
+            },
+            {
+                "grau": 17,
+                "notacao": "Fm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Gm"
+            },
+            {
+                "grau": 19,
+                "notacao": "A"
             }
             
         ]
@@ -96,7 +116,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "C#º"
+                "notacao": "C#dim"
+            },
+            {
+                "grau": 7,
+                "notacao": "D7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Em7"
+            },
+            {
+                "grau": 9,
+                "notacao": "F#m7"
+            },
+            {
+                "grau": 10,
+                "notacao": "G7"
+            },
+            {
+                "grau": 11,
+                "notacao": "A7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Bm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "C#dim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Dm"
+            },
+            {
+                "grau": 15,
+                "notacao": "E"
+            },
+            {
+                "grau": 16,
+                "notacao": "F#"
+            },
+            {
+                "grau": 17,
+                "notacao": "Gm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Am"
+            },
+            {
+                "grau": 19,
+                "notacao": "B"
             }
         ]
     },
@@ -130,7 +202,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "D#º"
+                "notacao": "D#dim"
+            },
+            {
+                "grau": 7,
+                "notacao": "E7"
+            },
+            {
+                "grau": 8,
+                "notacao": "F#m7"
+            },
+            {
+                "grau": 9,
+                "notacao": "G#m7"
+            },
+            {
+                "grau": 10,
+                "notacao": "A7"
+            },
+            {
+                "grau": 11,
+                "notacao": "B7"
+            },
+            {
+                "grau": 12,
+                "notacao": "C#m7"
+            },
+            {
+                "grau": 13,
+                "notacao": "D#dim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Em"
+            },
+            {
+                "grau": 15,
+                "notacao": "F#"
+            },
+            {
+                "grau": 16,
+                "notacao": "G#"
+            },
+            {
+                "grau": 17,
+                "notacao": "Am"
+            },
+            {
+                "grau": 18,
+                "notacao": "Bm"
+            },
+            {
+                "grau": 19,
+                "notacao": "C#"
             }
         ]
     },
@@ -164,7 +288,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "Eº"
+                "notacao": "Edim"
+            },
+            {
+                "grau": 7,
+                "notacao": "F7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Gm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Am7"
+            },
+            {
+                "grau": 10,
+                "notacao": "Bb7"
+            },
+            {
+                "grau": 11,
+                "notacao": "C7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Dm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "Edim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Fm"
+            },
+            {
+                "grau": 15,
+                "notacao": "G"
+            },
+            {
+                "grau": 16,
+                "notacao": "A"
+            },
+            {
+                "grau": 17,
+                "notacao": "Bbm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Cm"
+            },
+            {
+                "grau": 19,
+                "notacao": "D"
             }
         ]
     },
@@ -198,7 +374,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "F#º"
+                "notacao": "F#dim"
+            },
+            {
+                "grau": 7,
+                "notacao": "G7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Am7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Bm7"
+            },
+            {
+                "grau": 10,
+                "notacao": "C7"
+            },
+            {
+                "grau": 11,
+                "notacao": "D7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Em7"
+            },
+            {
+                "grau": 13,
+                "notacao": "F#dim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Gm"
+            },
+            {
+                "grau": 15,
+                "notacao": "A"
+            },
+            {
+                "grau": 16,
+                "notacao": "B"
+            },
+            {
+                "grau": 17,
+                "notacao": "Cm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Dm"
+            },
+            {
+                "grau": 19,
+                "notacao": "E"
             }
         ]
     },
@@ -232,7 +460,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "G#º"
+                "notacao": "G#dim"
+            },
+            {
+                "grau": 7,
+                "notacao": "A7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Bm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "C#m7"
+            },
+            {
+                "grau": 10,
+                "notacao": "D7"
+            },
+            {
+                "grau": 11,
+                "notacao": "E7"
+            },
+            {
+                "grau": 12,
+                "notacao": "F#m7"
+            },
+            {
+                "grau": 13,
+                "notacao": "G#dim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Am"
+            },
+            {
+                "grau": 15,
+                "notacao": "B"
+            },
+            {
+                "grau": 16,
+                "notacao": "C#"
+            },
+            {
+                "grau": 17,
+                "notacao": "Dm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Em"
+            },
+            {
+                "grau": 19,
+                "notacao": "F#"
             }
         ]
     },
@@ -266,7 +546,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "A#º"
+                "notacao": "A#dim"
+            },
+            {
+                "grau": 7,
+                "notacao": "B7"
+            },
+            {
+                "grau": 8,
+                "notacao": "C#m7"
+            },
+            {
+                "grau": 9,
+                "notacao": "D#m7"
+            },
+            {
+                "grau": 10,
+                "notacao": "E7"
+            },
+            {
+                "grau": 11,
+                "notacao": "F#7"
+            },
+            {
+                "grau": 12,
+                "notacao": "G#m7"
+            },
+            {
+                "grau": 13,
+                "notacao": "A#dim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Bm"
+            },
+            {
+                "grau": 15,
+                "notacao": "C#"
+            },
+            {
+                "grau": 16,
+                "notacao": "D#"
+            },
+            {
+                "grau": 17,
+                "notacao": "Em"
+            },
+            {
+                "grau": 18,
+                "notacao": "F#m"
+            },
+            {
+                "grau": 19,
+                "notacao": "G#"
             }
         ]
     },
@@ -300,7 +632,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "Cº"
+                "notacao": "Cdim"
+            },
+            {
+                "grau": 7,
+                "notacao": "Db7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Ebm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Fm7"
+            },
+            {
+                "grau": 10,
+                "notacao": "Gb7"
+            },
+            {
+                "grau": 11,
+                "notacao": "Ab7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Bbm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "Cdim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Dbm"
+            },
+            {
+                "grau": 15,
+                "notacao": "Eb"
+            },
+            {
+                "grau": 16,
+                "notacao": "F"
+            },
+            {
+                "grau": 17,
+                "notacao": "Gbm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Abm"
+            },
+            {
+                "grau": 19,
+                "notacao": "Bb"
             }
         ]
     },
@@ -334,7 +718,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "Dº"
+                "notacao": "Ddim"
+            },
+            {
+                "grau": 7,
+                "notacao": "Eb7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Fm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Gm7"
+            },
+            {
+                "grau": 10,
+                "notacao": "Ab7"
+            },
+            {
+                "grau": 11,
+                "notacao": "Bb7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Cm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "Ddim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Ebm"
+            },
+            {
+                "grau": 15,
+                "notacao": "F"
+            },
+            {
+                "grau": 16,
+                "notacao": "G"
+            },
+            {
+                "grau": 17,
+                "notacao": "Abm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Bbm"
+            },
+            {
+                "grau": 19,
+                "notacao": "C"
             }
         ]
     },
@@ -368,7 +804,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "Fº"
+                "notacao": "Fdim"
+            },
+            {
+                "grau": 7,
+                "notacao": "Gb7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Abm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Bbm7"
+            },
+            {
+                "grau": 10,
+                "notacao": "Cb7"
+            },
+            {
+                "grau": 11,
+                "notacao": "Db7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Ebm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "Fdim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Gbm"
+            },
+            {
+                "grau": 15,
+                "notacao": "Ab"
+            },
+            {
+                "grau": 16,
+                "notacao": "Bb"
+            },
+            {
+                "grau": 17,
+                "notacao": "Cbm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Dbm"
+            },
+            {
+                "grau": 19,
+                "notacao": "Eb"
             }
         ]
     },
@@ -402,7 +890,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "Gº"
+                "notacao": "Gdim"
+            },
+            {
+                "grau": 7,
+                "notacao": "Ab7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Bbm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Cm7"
+            },
+            {
+                "grau": 10,
+                "notacao": "Db7"
+            },
+            {
+                "grau": 11,
+                "notacao": "Eb7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Fm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "Gdim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Abm"
+            },
+            {
+                "grau": 15,
+                "notacao": "Bb"
+            },
+            {
+                "grau": 16,
+                "notacao": "C"
+            },
+            {
+                "grau": 17,
+                "notacao": "Dbm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Ebm"
+            },
+            {
+                "grau": 19,
+                "notacao": "F"
             }
         ]
     },
@@ -436,7 +976,59 @@
             },
             {
                 "grau": 6,
-                "notacao": "Aº"
+                "notacao": "Adim"
+            },
+            {
+                "grau": 7,
+                "notacao": "Bb7"
+            },
+            {
+                "grau": 8,
+                "notacao": "Cm7"
+            },
+            {
+                "grau": 9,
+                "notacao": "Dm7"
+            },
+            {
+                "grau": 10,
+                "notacao": "Eb7"
+            },
+            {
+                "grau": 11,
+                "notacao": "F7"
+            },
+            {
+                "grau": 12,
+                "notacao": "Gm7"
+            },
+            {
+                "grau": 13,
+                "notacao": "Adim7"
+            },
+            {
+                "grau": 14,
+                "notacao": "Bbm"
+            },
+            {
+                "grau": 15,
+                "notacao": "C"
+            },
+            {
+                "grau": 16,
+                "notacao": "D"
+            },
+            {
+                "grau": 17,
+                "notacao": "Ebm"
+            },
+            {
+                "grau": 18,
+                "notacao": "Fm"
+            },
+            {
+                "grau": 19,
+                "notacao": "G"
             }
         ]
     }
