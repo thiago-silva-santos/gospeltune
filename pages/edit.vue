@@ -71,7 +71,6 @@ export default {
     },
 
     getTuneEmitted(value) {
-      console.log(' valor recebido     >>'+ value )
       this.tonalidade = value
     },
 
@@ -81,7 +80,6 @@ export default {
     },
     gerarJSON() {
       this.song = this.createSong(this.$refs.textArea.value)
-      console.log(this.song)
     },
 
     copyAndSave(e) {

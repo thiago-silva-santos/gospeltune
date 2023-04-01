@@ -18,7 +18,7 @@
         </template>
       </div>
     </section>
-    <div v-else class="fallback">
+    <div v-else class="no-results">
       Nenhuma cifra encontrada...
     </div>
   </div>
@@ -74,10 +74,13 @@ export default {
   @apply w-full flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded shadow-lg bg-white cursor-pointer;
   transition: all ease-in-out .3s;
 }
-.card_:hover{
-  @apply bg-gray-200 text-black
-}
-.fallback {
+
+.no-results {
   @apply flex items-center w-full h-20 py-6 px-2 text-slate-600 text-lg
+}
+@media (min-width: 500px) {
+  .card_:hover{
+  @apply bg-gray-100 text-black
+}
 }
 </style>

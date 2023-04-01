@@ -29,7 +29,6 @@ export default {
      },
      methods: {
           changeTom(value) {
-               console.log(value)
                this.tonalidadeAtual = value;
           },
           getTom(value) {

@@ -52,8 +52,6 @@ export default {
      },
 
      created() {
-          console.log(this.song)
-          console.log(this.primeirosAcordes)
      }
 }
 </script>
