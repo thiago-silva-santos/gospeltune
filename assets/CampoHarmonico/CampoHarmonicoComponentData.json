@@ -82,6 +82,10 @@
             {
                 "grau": 19,
                 "notacao": "A"
+            },
+            {
+                "grau": 20,
+                "notacao": "Bm"
             }
             
         ]
@@ -169,6 +173,10 @@
             {
                 "grau": 19,
                 "notacao": "B"
+            },
+            {
+                "grau": 20,
+                "notacao": "C#m"
             }
         ]
     },
@@ -255,6 +263,10 @@
             {
                 "grau": 19,
                 "notacao": "C#"
+            },
+            {
+                "grau": 20,
+                "notacao": "D#m"
             }
         ]
     },
@@ -341,6 +353,10 @@
             {
                 "grau": 19,
                 "notacao": "D"
+            },
+            {
+                "grau": 20,
+                "notacao": "Em"
             }
         ]
     },
@@ -427,6 +443,10 @@
             {
                 "grau": 19,
                 "notacao": "E"
+            },
+            {
+                "grau": 20,
+                "notacao": "F#m"
             }
         ]
     },
@@ -513,6 +533,10 @@
             {
                 "grau": 19,
                 "notacao": "F#"
+            },
+            {
+                "grau": 20,
+                "notacao": "G#m"
             }
         ]
     },
@@ -599,6 +623,10 @@
             {
                 "grau": 19,
                 "notacao": "G#"
+            },
+            {
+                "grau": 20,
+                "notacao": "A#m"
             }
         ]
     },
@@ -685,6 +713,10 @@
             {
                 "grau": 19,
                 "notacao": "Bb"
+            },
+            {
+                "grau": 20,
+                "notacao": "Cm"
             }
         ]
     },
@@ -771,6 +803,10 @@
             {
                 "grau": 19,
                 "notacao": "C"
+            },
+            {
+                "grau": 20,
+                "notacao": "Dbm"
             }
         ]
     },
@@ -857,6 +893,10 @@
             {
                 "grau": 19,
                 "notacao": "Eb"
+            },
+            {
+                "grau": 20,
+                "notacao": "Fm"
             }
         ]
     },
@@ -943,6 +983,10 @@
             {
                 "grau": 19,
                 "notacao": "F"
+            },
+            {
+                "grau": 20,
+                "notacao": "Gm"
             }
         ]
     },
@@ -1029,6 +1073,10 @@
             {
                 "grau": 19,
                 "notacao": "G"
+            },
+            {
+                "grau": 20,
+                "notacao": "Am"
             }
         ]
     }

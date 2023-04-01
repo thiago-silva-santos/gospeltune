@@ -137,7 +137,10 @@ textarea {
 }
 
 .song_preview {
-  @apply flex flex-col bg-gray-100 p-4 rounded-md
+  @apply flex flex-col bg-gray-100 p-4 rounded-md;
+  max-height: 700px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .copied_message {

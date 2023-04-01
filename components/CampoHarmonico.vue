@@ -103,7 +103,7 @@ export default {
                return this.acordesFiltrados[0].acordes.slice(0, 7)
           },
           demaisAcordes(){
-               return this.acordesFiltrados[0].acordes.slice(7, -6)
+               return this.acordesFiltrados[0].acordes.slice(7, -7)
           },
           outrosAcordes() {
                return this.acordesFiltrados[0].acordes.slice(14)          
