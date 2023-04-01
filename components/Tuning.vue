@@ -151,7 +151,7 @@ export default {
 }
 
 .tuning_items {
-     @apply absolute w-[400px] h-32 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-center items-center;
+     @apply fixed w-[400px] h-32 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-center items-center;
      transition: all .5s ease-in-out;
      bottom: 60px;
      right: 60px;
