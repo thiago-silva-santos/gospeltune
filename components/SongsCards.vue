@@ -85,7 +85,7 @@ export default {
 }
 
 .no-results {
-  @apply flex items-center w-full h-20 py-6 px-2 text-slate-600 text-lg
+  @apply flex items-center w-full h-20 py-6 text-slate-600 text-lg
 }
 #empty_song {
   position: absolute;
@@ -98,5 +98,10 @@ export default {
   .card_:hover {
     @apply bg-gray-100 text-black
   }
+}
+@media (max-width: 420px) {
+.no-results {
+  @apply flex justify-center w-full
+}
 }
 </style>
