@@ -4,7 +4,134 @@
         "tipo": "hino_harpa_crista",
         "nome": "Chuvas de Graça",
         "tonalidade": 9,
-        "cifra": [{"chords":["0","","","","4","","","","","0"],"verse":"Deus prometeu com certeza,"},{"chords":["4","","","","11","","","","0","","","","7"],"verse":"Chuvas de graça mandar;"},{"chords":["3","","","","0","","","","5"],"verse":"Ele nos dá fortale - za,"},{"chords":["15","","","","4"],"verse":"E ricas bênçãos sem par."},{"chords":[""],"verse":""},{"chords":["0","","","","4","","","","0"],"verse":"Chu - vas de graça,"},{"chords":["5","","","","","","","15","","","","4"],"verse":"Chuvas pedimos, Senhor;"},{"chords":["0","","","","3","","","","0","","","","5"],"verse":"Manda-nos chuvas constan - tes,"},{"chords":["4","","","","11","","","","0"],"verse":"Chuvas do Consolador"}]
+        "cifra": [
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Deus prometeu com certeza,"
+            },
+            {
+                "chords": [
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "7"
+                ],
+                "verse": "Chuvas de graça mandar;"
+            },
+            {
+                "chords": [
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "5"
+                ],
+                "verse": "Ele nos dá fortale - za,"
+            },
+            {
+                "chords": [
+                    "15",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "E ricas bênçãos sem par."
+            },
+            {
+                "chords": [
+                    ""
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Chu - vas de graça,"
+            },
+            {
+                "chords": [
+                    "5",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "15",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "Chuvas pedimos, Senhor;"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "5"
+                ],
+                "verse": "Manda-nos chuvas constan - tes,"
+            },
+            {
+                "chords": [
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Chuvas do Consolador"
+            }
+        ]
     },
     {
         "id": 2,
@@ -646,7 +773,8 @@
         "id": 108,
         "tipo": "hino_harpa_crista",
         "nome": "Pelejar Por Jesus",
-        "cifra": []
+        "tonalidade": 0,
+        "cifra": [{"chords":["","0","","","","","","7","","","","","","","","","","","3"],"verse":"Por Jesus vamos pelejar"},{"chords":["","4","","","","","","11","","","","","","","","","","0","","","","","","","","","4"],"verse":"Prosseguindo o nosso andar"},{"chords":["0","","","","","","","7","","","","","","","3"],"verse":"E com Ele, então, no céu"},{"chords":["","","4","","","","","","","","","","","","","","","","","","","0","","","","4"],"verse":"Nós iremos a paz gozar"},{"chords":[""],"verse":""},{"chords":[""],"verse":"[ Refrão ]"},{"chords":[""],"verse":""},{"chords":["","","","0","","","","","","7","","","","","","","","3","","","","","","","","15"],"verse":"Lutemos todos contra o mal"},{"chords":["","","","4","","","","","","","","","","","0","","","","","","","4"],"verse":"E vamos a Jesus seguir"},{"chords":["","","","","0","","","","7","","","","","","","3","","","","","15"],"verse":"Ele  é o nosso General"},{"chords":["","","","","","4","","","","","","","","","","","","0", "", "", "", "", "4"],"verse":"E a glória do porvir!"}]
     },
     {
         "id": 109,
@@ -736,7 +864,8 @@
         "id": 123,
         "tipo": "hino_harpa_crista",
         "nome": "Cristo Voltará",
-        "cifra": []
+        "tonalidade": 4,
+        "cifra": [{"chords":["","","","","","0","","","","3","","","","","","","","","","","0"],"verse":"Um dia, Cristo voltará"},{"chords":["","","","1","","","","","","","","","","","","","","","","","","","4"],"verse":"Ao ascender, o prometeu"},{"chords":["","","","","","0","","","","","","3","","","","","","","","","","","0"],"verse":"Do modo  que subiu virá"},{"chords":["","","","","","","","3","","","","","","","","","","","","4","","","","","","","","","","","","0","","","","","7"],"verse":"Há de ver o Rei Jesus, o povo Seu"},{"chords":[""],"verse":""},{"chords":[""],"verse":"[ Refrão ]"},{"chords":[""],"verse":""},{"chords":["","","","","","3","","","","","","","","","","","","","0"],"verse":"Mui breve sim, Jesus virá"},{"chords":["","","4","","","","","","","","","","","","","","","","","0","","","","7"],"verse":"Alegre O verá Seu po__vo"},{"chords":["","","","3","","","","","","","","","","","","","0"],"verse":"Velando, todos devem sempre estar"},{"chords":["","","","4","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"A fim de vê-Lo voltar"}]
     },
     {
         "id": 124,
@@ -2230,7 +2359,8 @@
         "id": 372,
         "tipo": "hino_harpa_crista",
         "nome": "Vencerá",
-        "cifra": []
+        "tonalidade": 4,
+        "cifra": [{"chords":["","0","","","","","","","","","","","","","","","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"Quem possui a Cristo, nele firme está"},{"chords":["","1","","","","","","","","","11","","","","","","","","","","","","","","","","15","","","","","","11"],"verse":"Achará poder para o mal combater"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","","19","","","","","","","","","1"],"verse":"Porque Suas promessas Ele cumprirá"},{"chords":["0","","","","","","","","","","","","","","","","3","","","","","","","","","","","","","","","","","11","","","","","","","0"],"verse":"Quem está em Cristo, sempre há de vencer"},{"chords":[""],"verse":""},{"chords":[""],"verse":"[ Refrão ]"},{"chords":[""],"verse":""},{"chords":["","0"],"verse":"Vencerá, vencerá,"},{"chords":["","","","","","","","","","","","","","","","","4"],"verse":"por Seu sangue vencerá"},{"chords":["1","","","","","","","","","","4","","","","","","","","","","","","","","","","","","","","","","0"],"verse":"Vencerá, vencerá, sempre vencerá"},{"chords":["","","","","","","","","","","","","","","","","","","","","0"],"verse":"Pois Jesus que impera,"},{"chords":["19","","","","","","","","","","","","","","1"],"verse":"novas forças  dá"},{"chords":["3","","","","","","","","","","","","","","","0","","","","","","","","","","","","","","3","","","","","4","","","","0"],"verse":"E quem nEle espera sempre  ven_ce__rá"}]
     },
     {
         "id": 373,

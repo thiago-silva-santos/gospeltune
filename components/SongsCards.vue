@@ -54,11 +54,22 @@ export default {
 
   computed: {
     searchResults() {
+      const lowerCaseSearchTerm = this.textSearch.toLowerCase().normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]/g, "");
+
       return this.items.filter((item) => {
-        const lowerCaseSearchTerm = this.textSearch.toLowerCase();
+        const itemName = item.nome.toLowerCase().normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]/g, "");
+
+        const itemId = item.id.toString().normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]/g, "");
+
         return (
-          item.nome.toLowerCase().includes(lowerCaseSearchTerm) ||
-          item.id.toString().includes(lowerCaseSearchTerm)
+          itemName.includes(lowerCaseSearchTerm) ||
+          itemId.includes(lowerCaseSearchTerm)
         );
       });
     },
@@ -87,6 +98,7 @@ export default {
 .no-results {
   @apply flex items-center w-full h-20 py-6 text-slate-600 text-lg
 }
+
 #empty_song {
   position: absolute;
   top: 10px;
@@ -99,9 +111,10 @@ export default {
     @apply bg-gray-100 text-black
   }
 }
+
 @media (max-width: 420px) {
-.no-results {
-  @apply flex justify-center w-full
-}
+  .no-results {
+    @apply flex justify-center w-full
+  }
 }
 </style>
