@@ -3,6 +3,7 @@
         "id": 1,
         "tipo": "hino_harpa_crista",
         "nome": "Chuvas de Graça",
+        "tonalidade": 9,
         "cifra": [{"chords":["0","","","","4","","","","","0"],"verse":"Deus prometeu com certeza,"},{"chords":["4","","","","11","","","","0","","","","7"],"verse":"Chuvas de graça mandar;"},{"chords":["3","","","","0","","","","5"],"verse":"Ele nos dá fortale - za,"},{"chords":["15","","","","4"],"verse":"E ricas bênçãos sem par."},{"chords":[""],"verse":""},{"chords":["0","","","","4","","","","0"],"verse":"Chu - vas de graça,"},{"chords":["5","","","","","","","15","","","","4"],"verse":"Chuvas pedimos, Senhor;"},{"chords":["0","","","","3","","","","0","","","","5"],"verse":"Manda-nos chuvas constan - tes,"},{"chords":["4","","","","11","","","","0"],"verse":"Chuvas do Consolador"}]
     },
     {

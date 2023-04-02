@@ -42,7 +42,12 @@
 </template>
 <script>
 export default {
-
+     props: {
+          tonalidadePadrao: {
+               type: Number,
+               default: 0
+          }
+     },
      emits: ['tuning-component-tune'],
      data() {
           return {
@@ -122,6 +127,9 @@ export default {
           }
      },
      created() {
+          if (this.tonalidadePadrao !== 0) {
+               this.tonalidadeAtual = this.tonalidadePadrao
+          }
      }
 }
 </script>
@@ -162,11 +170,17 @@ export default {
      @apply rounded-full shadow-slate-400 w-8 h-8 text-slate-700 bg-slate-200;
      transition: all .3s ease;
 }
+
 .tom_button:hover {
      @apply bg-slate-300
 }
+
 .active {
      @apply bg-rose-600 text-white
+}
+
+.active:hover {
+     @apply bg-slate-600
 }
 
 
@@ -201,5 +215,4 @@ export default {
      .button_container {
           @apply flex-wrap justify-center
      }
-}
-</style>
+}</style>
