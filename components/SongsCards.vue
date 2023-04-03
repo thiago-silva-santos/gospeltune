@@ -6,6 +6,7 @@
           <nuxt-link v-if="item.cifra.length > 0"
             :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
             <div class="card_ ">
+              <div class="flex items-center gap-4">
               <div class="song_number text-center font-bold text-lg">
                 {{ item.id }}
               </div>
@@ -13,13 +14,16 @@
                 {{ item.nome }}
               </div>
             </div>
+            </div>
           </nuxt-link>
           <div v-else class="card_">
-            <div class="song_number text-center font-bold text-lg">
-              {{ item.id }}
-            </div>
-            <div class="song_title text-center">
-              {{ item.nome }}
+            <div class="flex items-center gap-4">
+              <div class="song_number text-center font-bold text-lg">
+                {{ item.id }}
+              </div>
+              <div class="song_title text-left text-ellipsis overflow-hidden w-[240px] h-[20px]">
+                {{ item.nome }}
+              </div>
             </div>
             <span class="material-symbols-outlined" id="empty_song">
               sentiment_dissatisfied
@@ -91,8 +95,9 @@ export default {
 </script>
 <style lang="css" scoped>
 .card_ {
-  @apply w-full flex flex-col gap-4 lg:p-4 md:p-4 sm:p-2 p-2 rounded-lg shadow-lg bg-white cursor-pointer relative;
+  @apply w-full flex items-center justify-between lg:p-4 md:p-4 sm:p-2 p-2 rounded-lg shadow-lg bg-white cursor-pointer relative;
   transition: all ease-in-out .3s;
+  max-height: 60px;
 }
 
 .no-results {
@@ -100,9 +105,8 @@ export default {
 }
 
 #empty_song {
-  position: absolute;
   top: 10px;
-  left: 10px;
+  right: 10px;
   @apply w-6 h-6 text-slate-300
 }
 
