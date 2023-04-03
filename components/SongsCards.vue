@@ -21,7 +21,7 @@
               <div class="song_number text-center font-bold text-lg">
                 {{ item.id }}
               </div>
-              <div class="song_title text-left text-ellipsis overflow-hidden w-[240px] h-[20px]">
+              <div class="song_title text-left text-ellipsis overflow-hidden w-full h-[20px]">
                 {{ item.nome }}
               </div>
             </div>
@@ -95,7 +95,7 @@ export default {
 </script>
 <style lang="css" scoped>
 .card_ {
-  @apply w-full flex items-center justify-between lg:p-4 md:p-4 sm:p-2 p-2 rounded-lg shadow-lg bg-white cursor-pointer relative;
+  @apply w-full flex items-center justify-between p-4 rounded-lg shadow-lg bg-white cursor-pointer relative;
   transition: all ease-in-out .3s;
   max-height: 60px;
 }
