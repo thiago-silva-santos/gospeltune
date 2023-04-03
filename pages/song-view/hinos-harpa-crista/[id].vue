@@ -1,8 +1,9 @@
 <template>
      <div class="w-full h-screen">
           <div class="song_container">
-               <h1 class="song_title">{{ corinho.nome }}</h1>
-               <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
+               <h1 class="song_title">{{ hino.nome }}</h1>
+               <span class="song_number"> Número: {{ hino.id }} </span>
+               <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
           <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual"></tuning>
      </div>
@@ -20,7 +21,7 @@ export default {
      },
      computed: {
 
-          corinho() {
+          hino() {
                const song = hinos.filter(item => item.id == this.$route.params.id)[0]
                return song
           },
@@ -35,8 +36,8 @@ export default {
           }
      },
      created() {
-          if (this.corinho.tonalidade) {
-               this.changeTom(this.corinho.tonalidade)
+          if (this.hino.tonalidade) {
+               this.changeTom(this.hino.tonalidade)
           }
      }
 
@@ -53,14 +54,13 @@ export default {
      @apply rounded-full shadow-sm w-8 h-8 text-rose-600 bg-rose-200
 }
 
-.active {
-     @apply bg-rose-600 text-white
-}
 
 .song_container {
      @apply py-10 px-5 flex flex-col max-w-[400px] mx-auto;
 }
-
+.song_number {
+     @apply w-full text-left text-slate-400 italic
+}
 @media (max-width: 500px) {
      .button_container {
           @apply gap-2

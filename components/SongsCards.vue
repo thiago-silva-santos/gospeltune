@@ -7,13 +7,13 @@
             :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
             <div class="card_ ">
               <div class="flex items-center gap-4">
-              <div class="song_number text-center font-bold text-lg">
-                {{ item.id }}
+                <div class="song_number text-center font-bold text-lg">
+                  {{ item.id }}
+                </div>
+                <div class="song_title text-center text-ellipsis overflow-hidden w-full">
+                  {{ item.nome }}
+                </div>
               </div>
-              <div class="song_title text-center">
-                {{ item.nome }}
-              </div>
-            </div>
             </div>
           </nuxt-link>
           <div v-else class="card_">
@@ -21,13 +21,16 @@
               <div class="song_number text-center font-bold text-lg">
                 {{ item.id }}
               </div>
-              <div class="song_title text-left text-ellipsis overflow-hidden w-full h-[20px]">
+              <div class="song_title text-left text-ellipsis overflow-hidden w-full">
                 {{ item.nome }}
               </div>
             </div>
             <span class="material-symbols-outlined" id="empty_song">
-              sentiment_dissatisfied
+              <span class="material-symbols-outlined">
+                sentiment_dissatisfied
+              </span>
             </span>
+
           </div>
         </template>
       </div>
@@ -100,6 +103,14 @@ export default {
   max-height: 60px;
 }
 
+.song_number {
+  @apply text-slate-400
+}
+
+.song_title {
+  @apply truncate max-w-[230px] text-slate-700 2xl:max-w-[230px] xl:max-w-[180px] lg:max-w-[200px] 
+}
+
 .no-results {
   @apply flex items-center w-full h-20 py-6 text-slate-600 text-lg
 }
@@ -112,11 +123,11 @@ export default {
 
 @media (min-width: 500px) {
   .card_:hover {
-    @apply bg-gray-100 text-black
+    @apply bg-slate-50
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 424px) {
   .no-results {
     @apply flex justify-center w-full
   }

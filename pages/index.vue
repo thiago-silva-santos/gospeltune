@@ -41,7 +41,7 @@ export default {
   },
 };
 </script>
-<style lang="css">
+<style lang="css" scoped>
 .main_page_container {
   @apply container p-10 m-auto flex flex-col justify-center items-center gap-20;
 }
@@ -50,7 +50,7 @@ export default {
   @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500;
 }
 h1 {
-  @apply text-xl text-slate-700
+  @apply text-2xl text-red-700 font-semibold
 }
 @media (max-width: 420px) {
   .main_page_container {

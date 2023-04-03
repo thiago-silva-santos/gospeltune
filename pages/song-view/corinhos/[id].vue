@@ -51,9 +51,6 @@ export default {
      @apply rounded-full shadow-sm w-8 h-8 text-rose-600 bg-rose-200
 }
 
-.active {
-     @apply bg-rose-600 text-white
-}
 .song_container {
      @apply py-10 px-5  flex flex-col max-w-[400px] mx-auto;
 }
