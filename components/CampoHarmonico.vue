@@ -17,24 +17,14 @@
                     </tr>
                </thead>
                <tbody>
-                    <tr>
-                         <td v-for="acorde in primeirosAcordes" :key="acorde.grau">
-                              <span class="text-red-700"> {{ acorde.notacao }} </span> ({{ acorde.grau }})
-                         </td>
-                    </tr>
-                    <tr>
-                         <td v-for="acorde in demaisAcordes" :key="acorde.grau">
-                              <span class="text-red-700"> {{ acorde.notacao }} </span> ({{ acorde.grau }})
-                         </td>
-                    </tr>
-                    <tr>
-                         <td v-for="acorde in outrosAcordes" :key="acorde.grau">
-                              <span class="text-red-700"> {{ acorde.notacao }} </span> ({{ acorde.grau }})
+                    <tr v-for="(acordes, index) in dividirArray" :key="index">
+                         <td v-for="acorde in acordes" :key="acorde.grau">
+                              <span class="text-red-700"> {{ acorde.notacao }} </span> - {{ acorde.grau }}
                          </td>
                     </tr>
                </tbody>
           </table>
-          
+
      </div>
 </template>
    
@@ -43,7 +33,7 @@ import CampoHarmonicoComponentData from '../assets/CampoHarmonico/CampoHarmonico
 export default {
 
      emits: ['tune'],
-     data() { 
+     data() {
           return {
                tomSelecionado: 0,
                acordes: CampoHarmonicoComponentData
@@ -96,17 +86,17 @@ export default {
                return tom
           },
 
-          acordesFiltrados() {
-               return this.acordes.filter((tom) => tom.tom === this.tonalidadeAtualString);
+          campoHarmonicoAtual() {
+               return this.acordes.filter((tom) => tom.tom === this.tonalidadeAtualString)[0];
           },
-          primeirosAcordes() {
-               return this.acordesFiltrados[0].acordes.slice(0, 7)
-          },
-          demaisAcordes(){
-               return this.acordesFiltrados[0].acordes.slice(7, -7)
-          },
-          outrosAcordes() {
-               return this.acordesFiltrados[0].acordes.slice(14)          
+          dividirArray() {
+               const tamanhoMaximo = 7;
+               const resultado = [];
+               for (let i = 0; i < this.campoHarmonicoAtual.acordes.length; i += tamanhoMaximo) {
+                    const arrayTemporario = this.campoHarmonicoAtual.acordes.slice(i, i + tamanhoMaximo);
+                    resultado.push(arrayTemporario);
+               }
+               return resultado;
           }
      },
      methods: {
@@ -134,17 +124,15 @@ td {
 }
 
 th {
-     @apply bg-slate-500 text-white;
+     @apply bg-slate-700 text-white;
 }
 
 tr:nth-child(1) {
-    @apply bg-slate-200 font-semibold
+     @apply bg-slate-300 font-semibold
 }
-tr:nth-child(2) {
-    @apply bg-slate-100 font-semibold
-}
-tr:nth-child(3) {
-    @apply bg-slate-100 font-semibold
+
+tr {
+     @apply bg-slate-100 font-semibold
 }
 
 select {
