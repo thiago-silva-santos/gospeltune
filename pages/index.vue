@@ -46,22 +46,13 @@ export default {
   @apply container p-10 m-auto flex flex-col justify-center items-center gap-20;
 }
 
-.input_search {
-  @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500;
-}
+
 h1 {
-  @apply text-2xl text-red-700 font-semibold
+  @apply text-2xl text-red-700 font-semibold text-center
 }
 @media (max-width: 420px) {
   .main_page_container {
     @apply py-10 px-4;
-  }
-
-  .input_search {
-    @apply w-full;
-  }
-  h1 {
-    @apply text-center
   }
 }
 </style>

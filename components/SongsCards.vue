@@ -25,11 +25,10 @@
                 {{ item.nome }}
               </div>
             </div>
-            <span class="material-symbols-outlined" id="empty_song">
-              <span class="material-symbols-outlined">
-                sentiment_dissatisfied
+              <span class="material-symbols-outlined" id="empty_song">
+                error
+
               </span>
-            </span>
 
           </div>
         </template>
