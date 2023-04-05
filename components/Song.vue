@@ -2,14 +2,26 @@
      <section class="flex pt-10">
 
           <pre class="flex flex-col">
-                    <template v-for="linha in song" :key="linha">
+               <template v-for="linha in verificacao" :key="linha">
                          <template v-if="linha.verse">
                               <span class="flex" >
                                  <template v-for="item in linha.chords">
-                                         <b class="w-[0.450rem]">{{tom[item]?.notacao}}</b>
+                                         <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
                                    </template>
                                       </span>    
                              <span class="linha-verso">{{ linha.verse }}</span>
+                         </template>                         
+                        <div v-else class="h-10">
+                         </div>
+                  </template>
+                  <template v-if="divideCifra.length >= 1" v-for="linha in divideCifra[1]" :key="linha">
+                         <template v-if="linha.verse">
+                              <span class="flex" >
+                                 <template v-for="item in linha.chords">
+                                         <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
+                                   </template>
+                                      </span>    
+                             <span class="linha-verso font-bold">{{ linha.verse }}</span>
                          </template>                         
                         <div v-else class="h-10">
                          </div>
@@ -45,13 +57,32 @@ export default {
 
                return this.campo[this.tonalidade].acordes;
           },
-          primeirosAcordes() {
+          divideCifra() {
                //CRIAR LOGICA PRA SEPARAR REFRÃO
-               return this.song.slice(0, 2)
+
+               const index = this.song.findIndex(obj => obj.verse === '[ Refrão ]');
+               if (index === -1) {
+                    // Se não encontrar nenhum objeto com a string específica, retorna o array inteiro
+                    return this.song;
+               } else {
+                    // Divide o array em duas partes com base no índice encontrado
+                    const parte1 = this.song.slice(0, index);
+                    const parte2 = this.song.slice(index);
+                    return [parte1, parte2];
+               }
+
           },
+          verificacao() {
+               if(this.divideCifra.every(elem => Array.isArray(elem))) {
+                    return this.divideCifra[0]
+               } else {
+                    return this.song
+               }
+          }
      },
 
      created() {
+          console.log(this.divideCifra)
      }
 }
 </script>
