@@ -3,6 +3,7 @@
         "id": 1,
         "nome": "Visitante, Seja Bem-Vindo",
         "tipo": "corinho",
+        "tonalidade": 4,
         "cifra": [
             {
                 "chords": [
@@ -2978,7 +2979,7 @@
                     "",
                     "",
                     "",
-                    "21",
+                    "27",
                     "",
                     "",
                     "",
@@ -5219,6 +5220,7 @@
         "id": 18,
         "nome": "Renova-me",
         "tipo": "corinho",
+        "tonalidade": 1,
         "cifra": [
             {
                 "chords": [
@@ -5477,6 +5479,7 @@
         "id": 19,
         "nome": "Deus Está Aqui",
         "tipo": "corinho",
+        "tonalidade": 3,
         "cifra": [
             {
                 "chords": [
@@ -5644,6 +5647,7 @@
         "id": 20,
         "nome": "Jesus Em Tua Presença",
         "tipo": "corinho",
+        "tonalidade": 1,
         "cifra": [
             {
                 "chords": [
@@ -6068,6 +6072,7 @@
         "id": 21,
         "nome": "Reunimo-nos aqui",
         "tipo": "corinho",
+        "tonalidade": 1,
         "cifra": [
             {
                 "chords": [

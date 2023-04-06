@@ -50,11 +50,6 @@ export default {
      font-size: 22px;
 }
 
-.tom_button {
-     @apply rounded-full shadow-sm w-8 h-8 text-rose-600 bg-rose-200
-}
-
-
 .song_container {
      @apply py-10 px-5 flex flex-col max-w-[400px] mx-auto;
 }
@@ -62,15 +57,8 @@ export default {
      @apply w-full text-left text-slate-400 italic
 }
 @media (max-width: 500px) {
-     .button_container {
-          @apply gap-2
-     }
-
      .song_container {
           margin: 0;
      }
 
-     .button_container2 {
-          @apply gap-3.5
-     }
 }</style>

@@ -4,7 +4,7 @@
                <h1 class="song_title">{{ corinho.nome }}</h1>
                <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
-          <tuning @tuning-component-tune="getTom"></tuning>
+          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual"></tuning>
      </div>
 </template>
 <script>
@@ -36,6 +36,9 @@ export default {
           }
      },
      created() {
+          if (this.corinho.tonalidade) {
+               this.changeTom(this.corinho.tonalidade)
+          }
      }
      
 
@@ -47,21 +50,12 @@ export default {
      @apply text-black font-semibold;
      font-size: 22px;
 }
-.tom_button {
-     @apply rounded-full shadow-sm w-8 h-8 text-rose-600 bg-rose-200
-}
 
 .song_container {
      @apply py-10 px-5  flex flex-col max-w-[400px] mx-auto;
 }
 @media (max-width: 500px) {
-     .button_container {
-          @apply gap-2
-     }
      .song_container {
           margin: 0;
-     }
-     .button_container2 {
-          @apply gap-3.5
      }
 }</style>
