@@ -2,31 +2,43 @@
      <section class="flex pt-10">
 
           <pre class="flex flex-col">
-                    <template v-for="linha in cifraDividida[0]" :key="linha">
-                              <template v-if="linha.verse">
-                                   <span class="flex" >
-                                      <template v-for="item in linha.chords">
-                                              <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
-                                        </template>
-                                           </span>    
-                                  <span class="linha-verso">{{ linha.verse }}</span>
-                              </template>                         
-                             <div v-else class="h-10">
-                              </div>
+               <template v-for="linha in cifraDividida[0]" :key="linha">
+                    <template v-if="linha.verse">
+                         <span class="flex" v-if="linha.chords.length > 0">
+                              <template v-for="item in linha.chords">
+                                  <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
+                              </template>
+                         </span>    
+                         <span class="linha-verso">{{ linha.verse }}</span>
+                    </template>                         
+                    <template v-else>
+                         <span v-if="linha.chords.length > 1" class="passagem" >
+                              <template v-for="item in linha.chords">
+                                   <b class="w-fit">{{ tom[item]?.notacao }}</b>
+                              </template>
+                         </span>
+                         <span class="h-10"></span>
+                    </template>
                        </template>
-                       <template v-for="linha in cifraDividida[1]" :key="linha">
-                              <template v-if="linha.verse">
-                                   <span class="flex" >
-                                      <template v-for="item in linha.chords">
-                                              <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
-                                        </template>
-                                           </span>    
-                                  <span class="linha-verso font-bold">{{ linha.verse }}</span>
-                              </template>                         
-                             <div v-else class="h-10">
-                              </div>
-                       </template>
-               </pre>
+                    <template v-for="linha in cifraDividida[1]" :key="linha">
+                         <template v-if="linha.verse">
+                              <span class="flex" v-if="linha.chords.length > 0">
+                                   <template v-for="item in linha.chords">
+                                        <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
+                                   </template>
+                              </span>    
+                              <span class="linha-verso font-bold">{{ linha.verse }}</span>
+                         </template>                         
+                    <template v-else>
+                         <span v-if="linha.chords.length > 1" class="passagem" >
+                              <template v-for="item in linha.chords">
+                                   <b class="w-fit">{{ tom[item]?.notacao }}</b>
+                              </template>
+                         </span>
+                         <span class="h-10"></span>
+                    </template>
+               </template>
+          </pre>
 
      </section>
 </template>
@@ -79,7 +91,9 @@ export default {
      @apply mb-2;
      letter-spacing: 1px;
 }
-
+.passagem {
+     @apply flex w-fit gap-1 px-2 border-2 border-slate-200 rounded-lg
+}
 b {
      @apply text-red-600
 }

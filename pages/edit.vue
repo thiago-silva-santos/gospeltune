@@ -63,10 +63,12 @@ export default {
       const lines = song.split("\n");
       const result = [];
       for (let i = 0; i < lines.length; i += 2) {
-        const chords = lines[i].split(" ");
+        let chords = lines[i].split(" ");
         const verse = (i === lines.length - 1) ? chords : lines[i + 1].trim();
+         if (chords[0] == '' && chords.length == 1) { chords = [] }
         result.push({ chords, verse });
       }
+      console.log(result)
       return result
     },
 
@@ -137,7 +139,7 @@ textarea {
 .song_preview {
   @apply flex flex-col bg-gray-100 p-4 rounded-md;
   max-height: 700px;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
