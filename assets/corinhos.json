@@ -3763,6 +3763,7 @@
         "id": 11,
         "nome": "Quão Bom e Quão Maravilhoso",
         "tipo": "corinho",
+        "tonalidade": 2,
         "cifra": [
             {
                 "chords": [
@@ -3804,7 +3805,7 @@
                     "",
                     "",
                     "",
-                    "0"
+                    "0"                    
                 ],
                 "verse": "Que os irmãos vivam em união"
             },
@@ -3853,7 +3854,13 @@
                     "",
                     "",
                     "",
-                    "0"
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7"
                 ],
                 "verse": "Que os irmãos vivam em união"
             },
