@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class=" py-10" v-if="hasItems">
+    <section class=" py-10">
       <div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <template v-for="item in searchResults" :key="item">
+        <template v-for="item in items" :key="item">
           <nuxt-link v-if="item.cifra.length > 0"
             :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
             <div class="card_ ">
@@ -27,21 +27,16 @@
             </div>
               <span class="material-symbols-outlined" id="empty_song">
                 error
-
               </span>
-
           </div>
         </template>
       </div>
     </section>
-    <div v-else class="no-results">
-      Nenhuma cifra encontrada...
-    </div>
   </div>
 </template>
 <script>
 export default {
-  emits: ['length'],
+  emits: ['results'],
   props: {
     items: {
       type: Object,
@@ -52,47 +47,9 @@ export default {
       default: "",
     },
   },
-  data() {
-    return {
-      hasItems: true
-    };
-  },
-
-  computed: {
-    searchResults() {
-      const lowerCaseSearchTerm = this.textSearch.toLowerCase().normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]/g, "");
-
-      return this.items.filter((item) => {
-        const itemName = item.nome.toLowerCase().normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .replace(/[^a-z0-9]/g, "");
-
-        const itemId = item.id.toString().normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .replace(/[^a-z0-9]/g, "");
-
-        return (
-          itemName.includes(lowerCaseSearchTerm) ||
-          itemId.includes(lowerCaseSearchTerm)
-        );
-      });
-    },
-  },
-  methods: {},
   created() {
   },
-  watch: {
-    searchResults(value) {
-      if (value.length == 0) {
-        this.hasItems = false
-      }
-      else {
-        this.hasItems = true
-      }
-    }
-  },
+
 };
 </script>
 <style lang="css" scoped>
@@ -110,9 +67,6 @@ export default {
   @apply truncate max-w-[230px] text-slate-700 2xl:max-w-[230px] xl:max-w-[180px] lg:max-w-[200px] 
 }
 
-.no-results {
-  @apply flex items-center w-full h-20 py-6 text-slate-600 text-lg
-}
 
 #empty_song {
   top: 10px;
