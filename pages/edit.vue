@@ -133,6 +133,7 @@ textarea {
   outline: none;
   width: 100%;
   max-width: 940px;
+  letter-spacing: 1px;
   @apply p-4 bg-gray-100 h-[400px]
 }
 
