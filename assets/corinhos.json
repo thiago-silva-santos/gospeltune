@@ -3,7 +3,7 @@
         "id": 1,
         "nome": "Visitante, Seja Bem-Vindo",
         "tipo": "corinho",
-        "tonalidade": 4,
+        "tonalidade": 3,
         "cifra": [
             {
                 "chords": [
@@ -111,8 +111,7 @@
                 "verse": "Esta Igreja ama você"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -233,6 +232,7 @@
         "id": 2,
         "nome": "Bom é Estarmos Aqui",
         "tipo": "corinho",
+        "tonalidade": 1,
         "cifra": [
             {
                 "chords": [
@@ -273,85 +273,6 @@
                     "",
                     "",
                     "",
-                    "1"
-                ],
-                "verse": "Bom estarmos aqui louvando a Deus"
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "1",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "2",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "1"
-                ],
-                "verse": "Podendo exaltar seu Santo nome"
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "1",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "2",
-                    "",
-                    "",
                     "",
                     "",
                     "1"
@@ -387,18 +308,106 @@
                     "",
                     "",
                     "",
+                    "",
                     "2",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Podendo exaltar seu Santo  nome"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "2",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Bom estarmos aqui louvando a Deus"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "2",
+                    "",
+                    "",
                     "",
                     "",
                     "",
                     "",
                     "0"
                 ],
-                "verse": "Podendo exaltar seu Santo nome"
+                "verse": "Podendo exaltar seu Santo  nome"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -455,6 +464,7 @@
                     "",
                     "",
                     "",
+                    "",
                     "4",
                     "",
                     "",
@@ -471,8 +481,8 @@
                     "",
                     "",
                     "",
-                    "",
                     "0",
+                    "",
                     "",
                     "",
                     "",
@@ -534,8 +544,8 @@
                     "",
                     "",
                     "",
-                    "4",
                     "",
+                    "4",
                     "",
                     "",
                     "",
@@ -556,8 +566,7 @@
                 "verse": "Num   só    amor num só  Espírito"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -706,6 +715,7 @@
         "id": 3,
         "nome": "Deus Forte Como Jeová",
         "tipo": "corinho",
+        "tonalidade": 3,
         "cifra": [
             {
                 "chords": [
@@ -824,8 +834,7 @@
                 "verse": "não há outro que eu conheça"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -949,8 +958,7 @@
                 "verse": "Deus poderoso é o Senhor"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -1054,8 +1062,7 @@
                 "verse": "onde, onde ele está"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -1090,6 +1097,7 @@
                     "",
                     "",
                     "4",
+                    "",
                     "",
                     "",
                     "",
@@ -1151,7 +1159,6 @@
             },
             {
                 "chords": [
-                    "",
                     "",
                     "",
                     "",
@@ -1257,7 +1264,6 @@
             },
             {
                 "chords": [
-                    "",
                     "",
                     "",
                     "",
@@ -1411,8 +1417,7 @@
                 "verse": "Eu marquei um encon__tro com Deus"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -1708,8 +1713,7 @@
                 "verse": "Celebrai a Cristo, celebrai"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -1837,8 +1841,7 @@
                 "verse": "Ele vive para sempre"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -2234,8 +2237,7 @@
                 "verse": "Eu venho falar do valor que você tem"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -2371,8 +2373,7 @@
                 "verse": "Inexprimíveis, inexprimíveis"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -2473,8 +2474,7 @@
                 "verse": "Por isso levante e cante exalte ao Senhor"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -2621,6 +2621,7 @@
         "id": 7,
         "nome": "Caminhando Eu Vou Para Canaã",
         "tipo": "corinho",
+        "tonalidade": 4,
         "cifra": [
             {
                 "chords": [
@@ -2779,8 +2780,7 @@
                 "verse": "Glória Deus caminhando eu vou para Canaã"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -2966,9 +2966,9 @@
                     "",
                     "",
                     "",
+                    "",
+                    "",
                     "27",
-                    "",
-                    "",
                     "",
                     "",
                     "",
@@ -2976,7 +2976,7 @@
                     "",
                     "5"
                 ],
-                "verse": "Vamos adorar a Deus,"
+                "verse": "Vamos adorar a  Deus,"
             },
             {
                 "chords": [
@@ -2988,10 +2988,10 @@
                     "",
                     "",
                     "",
+                    "",
+                    "",
+                    "",
                     "0",
-                    "",
-                    "",
-                    "",
                     "",
                     "",
                     "",
@@ -3002,9 +3002,10 @@
                     "",
                     "",
                     "",
+                    "",
                     "4"
                 ],
-                "verse": "Vamos adorar a Deus"
+                "verse": "Vamos adorar a  Deus"
             },
             {
                 "chords": [
@@ -3018,8 +3019,8 @@
                     "",
                     "",
                     "",
-                    "4",
                     "",
+                    "4",
                     "",
                     "",
                     "",
@@ -3030,11 +3031,12 @@
                     "",
                     "5"
                 ],
-                "verse": "Vamos exaltar seu Nome."
+                "verse": "Vamos exaltar seu  Nome."
             },
             {
                 "chords": [
                     "1",
+                    "",
                     "",
                     "",
                     "",
@@ -3050,10 +3052,9 @@
                     "",
                     "",
                     "",
-                    "",
                     "0"
                 ],
-                "verse": "Vamos adorar a Deus."
+                "verse": "Vamos adorar a  Deus."
             }
         ]
     },
@@ -3061,6 +3062,7 @@
         "id": 9,
         "nome": "Não Há Deus Maior",
         "tipo": "corinho",
+        "tonalidade": 1,
         "cifra": [
             {
                 "chords": [
@@ -3113,9 +3115,8 @@
                     "",
                     "",
                     "",
-                    "0",
+                    "27",
                     "",
-                    "21",
                     "",
                     "",
                     "",
@@ -3176,8 +3177,7 @@
                 "verse": "Como nosso Deus"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -3292,8 +3292,7 @@
                 "verse": "Tudo formou"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -3412,6 +3411,7 @@
         "id": 10,
         "nome": "Fica, Senhor, Meu Salvador",
         "tipo": "corinho",
+        "tonalidade": 3,
         "cifra": [
             {
                 "chords": [
@@ -3568,8 +3568,7 @@
                 "verse": "Já tenho luz, a luz bendita do amor"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -3578,7 +3577,7 @@
                     "",
                     "",
                     "",
-                    "21",
+                    "27",
                     "",
                     "",
                     "",
@@ -3594,15 +3593,13 @@
                     "4"
                 ],
                 "verse": ""
-            },           
+            },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": "[ Refrão ]"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -3805,13 +3802,12 @@
                     "",
                     "",
                     "",
-                    "0"                    
+                    "0"
                 ],
                 "verse": "Que os irmãos vivam em união"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -3865,8 +3861,7 @@
                 "verse": "Que os irmãos vivam em união"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -3971,8 +3966,7 @@
                 "verse": "E cante esta canção"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -4063,8 +4057,7 @@
                 "verse": "Espírito enche a minha vida"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -4143,22 +4136,17 @@
                     "",
                     "",
                     "",
-                    "",
+                    "4",
                     ""
                 ],
                 "verse": "Espírito enche o meu ser"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
                 "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
                     "3",
                     "",
                     "",
@@ -4171,8 +4159,8 @@
                     "",
                     "",
                     "",
-                    "4",
                     "",
+                    "4",
                     "",
                     "",
                     "",
@@ -4193,7 +4181,7 @@
                     "",
                     "5"
                 ],
-                "verse": "---   As minhas mãos eu quero levantar"
+                "verse": "As minhas mãos eu quero levantar"
             },
             {
                 "chords": [
@@ -4288,6 +4276,7 @@
         "id": 14,
         "nome": "Porque Ele Vive",
         "tipo": "corinho",
+        "tonalidade": 4,
         "cifra": [
             {
                 "chords": [
@@ -4374,8 +4363,7 @@
                 "verse": "Temor não há"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -4393,7 +4381,14 @@
                     "",
                     "",
                     "",
-                    "0"
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7"
                 ],
                 "verse": "Mas eu bem sei, eu sei"
             },
@@ -4409,13 +4404,15 @@
                     "4",
                     "",
                     "",
+                    "",
                     "0",
+                    "",
                     "",
                     "",
                     "",
                     "3"
                 ],
-                "verse": "Que a minha vida"
+                "verse": "Que a mi__nha  vida"
             },
             {
                 "chords": [
@@ -4584,23 +4581,13 @@
                     "",
                     "",
                     "",
-                    "0",
                     "",
-                    "",
-                    "21",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "5"
+                    "27"
                 ],
                 "verse": "Te adoramos,  Te adoramos"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -4635,14 +4622,20 @@
                     "",
                     "",
                     "",
+                    "4",
                     "",
                     "",
                     "",
                     "",
                     "",
                     "",
+                    "0",
                     "",
-                    "0"
+                    "",
+                    "",
+                    "",
+                    "",
+                    "27"
                 ],
                 "verse": "Te entregamos nosso viver"
             },
@@ -4690,18 +4683,15 @@
                 "verse": "Te entregamos nosso viver"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": "[ Refrão ]"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -4725,6 +4715,7 @@
                     "",
                     "",
                     "5",
+                    "",
                     "",
                     "",
                     "",
@@ -4764,6 +4755,7 @@
                     "",
                     "",
                     "",
+                    "",
                     "4"
                 ],
                 "verse": "Foi que eu nasci, ó  rei     Jesus"
@@ -4779,6 +4771,8 @@
                     "",
                     "",
                     "16",
+                    "",
+                    "",
                     "",
                     "",
                     "",
@@ -4826,6 +4820,9 @@
                     "",
                     "",
                     "",
+                    "",
+                    "",
+                    "",
                     "0"
                 ],
                 "verse": "Meu prazer é estar nos átrios do Senhor"
@@ -4846,6 +4843,7 @@
                     "",
                     "",
                     "",
+                    "",
                     "5",
                     "",
                     "",
@@ -4854,8 +4852,8 @@
                     "",
                     "",
                     "",
-                    "",
                     "4",
+                    "",
                     "",
                     "",
                     "",
@@ -4898,6 +4896,7 @@
         "id": 17,
         "nome": "Ao Único",
         "tipo": "corinho",
+        "tonalidade": 1,
         "cifra": [
             {
                 "chords": [
@@ -4917,7 +4916,7 @@
                     "",
                     "",
                     "",
-                    "21",
+                    "27",
                     "",
                     "",
                     "",
@@ -4944,6 +4943,7 @@
                     "",
                     "",
                     "",
+                    "",
                     "0"
                 ],
                 "verse": "A honra e a glória"
@@ -4953,6 +4953,8 @@
                     "",
                     "",
                     "1",
+                    "",
+                    "",
                     "",
                     "",
                     "",
@@ -5019,22 +5021,22 @@
                     "",
                     "",
                     "",
+                    "",
+                    "",
                     "0"
-
                 ],
                 "verse": "A Ele ministramos o louvor"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
                 "chords": [
                     "",
+                    "",
+                    "",
                     "5",
-                    "",
-                    "",
                     "",
                     "",
                     "",
@@ -5330,8 +5332,7 @@
                 "verse": "Põe em mim seu coração"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -5360,6 +5361,7 @@
                     "",
                     "",
                     "5",
+                    "",
                     "",
                     "",
                     "",
@@ -5440,6 +5442,8 @@
                     "",
                     "",
                     "",
+                    "",
+                    "",
                     "4",
                     "",
                     "",
@@ -5454,7 +5458,7 @@
                     "",
                     "0"
                 ],
-                "verse": "-- Necessita mais de ti"
+                "verse": "----- Necessita mais de ti"
             }
         ]
     },
@@ -5472,7 +5476,8 @@
                     "",
                     "",
                     "",
-                    "21",
+                    "",
+                    "27",
                     "",
                     "",
                     "",
@@ -5516,7 +5521,13 @@
                     "",
                     "",
                     "",
-                    "0"
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7"
                 ],
                 "verse": "Tão certo como o ar que eu respiro"
             },
@@ -5568,7 +5579,7 @@
                     "",
                     "",
                     "",
-                    "21",
+                    "27",
                     "",
                     "",
                     "",
@@ -5604,6 +5615,8 @@
                     "",
                     "",
                     "4",
+                    "",
+                    "",
                     "",
                     "",
                     "",
@@ -5700,6 +5713,7 @@
                     "",
                     "",
                     "",
+                    "",
                     "3"
                 ],
                 "verse": "Contemplamos tua face"
@@ -5724,7 +5738,7 @@
                     "0",
                     "",
                     "",
-                    "21"
+                    "27"
                 ],
                 "verse": "rendemo-nos a ti"
             },
@@ -5827,13 +5841,12 @@
                     "",
                     "",
                     "",
-                    "21"
+                    "27"
                 ],
                 "verse": "ao coração do pai"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -5936,8 +5949,7 @@
                 "verse": "E cada dia brilha mais"
             },
             {
-                "chords": [
-                ],
+                "chords": [],
                 "verse": ""
             },
             {
@@ -6011,7 +6023,7 @@
                     "",
                     "",
                     "",
-                    "21",
+                    "27",
                     "",
                     "",
                     "",
@@ -6140,9 +6152,10 @@
             {
                 "chords": [
                     "",
+                    "",
+                    "",
+                    "",
                     "18",
-                    "",
-                    "",
                     "",
                     "",
                     "",
