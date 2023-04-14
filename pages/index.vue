@@ -1,7 +1,8 @@
 <template>
   <div class="main_page_container">
-    <div class="input_search_container min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-10 flex flex-col">
+    <div class="input_search_container relative min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-10 flex flex-col">
       <input-search @search="onSearch"></input-search>
+      <FilterButton></FilterButton>
     </div>
     <template v-if="!showCorinhos && !showHinosHarpa">
 
@@ -35,7 +36,8 @@ export default {
     return {
       search: "",
       showCorinhos: true,
-      showHinosHarpa: true
+      showHinosHarpa: true,
+      category: ""
     };
   },
   methods: {
@@ -79,7 +81,11 @@ export default {
       }
     },
     searchHinosResults() {
-      const eligibleItems = this.hinosHarpa.filter((item) => item.cifra.length > 0)
+      let eligibleItems = this.hinosHarpa.filter((item) => item.cifra.length > 0)
+      if(this.category.length > 0) {
+        eligibleItems = eligibleItems.filter((item) => item.categoria == this.category )
+      }
+
 
       if (this.search !== '') {
 
