@@ -60,7 +60,7 @@ export default {
 }
 
 .song_number {
-  @apply text-slate-400
+  @apply text-red-700
 }
 
 .song_title {
@@ -71,7 +71,7 @@ export default {
 #empty_song {
   top: 10px;
   right: 10px;
-  @apply w-6 h-6 text-slate-300
+  @apply w-6 h-6 text-slate-500
 }
 
 @media (min-width: 500px) {
