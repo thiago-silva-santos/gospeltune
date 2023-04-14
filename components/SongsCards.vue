@@ -25,9 +25,6 @@
                 {{ item.nome }}
               </div>
             </div>
-              <span class="material-symbols-outlined" id="empty_song">
-                error
-              </span>
           </div>
         </template>
       </div>
@@ -67,12 +64,6 @@ export default {
   @apply truncate max-w-[230px] text-slate-700 2xl:max-w-[230px] xl:max-w-[180px] lg:max-w-[200px] 
 }
 
-
-#empty_song {
-  top: 10px;
-  right: 10px;
-  @apply w-6 h-6 text-slate-500
-}
 
 @media (min-width: 500px) {
   .card_:hover {

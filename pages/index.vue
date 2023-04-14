@@ -52,13 +52,15 @@ export default {
       return hinos
     },
     searchCorinhosResults() {
+      const eligibleItems = this.corinhos.filter((item) => item.cifra.length > 0)
       if (this.search !== '') {
 
+        console.log(eligibleItems)
         const lowerCaseSearchTerm = this.search.toLowerCase().normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
           .replace(/[^a-z0-9]/g, "");
 
-        return this.corinhos.filter((item) => {
+        return eligibleItems.filter((item) => {
           const itemName = item.nome.toLowerCase().normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
             .replace(/[^a-z0-9]/g, "");
@@ -73,17 +75,19 @@ export default {
           );
         });
       } else {
-        return this.corinhos
+        return eligibleItems
       }
     },
     searchHinosResults() {
+      const eligibleItems = this.hinosHarpa.filter((item) => item.cifra.length > 0)
+
       if (this.search !== '') {
 
         const lowerCaseSearchTerm = this.search.toLowerCase().normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
           .replace(/[^a-z0-9]/g, "");
 
-        return this.hinosHarpa.filter((item) => {
+        return eligibleItems.filter((item) => {
           const itemName = item.nome.toLowerCase().normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
             .replace(/[^a-z0-9]/g, "");
@@ -98,7 +102,7 @@ export default {
           );
         });
       } else {
-        return this.hinosHarpa
+        return eligibleItems
       }
     },
   },
