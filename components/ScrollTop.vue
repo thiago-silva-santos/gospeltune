@@ -1,7 +1,7 @@
 <template>
     <div class="scroll-to-top" v-if="show">
         <button @click="scrollToTop">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined font-bold">
                 arrow_upward
             </span>
         </button>
@@ -46,7 +46,7 @@ export default {
 }
 
 .scroll-to-top button {
-    @apply bg-red-800;
+    @apply bg-red-400;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ export default {
 }
 
 .scroll-to-top button:hover {
-    @apply bg-red-900
+    @apply bg-red-500
 }
 </style>
   
