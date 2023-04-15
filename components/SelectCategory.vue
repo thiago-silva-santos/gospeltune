@@ -1,10 +1,10 @@
 <template>
-    <div class=" shadow-lg flex flex-col bg-white rounded-lg ">
+    <div class="option_list">
 
         <div class="option" v-for="categoria in categories" :key="categoria" type="checkbox" :value="categoria"
             :name="categoria" @click="selecionarCategoria(categoria)">
-            <span class="material-symbols-outlined">
-                {{ categoriasSelecionadas.includes(categoria) ? 'radio_button_checked' : 'radio_button_unchecked' }}
+            <span :class="['material-symbols-outlined text-black', {'text-red-700' : categoriasSelecionadas.includes(categoria)} ]" >
+                {{ categoriasSelecionadas.includes(categoria) ? 'do_not_disturb_on' : 'add_circle' }}
             </span>
             {{ categoria }}
         </div>
@@ -41,20 +41,12 @@ export default {
 };
 </script>
 <style scoped>
+.option_list {
+    @apply shadow-lg flex flex-col bg-white rounded-lg w-52;
+}
 .option {
-    @apply cursor-pointer flex items-center gap-2 text-slate-700 p-2;
+    @apply cursor-pointer flex items-center gap-4 text-slate-700 p-2;
     transition: all ease .3s;
 }
 
-/* .option:nth-child(1) {
-    border-radius: 0.5rem 0.5rem 0 0;
-}
-
-.option:last-child {
-    border-radius: 0 0 0.5rem 0.5rem;
-}
-
-.option:hover {
-    @apply bg-slate-200
-} */
 </style>

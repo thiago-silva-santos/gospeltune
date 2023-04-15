@@ -1,15 +1,18 @@
 <template>
   <div class="main_page_container">
     <div class="input_search_container relative min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-2 flex">
-      <input-search @search="onSearch" @click="showFilters = false"></input-search>
-      <button :class="['button_filters', { 'button_filters_active': showFilters}]" @click="showFilters = !showFilters">
+      <input-search @search="onSearch"></input-search>
+      <button :class="['button_filters', { 'button_filters_active': showFilters }]" @click="showFilters = !showFilters">
         <span class="material-symbols-outlined">
           filter_list
         </span>
       </button>
       <div class="filters" v-show="showFilters">
-        <SelectCategory :categories="categories" @selected-categories="getSelectedCategories"/>
+        <SelectCategory :categories="categories" @selected-categories="getSelectedCategories" />
       </div>
+    </div>
+    <div class="filter_tags">
+      <span v-for="tag in selectedCategories">{{ tag }}</span>
     </div>
     <template v-if="!showCorinhos && !showHinosHarpa">
 
@@ -32,7 +35,7 @@
       </section>
     </template>
     <ScrollTop />
-    <!-- <edit-button/> -->
+    <div class="overlay" v-if="showFilters" @click="showFilters = false"></div>
   </div>
 </template>
 <script>
@@ -72,8 +75,6 @@ export default {
         eligibleItems = eligibleItems.filter((item) => this.selectedCategories.every(category => item.categoria?.includes(category)))
       }
       if (this.search !== '') {
-
-        console.log(eligibleItems)
         const lowerCaseSearchTerm = this.search.toLowerCase().normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
           .replace(/[^a-z0-9]/g, "");
@@ -161,22 +162,53 @@ export default {
 .filters {
   position: absolute;
   right: 0;
-  bottom: -130px;
+  top: 50px;
+  z-index: 999;
 }
+
+.filter_tags {
+  @apply w-full flex gap-4 items-center justify-center flex-wrap;
+}
+
+.filter_tags>span {
+  @apply text-red-700 bg-slate-200 rounded-2xl py-2 px-4 font-semibold
+}
+
 .button_filters {
   @apply w-16 p-2 bg-slate-200 rounded-md flex items-center justify-center;
   transition: all ease .3s;
 }
+
 .button_filters_active {
   @apply bg-red-400 text-white
 }
+
 h1 {
   @apply text-2xl text-red-700 font-semibold text-center
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 998;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 420px) {
   .main_page_container {
     @apply py-10 px-4;
   }
-}
-</style>
+}</style>
