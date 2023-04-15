@@ -48,7 +48,7 @@ export default {
       showFilters: false,
       showCorinhos: true,
       showHinosHarpa: true,
-      categories: ["Santa Ceia", "Jovens", "Missões"],
+      categories: ["Santa Ceia", "Missões", "Jovens","Envolvente", "Introspectivo"],
       selectedCategories: []
     };
   },
@@ -171,16 +171,16 @@ export default {
 }
 
 .filter_tags>span {
-  @apply text-red-700 bg-slate-200 rounded-2xl py-2 px-4 font-semibold
+  @apply text-red-700 bg-slate-100 shadow-sm rounded-2xl py-2 px-4 font-semibold
 }
 
 .button_filters {
   @apply w-16 p-2 bg-slate-200 rounded-md flex items-center justify-center;
-  transition: all ease .3s;
+  transition: all ease .2s;
 }
 
 .button_filters_active {
-  @apply bg-red-400 text-white
+  @apply bg-red-500 text-white
 }
 
 h1 {

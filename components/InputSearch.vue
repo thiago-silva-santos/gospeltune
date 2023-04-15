@@ -3,7 +3,6 @@
       v-model="searchQuery"
       placeholder="Digite sua pesquisa"
       class="input_search"
-      id="inline-full-name"
       type="text"
     />
 </template>

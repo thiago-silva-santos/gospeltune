@@ -4,653 +4,14 @@
         "tipo": "hino_harpa_crista",
         "nome": "Chuvas de Graça",
         "tonalidade": 9,
-        "cifra": [
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Deus prometeu com certeza,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "7"
-                ],
-                "verse": "Chuvas de graça mandar;"
-            },
-            {
-                "chords": [
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Ele nos dá fortale - za,"
-            },
-            {
-                "chords": [
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "E ricas bênçãos sem par."
-            },
-            {
-                "chords": [
-                    ""
-                ],
-                "verse": ""
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Chu - vas de graça,"
-            },
-            {
-                "chords": [
-                    "5",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "15",
-                    "",
-                    "",
-                    "",
-                    "4"
-                ],
-                "verse": "Chuvas pedimos, Senhor;"
-            },
-            {
-                "chords": [
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "3",
-                    "",
-                    "",
-                    "",
-                    "0",
-                    "",
-                    "",
-                    "",
-                    "5"
-                ],
-                "verse": "Manda-nos chuvas constan - tes,"
-            },
-            {
-                "chords": [
-                    "4",
-                    "",
-                    "",
-                    "",
-                    "11",
-                    "",
-                    "",
-                    "",
-                    "0"
-                ],
-                "verse": "Chuvas do Consolador"
-            }
-        ]
+        "cifra": []
     },
     {
         "id": 2,
         "tipo": "hino_harpa_crista",
         "nome": "Saudosa Lembrança",
         "tonalidade": 5,
+        "categoria": ["Envolvente"],
         "cifra": [{"chords":["0","","","","","","","","","","","","","4","","","","","","","","","0"],"verse":"Oh! Que saudosa lembrança"},{"chords":["","","","","","","","","","","19","","","","","","1"],"verse":"Tenho de Ti, ó Sião"},{"chords":["","","","","","","","","","","","","","","","","","","","4"],"verse":"Terra que eu tanto amo"},{"chords":["","","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"Pois és do meu coração"},{"chords":["0","","","","","","","","4","","","","","","0"],"verse":"Eu para Ti voarei"},{"chords":["","","7","","","","","","","","","","","","","","","","","","","","","","","3"],"verse":"Quando o Senhor meu voltar"},{"chords":["","","","","","","","","","","","","","","","","","","","0"],"verse":"Pois Ele foi para o Céu"},{"chords":["11","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"E breve vem me buscar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","","","","","4","","","","","0"],"verse":"Sim, eu porfiarei"},{"chords":["","","","","","","","","","","5","","","","","","","","","","4"],"verse":"Por essa  terra de além"},{"chords":["1","","","","","4"],"verse":"E lá  terminarei"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"As muitas lutas de aquém"},{"chords":["0","","","","","","","","","4","","","","","","","","","","","","0"],"verse":"Lá está meu bom Senhor"},{"chords":["7","","","","","","","","","","","","","","","","","","","3"],"verse":"Ao qual eu desejo ver"},{"chords":["","","","","","","","","","","","","","","","","0"],"verse":"Ele é tudo pra mim"},{"chords":["","","","","","","","2","","","","","","","","","","","1","","","","4","","","","","0","","","","","4"],"verse":"E sem Ele eu não po_sso viver"}]
     },
     {
@@ -730,6 +91,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Conversão",
         "tonalidade": 2,
+        "categoria": ["Introspectivo"],
         "cifra": [{"chords":["","","","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Oh! Quão cego andei e perdido vaguei"},{"chords":["","","","","","","","1","","","","","","","","","","11","","","","","","","","","","0","","","","","","7"],"verse":"Longe, longe do meu Salvador!"},{"chords":["","","","","","","","","","3"],"verse":"Mas do céu Ele desceu"},{"chords":["","","","","","","","0","","","","27","","","","","","","5"],"verse":"E Seu san_gue     verteu"},{"chords":["","","","","","","1","","","","","","","","","","","","11","","","","","","","","","","","","0","","","","","11"],"verse":"Pra salvar um tão pobre pecador"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Foi na cruz, foi na cruz, onde um dia eu vi"},{"chords":["","","","","","","","1","","","","","","","","","","","11","","","","","","","","","","","0","","","","","","7"],"verse":"meu pecado castigado em Jesus"},{"chords":["","","","","","3","","","","","","","","","","","","","","","","","","0","","","27","","","","","","5"],"verse":"Foi ali, pela fé, que os o__lhos   abri"},{"chords":["","","","","1","","","","","","","","","11","","","","","","","","","","","","","","0"],"verse":"E agora me alegro em sua Luz"}]
     },
     {
@@ -737,6 +99,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Despertar Para o Trabalho",
         "tonalidade": 0,
+        "categoria": ["Missões", "Envolvente"],
         "cifra": [{"chords":["0","","","","","","","7","","","","","","","","","","","3","","","","","","","","0"],"verse":"Posso, tendo as mãos vazias"},{"chords":["1","","","","","","","","11","","","","","","","","","","","","","","","","","0"],"verse":"Com Jesus, eu me encontrar?"},{"chords":["","","","","","","","","","","","","3","","","","","","","","","","0"],"verse":"Nada fiz, e vão-se os dias"},{"chords":["","3","","","","","","","","0","","","","","","","","4","","","","","","0"],"verse":"Que lhe posso apresentar?"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","3","","","","","","","","","","4","","","","","","","","0"],"verse":"Posso, tendo as mãos vazias"},{"chords":["","3","","","","","","","","","","","","","","","","","","","4","","","","","","0"],"verse":"Com Jesus, eu me encontrar?"},{"chords":["","","","","","","","","","","7","","","","","","3","","","","","0"],"verse":"Quantas almas poderia"},{"chords":["3","","","","","","","0","","","","","","4","","","","","","0"],"verse":"Ao Senhor apresentar?"}]
     },
     {
@@ -744,6 +107,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Pensando Em Jesus",
         "tonalidade": 1,
+        "categoria": ["Envolvente"],
         "cifra": [{"chords":["","","","","","0","","","","","","","","","","","","","","","","","","","","3","","","","","","","","","","","","","","0"],"verse":"Nas horas que passo pensando em Jesus"},{"chords":["","","","","","","","","","","","","","2","","","","","","","","","","","3","","","","","","","","4"],"verse":"As trevas desfaço, buscando a  luz"},{"chords":["","","","","","","","","","","","","","","0","","","","","","","","","22","","","","","","","","","","","4"],"verse":"Que horas de vida tão doces pra mim"},{"chords":["","","","3","","","","","","","","","","","0","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"Jesus me convida que eu suba pra Si"}]
     },
     {
@@ -751,6 +115,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Grata Nova",
         "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Introspectivo"],
         "cifra": [{"chords":["","","","","","","5","","","","","","16","","","","","","","","5"],"verse":"Grata nova Deus proclama"},{"chords":["","","","","","","","","","18","","","","","","","26","","","","","1"],"verse":"Hoje ao mundo pecador"},{"chords":["","","","","","","","","","","","","","","","","16"],"verse":"Doce nova revelada"},{"chords":["","","","","","","","3","","","","","","","16","","","","","","5","","","","","16"],"verse":"Lá na cruz do Salvador"},{"chords":[],"verse":""},{"chords":["","","","","","","","","5","","","","","16","","","","","","","5"],"verse":"Cego e desviado, o homem"},{"chords":["","","","","","","","","","","","","","","","26","","","","","","1"],"verse":"Dos caminhos do Senhor"},{"chords":["","","","","","","","","","","","","","","","","","","","","","16"],"verse":"Desconhece e desconfia"},{"chords":["","","","","","","","3","","","","","","","","16","","","","","","","","","5","","","","","","","4"],"verse":"Deste Deus, o Deus de amor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","0","","","","","","4","","","","","","0"],"verse":"Grata nova, doce nova"},{"chords":["","","","","","","","","","","","","","","","","26","","","","","","1"],"verse":"Vem dos lábios do Senhor"},{"chords":["","","","","","","","","","","","","","","","","","4"],"verse":"Escutai com alegria"},{"chords":["","","","","","","","","0","","","","","","","","","4","","","","","0","","","","","16"],"verse":"Deus é luz, Deus é  amor"}]
     },
     {
@@ -764,6 +129,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Olhai o Cordeiro De Deus",
         "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Envolvente"],
         "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","3","","","","","","","4","","","","","","","0"],"verse":"Livres de pecado vós quereis ficar?"},{"chords":["","","","","","","","","","","","","","","","5","","","","","22","","","","","","11"],"verse":"Olhai pra o Cordei__ro de Deus"},{"chords":["0","","","","","","","","","","","","","","","","","","3","","","","","","","","4","","","","","","0"],"verse":"Ele morto foi na cruz pra vos salvar"},{"chords":["2","","","","","","","","","","3","","","","","","4","","","","","","","","","0","","","","","","","4"],"verse":"Olhai pra  o Cordeiro de  Deus"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","0","","","","","","","","","","","","","","5","","","","","","","","4"],"verse":"Olhai pra o Cordeiro de Deus"},{"chords":["","","1","","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"Olhai pra o Cordeiro de Deus"},{"chords":["","","7","","","","","","","","","","","","","3","","","","","","","","","","","","1"],"verse":"Porque só Ele vos pode salvar"},{"chords":["","","0","","","","","","","","","","","","","4","","","","","","","","","0"],"verse":"Olhai pra o Cordeiro de Deus"}]
     },
     {
@@ -879,6 +245,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Alvo Mais Que a Neve",
         "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Introspectivo"],
         "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","2","","","","","","5","",""],"verse":"Bendito seja o Cordei____ro"},{"chords":["","","","","","","","","1","","","","","","","","","","","","","","","","","","4"],"verse":"Que na cruz por nós padeceu"},{"chords":["0","","","","","","","","","","","","","","","","","","","2","","","","","","5"],"verse":"Bendito seja o Seu san__gue"},{"chords":["","","","","","","","","","1","","","","","","4","","","","","","","","","","0","","","","","7"],"verse":"Que por  nós   ali Ele verteu"},{"chords":[],"verse":""},{"chords":["3","","","","","","","","","","","","","","","","","","","","0","","","","","7"],"verse":"Eis nesse sangue, lava__dos"},{"chords":["3","","","","","","","","","","","","","22","","","","","","","","","","","","","","","4","","","","","11"],"verse":"Com roupas que tão alvas  são"},{"chords":["0","","","","","","","","","","","","","","","","2","","","","","","","5"],"verse":"Os pecadores remi____dos"},{"chords":["","","","","","","","1","","","","","","","","","","4","","","","","","","","","","","0","","","","","4"],"verse":"Que perante seu Deus já estão"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","","","","","","","","","","","","","4"],"verse":"Alvo mais que a neve"},{"chords":["1","","","","","4","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"Al____vo mais que a  ne___ve"},{"chords":["0","","","","","","","","","","","","","7","","","","","","","","3"],"verse":"Sim, neste sangue lavado"},{"chords":["","","","","","","0","","","","5","","","","","","","","","","1","","","","","","4","","","","","0","","","","","4"],"verse":"Mais al___vo que a  ne___ve serei"}]
     },
     {
@@ -1294,6 +661,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Pelejar Por Jesus",
         "tonalidade": 0,
+        "categoria": ["Missões", "Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -1623,6 +991,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Cristo Voltará",
         "tonalidade": 4,
+        "categoria": ["Missões", "Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -2041,6 +1410,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Fala Jesus Querido",
         "tonalidade": 1,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -2723,6 +2093,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "O Bondoso Amigo",
         "tonalidade": 2,
+        "categoria": ["Santa Ceia", "Envolvente"],
         "cifra": [{"chords":["0","","","","","","","","","7","","","","","","","","","","","","","","","3"],"verse":"Quão bondoso amigo é Cristo!"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Carregou com a nossa dor"},{"chords":["0","","","","","","","7","","","","","","","","","","","","","3"],"verse":"E nos manda que levemos"},{"chords":["0","","","","","","","11","","","","","","","","","","","","0"],"verse":"Os cuidados ao Senhor"},{"chords":[],"verse":""},{"chords":["1","","","","","","","","","11","","","","","","","","","","","0","","","","7","","","",""],"verse":"Falta ao coração dori___do"},{"chords":["3","","","","","","","0","","","","","","","","","","","","11"],"verse":"Gozo, paz, consolação?"},{"chords":["0","","","","","","","7","","","","","","","","","","","","","","3","","","","","17"],"verse":"Isso é porque não  leva___mos"},{"chords":["0","","","","","","","","11","","","","","","","","","","","","","0"],"verse":"Tudo a Deus em oração"}]
     },
     {
@@ -3270,6 +2641,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "A Mensagem da Cruz",
         "tonalidade": 5,
+        "categoria": ["Santa Ceia", "Introspectivo"],
         "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","7","","","","","","","","","","3","","","","","","1"],"verse":"Rude cruz se erigiu, dela o dia fugiu"},{"chords":["","","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","0","","","","","","4","","",""],"verse":"Como emblema de vergonha e dor"},{"chords":["","","","","","","","","","0","","","","","","","","","","","","","7","","","","","","","","","","","","3","","","","","","","1"],"verse":"Mas contemplo esta cruz, porque nela Jesus"},{"chords":["","","","","","","","11","","","","","","","","","","","","","","","","","","","0"],"verse":"Deu a vida por mim, pecador"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","0","","","","","","7"],"verse":"Sim, eu amo a mensagem da cruz"},{"chords":["","","","","","","","","3","","","","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"Até morrer eu a vou proclamar"},{"chords":["","","","","","0","","","","","","","","","","","7","","","","","","","","","","","3","","","","","","17"],"verse":"Levarei eu também minha cruz"},{"chords":["","","","","","","","","","0","","","","","","","4","","","","","","0"],"verse":"Até por uma coroa trocar"}]
     },
     {
@@ -3331,7 +2703,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Vem Cear",
         "tonalidade": 5,
-        "categoria": ["Santa Ceia"],
+        "categoria": ["Santa Ceia", "Envolvente"],
         "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","7"],"verse":"Cristo já nos preparou"},{"chords":["","","","","","","","","3","","","","","","","","","","","","","","","","","1"],"verse":"Um manjar que nos comprou"},{"chords":["","","","","11","","","","","","","","","","","","","","","","","","","","","","0","","","","","11"],"verse":"E, agora, nos convida a cear"},{"chords":["","","","","","","","","","0","","","","","","","","","","7"],"verse":"E com celestial maná"},{"chords":["","","","","","","","","","3","","","","","","","","","","","","","1"],"verse":"Que de graça Deus te dá"},{"chords":["","","","","","","","","","11","","","","","","","","","","","","","","","","","","0","","","","","5"],"verse":"Vem, faminto, tua alma saciar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","11","","","","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","7"],"verse":"Vem cear, o Mestre chama, vem cear"},{"chords":["","","","","","","","","","3","","","","","","","","","22","","","","","","","","","","","11"],"verse":"Mesmo hoje tu te podes saciar"},{"chords":["","","","","","","","","","0"],"verse":"Poucos pães multiplicou"},{"chords":["","","","","","","","","","","7","","","","","","","","","","","","","","","3"],"verse":"Água em vinho transformou"},{"chords":["1","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","0","","","","","11"],"verse":"Vem, faminto, a Jesus, vem cear"}]
     },
     {
@@ -3759,6 +3131,7 @@
         "tipo": "hino_harpa_crista",
         "nome": "Vencerá",
         "tonalidade": 4,
+        "categoria": ["Missões", "Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -4458,7 +3831,9 @@
         "id": 432,
         "tipo": "hino_harpa_crista",
         "nome": "Consagrado ao Senhor",
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","11","","","","","0"],"verse":"Minha vida seja  sim"},{"chords":["4","","","","","","","","","","","","","","","","","","","","0"],"verse":"Consagrada a Ti, Senhor"},{"chords":["","","","","","","","","7","","","","","","","","","","","","","","","","3"],"verse":"Possas sempre Tu por mim"},{"chords":["0","","","","11","","","","","","","","","","","","0","","","","","7"],"verse":"Operar o Teu amor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["3","","","","","","","","","","","","","","","","","","","","","","","","0","","","","7"],"verse":"A minh'alma lava Salvador"},{"chords":["3","","","","","","","","","","","","","","","","15","","","","","","","4","","","","","","","11"],"verse":"No Teu sangue puro, carmesim"},{"chords":["0","","","","","","","","","","","","7","","","","","","3","","","","","","","","","","","","0"],"verse":"Minha vida toma  para ser, Senhor"},{"chords":["","","","","","11","","","","","","","","","","","","","","0"],"verse":"Tua para sempre,  sim"}]
     },
     {
         "id": 433,
@@ -5328,7 +4703,9 @@
         "id": 577,
         "tipo": "hino_harpa_crista",
         "nome": "Em Fervente Oração",
-        "cifra": []
+        "tonalidade": 3,
+        "categoria": ["Santa Ceia", "Introspectivo"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","1","","","","","","","","","","","2","","","","","","","","5"],"verse":"Em fervente oração, vem o teu coração"},{"chords":["","","","","","","","1","","","","","","","","","4","","","","","","","","","","","0"],"verse":"Na presença de Deus derramar"},{"chords":["0","","","","","","","","","","","","","","","","1","","","","","","","","","","","","2","","","","","","","","5"],"verse":"Mas só podes fruir o que estás a pedir"},{"chords":["","","","","","","","","1","","","","","","","","","4","","","","","","","","","","0","","","","","","","7"],"verse":"Quando tudo deixares no altar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","3","","","","","","","","","","","","","","","","","0","","","","","","","","","","7"],"verse":"Quando tudo perante o Senhor estiver"},{"chords":["","","3","","","","","","","","","","","15","","","","","","","","4","","","","","","11"],"verse":"E todo o teu ser Ele controlar"},{"chords":["0","","","","","","","","","","","","","","","","","1","","","","","","","","","","","","2","","","","","","","","","","","","5"],"verse":"Só então hás de ver que o Senhor tem poder"},{"chords":["","","","","","","","","1","","","","","","","","","4","","","","","","","","","","","0"],"verse":"Quando tudo deixares no altar"}]
     },
     {
         "id": 578,

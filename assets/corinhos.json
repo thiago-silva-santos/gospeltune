@@ -4,6 +4,7 @@
         "nome": "Visitante, Seja Bem-Vindo",
         "tipo": "corinho",
         "tonalidade": 3,
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -233,6 +234,7 @@
         "nome": "Bom é Estarmos Aqui",
         "tipo": "corinho",
         "tonalidade": 1,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -716,6 +718,7 @@
         "nome": "Deus Forte Como Jeová",
         "tipo": "corinho",
         "tonalidade": 3,
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -1282,6 +1285,7 @@
         "id": 4,
         "nome": "Eu Marquei Um Encontro Com Deus",
         "tipo": "corinho",
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -1572,6 +1576,7 @@
         "id": 5,
         "nome": "Celebrai a Cristo",
         "tipo": "corinho",
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -1932,6 +1937,7 @@
         "id": 6,
         "nome": "Você Tem Valor",
         "tipo": "corinho",
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -2622,6 +2628,7 @@
         "nome": "Caminhando Eu Vou Para Canaã",
         "tipo": "corinho",
         "tonalidade": 4,
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -2954,6 +2961,7 @@
         "id": 8,
         "nome": "Vamos adorar a Deus",
         "tipo": "corinho",
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -3063,6 +3071,7 @@
         "nome": "Não Há Deus Maior",
         "tipo": "corinho",
         "tonalidade": 1,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -3412,6 +3421,7 @@
         "nome": "Fica, Senhor, Meu Salvador",
         "tipo": "corinho",
         "tonalidade": 3,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -3761,6 +3771,7 @@
         "nome": "Quão Bom e Quão Maravilhoso",
         "tipo": "corinho",
         "tonalidade": 2,
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -3997,6 +4008,7 @@
         "id": 12,
         "nome": "Espírito Enche a Minha Vida",
         "tipo": "corinho",
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -4270,6 +4282,7 @@
         "id": 13,
         "nome": "Se o Espírito de Deus Se Move Em Mim",
         "tipo": "corinho",
+        "categoria": ["Envolvente"],
         "cifra": []
     },
     {
@@ -4277,6 +4290,7 @@
         "nome": "Porque Ele Vive",
         "tipo": "corinho",
         "tonalidade": 4,
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -4471,6 +4485,7 @@
         "id": 15,
         "nome": "Em Espírito, Em Verdade",
         "tipo": "corinho",
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -4897,6 +4912,7 @@
         "nome": "Ao Único",
         "tipo": "corinho",
         "tonalidade": 1,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -5207,6 +5223,7 @@
         "nome": "Renova-me",
         "tipo": "corinho",
         "tonalidade": 1,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -5467,6 +5484,7 @@
         "nome": "Deus Está Aqui",
         "tipo": "corinho",
         "tonalidade": 3,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
@@ -5644,6 +5662,7 @@
         "nome": "Jesus Em Tua Presença",
         "tipo": "corinho",
         "tonalidade": 1,
+        "categoria": ["Envolvente"],
         "cifra": [
             {
                 "chords": [
@@ -6066,6 +6085,7 @@
         "nome": "Reunimo-nos aqui",
         "tipo": "corinho",
         "tonalidade": 1,
+        "categoria": ["Introspectivo"],
         "cifra": [
             {
                 "chords": [
