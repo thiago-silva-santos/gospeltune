@@ -171,7 +171,7 @@ export default {
 }
 
 .filter_tags>span {
-  @apply text-red-700 bg-slate-100 shadow-sm rounded-2xl py-2 px-4 font-semibold
+  @apply text-red-600 bg-slate-100 shadow-sm rounded-2xl py-2 px-4 font-semibold
 }
 
 .button_filters {
@@ -184,7 +184,7 @@ export default {
 }
 
 h1 {
-  @apply text-2xl text-red-700 font-semibold text-center
+  @apply text-2xl text-red-600 font-semibold text-center
 }
 
 .overlay {

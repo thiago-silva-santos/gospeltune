@@ -19,7 +19,7 @@
                <tbody>
                     <tr v-for="(acordes, index) in dividirArray" :key="index">
                          <td v-for="acorde in acordes" :key="acorde.grau">
-                              <span class="text-red-700"> {{ acorde.notacao }} </span> - {{ acorde.grau }}
+                              <span class="text-red-600"> {{ acorde.notacao }} </span> - {{ acorde.grau }}
                          </td>
                     </tr>
                </tbody>

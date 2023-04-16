@@ -146,7 +146,7 @@ export default {
 }
 
 .tuning_button {
-     @apply rounded-full bg-red-700 text-white p-2 w-10 h-10 flex justify-center items-center text-lg font-bold shadow-lg;
+     @apply rounded-full bg-red-600 text-white p-2 w-10 h-10 flex justify-center items-center text-lg font-bold shadow-lg;
      transition: all .3s ease;
      @apply fixed;
      bottom: 20px;
@@ -180,7 +180,7 @@ export default {
 }
 
 .active:hover {
-     @apply bg-slate-600
+     @apply bg-red-500
 }
 
 

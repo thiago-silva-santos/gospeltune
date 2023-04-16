@@ -57,7 +57,7 @@ export default {
 }
 
 .song_number {
-  @apply text-red-700
+  @apply text-red-600
 }
 
 .song_title {
