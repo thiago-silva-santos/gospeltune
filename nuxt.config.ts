@@ -31,6 +31,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  ssr: false,
-
+  modules: [
+    // ...
+    '@pinia/nuxt',
+  ],
+  ssr: false
 })

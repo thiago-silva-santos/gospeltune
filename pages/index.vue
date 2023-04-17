@@ -11,6 +11,7 @@
         <SelectCategory :categories="categories" @selected-categories="getSelectedCategories" />
       </div>
     </div>
+
     <div class="filter_tags">
       <span v-for="tag in selectedCategories">{{ tag }}</span>
     </div>
@@ -39,8 +40,10 @@
   </div>
 </template>
 <script>
+import { useFilterStore } from '~~/stores/filters';
 import corinhos from '../assets/corinhos.json'
 import hinos from '../assets/hinos-harpa-crista.json'
+import { mapState } from 'pinia'
 export default {
   data() {
     return {
@@ -61,7 +64,7 @@ export default {
     },
   },
   computed: {
-
+    ...mapState(useFilterStore, ['filters']),
     corinhos() {
       return corinhos
     },
