@@ -8,12 +8,11 @@
         </span>
       </button>
       <div class="filters" v-show="showFilters">
-        <SelectCategory :categories="categories" @selected-categories="getSelectedCategories" />
+        <SelectCategory />
       </div>
     </div>
-
     <div class="filter_tags">
-      <span v-for="tag in selectedCategories">{{ tag }}</span>
+      <span v-for="tag in selectedFilters">{{ tag }}</span>
     </div>
     <template v-if="!showCorinhos && !showHinosHarpa">
 
@@ -40,9 +39,9 @@
   </div>
 </template>
 <script>
-import { useFilterStore } from '~~/stores/filters';
 import corinhos from '../assets/corinhos.json'
 import hinos from '../assets/hinos-harpa-crista.json'
+import { useFilterStore } from '~~/stores/filters';
 import { mapState } from 'pinia'
 export default {
   data() {
@@ -51,20 +50,15 @@ export default {
       showFilters: false,
       showCorinhos: true,
       showHinosHarpa: true,
-      categories: ["Santa Ceia", "Missões", "Jovens","Envolvente", "Introspectivo"],
-      selectedCategories: []
     };
   },
   methods: {
     onSearch(value) {
       this.search = value
     },
-    getSelectedCategories(categorias) {
-      this.selectedCategories = categorias;
-    },
   },
   computed: {
-    ...mapState(useFilterStore, ['filters']),
+    ...mapState(useFilterStore, ['filters', 'selectedFilters']),
     corinhos() {
       return corinhos
     },
@@ -74,8 +68,8 @@ export default {
     searchCorinhosResults() {
       let eligibleItems = this.corinhos.filter((item) => item.cifra.length > 0)
 
-      if (this.selectedCategories.length > 0) {
-        eligibleItems = eligibleItems.filter((item) => this.selectedCategories.every(category => item.categoria?.includes(category)))
+      if (this.selectedFilters.length > 0) {
+        eligibleItems = eligibleItems.filter((item) => this.selectedFilters.every(category => item.categoria?.includes(category)))
       }
       if (this.search !== '') {
         const lowerCaseSearchTerm = this.search.toLowerCase().normalize("NFD")
@@ -103,8 +97,8 @@ export default {
 
     searchHinosResults() {
       let eligibleItems = this.hinosHarpa.filter((item) => item.cifra.length > 0)
-      if (this.selectedCategories.length > 0) {
-        eligibleItems = eligibleItems.filter((item) => this.selectedCategories.every(category => item.categoria?.includes(category)))
+      if (this.selectedFilters.length > 0) {
+        eligibleItems = eligibleItems.filter((item) => this.selectedFilters.every(category => item.categoria?.includes(category)))
       }
 
 
@@ -164,17 +158,18 @@ export default {
 
 .filters {
   position: absolute;
-  right: 0;
-  top: 50px;
+  right: -220px;
+  top: -8px;
   z-index: 999;
 }
+
 
 .filter_tags {
   @apply w-full flex gap-4 items-center justify-center flex-wrap;
 }
 
 .filter_tags>span {
-  @apply text-red-600 bg-slate-100 shadow-sm rounded-2xl py-2 px-4 font-semibold
+  @apply text-slate-600 bg-slate-100 shadow-sm rounded-2xl py-2 px-4 font-semibold
 }
 
 .button_filters {
@@ -214,4 +209,14 @@ h1 {
   .main_page_container {
     @apply py-10 px-4;
   }
-}</style>
+}
+
+@media (max-width: 820px) {
+  .filters {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 999;
+  }
+}
+</style>

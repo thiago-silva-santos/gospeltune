@@ -46,7 +46,7 @@ export default {
 }
 
 .scroll-to-top button {
-    @apply bg-red-700;
+    @apply bg-red-600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@ export default {
 }
 
 .scroll-to-top button:hover {
-    @apply bg-red-600
+    @apply bg-red-500
 }
 </style>
   
