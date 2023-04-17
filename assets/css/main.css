@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body {
-     @apply bg-slate-50;
+     @apply bg-white;
      font-family: 'Roboto', sans-serif;
      -webkit-tap-highlight-color: transparent;
 }
