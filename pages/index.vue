@@ -14,22 +14,19 @@
     <div class="filter_tags">
       <span v-for="tag in selectedFilters">{{ tag }}</span>
     </div>
-    <template v-if="!showCorinhos && !showHinosHarpa">
-
+    <template v-if="searchCorinhosResults.length == 0 && searchHinosResults.length == 0">
       <div class="no-results">
         Nenhuma cifra encontrada...
       </div>
-
-
     </template>
     <template v-else>
 
-      <section class="cards_container w-full" v-if="showCorinhos">
+      <section class="cards_container w-full" v-if="searchCorinhosResults.length >= 1">
         <h1>Corinhos</h1>
         <SongsCards :items="searchCorinhosResults" :text-search="search" />
       </section>
 
-      <section class="cards_container harpa w-full" v-if="showHinosHarpa">
+      <section class="cards_container harpa w-full" v-if="searchHinosResults.length >= 1">
         <h1>Hinos da Harpa Cristã</h1>
         <SongsCards :items="searchHinosResults" :text-search="search" />
       </section>
@@ -47,9 +44,7 @@ export default {
   data() {
     return {
       search: "",
-      showFilters: false,
-      showCorinhos: true,
-      showHinosHarpa: true,
+      showFilters: false
     };
   },
   methods: {
@@ -126,25 +121,7 @@ export default {
         return eligibleItems
       }
     },
-  },
-  watch: {
-    searchCorinhosResults(value) {
-      if (value.length == 0) {
-        this.showCorinhos = false
-      }
-      else {
-        this.showCorinhos = true
-      }
-    },
-    searchHinosResults(value) {
-      if (value.length == 0) {
-        this.showHinosHarpa = false
-      }
-      else {
-        this.showHinosHarpa = true
-      }
-    }
-  },
+  }
 };
 </script>
 <style lang="css" scoped>
