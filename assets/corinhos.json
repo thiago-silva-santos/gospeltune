@@ -4903,9 +4903,11 @@
     },
     {
         "id": 16,
-        "nome": "O Nosso General é Cristo",
+        "nome": "Eu Navegarei",
         "tipo": "corinho",
-        "cifra": []
+        "tonalidade": 0,
+        "categoria": ["Introspectivo"],
+        "cifra": [{"chords":["","","","","","","","","","","5"],"verse":"Eu navegarei"},{"chords":["","","","","","","","","","","","","","","","","","4"],"verse":"No oceano do Espírito"},{"chords":["","","","","","","","","","","1","","","","","","","3"],"verse":"E ali adorarei"},{"chords":["","","","","","","","","","","","","","","","","","","23"],"verse":"Ao Deus do meu amor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","5"],"verse":"Espírito, Espírito"},{"chords":["","","","","","","","","","","","","","","","","","","4"],"verse":"Que desce como fogo"},{"chords":["","","","","","","","","","","","","","","","","","","","","","3","","","","","","","","1"],"verse":"Vem como em Pentecostes"},{"chords":["","","","","","","","","","","","","","","","","23"],"verse":"E enche-me de novo"}]
     },
     {
         "id": 17,
