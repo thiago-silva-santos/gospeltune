@@ -21,12 +21,11 @@
     </template>
     <template v-else>
 
-      <section class="cards_container w-full" v-if="searchCorinhosResults.length >= 1">
+      <section class="w-full" v-if="searchCorinhosResults.length >= 1">
         <h1>Corinhos</h1>
         <SongsCards :items="searchCorinhosResults" :text-search="search" />
       </section>
-
-      <section class="cards_container harpa w-full" v-if="searchHinosResults.length >= 1">
+      <section class="w-full" v-if="searchHinosResults.length >= 1">
         <h1>Hinos da Harpa Cristã</h1>
         <SongsCards :items="searchHinosResults" :text-search="search" />
       </section>
@@ -140,7 +139,6 @@ export default {
   z-index: 999;
 }
 
-
 .filter_tags {
   @apply w-full flex gap-4 items-center justify-center flex-wrap;
 }
@@ -151,7 +149,6 @@ export default {
 
 .button_filters {
   @apply w-16 p-2 bg-slate-200 rounded-md flex items-center justify-center;
-  transition: all ease .2s;
 }
 
 .button_filters_active {
@@ -159,7 +156,7 @@ export default {
 }
 
 h1 {
-  @apply text-2xl text-red-600 font-semibold text-center
+  @apply text-2xl text-slate-800 font-bold text-center py-10
 }
 
 .overlay {

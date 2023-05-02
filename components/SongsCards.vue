@@ -9,8 +9,9 @@
               <div class="song_number text-center font-bold text-lg">
                   {{ item.id }}
                 </div>
-                <div class="song_title">
-                  {{ item.nome }}
+                <div class="flex flex-col" >
+                  <span class="song_title">{{ item.nome }}</span>
+                  <span class="song_subtitle">{{ item.categoria.includes('Envolvente') ? 'Envolvente' : 'Introspectivo' }}</span>
                 </div>
 
             </div>
@@ -53,24 +54,25 @@ export default {
   @apply grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
 }
 .card_ {
-  @apply w-full flex items-center justify-start py-4 px-2 gap-2 rounded-lg shadow-lg bg-white cursor-pointer relative;  
-  transition: all ease-in-out .3s;
-  max-height: 60px;
+  @apply w-full flex h-fit items-center justify-start py-4 px-2 gap-3 rounded-lg bg-white cursor-pointer relative;  
 }
 
 .song_number {
-  @apply text-red-600 w-10
+  @apply text-red-600 w-14 h-14 text-2xl rounded-full flex items-center justify-center bg-red-50
 }
 
 .song_title {
-  @apply truncate max-w-[230px] text-slate-700 2xl:max-w-[230px] xl:max-w-[180px] lg:max-w-[200px] 
+  @apply truncate max-w-[230px] text-slate-600  2xl:max-w-[230px] xl:max-w-[180px] lg:max-w-[200px] text-lg;
 }
-
+.song_subtitle {
+  @apply text-slate-400;
+}
 
 @media (min-width: 500px) {
   .card_:hover {
-    @apply bg-slate-50
+    @apply bg-red-50
   }
+
 
 }
 
