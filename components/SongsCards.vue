@@ -1,19 +1,18 @@
 <template>
   <div>
     <section class=" py-10">
-      <div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div class="cards_container">
         <template v-for="item in items" :key="item">
           <nuxt-link v-if="item.cifra.length > 0"
             :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
             <div class="card_ ">
-              <div class="flex items-center gap-4">
-                <div class="song_number text-center font-bold text-lg">
+              <div class="song_number text-center font-bold text-lg">
                   {{ item.id }}
                 </div>
-                <div class="song_title text-center text-ellipsis overflow-hidden w-full">
+                <div class="song_title">
                   {{ item.nome }}
                 </div>
-              </div>
+
             </div>
           </nuxt-link>
           <div v-else class="card_">
@@ -50,14 +49,17 @@ export default {
 };
 </script>
 <style lang="css" scoped>
+.cards_container {
+  @apply grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+}
 .card_ {
-  @apply w-full flex items-center justify-between p-4 rounded-lg shadow-lg bg-white cursor-pointer relative;
+  @apply w-full flex items-center justify-start py-4 px-2 gap-2 rounded-lg shadow-lg bg-white cursor-pointer relative;  
   transition: all ease-in-out .3s;
   max-height: 60px;
 }
 
 .song_number {
-  @apply text-red-600
+  @apply text-red-600 w-10
 }
 
 .song_title {
@@ -69,11 +71,13 @@ export default {
   .card_:hover {
     @apply bg-slate-50
   }
+
 }
 
 @media (max-width: 424px) {
   .no-results {
     @apply flex justify-center w-full
   }
+
 }
 </style>
