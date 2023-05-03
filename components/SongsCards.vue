@@ -58,7 +58,7 @@ export default {
 }
 
 .song_number {
-  @apply text-red-600 w-14 h-14 text-2xl rounded-full flex items-center justify-center bg-red-50
+  @apply text-slate-600 w-14 h-14 text-2xl rounded-full flex items-center justify-center bg-slate-50
 }
 
 .song_title {
@@ -70,7 +70,7 @@ export default {
 
 @media (min-width: 500px) {
   .card_:hover {
-    @apply bg-red-50
+    @apply bg-slate-50
   }
 
 
