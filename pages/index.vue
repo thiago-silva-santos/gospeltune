@@ -152,11 +152,11 @@ export default {
 }
 
 .button_filters_active {
-  @apply bg-red-500 text-white
+  @apply bg-red-600 text-white
 }
 
 h1 {
-  @apply text-2xl text-slate-800 font-bold text-center py-10
+  @apply text-[28px] text-slate-800 font-bold text-center py-10
 }
 
 .overlay {
