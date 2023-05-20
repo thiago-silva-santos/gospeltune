@@ -18,7 +18,9 @@
         "id": 3,
         "tipo": "hino_harpa_crista",
         "nome": "Plena Paz",
-        "cifra": []
+        "tonalidade": 3,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","7"],"verse":"Plena paz e santo gozo"},{"chords":["","","","","","","","","","","3","","","","","","","","","","","","","0"],"verse":"Tenho em ti, ó meu Jesus!"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","22","","","","","","","","","","","","","","","11"],"verse":"Pois eu creio em Tua morte sobre a cruz"},{"chords":["","","","","","","","0","","","","","","","","","","","","7"],"verse":"No Senhor só confiando"},{"chords":["","","","","","","","3","","","","","","","","","","","0"],"verse":"Neste mundo viverei"},{"chords":["","","","","","","","","","","","","","","11","","","","","","","","","","","","","0","","","","","7"],"verse":"Entoando aleluias ao meu Rei!"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","3"],"verse":"Oh! Glória ao meu Jesus!"},{"chords":["","","","","","","","0","","","","","","","","","","","","7"],"verse":"Pois é digno de louvor"},{"chords":["","","","","","","","3","","","","","","","","","","","","","","","","","","0"],"verse":"É meu Rei, meu bom Pastor"},{"chords":["","","","","","","","","","","4"],"verse":"E meu Senhor"},{"chords":["","","","","","","","","","","0","","","","","","","","","","","","","7"],"verse":"Como os anjos, que O louvam"},{"chords":["","","","","","","","3","","","","","","","","","","","","","0"],"verse":"Eu também O louvarei"},{"chords":["","","","","","","","","","","","","","4","","","","","","","","","","","","","","0"],"verse":"Entoando aleluias ao meu Rei"}]
     },
     {
         "id": 4,
@@ -2420,7 +2422,9 @@
         "id": 252,
         "tipo": "hino_harpa_crista",
         "nome": "Santo, Santo és Tu Senhor",
-        "cifra": []
+        "tonalidade": 5,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0"],"verse":"Santo, Santo és Tu, Senhor"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","5","","","","","","4"],"verse":"Em Teu louvor eu vou can__tar"},{"chords":["","","","","","","","","","","1","","","","","","","","","","","","","","","","","","","","","4"],"verse":"Com esperança, oh, Deus de amor"},{"chords":["","","","","","","","","","","","","","","11","","","","","","0","","","","","","4"],"verse":"Tu me queres consolar"},{"chords":["","","","","","","0"],"verse":"Eu Te peço, oh, meu Jesus"},{"chords":["","","","","","","","","","","","","","","7","","","","","","3"],"verse":"Só Tu és meu Salvador"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","0","","","","","5"],"verse":"Que me faça andar na luz"},{"chords":["","","","","","","","1","","","","","","","","","11","","","","","","0","","","","","","4"],"verse":"Santo  és, meu  Redentor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","0"],"verse":"Ao meu Jesus, eu cantarei"},{"chords":["","","","","","","","","","","","","","","","","","","5","","","","","","","4"],"verse":"Entrando na feliz Si_____ão"},{"chords":["","","","","","","","","","","","1","","","","","","","","","","","","","","","","11"],"verse":"Oh, Santo, Santo, proclamarei"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"Na minha eternal mansão"},{"chords":["","","","","","","0"],"verse":"Com os anjos e serafins"},{"chords":["","","","","","","","","","","","","","","","","7","","","","","","","","3"],"verse":"Santo, sempre vou cantar"},{"chords":["","","","","","","","","","","","","","","17","","","","","","","","","","","","0","","","","","5"],"verse":"Com arcanjos      e querubins"},{"chords":["","","","","","1","","","","","","","11","","","","","","","","","","","0","","","","","","","4"],"verse":"A Jesus, eu     vou adorar"}]
     },
     {
         "id": 253,
@@ -4585,7 +4589,9 @@
         "id": 552,
         "tipo": "hino_harpa_crista",
         "nome": "Quando para o Céu Nós Formos",
-        "cifra": []
+        "tonalidade": 0,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0"],"verse":"Canta o grande amor de Cristo"},{"chords":["11","","","","","","","","","","","","","","","","","","","","0"],"verse":"Sua graça e compaixão"},{"chords":["","","","","","","","","","","","","","","","3"],"verse":"Num lugar tranquilo e belo"},{"chords":["0","","","","","","","","","11","","","","","","","","","","","","","0","","","","","3","","","","0"],"verse":"Faz-nos  eternal mansão"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0"],"verse":"Quando ao Céu nós chegarmos"},{"chords":["","","","","","","","","","","","","","","","22","","","","","","","","","","","","","11"],"verse":"Oh! Que dia de júbilo há de ser!"},{"chords":["","","","","","0","","","","7","","","","","","","","3"],"verse":"A Jesus          daremos"},{"chords":["","","","","","0","","","","","","4","","","","","","","","","","","","","0","","","","","3","","","","0"],"verse":"Hosanas, cheios de prazer"}]
     },
     {
         "id": 553,
