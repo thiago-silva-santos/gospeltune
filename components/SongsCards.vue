@@ -51,7 +51,7 @@ export default {
 </script>
 <style lang="css" scoped>
 .cards_container {
-  @apply grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  @apply grid grid-flow-row gap-4 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
 }
 .card_ {
   @apply w-full flex h-fit items-center justify-start py-4 px-2 gap-3 rounded-lg bg-white cursor-pointer relative;  

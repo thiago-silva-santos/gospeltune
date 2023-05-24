@@ -1,22 +1,28 @@
 <template>
-    <input
-      v-model="searchQuery"
-      placeholder="Digite sua pesquisa"
-      class="input_search"
-      type="text"
-    />
+  <input v-model="searchQuery" placeholder="Digite sua pesquisa" class="input_search" type="text" />
 </template>
    
 <script>
+import { useSearchStore } from '~~/stores/search';
+import { mapState, mapActions } from 'pinia'
+
 export default {
   data() {
     return {
       searchQuery: "",
     };
   },
+  computed: {
+    ...mapState(useSearchStore, ['search']),
+
+  },
+  methods: {
+    ...mapActions(useSearchStore, ['updateSearch']),
+
+  },
   watch: {
-     searchQuery(value) {
-      this.$emit("search", value);
+    searchQuery(value) {
+      this.updateSearch(value)
     },
   },
 };
