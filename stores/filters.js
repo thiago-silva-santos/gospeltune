@@ -2,6 +2,7 @@ import { defineStore } from "pinia"
 export const useFilterStore = defineStore('filters', {
   state: () => ({
     filters: ["Santa Ceia", "Missões", "Jovens", "Envolvente", "Introspectivo"],
+    showFilters: false,
     selectedFilters: []
   }),
   actions: {
@@ -13,5 +14,11 @@ export const useFilterStore = defineStore('filters', {
         this.selectedFilters = this.selectedFilters.filter(item => item !== payload)
       }
     },
+    show(){
+      this.showFilters = true
+    },
+    hide(){
+      this.showFilters = false
+    }
   },
 })

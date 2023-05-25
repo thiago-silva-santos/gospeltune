@@ -2,14 +2,11 @@
   <div class="main_page_container">
     <div class="input_search_container relative min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-2 flex">
       <input-search @search="onSearch"></input-search>
-      <button :class="['button_filters', { 'button_filters_active': showFilters }]" @click="showFilters = !showFilters">
+      <button class="button_filters" @click="show">
         <span class="material-symbols-outlined">
           filter_list
         </span>
       </button>
-      <div class="filters" v-show="showFilters">
-        <SelectCategory />
-      </div>
     </div>
     <div class="filter_tags">
       <span v-for="tag in selectedFilters">{{ tag }}</span>
@@ -18,33 +15,43 @@
 
     </slot>
     <ScrollTop />
-    <div class="overlay" v-if="showFilters" @click="showFilters = false"></div>
+    <div class="overlay" v-if="showFilters" @click="hide"></div>
+    <Transition name="fade">
+      <div class="filters" v-show="showFilters">
+        <SelectCategory/>
+      </div>
+
+    </Transition>
   </div>
 </template>
 <script>
 import { useFilterStore } from '~~/stores/filters';
-import { mapState } from 'pinia'
-// import { onBeforeRouteLeave } from "nuxt/app"
-// onBeforeRouteLeave((newRoute) => {
-//   console.log(newRoute)
-//   useSearchStore().updateSearch()
-// })
+import { mapState, mapActions } from 'pinia'
+
 export default {
   data() {
     return {
       search: "",
-      showFilters: false
     };
   },
   methods: {
     onSearch(value) {
       this.search = value
     },
-
+    ...mapActions(useFilterStore, ['hide', 'show'])
   },
-computed: {
-    ...mapState(useFilterStore, ['filters', 'selectedFilters'])
-}
+  computed: {
+    ...mapState(useFilterStore, ['filters', 'selectedFilters', 'showFilters'])
+  },
+  watch: {
+    showFilters(value) {
+      if (value) {
+        document.body.style.overflowY = 'hidden'
+      } if(!value) {
+        document.body.style.overflowY = 'auto'
+      }
+    }
+  },
 };
 
 
@@ -59,9 +66,10 @@ computed: {
 }
 
 .filters {
-  position: absolute;
-  right: -220px;
-  top: -8px;
+  @apply absolute w-[384px] max-w-[384px];
+  right: 0;
+  bottom: 0;
+  top: 0;
   z-index: 999;
 }
 
@@ -77,15 +85,12 @@ computed: {
   @apply w-16 p-2 bg-slate-200 rounded-md flex items-center justify-center;
 }
 
-.button_filters_active {
-  @apply bg-red-600 text-white
-}
-
 h1 {
   @apply text-[28px] text-slate-800 font-bold text-center py-4
 }
 
 .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -94,14 +99,38 @@ h1 {
   z-index: 998;
 }
 
+.fade-enter-active {
+  animation: fade-in .2s;
+
+}
+
+.fade-leave-active {
+  animation: fade-out .2s;
+}
+
 @keyframes fade-in {
 
   0% {
+    transform: translateX(100%);
     opacity: 0;
   }
 
   100% {
     opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-out {
+
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
   }
 }
 
@@ -113,10 +142,7 @@ h1 {
 
 @media (max-width: 820px) {
   .filters {
-    position: absolute;
-    right: 0;
-    top: 50px;
-    z-index: 999;
+    @apply absolute w-3/4;
   }
 }
 </style>
