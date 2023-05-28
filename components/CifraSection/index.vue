@@ -1,5 +1,5 @@
 <template>
-  <div class="main_page_container">
+  <div class="page_container">
     <div class="input_search_container relative min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-2 flex">
       <input-search @search="onSearch"></input-search>
       <button class="button_filters" @click="show">
@@ -46,9 +46,9 @@ export default {
   watch: {
     showFilters(value) {
       if (value) {
-        document.body.style.overflowY = 'hidden'
+        document.body.style.overflow = 'hidden'
       } if(!value) {
-        document.body.style.overflowY = 'auto'
+        document.body.style.overflow = 'auto'
       }
     }
   },
@@ -57,7 +57,7 @@ export default {
 
 </script>
 <style lang="css" scoped>
-.main_page_container {
+.page_container {
   @apply container p-10 m-auto flex flex-col justify-center items-center gap-10;
 }
 
@@ -135,7 +135,7 @@ h1 {
 }
 
 @media (max-width: 420px) {
-  .main_page_container {
+  .page_container {
     @apply py-10 px-4;
   }
 }

@@ -1,5 +1,4 @@
 <template>
-     <div>
           <CifraSection>
                <template v-slot:section>
                     <template v-if="searchHinosResults.length == 0">
@@ -15,7 +14,6 @@
                     </template>
                </template>
           </CifraSection>
-     </div>
 </template>
 <script>
 import hinos from '../assets/hinos-harpa-crista.json'

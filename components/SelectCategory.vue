@@ -8,9 +8,8 @@
         </div>
         <div class="flex flex-col">
             <div class="flex flex-col gap-2 w-full p-2">
-                <div :class="['option', { 'option_active': selectedFilters.includes(categoria) }]" v-for="categoria in filters"
-                    :key="categoria" type="checkbox" :value="categoria" :name="categoria" @click="selecionarCategoria(categoria)">
-                    
+                <div  :class="['option', { 'option_active': selectedFilters.includes(categoria), 'option_music_feeling': !cifraTypes.includes(categoria) }]" v-for="categoria in usableFilters"
+                    :key="categoria" @click="selecionarCategoria(categoria)">                  
                     {{ categoria }}
                     <span v-if="selectedFilters.includes(categoria)" class="material-symbols-outlined text-red-500">
                         remove
@@ -34,11 +33,18 @@ import { mapState } from 'pinia';
 export default {
     data() {
         return {
-            categoriasSelecionadas: []
+            cifraTypes: ["Santa Ceia", "Jovens", "Missões"]
         };
     },
     computed: {
         ...mapState(useFilterStore, ['filters', 'selectedFilters']),
+        usableFilters(){
+            if(this.$route.path == '/corinhos') {
+                return this.filters.filter(item => !this.cifraTypes.includes(item));
+            } else {
+                return this.filters
+            }
+        }
     },
     methods: {
 
@@ -68,6 +74,9 @@ a.router-link-active {
 }
 .option_active {
     @apply bg-slate-100
+}
+.option_music_feeling {
+    @apply text-blue-700
 }
 
 @media (min-width: 420px) {

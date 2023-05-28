@@ -1,5 +1,4 @@
 <template>
-  <div>
        <CifraSection>
             <template v-slot:section>
                  <template v-if="searchCorinhosResults.length == 0">
@@ -16,7 +15,6 @@
                  </template>
             </template>
        </CifraSection>
-  </div>
 </template>
 <script>
 import corinhos from '../assets/corinhos.json'
