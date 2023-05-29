@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
      @apply bg-white;
      font-family: 'Roboto', sans-serif;
      -webkit-tap-highlight-color: transparent;
 }
+
 pre {
      font-family: 'Roboto', sans-serif;
      font-size: 14px
+}
+
+.menu-aberto {
+     position: fixed;
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+}
+
+::-webkit-scrollbar {
+     width: 8px;
+     height: 0px;
+}
+::-webkit-scrollbar-thumb {
+     min-height: 10px;
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(201, 201, 201, 0.3);
+     background-color: rgb(255, 210, 210);
 }

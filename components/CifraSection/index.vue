@@ -4,7 +4,7 @@
       <input-search @search="onSearch"></input-search>
       <button class="button_filters" @click="show">
         <span class="material-symbols-outlined">
-          filter_list
+          menu
         </span>
       </button>
     </div>
@@ -46,9 +46,9 @@ export default {
   watch: {
     showFilters(value) {
       if (value) {
-        document.body.style.overflow = 'hidden'
+        document.body.classList.add('menu-aberto');
       } if(!value) {
-        document.body.style.overflow = 'auto'
+        document.body.classList.remove('menu-aberto');
       }
     }
   },
@@ -82,7 +82,7 @@ export default {
 }
 
 .button_filters {
-  @apply w-16 p-2 bg-slate-200 rounded-md flex items-center justify-center;
+  @apply w-16 p-2 rounded-md flex items-center justify-center bg-red-500 text-white;
 }
 
 h1 {
@@ -92,6 +92,7 @@ h1 {
 .overlay {
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
+  overflow: hidden !important;
   top: 0;
   bottom: 0;
   right: 0;
@@ -143,6 +144,12 @@ h1 {
 @media (max-width: 820px) {
   .filters {
     @apply absolute w-3/4;
+  }
+  .menu-aberto {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
 }
 </style>
