@@ -4,7 +4,8 @@
                <h1 class="song_title">{{ corinho.nome }}</h1>
                <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
-          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual"></tuning>
+
+          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/corinhos'"></tuning>
      </div>
 </template>
 <script>

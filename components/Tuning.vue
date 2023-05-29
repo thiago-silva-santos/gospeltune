@@ -4,6 +4,13 @@
                <div class="tuning_overlay" v-if="isOpen" @click="openTuningOptions"></div>
 
           </transition>
+          <nuxt-link :to="goBack" v-if="isOpen" @click="() => this.isOpen = false">
+            <button class="go_back bg-sky-700">
+              <span class="material-symbols-outlined">
+                home
+              </span>
+            </button>
+          </nuxt-link>
           <button class="tuning_button" @click="openTuningOptions">
                {{ this.tonalidadeAtualString }}
           </button>
@@ -46,6 +53,10 @@ export default {
           tonalidadePadrao: {
                type: Number,
                default: 0
+          },
+          goBack: {
+               type: String,
+               default: '/'
           }
      },
      emits: ['tuning-component-tune'],
@@ -137,7 +148,7 @@ export default {
 .tuning_overlay {
 
      position: fixed;
-     background-color: rgba(0, 0, 0, 0.2);
+     background-color: rgba(0, 0, 0, 0.8);
      top: 0;
      bottom: 0;
      right: 0;
@@ -146,14 +157,21 @@ export default {
 }
 
 .tuning_button {
-     @apply rounded-full bg-red-600 text-white p-2 w-10 h-10 flex justify-center items-center text-xl font-bold shadow-lg;
+     @apply fixed rounded-full bg-red-600 text-white p-2 w-10 h-10 flex justify-center items-center text-xl font-bold shadow-lg;
      transition: all .3s ease;
-     @apply fixed;
      bottom: 20px;
      right: 20px;
      z-index: 999;
 }
-
+.go_back {
+     @apply fixed rounded-full bg-white text-slate-700 p-2 w-10 h-10 flex justify-center items-center text-xl font-bold shadow-lg;
+     bottom: 70px;
+     right: 20px;
+     z-index: 999;
+}
+.go_back:hover {
+     @apply bg-slate-100 transition ease-in-out delay-100;
+}
 .tuning_button:hover {
      @apply bg-red-500 transition ease-in-out delay-100;
 }
@@ -161,8 +179,8 @@ export default {
 .tuning_items {
      @apply fixed w-[400px] h-32 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-center items-center;
      transition: all .5s ease-in-out;
-     bottom: 60px;
-     right: 60px;
+     bottom: 80px;
+     right: 80px;
      z-index: 999;
 }
 
