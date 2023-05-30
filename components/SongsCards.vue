@@ -4,7 +4,7 @@
       <div class="cards_container">
         <template v-for="item in items" :key="item">
           <nuxt-link v-if="item.cifra.length > 0"
-            :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
+            :to="item.tipo == 'corinho' ? `/song-view/corinhos/${item.id}` : item.tipo == 'hino' ? `/song-view/hinos/${item.id}` : `/song-view/hinos-harpa-crista/${item.id}`">
             <div class="card_ ">
               <div class="song_number text-center font-bold text-lg">
                   {{ item.id }}

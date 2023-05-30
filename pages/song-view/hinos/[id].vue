@@ -1,0 +1,66 @@
+<template>
+     <div class="w-full h-screen">
+          <div class="song_container">
+               <h1 class="song_title">{{ hino.nome }}</h1>
+               <span class="artist_name"> {{ hino.nomeArtista }} </span>
+               <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
+          </div>
+
+          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'"></tuning>
+     </div>
+</template>
+<script>
+import hinos from '@/assets/hinos.json'
+
+export default {
+     data() {
+          return {
+               tonalidadeAtual: 0,
+               nomeArquivo: ''
+          };
+
+     },
+     computed: {
+
+          hino() {
+               const song = hinos.filter(item => item.id == this.$route.params.id)[0]
+               return song
+          },
+
+
+     },
+     methods: {
+          changeTom(value) {
+               this.tonalidadeAtual = value;
+          },
+          getTom(value) {
+               this.tonalidadeAtual = value
+          }
+     },
+     created() {
+          if (this.hino.tonalidade) {
+               this.changeTom(this.hino.tonalidade)
+          }
+     }
+     
+
+}
+</script>
+<style scoped>
+
+.song_title {
+     @apply text-black font-semibold;
+     font-size: 22px;
+}
+
+.song_container {
+     @apply py-10 px-5 flex flex-col max-w-[400px] mx-auto;
+}
+.artist_name {
+     @apply w-full text-left text-slate-400 italic
+}
+@media (max-width: 500px) {
+     .song_container {
+          margin: 0;
+     }
+}</style>

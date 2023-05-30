@@ -6,8 +6,9 @@
                 <span class="bar"></span>
             </div>
             <div class="sections">
-                <nuxt-link to="/">Hinos da Harpa</nuxt-link>
+                <nuxt-link to="/hinos">Hinos</nuxt-link>
                 <nuxt-link to="/corinhos">Corinhos</nuxt-link>
+                <nuxt-link to="/">Hinos da Harpa</nuxt-link>
             </div>
         </div>
         <div class="flex flex-col">
