@@ -15,13 +15,7 @@
 
     </slot>
     <ScrollTop />
-    <div class="overlay" v-if="showFilters" @click="hide"></div>
-    <Transition name="fade">
-      <div class="filters" v-show="showFilters">
-        <SelectCategory/>
-      </div>
-
-    </Transition>
+    <Drawer/>
   </div>
 </template>
 <script>
@@ -61,17 +55,6 @@ export default {
   @apply container p-10 m-auto flex flex-col justify-center items-center gap-10;
 }
 
-.no-results {
-  @apply flex items-center justify-center w-full h-80 py-16 text-slate-600 text-lg
-}
-
-.filters {
-  @apply absolute w-[384px] max-w-[384px];
-  right: 0;
-  bottom: 0;
-  top: 0;
-  z-index: 999;
-}
 
 .filter_tags {
   @apply w-full flex gap-4 items-center justify-center flex-wrap;
@@ -89,51 +72,7 @@ h1 {
   @apply text-[28px] text-slate-800 font-bold text-center py-4
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  overflow: hidden !important;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 998;
-}
 
-.fade-enter-active {
-  animation: fade-in .2s;
-
-}
-
-.fade-leave-active {
-  animation: fade-out .2s;
-}
-
-@keyframes fade-in {
-
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fade-out {
-
-  0% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-}
 
 @media (max-width: 420px) {
   .page_container {
@@ -141,15 +80,5 @@ h1 {
   }
 }
 
-@media (max-width: 820px) {
-  .filters {
-    @apply absolute w-3/4;
-  }
-  .menu-aberto {
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-  }
-}
+
 </style>
