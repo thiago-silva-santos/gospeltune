@@ -1,5 +1,5 @@
 <template>
-  <input v-model="searchQuery" placeholder="Digite sua pesquisa" class="input_search" type="text" />
+  <input v-model="searchQuery" placeholder="Buscar cifra" class="input_search" type="text" />
 </template>
    
 <script>

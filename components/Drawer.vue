@@ -11,9 +11,9 @@
                             <span class="bar"></span>
                         </div>
                         <div class="sections">
-                            <nuxt-link to="/hinos">Hinos</nuxt-link>
-                            <nuxt-link to="/corinhos">Corinhos</nuxt-link>
                             <nuxt-link to="/">Hinos da Harpa</nuxt-link>
+                            <nuxt-link to="/corinhos">Corinhos</nuxt-link>
+                            <nuxt-link to="/hinos">Outros</nuxt-link>
                         </div>
                     </div>
                     <div class="flex flex-col">
@@ -22,7 +22,7 @@
                             <span class="bar"></span>
                         </div>
                         <div class="flex flex-col gap-2 w-full p-2">
-                            <div :class="['option', { 'option_active': selectedFilters.includes(categoria), 'option_music_feeling': !cifraTypes.includes(categoria) }]"
+                            <div :class="['option', { 'option_active': selectedFilters.includes(categoria), 'option_song_type': !cifraTypes.includes(categoria) }]"
                                 v-for="categoria in usableFilters" :key="categoria" @click="selecionarCategoria(categoria)">
                                 {{ categoria }}
                                 <span v-if="selectedFilters.includes(categoria)"
@@ -127,7 +127,7 @@ a.router-link-active {
     @apply bg-slate-100
 }
 
-.option_music_feeling {
+.option_song_type {
     @apply text-red-500
 }
 
@@ -224,9 +224,4 @@ a.router-link-active {
     }
 }
 
-@media (min-width: 420px) {
-    .option:hover {
-        @apply bg-slate-100
-    }
-}
 </style>
