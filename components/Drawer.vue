@@ -128,7 +128,7 @@ a.router-link-active {
 }
 
 .option_song_type {
-    @apply text-red-500
+    @apply text-red-700
 }
 
 .menu_logo {
