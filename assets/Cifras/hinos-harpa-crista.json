@@ -1,0 +1,5126 @@
+[
+    {
+        "id": 1,
+        "tipo": "hino_harpa_crista",
+        "nome": "Chuvas de Graça",
+        "tonalidade": 9,
+        "cifra": []
+    },
+    {
+        "id": 2,
+        "tipo": "hino_harpa_crista",
+        "nome": "Saudosa Lembrança",
+        "tonalidade": 5,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","4","","","","","","","","","0"],"verse":"Oh! Que saudosa lembrança"},{"chords":["","","","","","","","","","","19","","","","","","1"],"verse":"Tenho de Ti, ó Sião"},{"chords":["","","","","","","","","","","","","","","","","","","","4"],"verse":"Terra que eu tanto amo"},{"chords":["","","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"Pois és do meu coração"},{"chords":["0","","","","","","","","4","","","","","","0"],"verse":"Eu para Ti voarei"},{"chords":["","","7","","","","","","","","","","","","","","","","","","","","","","","3"],"verse":"Quando o Senhor meu voltar"},{"chords":["","","","","","","","","","","","","","","","","","","","0"],"verse":"Pois Ele foi para o Céu"},{"chords":["11","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"E breve vem me buscar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","","","","","4","","","","","0"],"verse":"Sim, eu porfiarei"},{"chords":["","","","","","","","","","","5","","","","","","","","","","4"],"verse":"Por essa  terra de além"},{"chords":["1","","","","","4"],"verse":"E lá  terminarei"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"As muitas lutas de aquém"},{"chords":["0","","","","","","","","","4","","","","","","","","","","","","0"],"verse":"Lá está meu bom Senhor"},{"chords":["7","","","","","","","","","","","","","","","","","","","3"],"verse":"Ao qual eu desejo ver"},{"chords":["","","","","","","","","","","","","","","","","0"],"verse":"Ele é tudo pra mim"},{"chords":["","","","","","","","2","","","","","","","","","","","1","","","","4","","","","","0","","","","","4"],"verse":"E sem Ele eu não po_sso viver"}]
+    },
+    {
+        "id": 3,
+        "tipo": "hino_harpa_crista",
+        "nome": "Plena Paz",
+        "tonalidade": 3,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","7"],"verse":"Plena paz e santo gozo"},{"chords":["","","","","","","","","","","3","","","","","","","","","","","","","0"],"verse":"Tenho em ti, ó meu Jesus!"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","22","","","","","","","","","","","","","","","11"],"verse":"Pois eu creio em Tua morte sobre a cruz"},{"chords":["","","","","","","","0","","","","","","","","","","","","7"],"verse":"No Senhor só confiando"},{"chords":["","","","","","","","3","","","","","","","","","","","0"],"verse":"Neste mundo viverei"},{"chords":["","","","","","","","","","","","","","","11","","","","","","","","","","","","","0","","","","","7"],"verse":"Entoando aleluias ao meu Rei!"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","3"],"verse":"Oh! Glória ao meu Jesus!"},{"chords":["","","","","","","","0","","","","","","","","","","","","7"],"verse":"Pois é digno de louvor"},{"chords":["","","","","","","","3","","","","","","","","","","","","","","","","","","0"],"verse":"É meu Rei, meu bom Pastor"},{"chords":["","","","","","","","","","","4"],"verse":"E meu Senhor"},{"chords":["","","","","","","","","","","0","","","","","","","","","","","","","7"],"verse":"Como os anjos, que O louvam"},{"chords":["","","","","","","","3","","","","","","","","","","","","","0"],"verse":"Eu também O louvarei"},{"chords":["","","","","","","","","","","","","","4","","","","","","","","","","","","","","0"],"verse":"Entoando aleluias ao meu Rei"}]
+    },
+    {
+        "id": 4,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus Velará Por Ti",
+        "cifra": []
+    },
+    {
+        "id": 5,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Desce Fogo Santo",
+        "cifra": []
+    },
+    {
+        "id": 6,
+        "tipo": "hino_harpa_crista",
+        "nome": "Na Maldição Da Cruz",
+        "cifra": []
+    },
+    {
+        "id": 7,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Cura Sim!",
+        "cifra": []
+    },
+    {
+        "id": 8,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo, O Fiel Amigo",
+        "cifra": []
+    },
+    {
+        "id": 9,
+        "tipo": "hino_harpa_crista",
+        "nome": "Marchai Soldados De Cristo",
+        "cifra": []
+    },
+    {
+        "id": 10,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eu Te Louvo",
+        "cifra": []
+    },
+    {
+        "id": 11,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Cristão, Eia Avante",
+        "cifra": []
+    },
+    {
+        "id": 12,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem Já, Pecador",
+        "cifra": []
+    },
+    {
+        "id": 13,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Comprou-me",
+        "cifra": []
+    },
+    {
+        "id": 14,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gozo Em Jesus",
+        "cifra": []
+    },
+    {
+        "id": 15,
+        "tipo": "hino_harpa_crista",
+        "nome": "Conversão",
+        "tonalidade": 2,
+        "categoria": ["Introspectivo"],
+        "cifra": [{"chords":["","","","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Oh! Quão cego andei e perdido vaguei"},{"chords":["","","","","","","","1","","","","","","","","","","11","","","","","","","","","","0","","","","","","7"],"verse":"Longe, longe do meu Salvador!"},{"chords":["","","","","","","","","","3"],"verse":"Mas do céu Ele desceu"},{"chords":["","","","","","","","0","","","","27","","","","","","","5"],"verse":"E Seu san_gue     verteu"},{"chords":["","","","","","","1","","","","","","","","","","","","11","","","","","","","","","","","","0","","","","","11"],"verse":"Pra salvar um tão pobre pecador"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Foi na cruz, foi na cruz, onde um dia eu vi"},{"chords":["","","","","","","","1","","","","","","","","","","","11","","","","","","","","","","","0","","","","","","7"],"verse":"meu pecado castigado em Jesus"},{"chords":["","","","","","3","","","","","","","","","","","","","","","","","","0","","","27","","","","","","5"],"verse":"Foi ali, pela fé, que os o__lhos   abri"},{"chords":["","","","","1","","","","","","","","","11","","","","","","","","","","","","","","0"],"verse":"E agora me alegro em sua Luz"}]
+    },
+    {
+        "id": 16,
+        "tipo": "hino_harpa_crista",
+        "nome": "Despertar Para o Trabalho",
+        "tonalidade": 0,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","7","","","","","","","","","","","3","","","","","","","","0"],"verse":"Posso, tendo as mãos vazias"},{"chords":["1","","","","","","","","11","","","","","","","","","","","","","","","","","0"],"verse":"Com Jesus, eu me encontrar?"},{"chords":["","","","","","","","","","","","","3","","","","","","","","","","0"],"verse":"Nada fiz, e vão-se os dias"},{"chords":["","3","","","","","","","","0","","","","","","","","4","","","","","","0"],"verse":"Que lhe posso apresentar?"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","3","","","","","","","","","","4","","","","","","","","0"],"verse":"Posso, tendo as mãos vazias"},{"chords":["","3","","","","","","","","","","","","","","","","","","","4","","","","","","0"],"verse":"Com Jesus, eu me encontrar?"},{"chords":["","","","","","","","","","","7","","","","","","3","","","","","0"],"verse":"Quantas almas poderia"},{"chords":["3","","","","","","","0","","","","","","4","","","","","","0"],"verse":"Ao Senhor apresentar?"}]
+    },
+    {
+        "id": 17,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pensando Em Jesus",
+        "tonalidade": 1,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["","","","","","0","","","","","","","","","","","","","","","","","","","","3","","","","","","","","","","","","","","0"],"verse":"Nas horas que passo pensando em Jesus"},{"chords":["","","","","","","","","","","","","","2","","","","","","","","","","","3","","","","","","","","4"],"verse":"As trevas desfaço, buscando a  luz"},{"chords":["","","","","","","","","","","","","","","0","","","","","","","","","22","","","","","","","","","","","4"],"verse":"Que horas de vida tão doces pra mim"},{"chords":["","","","3","","","","","","","","","","","0","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"Jesus me convida que eu suba pra Si"}]
+    },
+    {
+        "id": 18,
+        "tipo": "hino_harpa_crista",
+        "nome": "Grata Nova",
+        "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Introspectivo"],
+        "cifra": [{"chords":["","","","","","","5","","","","","","16","","","","","","","","5"],"verse":"Grata nova Deus proclama"},{"chords":["","","","","","","","","","18","","","","","","","26","","","","","1"],"verse":"Hoje ao mundo pecador"},{"chords":["","","","","","","","","","","","","","","","","16"],"verse":"Doce nova revelada"},{"chords":["","","","","","","","3","","","","","","","16","","","","","","5","","","","","16"],"verse":"Lá na cruz do Salvador"},{"chords":[],"verse":""},{"chords":["","","","","","","","","5","","","","","16","","","","","","","5"],"verse":"Cego e desviado, o homem"},{"chords":["","","","","","","","","","","","","","","","26","","","","","","1"],"verse":"Dos caminhos do Senhor"},{"chords":["","","","","","","","","","","","","","","","","","","","","","16"],"verse":"Desconhece e desconfia"},{"chords":["","","","","","","","3","","","","","","","","16","","","","","","","","","5","","","","","","","4"],"verse":"Deste Deus, o Deus de amor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","0","","","","","","4","","","","","","0"],"verse":"Grata nova, doce nova"},{"chords":["","","","","","","","","","","","","","","","","26","","","","","","1"],"verse":"Vem dos lábios do Senhor"},{"chords":["","","","","","","","","","","","","","","","","","4"],"verse":"Escutai com alegria"},{"chords":["","","","","","","","","0","","","","","","","","","4","","","","","0","","","","","16"],"verse":"Deus é luz, Deus é  amor"}]
+    },
+    {
+        "id": 19,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Convite De Cristo",
+        "cifra": []
+    },
+    {
+        "id": 20,
+        "tipo": "hino_harpa_crista",
+        "nome": "Olhai o Cordeiro De Deus",
+        "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","3","","","","","","","4","","","","","","","0"],"verse":"Livres de pecado vós quereis ficar?"},{"chords":["","","","","","","","","","","","","","","","5","","","","","22","","","","","","11"],"verse":"Olhai pra o Cordei__ro de Deus"},{"chords":["0","","","","","","","","","","","","","","","","","","3","","","","","","","","4","","","","","","0"],"verse":"Ele morto foi na cruz pra vos salvar"},{"chords":["2","","","","","","","","","","3","","","","","","4","","","","","","","","","0","","","","","","","4"],"verse":"Olhai pra  o Cordeiro de  Deus"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","0","","","","","","","","","","","","","","5","","","","","","","","4"],"verse":"Olhai pra o Cordeiro de Deus"},{"chords":["","","1","","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"Olhai pra o Cordeiro de Deus"},{"chords":["","","7","","","","","","","","","","","","","3","","","","","","","","","","","","1"],"verse":"Porque só Ele vos pode salvar"},{"chords":["","","0","","","","","","","","","","","","","4","","","","","","","","","0"],"verse":"Olhai pra o Cordeiro de Deus"}]
+    },
+    {
+        "id": 21,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gloriosa Aurora",
+        "cifra": []
+    },
+    {
+        "id": 22,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ceia Do Senhor",
+        "cifra": []
+    },
+    {
+        "id": 23,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glória a Jesus",
+        "cifra": []
+    },
+    {
+        "id": 24,
+        "tipo": "hino_harpa_crista",
+        "nome": "Poder Pentecostal",
+        "cifra": []
+    },
+    {
+        "id": 25,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Tu és Bom",
+        "cifra": []
+    },
+    {
+        "id": 26,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Formosa Jerusalém",
+        "cifra": []
+    },
+    {
+        "id": 27,
+        "tipo": "hino_harpa_crista",
+        "nome": "Amor Que Vence",
+        "cifra": []
+    },
+    {
+        "id": 28,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus Vai Te Guiar",
+        "tonalidade": 7,
+        "categoria": ["Jovens", "Introspectivo"],
+        "cifra": [{"chords":["","","","","","","","","","","","","5"],"verse":"Andas carregado"},{"chords":["1","","","","","","","","","","","","","","5"],"verse":"De tristeza e  dor?"},{"chords":["1","","","","","","","","","","","","","","","","5"],"verse":"Sem nenhum auxílio"},{"chords":["16","","","","","","","","","","","","","","5"],"verse":"Nem um Salvador?"},{"chords":[],"verse":""},{"chords":["5"],"verse":"Ouve a mensagem"},{"chords":["1","","","","","","","","","","","","","","5"],"verse":"De teu bom Jesus"},{"chords":["1","","","","","","","","","","","","","","5"],"verse":"E tem mais coragem"},{"chords":["16","","","","","","","","","","","5"],"verse":"leva a tua  cruz"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["19","","","","","","","","","","","","","","1","","","","","","4","","","","","","","","","","","","","","","0"],"verse":"Deus vai te guiar    com Sua forte mão"},{"chords":["5","","","","","","","","","","","","","","16","","","","23","","","","","","","","","5"],"verse":"Podes descansar na tribulação"},{"chords":["19","","","","","","","","","1","","","","","","4","","","","","","","","","","","0"],"verse":"Seja tua vida   livre de pesar"},{"chords":["5","","","","","","","","","","","","","","16","","","","","","","","","","","","","","","","","","","5"],"verse":"Em tristeza e lida, Deus vai te guiar"}]
+    },
+    {
+        "id": 29,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Precioso Sangue",
+        "cifra": []
+    },
+    {
+        "id": 30,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Sou Meu",
+        "cifra": []
+    },
+    {
+        "id": 31,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glória ao Meu Jesus",
+        "cifra": []
+    },
+    {
+        "id": 32,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Cristo! Meu Cristo!",
+        "cifra": []
+    },
+    {
+        "id": 33,
+        "tipo": "hino_harpa_crista",
+        "nome": "Com Tua Mão Segura",
+        "cifra": []
+    },
+    {
+        "id": 34,
+        "tipo": "hino_harpa_crista",
+        "nome": "Milícia De Jesus",
+        "cifra": []
+    },
+    {
+        "id": 35,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Grande Amor",
+        "cifra": []
+    },
+    {
+        "id": 36,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Exilado",
+        "cifra": []
+    },
+    {
+        "id": 37,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Pra Mim",
+        "cifra": []
+    },
+    {
+        "id": 38,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Senhor é Rei",
+        "cifra": []
+    },
+    {
+        "id": 39,
+        "tipo": "hino_harpa_crista",
+        "nome": "Alvo Mais Que a Neve",
+        "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Introspectivo"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","2","","","","","","5","",""],"verse":"Bendito seja o Cordei____ro"},{"chords":["","","","","","","","","1","","","","","","","","","","","","","","","","","","4"],"verse":"Que na cruz por nós padeceu"},{"chords":["0","","","","","","","","","","","","","","","","","","","2","","","","","","5"],"verse":"Bendito seja o Seu san__gue"},{"chords":["","","","","","","","","","1","","","","","","4","","","","","","","","","","0","","","","","7"],"verse":"Que por  nós   ali Ele verteu"},{"chords":[],"verse":""},{"chords":["3","","","","","","","","","","","","","","","","","","","","0","","","","","7"],"verse":"Eis nesse sangue, lava__dos"},{"chords":["3","","","","","","","","","","","","","22","","","","","","","","","","","","","","","4","","","","","11"],"verse":"Com roupas que tão alvas  são"},{"chords":["0","","","","","","","","","","","","","","","","2","","","","","","","5"],"verse":"Os pecadores remi____dos"},{"chords":["","","","","","","","1","","","","","","","","","","4","","","","","","","","","","","0","","","","","4"],"verse":"Que perante seu Deus já estão"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","","","","","","","","","","","","","4"],"verse":"Alvo mais que a neve"},{"chords":["1","","","","","4","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"Al____vo mais que a  ne___ve"},{"chords":["0","","","","","","","","","","","","","7","","","","","","","","3"],"verse":"Sim, neste sangue lavado"},{"chords":["","","","","","","0","","","","5","","","","","","","","","","1","","","","","","4","","","","","0","","","","","4"],"verse":"Mais al___vo que a  ne___ve serei"}]
+    },
+    {
+        "id": 40,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Cidade Do Bom Jesus",
+        "cifra": []
+    },
+    {
+        "id": 41,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Cristo Coroai",
+        "cifra": []
+    },
+    {
+        "id": 42,
+        "tipo": "hino_harpa_crista",
+        "nome": "Saudai Jesus",
+        "cifra": []
+    },
+    {
+        "id": 43,
+        "tipo": "hino_harpa_crista",
+        "nome": "Doce Lar",
+        "cifra": []
+    },
+    {
+        "id": 44,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh! Que Glória!",
+        "cifra": []
+    },
+    {
+        "id": 45,
+        "tipo": "hino_harpa_crista",
+        "nome": "Redentor Onipotente",
+        "cifra": []
+    },
+    {
+        "id": 46,
+        "tipo": "hino_harpa_crista",
+        "nome": "Um Pendão Real",
+        "cifra": []
+    },
+    {
+        "id": 47,
+        "tipo": "hino_harpa_crista",
+        "nome": "Rocha Eterna",
+        "cifra": []
+    },
+    {
+        "id": 48,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Dia do Triunfo",
+        "cifra": []
+    },
+    {
+        "id": 49,
+        "tipo": "hino_harpa_crista",
+        "nome": "Aleluia! Já Creio",
+        "cifra": []
+    },
+    {
+        "id": 50,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sempre Fiéis",
+        "cifra": []
+    },
+    {
+        "id": 51,
+        "tipo": "hino_harpa_crista",
+        "nome": "Adoração Reconhecida",
+        "cifra": []
+    },
+    {
+        "id": 52,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tudo Está Bem",
+        "cifra": []
+    },
+    {
+        "id": 53,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Esperança da Igreja",
+        "cifra": []
+    },
+    {
+        "id": 54,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvemos ao Redentor",
+        "cifra": []
+    },
+    {
+        "id": 55,
+        "tipo": "hino_harpa_crista",
+        "nome": "Mais Perto da Tua Cruz",
+        "cifra": []
+    },
+    {
+        "id": 56,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tudo em Cristo",
+        "cifra": []
+    },
+    {
+        "id": 57,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vivifica-nos Senhor",
+        "cifra": []
+    },
+    {
+        "id": 58,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Temas",
+        "cifra": []
+    },
+    {
+        "id": 59,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eu creio, Sim",
+        "cifra": []
+    },
+    {
+        "id": 60,
+        "tipo": "hino_harpa_crista",
+        "nome": "Exultação do Crente",
+        "cifra": []
+    },
+    {
+        "id": 61,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus Tomará Conta de Ti",
+        "cifra": []
+    },
+    {
+        "id": 62,
+        "tipo": "hino_harpa_crista",
+        "nome": "Achei Jesus",
+        "cifra": []
+    },
+    {
+        "id": 63,
+        "tipo": "hino_harpa_crista",
+        "nome": "Acordai, Acordai",
+        "cifra": []
+    },
+    {
+        "id": 64,
+        "tipo": "hino_harpa_crista",
+        "nome": "De Todo o Mundo: Aleluia!",
+        "cifra": []
+    },
+    {
+        "id": 65,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quem Irá?",
+        "cifra": []
+    },
+    {
+        "id": 66,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pronto a Salvar",
+        "cifra": []
+    },
+    {
+        "id": 67,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quem Quer ir Com Cristo?",
+        "cifra": []
+    },
+    {
+        "id": 68,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gozo de Ter Salvação",
+        "cifra": []
+    },
+    {
+        "id": 69,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Quebrou os Meus Grilhões",
+        "cifra": []
+    },
+    {
+        "id": 70,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Vai Voltar",
+        "cifra": []
+    },
+    {
+        "id": 71,
+        "tipo": "hino_harpa_crista",
+        "nome": "Santo és Tu, Senhor",
+        "cifra": []
+    },
+    {
+        "id": 72,
+        "tipo": "hino_harpa_crista",
+        "nome": "Rasgou-se o Véu",
+        "cifra": []
+    },
+    {
+        "id": 73,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem, Vem a Mim",
+        "cifra": []
+    },
+    {
+        "id": 74,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Virá",
+        "cifra": []
+    },
+    {
+        "id": 75,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Jesus Tens a Palma da Vitória",
+        "cifra": []
+    },
+    {
+        "id": 76,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem, ó Pródigo",
+        "cifra": []
+    },
+    {
+        "id": 77,
+        "tipo": "hino_harpa_crista",
+        "nome": "Guarda o Contacto",
+        "cifra": []
+    },
+    {
+        "id": 78,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Forte Redentor",
+        "cifra": []
+    },
+    {
+        "id": 79,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sua Graça Me Basta",
+        "cifra": []
+    },
+    {
+        "id": 80,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Te Chama",
+        "cifra": []
+    },
+    {
+        "id": 81,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pode Salvar",
+        "cifra": []
+    },
+    {
+        "id": 82,
+        "tipo": "hino_harpa_crista",
+        "nome": "Um Meigo Salvador",
+        "cifra": []
+    },
+    {
+        "id": 83,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Posso Explicar",
+        "cifra": []
+    },
+    {
+        "id": 84,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Grande “Eu sou”",
+        "cifra": []
+    },
+    {
+        "id": 85,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deixai Entrar o Espírito de Deus",
+        "cifra": []
+    },
+    {
+        "id": 86,
+        "tipo": "hino_harpa_crista",
+        "nome": "Satisfeito com Cristo",
+        "cifra": []
+    },
+    {
+        "id": 87,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Testemunho",
+        "cifra": []
+    },
+    {
+        "id": 88,
+        "tipo": "hino_harpa_crista",
+        "nome": "Revela a Nós Senhor",
+        "cifra": []
+    },
+    {
+        "id": 89,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sublime e Grande Amor",
+        "cifra": []
+    },
+    {
+        "id": 90,
+        "tipo": "hino_harpa_crista",
+        "nome": "Há Paz e Alegria",
+        "cifra": []
+    },
+    {
+        "id": 91,
+        "tipo": "hino_harpa_crista",
+        "nome": "Nívea Luz",
+        "cifra": []
+    },
+    {
+        "id": 92,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Bondoso Salvador",
+        "cifra": []
+    },
+    {
+        "id": 93,
+        "tipo": "hino_harpa_crista",
+        "nome": "Há Trabalho Pronto",
+        "cifra": []
+    },
+    {
+        "id": 94,
+        "tipo": "hino_harpa_crista",
+        "nome": "Na Jerusalém de Deus",
+        "cifra": []
+    },
+    {
+        "id": 95,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ouve, ó Pecador",
+        "cifra": []
+    },
+    {
+        "id": 96,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deixa Penetrar a Luz",
+        "cifra": []
+    },
+    {
+        "id": 97,
+        "tipo": "hino_harpa_crista",
+        "nome": "Há um Caminho Santo",
+        "cifra": []
+    },
+    {
+        "id": 98,
+        "tipo": "hino_harpa_crista",
+        "nome": "Estarás Vigiando?",
+        "cifra": []
+    },
+    {
+        "id": 99,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eis o Dia a Declinar",
+        "cifra": []
+    },
+    {
+        "id": 100,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Bom Consolador",
+        "cifra": []
+    },
+    {
+        "id": 101,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Unção Real",
+        "cifra": []
+    },
+    {
+        "id": 102,
+        "tipo": "hino_harpa_crista",
+        "nome": "Crê na Promessa",
+        "cifra": []
+    },
+    {
+        "id": 103,
+        "tipo": "hino_harpa_crista",
+        "nome": "Caminhemos na Luz",
+        "cifra": []
+    },
+    {
+        "id": 104,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Procura a Ovelha",
+        "cifra": []
+    },
+    {
+        "id": 105,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Gloriosa Esperança",
+        "cifra": []
+    },
+    {
+        "id": 106,
+        "tipo": "hino_harpa_crista",
+        "nome": "Viva Cristo",
+        "cifra": []
+    },
+    {
+        "id": 107,
+        "tipo": "hino_harpa_crista",
+        "nome": "Firme nas Promessas",
+        "tonalidade": 5,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","7"],"verse":"Firme nas promessas do meu Salvador"},{"chords":["3","","","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"Cantarei louvores ao meu Cria_dor"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","27","","","","","","","5"],"verse":"Fico na dispensação do Seu  a_____mor"},{"chords":["3","","","","","","","","","","","","","","4","","","","","","","","","","","","","","0","","","","","","","3","","","4"],"verse":"Firme nas promessas de Jesus"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","7","","","","","","3"],"verse":"Fir__me,    firme"},{"chords":["4","","","","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","","","","3","","","","","4"],"verse":"Firme nas promessas de Jesus, o  Cris__to"},{"chords":["0","","","","","7","","","","","","3","","","","17"],"verse":"Fir__me,    fir__me"},{"chords":["","","","","","","0","","","","","","","","","","","","","","4","","","","","","","","","","","","","0","","","","","","","4"],"verse":"Sim, firme nas promessas de Jesus"}]
+    },
+    {
+        "id": 108,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pelejar Por Jesus",
+        "tonalidade": 0,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [
+            {
+                "chords": [
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3"
+                ],
+                "verse": "Por Jesus vamos pelejar"
+            },
+            {
+                "chords": [
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "Prosseguindo o nosso andar"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3"
+                ],
+                "verse": "E com Ele, então, no céu"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "Nós iremos a paz gozar"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                ],
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "15"
+                ],
+                "verse": "Lutemos todos contra o mal"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "E vamos a Jesus seguir"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "7",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "15"
+                ],
+                "verse": "Ele  é o nosso General"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "E a glória do porvir!"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "tipo": "hino_harpa_crista",
+        "nome": "Venha a Jesus",
+        "cifra": []
+    },
+    {
+        "id": 110,
+        "tipo": "hino_harpa_crista",
+        "nome": "Clama: Jesus, Jesus!",
+        "cifra": []
+    },
+    {
+        "id": 111,
+        "tipo": "hino_harpa_crista",
+        "nome": "Que Mudança!",
+        "cifra": []
+    },
+    {
+        "id": 112,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Nome Soberano",
+        "cifra": []
+    },
+    {
+        "id": 113,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Celeste Diretor",
+        "cifra": []
+    },
+    {
+        "id": 114,
+        "tipo": "hino_harpa_crista",
+        "nome": "Aceita o Perdão de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 115,
+        "tipo": "hino_harpa_crista",
+        "nome": "Trabalhai e Orai",
+        "cifra": []
+    },
+    {
+        "id": 116,
+        "tipo": "hino_harpa_crista",
+        "nome": "Livre Estou",
+        "cifra": []
+    },
+    {
+        "id": 117,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Senhor Salva a Todo o Pecador",
+        "cifra": []
+    },
+    {
+        "id": 118,
+        "tipo": "hino_harpa_crista",
+        "nome": "Face a Face",
+        "cifra": []
+    },
+    {
+        "id": 119,
+        "tipo": "hino_harpa_crista",
+        "nome": "Inesgotável é Seu Amor",
+        "cifra": []
+    },
+    {
+        "id": 120,
+        "tipo": "hino_harpa_crista",
+        "nome": "Noite de Paz",
+        "cifra": []
+    },
+    {
+        "id": 121,
+        "tipo": "hino_harpa_crista",
+        "nome": "Maravilhoso é Jesus",
+        "cifra": []
+    },
+    {
+        "id": 122,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fogo Divino",
+        "cifra": []
+    },
+    {
+        "id": 123,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Voltará",
+        "tonalidade": 4,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Um dia, Cristo voltará"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "Ao ascender, o prometeu"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Do modo  que subiu virá"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7"
+                ],
+                "verse": "Há de ver o Rei Jesus, o povo Seu"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                ],
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Mui breve sim, Jesus virá"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "7"
+                ],
+                "verse": "Alegre O verá Seu po__vo"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Velando, todos devem sempre estar"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "A fim de vê-Lo voltar"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "tipo": "hino_harpa_crista",
+        "nome": "Adoração",
+        "cifra": []
+    },
+    {
+        "id": 125,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quem Dera Hoje Vir!",
+        "cifra": []
+    },
+    {
+        "id": 126,
+        "tipo": "hino_harpa_crista",
+        "nome": "Bem-Aventurança do Crente",
+        "cifra": []
+    },
+    {
+        "id": 127,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Senhor da Ceifa Chama",
+        "tonalidade": 4,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","","","","","3"],"verse":"O Senhor da ceifa está chamando"},{"chords":["1","","","","","","","","","","","","","","","","","","11","","","","","","","","","","","","0","","","","","11"],"verse":"Quem quer ir por Mim a procurar"},{"chords":["0","","","","","","","","","","","","","","","7","","","","","","","","","","","","","","","","3","","","","","17"],"verse":"Almas que no mundo, vão chorando"},{"chords":["0","","","","","","","","","","","","","","11","","","","","","","","","","0","","","","","","4"],"verse":"Sem da salvação participar?"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","0","","","","","","","","","","","4"],"verse":"Fala Deus! Fala Deus!"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","11"],"verse":"Toca-me com brasas do altar"},{"chords":["","","","","","","0","","","","","","7","","","","","","","","3","","","","","","","17"],"verse":"Fala Deus!      Fala Deus!"},{"chords":["0","","","","","","","","","","","","","","11","","","","","","","","","","","","","","","","","","0"],"verse":"Sim, alegre, atendo ao Teu mandar"}]
+    },
+    {
+        "id": 128,
+        "tipo": "hino_harpa_crista",
+        "nome": "Entrega o Teu Coração",
+        "cifra": []
+    },
+    {
+        "id": 129,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Fonte Salvadora",
+        "cifra": []
+    },
+    {
+        "id": 130,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo é Meu!",
+        "cifra": []
+    },
+    {
+        "id": 131,
+        "tipo": "hino_harpa_crista",
+        "nome": "De Valor Em Valor",
+        "cifra": []
+    },
+    {
+        "id": 132,
+        "tipo": "hino_harpa_crista",
+        "nome": "Obreiros do Senhor",
+        "cifra": []
+    },
+    {
+        "id": 133,
+        "tipo": "hino_harpa_crista",
+        "nome": "No Rol do livro",
+        "cifra": []
+    },
+    {
+        "id": 134,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus à Porta do Coração",
+        "cifra": []
+    },
+    {
+        "id": 135,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Nome Precioso",
+        "cifra": []
+    },
+    {
+        "id": 136,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, Nosso Socorro",
+        "cifra": []
+    },
+    {
+        "id": 137,
+        "tipo": "hino_harpa_crista",
+        "nome": "Liberto da Escravidão",
+        "cifra": []
+    },
+    {
+        "id": 138,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quem Bate é Jesus Cristo",
+        "cifra": []
+    },
+    {
+        "id": 139,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, Meu Eterno Redentor",
+        "cifra": []
+    },
+    {
+        "id": 140,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Segurança do Crente",
+        "cifra": []
+    },
+    {
+        "id": 141,
+        "tipo": "hino_harpa_crista",
+        "nome": "Guia-me Sempre, Meu Senhor",
+        "tonalidade": 0,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["","","","","","","","","","","0","","","","","","","","4","","","","","","0"],"verse":"Aonde guiar-me, meu Senhor"},{"chords":["3","","","","","","","","","0","","","","","","","22","","","","","","4"],"verse":"Eu seguirei por Seu amor"},{"chords":["","","","","","","","0","","","","","","","","","4","","","","","","","0"],"verse":"É Sua mão que me conduz"},{"chords":["3","","","","","","","","","","","0","","","","","4","","","","","","","","0"],"verse":"Por mim ferida sobre a cruz"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","3","","","","","","","","","","","","","","","","","0"],"verse":"Guia-me sempre, meu Senhor"},{"chords":["","","","","","","","","","","","","3","","","","","","","","22","","","","","","4"],"verse":"Guia meus passos, Salvador"},{"chords":["","","","","","","","","","","","","0","","","","","","","","","","","","","","","","3"],"verse":"Tu me compraste sobre a cruz"},{"chords":["","","","","","","","","","","","","","","0","","","","","","4","","","","","","","0"],"verse":"Rege-me em tudo, meu Jesus"}]
+    },
+    {
+        "id": 142,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Cidade Celeste",
+        "cifra": []
+    },
+    {
+        "id": 143,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Verdadeiro Amigo",
+        "cifra": []
+    },
+    {
+        "id": 144,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem à Assembléia de Deus",
+        "cifra": []
+    },
+    {
+        "id": 145,
+        "tipo": "hino_harpa_crista",
+        "nome": "União do Crente Com Seu Senhor",
+        "cifra": []
+    },
+    {
+        "id": 146,
+        "tipo": "hino_harpa_crista",
+        "nome": "Caminho brilhante",
+        "cifra": []
+    },
+    {
+        "id": 147,
+        "tipo": "hino_harpa_crista",
+        "nome": "Servir a Jesus",
+        "cifra": []
+    },
+    {
+        "id": 148,
+        "tipo": "hino_harpa_crista",
+        "nome": "Bendirei a Jesus",
+        "cifra": []
+    },
+    {
+        "id": 149,
+        "tipo": "hino_harpa_crista",
+        "nome": "Canto do Pescador",
+        "cifra": []
+    },
+    {
+        "id": 150,
+        "tipo": "hino_harpa_crista",
+        "nome": "Para Casamentos",
+        "cifra": []
+    },
+    {
+        "id": 151,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fala Jesus Querido",
+        "tonalidade": 1,
+        "categoria": ["Introspectivo"],
+        "cifra": [
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "26",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Fala, Jesus querido; fala-me: Hoje sim!"
+            },
+            {
+                "chords": [
+                    "5",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Fala com Tua bondade; fica aos pés de mim"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "26",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Meu coração aberto está; pra Tua voz ouvir"
+            },
+            {
+                "chords": [
+                    "5",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Enche-me de louvores; e gozo pra Te servir"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            
+            {
+                "chords": [
+                ],
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "5",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Fala-me suavemente"
+            },
+            {
+                "chords": [
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "13"
+                ],
+                "verse": "Fala com muito amor"
+            },
+            {
+                "chords": [
+                    "26",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Vencedor para sempre"
+            },
+            {
+                "chords": [
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Livre, Te hei de por"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "5",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Fala-me cada dia"
+            },
+            {
+                "chords": [
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "13"
+                ],
+                "verse": "Sempre em terno tom"
+            },
+            {
+                "chords": [
+                    "26",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Ouvir Tua voz eu quero"
+            },
+            {
+                "chords": [
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "E neste mesmo som"
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pela Cruz ao Céu Irei",
+        "cifra": []
+    },
+    {
+        "id": 153,
+        "tipo": "hino_harpa_crista",
+        "nome": "Soldados de Cristo",
+        "cifra": []
+    },
+    {
+        "id": 154,
+        "tipo": "hino_harpa_crista",
+        "nome": "Doce Nome de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 155,
+        "tipo": "hino_harpa_crista",
+        "nome": "Imploramos Teu Poder",
+        "cifra": []
+    },
+    {
+        "id": 156,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Ovelha Perdida",
+        "tonalidade": 4,
+        "categoria": ["Missões", "Introspectivo"],
+        "cifra": [{"chords":["","","","0","","","","","","","5","","","","","","","","","4"],"verse":"O bom pastor buscou-me"},{"chords":["","","","","1","","","","","","4","","","","","0"],"verse":"Já longe  do redil"},{"chords":["","","","","","","","","","","","","","","","","4"],"verse":"E com ternura achou-me"},{"chords":["","","22","","","","","","","","","","","","4"],"verse":"Caído, triste, vil!"},{"chords":["","","","","1","","","","","","","","4","","","","","","","","","","","","","","","0"],"verse":"As chagas, com amor, pensou"},{"chords":["","","","","","3","","","","","","","","22","","","","","","","","4","","","","15","","","","4","","","","","11"],"verse":"E ao lar, nos braços, me  le__vou"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","0","","","","","","","5","","","","","","8","","","","","","4"],"verse":"Sim, Jesus amou - me"},{"chords":["","","","","","","","","","","","","","","","3","","","","0"],"verse":"Com amor buscou-me"},{"chords":["","","","","7","","","","","","","","3","","","","","","","0","","","","","","","","","4"],"verse":"Ele mesmo restaurou-me a Deus"},{"chords":["","0","","","","","","","","3","","","","","","","","0","","","","","","","4","","","","","","","","","0"],"verse":"Por Seu sangue, restaurou-me a Deus"}]
+    },
+    {
+        "id": 157,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo, em Breve, Vem!",
+        "cifra": []
+    },
+    {
+        "id": 158,
+        "tipo": "hino_harpa_crista",
+        "nome": "Que Farás de Jesus Cristo?",
+        "cifra": []
+    },
+    {
+        "id": 159,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cantai, ó Peregrinos",
+        "cifra": []
+    },
+    {
+        "id": 160,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus Nos Quis Salvar",
+        "cifra": []
+    },
+    {
+        "id": 161,
+        "tipo": "hino_harpa_crista",
+        "nome": "Navegando Pra Terra Celeste",
+        "cifra": []
+    },
+    {
+        "id": 162,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Estandarte da Verdade",
+        "cifra": []
+    },
+    {
+        "id": 163,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Morreu Por Mim",
+        "cifra": []
+    },
+    {
+        "id": 164,
+        "tipo": "hino_harpa_crista",
+        "nome": "Paz Luz e Amor",
+        "cifra": []
+    },
+    {
+        "id": 165,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Armadura Cristã",
+        "cifra": []
+    },
+    {
+        "id": 166,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deixa Entrar o Rei da Glória",
+        "cifra": []
+    },
+    {
+        "id": 167,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Testemunhas de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 168,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meus Irmãos, Nos Jubilemos",
+        "cifra": []
+    },
+    {
+        "id": 169,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh! Jesus Me Ama",
+        "cifra": []
+    },
+    {
+        "id": 170,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Calvário de Horror",
+        "cifra": []
+    },
+    {
+        "id": 171,
+        "tipo": "hino_harpa_crista",
+        "nome": "Um Pecador Remido",
+        "cifra": []
+    },
+    {
+        "id": 172,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Vem Te Entregar",
+        "cifra": []
+    },
+    {
+        "id": 173,
+        "tipo": "hino_harpa_crista",
+        "nome": "Os Santos Louvam Ao Senhor",
+        "cifra": []
+    },
+    {
+        "id": 174,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glória, Aleluia, Gloria",
+        "cifra": []
+    },
+    {
+        "id": 175,
+        "tipo": "hino_harpa_crista",
+        "nome": "Irmãos Amados",
+        "cifra": []
+    },
+    {
+        "id": 176,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sacerdotes do Senhor",
+        "cifra": []
+    },
+    {
+        "id": 177,
+        "tipo": "hino_harpa_crista",
+        "nome": "Salvo Estou",
+        "cifra": []
+    },
+    {
+        "id": 178,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gloriosa Paz",
+        "cifra": []
+    },
+    {
+        "id": 179,
+        "tipo": "hino_harpa_crista",
+        "nome": "Redentor Formoso",
+        "cifra": []
+    },
+    {
+        "id": 180,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Cristo Fruímos a Paz",
+        "cifra": []
+    },
+    {
+        "id": 181,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem, Celeste Redentor",
+        "cifra": []
+    },
+    {
+        "id": 182,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus no Getsêmane",
+        "cifra": []
+    },
+    {
+        "id": 183,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ressuscitou!",
+        "cifra": []
+    },
+    {
+        "id": 184,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Jesus! Meu Jesus!",
+        "cifra": []
+    },
+    {
+        "id": 185,
+        "tipo": "hino_harpa_crista",
+        "nome": "Invocação e Louvor",
+        "cifra": []
+    },
+    {
+        "id": 186,
+        "tipo": "hino_harpa_crista",
+        "nome": "De Valor em Valor",
+        "cifra": []
+    },
+    {
+        "id": 187,
+        "tipo": "hino_harpa_crista",
+        "nome": "Mais Perto Meu Deus de Ti!",
+        "cifra": []
+    },
+    {
+        "id": 188,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Gozo do Céu",
+        "cifra": []
+    },
+    {
+        "id": 189,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glória ao Salvador",
+        "cifra": []
+    },
+    {
+        "id": 190,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo! Meu Cristo!",
+        "cifra": []
+    },
+    {
+        "id": 191,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Meu Jesus",
+        "cifra": []
+    },
+    {
+        "id": 192,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pelo Sangue",
+        "cifra": []
+    },
+    {
+        "id": 193,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Alma Abatida",
+        "cifra": []
+    },
+    {
+        "id": 194,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Me Guiará",
+        "cifra": []
+    },
+    {
+        "id": 195,
+        "tipo": "hino_harpa_crista",
+        "nome": "Benigno Salvador",
+        "cifra": []
+    },
+    {
+        "id": 196,
+        "tipo": "hino_harpa_crista",
+        "nome": "Uma  Flor Gloriosa",
+        "cifra": []
+    },
+    {
+        "id": 197,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Lar da Glória",
+        "cifra": []
+    },
+    {
+        "id": 198,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus o Bom Amigo",
+        "cifra": []
+    },
+    {
+        "id": 199,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Ceia do Senhor",
+        "cifra": []
+    },
+    {
+        "id": 200,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Bondoso Amigo",
+        "tonalidade": 2,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","7","","","","","","","","","","","","","","","3"],"verse":"Quão bondoso amigo é Cristo!"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Carregou com a nossa dor"},{"chords":["0","","","","","","","7","","","","","","","","","","","","","3"],"verse":"E nos manda que levemos"},{"chords":["0","","","","","","","11","","","","","","","","","","","","0"],"verse":"Os cuidados ao Senhor"},{"chords":[],"verse":""},{"chords":["1","","","","","","","","","11","","","","","","","","","","","0","","","","7","","","",""],"verse":"Falta ao coração dori___do"},{"chords":["3","","","","","","","0","","","","","","","","","","","","11"],"verse":"Gozo, paz, consolação?"},{"chords":["0","","","","","","","7","","","","","","","","","","","","","","3","","","","","17"],"verse":"Isso é porque não  leva___mos"},{"chords":["0","","","","","","","","11","","","","","","","","","","","","","0"],"verse":"Tudo a Deus em oração"}]
+    },
+    {
+        "id": 201,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Decisão",
+        "cifra": []
+    },
+    {
+        "id": 202,
+        "tipo": "hino_harpa_crista",
+        "nome": "Lugar de Delícias",
+        "cifra": []
+    },
+    {
+        "id": 203,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deixai as Ilusões",
+        "cifra": []
+    },
+    {
+        "id": 204,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Peregrino da Terra",
+        "cifra": []
+    },
+    {
+        "id": 205,
+        "tipo": "hino_harpa_crista",
+        "nome": "Graça, Graça",
+        "cifra": []
+    },
+    {
+        "id": 206,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Clarim nos Alerta",
+        "cifra": []
+    },
+    {
+        "id": 207,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jerusalém Divina",
+        "cifra": []
+    },
+    {
+        "id": 208,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem a Cristo",
+        "cifra": []
+    },
+    {
+        "id": 209,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Voz do Bom Pastor",
+        "cifra": []
+    },
+    {
+        "id": 210,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fala, fala, Senhor",
+        "cifra": []
+    },
+    {
+        "id": 211,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem a Deus",
+        "cifra": []
+    },
+    {
+        "id": 212,
+        "tipo": "hino_harpa_crista",
+        "nome": "Os Guerreiros Se Preparam",
+        "tonalidade": 5,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","3","","","","","","","0"],"verse":"Os guerreiros  se preparam"},{"chords":["4","","","","","","","","","","","","","","","0","","","","","","7"],"verse":"Para a grande luta"},{"chords":["3","","","","","","","","","","","0","","","","","","","","","","","","","","15","","","","","","","","","","","","","4"],"verse":"É Jesus, o Capitão, que avante os levará"},{"chords":["0","","","","","3","","","","","0","","","","","","","","","","","","","4","","","","","","","","","","","","0","","","","","","7"],"verse":"A milícia dos remidos marcha impoluta"},{"chords":["3","","","","","","","","","","","","","0","","","","","","4","","","","","","0","","","","","","","4"],"verse":"Certa que vitória alcançará"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","0","","","","","","","4","","","","","","","","","0"],"verse":"Eu quero estar com Cristo"},{"chords":["","","","","","","","","","","","","","","","5","","","","","","4"],"verse":"Onde a luta se tra___var"},{"chords":["","","","","11","","","","","","","","","","","","0"],"verse":"No lance imprevisto"},{"chords":["","","","","15","","","","","","","","","","","","","","","4"],"verse":"Na frente m'encontrar"},{"chords":["","","","","","","","","","","","0","","","","","","","","","","","","","","","","","","","","","7"],"verse":"Até que O possa ver na glória"},{"chords":["","","","","","","","","3","","","","","","","","","","","0"],"verse":"Se alegrando da vitória"},{"chords":["","","","","","","","","","","","","","","","","","","","4","","","","0"],"verse":"Onde Deus vai me coroar"}]
+    },
+    {
+        "id": 213,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sobre a Terra Vou Andando",
+        "cifra": []
+    },
+    {
+        "id": 214,
+        "tipo": "hino_harpa_crista",
+        "nome": "Desejamos ir Lá",
+        "cifra": []
+    },
+    {
+        "id": 215,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ver-nos-emos",
+        "cifra": []
+    },
+    {
+        "id": 216,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvai a Deus",
+        "cifra": []
+    },
+    {
+        "id": 217,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ouve Sua Voz",
+        "cifra": []
+    },
+    {
+        "id": 218,
+        "tipo": "hino_harpa_crista",
+        "nome": "Dá Teu Fardo a Jesus",
+        "cifra": []
+    },
+    {
+        "id": 219,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Amor do Criador",
+        "cifra": []
+    },
+    {
+        "id": 220,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ide Segar",
+        "cifra": []
+    },
+    {
+        "id": 221,
+        "tipo": "hino_harpa_crista",
+        "nome": "Opera em Mim",
+        "cifra": []
+    },
+    {
+        "id": 222,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem a Jesus, ó Perdido",
+        "cifra": []
+    },
+    {
+        "id": 223,
+        "tipo": "hino_harpa_crista",
+        "nome": "Na Minh’Alma Reina a Paz",
+        "cifra": []
+    },
+    {
+        "id": 224,
+        "tipo": "hino_harpa_crista",
+        "nome": "É o Tempo de Segar",
+        "tonalidade": 1,
+        "categoria": ["Jovens", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","4","","","","0"],"verse":"É o tempo de segar, e tu sem vacilar"},{"chords":["1","","","","","","","","","","","","","","","","","","","","","","","","","","","","4","","","","","","","15","","","","","4"],"verse":"Declaraste sem temor: Não posso trabalhar"},{"chords":["0"],"verse":"Vem, enquanto Cristo,"},{"chords":["","","","","","","","","","","","","","","","","","","","","4","","","","","0"],"verse":"o Mestre, está a te chamar"},{"chords":["4","","","","","","","","","","","","","","","","","","","","","","","","","","","","11"],"verse":"Jovem, jovem, ó, vem trabalhar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","","","","","","","","","","4","","","","","","","","","0"],"verse":"Vem e vê, os campos brancos já estão"},{"chords":["","","","","","","","","","","","","","26","","","","","","","1"],"verse":"Aguardando braços que os segarão"},{"chords":["11","","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","","","","","7"],"verse":"Jovem, desperta, faz-te pronto e alerta"},{"chords":["","","","","","","","","","","3","","","","","","","","","","","","22","","","","","","","","","","","","","11"],"verse":"E queiras logo responder: Eis-me aqui, Senhor"},{"chords":["0","","","","","","","","","","","","","","4","","","","","0"],"verse":"Olha, que a seara bem madura está"},{"chords":["","","","","","","","","","","","","","","26","","","","","","1"],"verse":"Que colheita glori__osa não será?"},{"chords":["4","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","","","","","","7"],"verse":"Jovem, desperta, faz-te pronto e alerta"},{"chords":["","","","","","","","","","3","","","","","","","","","","","","","22","","","","","","","","","","","","","","4","","","","","","0"],"verse":"Poucos dias são que restam para o segador"}]
+    },
+    {
+        "id": 225,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sê Valente",
+        "cifra": []
+    },
+    {
+        "id": 226,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo, Teu Santo Amor",
+        "cifra": []
+    },
+    {
+        "id": 227,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus Amou de Tal Maneira",
+        "cifra": []
+    },
+    {
+        "id": 228,
+        "tipo": "hino_harpa_crista",
+        "nome": "Este Mundo Não Compreende",
+        "cifra": []
+    },
+    {
+        "id": 229,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, ó Meigo Salvador",
+        "cifra": []
+    },
+    {
+        "id": 230,
+        "tipo": "hino_harpa_crista",
+        "nome": "Nós Vogamos Nesta Nau",
+        "cifra": []
+    },
+    {
+        "id": 231,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Foi Com Ouro",
+        "cifra": []
+    },
+    {
+        "id": 232,
+        "tipo": "hino_harpa_crista",
+        "nome": "Os Bem Aventurados",
+        "cifra": []
+    },
+    {
+        "id": 233,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Ceia Do Senhor",
+        "cifra": []
+    },
+    {
+        "id": 234,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Gozo Dos Santos",
+        "cifra": []
+    },
+    {
+        "id": 235,
+        "tipo": "hino_harpa_crista",
+        "nome": "Já Sei, Já Sei",
+        "cifra": []
+    },
+    {
+        "id": 236,
+        "tipo": "hino_harpa_crista",
+        "nome": "Já Nos Lavou",
+        "cifra": []
+    },
+    {
+        "id": 237,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Gozo de Estar Preparado",
+        "cifra": []
+    },
+    {
+        "id": 238,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Pecador Desalentado",
+        "cifra": []
+    },
+    {
+        "id": 239,
+        "tipo": "hino_harpa_crista",
+        "nome": "Imploramos o Consolador",
+        "cifra": []
+    },
+    {
+        "id": 240,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh Dia Alegre",
+        "cifra": []
+    },
+    {
+        "id": 241,
+        "tipo": "hino_harpa_crista",
+        "nome": "Marchemos Sem Temor",
+        "cifra": []
+    },
+    {
+        "id": 242,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eu Confio Firmemente",
+        "cifra": []
+    },
+    {
+        "id": 243,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Abrir o Culto",
+        "cifra": []
+    },
+    {
+        "id": 244,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvai a Jesus",
+        "cifra": []
+    },
+    {
+        "id": 245,
+        "tipo": "hino_harpa_crista",
+        "nome": "Paz de Deus em Jesus Encontrei",
+        "cifra": []
+    },
+    {
+        "id": 246,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Descanso em Jesus",
+        "cifra": []
+    },
+    {
+        "id": 247,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus Nos Guarde No Seu Amor",
+        "cifra": []
+    },
+    {
+        "id": 248,
+        "tipo": "hino_harpa_crista",
+        "nome": "Hosana e Glória",
+        "cifra": []
+    },
+    {
+        "id": 249,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó vem, Senhor, e Habita",
+        "cifra": []
+    },
+    {
+        "id": 250,
+        "tipo": "hino_harpa_crista",
+        "nome": "Noiva de Jesus, Apronta-te",
+        "cifra": []
+    },
+    {
+        "id": 251,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Culto Não Faltar",
+        "cifra": []
+    },
+    {
+        "id": 252,
+        "tipo": "hino_harpa_crista",
+        "nome": "Santo, Santo és Tu Senhor",
+        "tonalidade": 5,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0"],"verse":"Santo, Santo és Tu, Senhor"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","5","","","","","","4"],"verse":"Em Teu louvor eu vou can__tar"},{"chords":["","","","","","","","","","","1","","","","","","","","","","","","","","","","","","","","","4"],"verse":"Com esperança, oh, Deus de amor"},{"chords":["","","","","","","","","","","","","","","11","","","","","","0","","","","","","4"],"verse":"Tu me queres consolar"},{"chords":["","","","","","","0"],"verse":"Eu Te peço, oh, meu Jesus"},{"chords":["","","","","","","","","","","","","","","7","","","","","","3"],"verse":"Só Tu és meu Salvador"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","0","","","","","5"],"verse":"Que me faça andar na luz"},{"chords":["","","","","","","","1","","","","","","","","","11","","","","","","0","","","","","","4"],"verse":"Santo  és, meu  Redentor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","0"],"verse":"Ao meu Jesus, eu cantarei"},{"chords":["","","","","","","","","","","","","","","","","","","5","","","","","","","4"],"verse":"Entrando na feliz Si_____ão"},{"chords":["","","","","","","","","","","","1","","","","","","","","","","","","","","","","11"],"verse":"Oh, Santo, Santo, proclamarei"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"Na minha eternal mansão"},{"chords":["","","","","","","0"],"verse":"Com os anjos e serafins"},{"chords":["","","","","","","","","","","","","","","","","7","","","","","","","","3"],"verse":"Santo, sempre vou cantar"},{"chords":["","","","","","","","","","","","","","","17","","","","","","","","","","","","0","","","","","5"],"verse":"Com arcanjos      e querubins"},{"chords":["","","","","","1","","","","","","","11","","","","","","","","","","","0","","","","","","","4"],"verse":"A Jesus, eu     vou adorar"}]
+    },
+    {
+        "id": 253,
+        "tipo": "hino_harpa_crista",
+        "nome": "Avante, ó Crentes",
+        "cifra": []
+    },
+    {
+        "id": 254,
+        "tipo": "hino_harpa_crista",
+        "nome": "Mais Perto de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 255,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Redentor",
+        "tonalidade": 0,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","","3","","","","","","","","","0"],"verse":"Na cruz morrendo meu redentor"},{"chords":["1","","","","","","","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"Minhas maldades todas levou"},{"chords":["","","","","","","","","","","","","","","3"],"verse":"Se O recebes tens Seu amor"},{"chords":["","","","","","","","","","","","","","0","","","","","","","","","","","","","4","","","","","","0"],"verse":"Pois seus pecados Jesus perdoou"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","","","","","","3","","","","","","","0"],"verse":"Quando Deus o sangue vir"},{"chords":["","","","","","","","","4","","","","","","","","","0","","","","","4"],"verse":"Que Jesus já verteu"},{"chords":["","","","","","","0","","","","","","","7","","","","","3"],"verse":"Passará sem te ferir"},{"chords":["","","","","","","0","","","","","","4","","","","","","","","","0","","","","","","","3","","","","0"],"verse":"No Egito assim sucedeu"}]
+    },
+    {
+        "id": 256,
+        "tipo": "hino_harpa_crista",
+        "nome": "Abandona Este Mundo de Horror",
+        "cifra": []
+    },
+    {
+        "id": 257,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Perdão Sem Igual",
+        "cifra": []
+    },
+    {
+        "id": 258,
+        "tipo": "hino_harpa_crista",
+        "nome": "Na Rocha Eterna Firmado",
+        "cifra": []
+    },
+    {
+        "id": 259,
+        "tipo": "hino_harpa_crista",
+        "nome": "Creio eu na Bíblia",
+        "cifra": []
+    },
+    {
+        "id": 260,
+        "tipo": "hino_harpa_crista",
+        "nome": "Avante com o Nosso Capitão",
+        "cifra": []
+    },
+    {
+        "id": 261,
+        "tipo": "hino_harpa_crista",
+        "nome": "Alma Triste, Abatida",
+        "cifra": []
+    },
+    {
+        "id": 262,
+        "tipo": "hino_harpa_crista",
+        "nome": "Senhor, Estás Comigo",
+        "cifra": []
+    },
+    {
+        "id": 263,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Fim do Culto",
+        "cifra": []
+    },
+    {
+        "id": 264,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Pai Celeste",
+        "cifra": []
+    },
+    {
+        "id": 265,
+        "tipo": "hino_harpa_crista",
+        "nome": "Doce é Crer em Cristo",
+        "cifra": []
+    },
+    {
+        "id": 266,
+        "tipo": "hino_harpa_crista",
+        "nome": "Resgatados Fomos",
+        "cifra": []
+    },
+    {
+        "id": 267,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Minha Força",
+        "cifra": []
+    },
+    {
+        "id": 268,
+        "tipo": "hino_harpa_crista",
+        "nome": "Confiante em Deus",
+        "cifra": []
+    },
+    {
+        "id": 269,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvarei ao Meu Amado",
+        "cifra": []
+    },
+    {
+        "id": 270,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvando ao Nosso Salvador",
+        "cifra": []
+    },
+    {
+        "id": 271,
+        "tipo": "hino_harpa_crista",
+        "nome": "Na Mansão do Salvador",
+        "cifra": []
+    },
+    {
+        "id": 272,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quando Jesus Aparecer",
+        "cifra": []
+    },
+    {
+        "id": 273,
+        "tipo": "hino_harpa_crista",
+        "nome": "Só a Ti Recorrerei",
+        "cifra": []
+    },
+    {
+        "id": 274,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus é a Luz do Mundo",
+        "cifra": []
+    },
+    {
+        "id": 275,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Acorda, Desperta!",
+        "cifra": []
+    },
+    {
+        "id": 276,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Canaã Eu Entrarei",
+        "cifra": []
+    },
+    {
+        "id": 277,
+        "tipo": "hino_harpa_crista",
+        "nome": "Salvo Estás? Limpo Estás?",
+        "tonalidade": 4,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","3","","","","","0"],"verse":"Tens achado em Cristo plena salva__ção"},{"chords":["","","","","","","","","","","","","","","","","5","","","","","22","","","","","","","11"],"verse":"Pelo sangue verti___do na cruz?"},{"chords":["","","","","","","","0","","","","","","","7","","","","","","","","","","","","3"],"verse":"Toda mancha lava de teu coração"},{"chords":["","","","","","","0","","","","","","","","","","4","","","","","","","","","","0"],"verse":"Este sangue eficaz de Jesus"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","","","7","","","","","","","","","","","","","3"],"verse":"Salvo estás,          limpo estás"},{"chords":["","","","","","","","0","","","","","","","","","5","","","","","","","22","","","","","","","4"],"verse":"Pelo sangue de Cris___to   Jesus?"},{"chords":["","","","","","","","","","","0","","","","","","","","","","","","","","7","","","","","","3"],"verse":"Tens teu coração mais alvo   que a luz"},{"chords":["","","","","","","","0","","","","","","","","","","4","","","","","","","","","","0"],"verse":"Foste limpo no sangue eficaz?"}]
+    },
+    {
+        "id": 278,
+        "tipo": "hino_harpa_crista",
+        "nome": "Levar a Cruz",
+        "cifra": []
+    },
+    {
+        "id": 279,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ali Quero ir, e Tu?",
+        "cifra": []
+    },
+    {
+        "id": 280,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Jesus, Te Suplico",
+        "cifra": []
+    },
+    {
+        "id": 281,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem Sem Tardar",
+        "cifra": []
+    },
+    {
+        "id": 282,
+        "tipo": "hino_harpa_crista",
+        "nome": "Que Sangue Precioso",
+        "cifra": []
+    },
+    {
+        "id": 283,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Pastor e as Ovelhas",
+        "cifra": []
+    },
+    {
+        "id": 284,
+        "tipo": "hino_harpa_crista",
+        "nome": "Bendito Cristo, Eis-me Aqui",
+        "cifra": []
+    },
+    {
+        "id": 285,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tu És o Meu Gozo",
+        "cifra": []
+    },
+    {
+        "id": 286,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Tarda Vir Jesus!",
+        "cifra": []
+    },
+    {
+        "id": 287,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh, Foi o Sangue",
+        "cifra": []
+    },
+    {
+        "id": 288,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Palavra da Cruz",
+        "cifra": []
+    },
+    {
+        "id": 289,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sob o Sangue Teu",
+        "cifra": []
+    },
+    {
+        "id": 290,
+        "tipo": "hino_harpa_crista",
+        "nome": "Teu Espírito Vem Derramar",
+        "cifra": []
+    },
+    {
+        "id": 291,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Mensagem da Cruz",
+        "tonalidade": 5,
+        "categoria": ["Santa Ceia", "Introspectivo"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","7","","","","","","","","","","3","","","","","","1"],"verse":"Rude cruz se erigiu, dela o dia fugiu"},{"chords":["","","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","0","","","","","","4","","",""],"verse":"Como emblema de vergonha e dor"},{"chords":["","","","","","","","","","0","","","","","","","","","","","","","7","","","","","","","","","","","","3","","","","","","","1"],"verse":"Mas contemplo esta cruz, porque nela Jesus"},{"chords":["","","","","","","","11","","","","","","","","","","","","","","","","","","","0"],"verse":"Deu a vida por mim, pecador"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","0","","","","","","7"],"verse":"Sim, eu amo a mensagem da cruz"},{"chords":["","","","","","","","","3","","","","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"Até morrer eu a vou proclamar"},{"chords":["","","","","","0","","","","","","","","","","","7","","","","","","","","","","","3","","","","","","17"],"verse":"Levarei eu também minha cruz"},{"chords":["","","","","","","","","","0","","","","","","","4","","","","","","0"],"verse":"Até por uma coroa trocar"}]
+    },
+    {
+        "id": 292,
+        "tipo": "hino_harpa_crista",
+        "nome": "Qual o Preço do Perdão",
+        "cifra": []
+    },
+    {
+        "id": 293,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus no Calvário",
+        "cifra": []
+    },
+    {
+        "id": 294,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eu Vou Com Jesus",
+        "cifra": []
+    },
+    {
+        "id": 295,
+        "tipo": "hino_harpa_crista",
+        "nome": "Novo Canto de Louvor",
+        "cifra": []
+    },
+    {
+        "id": 296,
+        "tipo": "hino_harpa_crista",
+        "nome": "No Jardim",
+        "cifra": []
+    },
+    {
+        "id": 297,
+        "tipo": "hino_harpa_crista",
+        "nome": "Abundância de Cristo",
+        "cifra": []
+    },
+    {
+        "id": 298,
+        "tipo": "hino_harpa_crista",
+        "nome": "Avante, Servos de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 299,
+        "tipo": "hino_harpa_crista",
+        "nome": "Há um Canto Novo",
+        "cifra": []
+    },
+    {
+        "id": 300,
+        "tipo": "hino_harpa_crista",
+        "nome": "Nossa Esperança",
+        "tonalidade": 5,
+        "categoria": ["Jovens", "Envolvente"],
+        "cifra": [{"chords":["","0"],"verse":"Jesus, sim, vem do céu, em glória Ele vem!"},{"chords":["1","","","","","","","","11","","","","","","","","","","","","","","","","","","","0"],"verse":"Ecoa a  nova pelo mundo além"},{"chords":["","","","","","","","","","","","","","","","7","","","","","","","","","","","","3"],"verse":"Oh, esperança que a Sua Igreja tem"},{"chords":["","","","","","0","","","","","","","27","","","","","","","5"],"verse":"Dai glória    a         Deus"},{"chords":["","","","3","","","","","","","","4","","","","","","","0","","","","","","","11"],"verse":"Jesus em breve  vem!"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","0"],"verse":"Nossa esperança é Sua vinda"},{"chords":["","","","","","","","","","","","","","","","","","","","","19","","","","","","","1"],"verse":"O Rei dos reis vem nos buscar"},{"chords":["","","","","","","","","","","11","","","","","","","","","","","","","","","","1"],"verse":"Nós aguardamos, Jesus, ainda"},{"chords":["","","","","","","","","","11","","","","","","","","","","","","0","","","","","11"],"verse":"Té a luz da manhã raiar"},{"chords":["","","","","","","","","","","","","0"],"verse":"Nossa esperança é Sua vinda"},{"chords":["","","","","","","","","","","","7","","","","","","","","","","","","","","","","","3"],"verse":"O Rei dos reis vem nos buscar"},{"chords":["","","","","","","","","","","","17","","","","","","","","","","","","","","","","0","","","","","5"],"verse":"Nós aguardamos, Jesus, ainda"},{"chords":["","","","","","","","","","1","","","","","","","11","","","","","0","","","","","11"],"verse":"Té a luz da manhã raiar"}]
+    },
+    {
+        "id": 301,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem Cear",
+        "tonalidade": 5,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","7"],"verse":"Cristo já nos preparou"},{"chords":["","","","","","","","","3","","","","","","","","","","","","","","","","","1"],"verse":"Um manjar que nos comprou"},{"chords":["","","","","11","","","","","","","","","","","","","","","","","","","","","","0","","","","","11"],"verse":"E, agora, nos convida a cear"},{"chords":["","","","","","","","","","0","","","","","","","","","","7"],"verse":"E com celestial maná"},{"chords":["","","","","","","","","","3","","","","","","","","","","","","","1"],"verse":"Que de graça Deus te dá"},{"chords":["","","","","","","","","","11","","","","","","","","","","","","","","","","","","0","","","","","5"],"verse":"Vem, faminto, tua alma saciar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","11","","","","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","7"],"verse":"Vem cear, o Mestre chama, vem cear"},{"chords":["","","","","","","","","","3","","","","","","","","","22","","","","","","","","","","","11"],"verse":"Mesmo hoje tu te podes saciar"},{"chords":["","","","","","","","","","0"],"verse":"Poucos pães multiplicou"},{"chords":["","","","","","","","","","","7","","","","","","","","","","","","","","","3"],"verse":"Água em vinho transformou"},{"chords":["1","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","0","","","","","11"],"verse":"Vem, faminto, a Jesus, vem cear"}]
+    },
+    {
+        "id": 302,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Murmures; Canta",
+        "cifra": []
+    },
+    {
+        "id": 303,
+        "tipo": "hino_harpa_crista",
+        "nome": "Precisamos de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 304,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Face Adorada de Jesus",
+        "tonalidade": 4,
+        "categoria": ["Jovens", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","3","","","","","","","0","","","","","","","","","","","3","","","","","","0"],"verse":"Desprezando toda a dor eu vou  a cantar"},{"chords":["","","","","","","","","","","","","","","","","3","","","","","0","","","","","5","","","","","","","","22","","","","","11"],"verse":"E o Calvário, ao pecador,  sempre apontar"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","","7","","","","","","","","","3","","","","","","","","0"],"verse":"Flechas transpassaram-me, padeci gran dor"},{"chords":["","","","","","","","","3","","","","","","","","","","","0","","","","","","","","","","","4","","","","","","0"],"verse":"Mas Jesus, minha luz, fez-me vencedor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","","","","","3","","","","","","","","","","","","0"],"verse":"A face adorada de Jesus verei"},{"chords":["","","","","","","","","","","","","","5","","","","","","","22","","","","","","","","","","","","4"],"verse":"Com a grei amada,  no céu estarei"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","3","","","","","","","","","","","","","","0"],"verse":"Na mansão dourada, hinos vou cantar"},{"chords":["","","","","","3","","","","","","","","","","","0","","","","","","","","","","","","","4","","","","","","","","0"],"verse":"A Jesus, minha luz,  que me quis salvar!"}]
+    },
+    {
+        "id": 305,
+        "tipo": "hino_harpa_crista",
+        "nome": "Campeões da luz",
+        "tonalidade": 3,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["0"],"verse":"Soldados somos  de Jesus"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","","4"],"verse":"E campeões do bem, da luz"},{"chords":["","","","","","","1","","","","","","","","","","","","","4"],"verse":"Nos exércitos de Deus"},{"chords":["","","","","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"Batalhamos pelos céus"},{"chords":["","","","","","","","","","","","0","","","","","","","","","","","4","","","","","0"],"verse":"Cantando, vamos comba__ter"},{"chords":["","","","","","","","","7","","","","","","","","","","","","","","3"],"verse":"O vil pecado e seu poder"},{"chords":["","","","","","","","","","","","","","","","","","","","","0","","","","","5"],"verse":"A batalha ganha  está"},{"chords":["","","","","1","","","","","4","","","","","","","","","","0","","","","","4"],"verse":"A vitória Deus nos dá"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0","","","","","","","","","","","","","","4","","","","","0","","","","","","","","5","","","","","","","","4"],"verse":"Breve vamos terminar a batalha aqui"},{"chords":["1","","","","","","","","","","","","","","11","","","","","","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"E pra sempre descansar com Jesus ali"},{"chords":["0","","","","","","","","","","","","","","","4","","","","","0","","","","7","","","","","","","","","","","","3"],"verse":"Todos os que são fiéis ao bom Capitão"},{"chords":["","","","","","","","","","","","","0","","","","","","","5","","","","","1","","","","","","4","","","","","","0"],"verse":"Hão de receber lauréis  como galardão"}]
+    },
+    {
+        "id": 306,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Palavra de Deus é um Tesouro",
+        "cifra": []
+    },
+    {
+        "id": 307,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvor ao Deus Trino",
+        "cifra": []
+    },
+    {
+        "id": 308,
+        "tipo": "hino_harpa_crista",
+        "nome": "Só o Sangue de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 309,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Findar do Dia",
+        "cifra": []
+    },
+    {
+        "id": 310,
+        "tipo": "hino_harpa_crista",
+        "nome": "Avante Eu Vou",
+        "cifra": []
+    },
+    {
+        "id": 311,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, Meu Salvador",
+        "cifra": []
+    },
+    {
+        "id": 312,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Vinda de Cristo",
+        "cifra": []
+    },
+    {
+        "id": 313,
+        "tipo": "hino_harpa_crista",
+        "nome": "Louvor a Trindade",
+        "cifra": []
+    },
+    {
+        "id": 314,
+        "tipo": "hino_harpa_crista",
+        "nome": "O pai bondoso",
+        "cifra": []
+    },
+    {
+        "id": 315,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh! Amor Bendito",
+        "cifra": []
+    },
+    {
+        "id": 316,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Busca de Sião",
+        "cifra": []
+    },
+    {
+        "id": 317,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Vem Triunfante",
+        "cifra": []
+    },
+    {
+        "id": 318,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Lar Paternal",
+        "cifra": []
+    },
+    {
+        "id": 319,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ainda Há Lugar",
+        "cifra": []
+    },
+    {
+        "id": 320,
+        "tipo": "hino_harpa_crista",
+        "nome": "Seguir a Cristo",
+        "cifra": []
+    },
+    {
+        "id": 321,
+        "tipo": "hino_harpa_crista",
+        "nome": "Só em Jesus",
+        "cifra": []
+    },
+    {
+        "id": 322,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Santas Escrituras",
+        "cifra": []
+    },
+    {
+        "id": 323,
+        "tipo": "hino_harpa_crista",
+        "nome": "Levantai Vossos Olhos",
+        "cifra": []
+    },
+    {
+        "id": 324,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, o Melhor Amigo",
+        "cifra": []
+    },
+    {
+        "id": 325,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Luz do Céu Raiou",
+        "cifra": []
+    },
+    {
+        "id": 326,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh! Meu Jesus",
+        "cifra": []
+    },
+    {
+        "id": 327,
+        "tipo": "hino_harpa_crista",
+        "nome": "Teu Nome Precioso",
+        "cifra": []
+    },
+    {
+        "id": 328,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Pão da Vida",
+        "cifra": []
+    },
+    {
+        "id": 329,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus é Minha Paz",
+        "cifra": []
+    },
+    {
+        "id": 330,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Fé dos Santos",
+        "cifra": []
+    },
+    {
+        "id": 331,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Caro Salvador",
+        "cifra": []
+    },
+    {
+        "id": 332,
+        "tipo": "hino_harpa_crista",
+        "nome": "Para o Céu eu vou",
+        "cifra": []
+    },
+    {
+        "id": 333,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Céu, Meu Lar",
+        "cifra": []
+    },
+    {
+        "id": 334,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Fim Vem, Cuidado!",
+        "cifra": []
+    },
+    {
+        "id": 335,
+        "tipo": "hino_harpa_crista",
+        "nome": "Mui Perto Está o Dia",
+        "cifra": []
+    },
+    {
+        "id": 336,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oração de Elias",
+        "cifra": []
+    },
+    {
+        "id": 337,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Bom Jesus",
+        "cifra": []
+    },
+    {
+        "id": 338,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quero Jesus, Tua Luz",
+        "cifra": []
+    },
+    {
+        "id": 339,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Ressuscitado",
+        "cifra": []
+    },
+    {
+        "id": 340,
+        "tipo": "hino_harpa_crista",
+        "nome": "Um Povo Forte",
+        "cifra": []
+    },
+    {
+        "id": 341,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Aspiração da Alma",
+        "cifra": []
+    },
+    {
+        "id": 342,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Cordas do Coração",
+        "cifra": []
+    },
+    {
+        "id": 343,
+        "tipo": "hino_harpa_crista",
+        "nome": "Abre o Coração",
+        "cifra": []
+    },
+    {
+        "id": 344,
+        "tipo": "hino_harpa_crista",
+        "nome": "Um Amigo Entre os Lírios",
+        "cifra": []
+    },
+    {
+        "id": 345,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh! Tenho Gozo",
+        "cifra": []
+    },
+    {
+        "id": 346,
+        "tipo": "hino_harpa_crista",
+        "nome": "É Meu o Céu",
+        "cifra": []
+    },
+    {
+        "id": 347,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem a Cristo",
+        "cifra": []
+    },
+    {
+        "id": 348,
+        "tipo": "hino_harpa_crista",
+        "nome": "Longe de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 349,
+        "tipo": "hino_harpa_crista",
+        "nome": "Os Dons do Céu",
+        "cifra": []
+    },
+    {
+        "id": 350,
+        "tipo": "hino_harpa_crista",
+        "nome": "A História da Cruz",
+        "cifra": []
+    },
+    {
+        "id": 351,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Felicidade da Salvação",
+        "cifra": []
+    },
+    {
+        "id": 352,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, Nossa Esperança",
+        "cifra": []
+    },
+    {
+        "id": 353,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem, ó Pródigo",
+        "cifra": []
+    },
+    {
+        "id": 354,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Cuidado da Alma",
+        "cifra": []
+    },
+    {
+        "id": 355,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fala do Amor de Cristo",
+        "cifra": []
+    },
+    {
+        "id": 356,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oração Dominical",
+        "cifra": []
+    },
+    {
+        "id": 357,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Fim das Lutas",
+        "cifra": []
+    },
+    {
+        "id": 358,
+        "tipo": "hino_harpa_crista",
+        "nome": "Senhor, Manda Teu Poder",
+        "cifra": []
+    },
+    {
+        "id": 359,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem a Mim, Pecador",
+        "cifra": []
+    },
+    {
+        "id": 360,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Preciosa Fonte",
+        "cifra": []
+    },
+    {
+        "id": 361,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Peregrino da Glória",
+        "cifra": []
+    },
+    {
+        "id": 362,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Espírito Diz: Vem!",
+        "cifra": []
+    },
+    {
+        "id": 363,
+        "tipo": "hino_harpa_crista",
+        "nome": "Consagração",
+        "cifra": []
+    },
+    {
+        "id": 364,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh, que Paz!",
+        "cifra": []
+    },
+    {
+        "id": 365,
+        "tipo": "hino_harpa_crista",
+        "nome": "Confiança em Jesus",
+        "cifra": []
+    },
+    {
+        "id": 366,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Nascimento de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 367,
+        "tipo": "hino_harpa_crista",
+        "nome": "Espírito Consolador",
+        "cifra": []
+    },
+    {
+        "id": 368,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus, Tudo prá Mim",
+        "cifra": []
+    },
+    {
+        "id": 369,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sob as Asas de Deus",
+        "cifra": []
+    },
+    {
+        "id": 370,
+        "tipo": "hino_harpa_crista",
+        "nome": "Grato a Ti",
+        "cifra": []
+    },
+    {
+        "id": 371,
+        "tipo": "hino_harpa_crista",
+        "nome": "Breve Vem o Dia",
+        "cifra": []
+    },
+    {
+        "id": 372,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vencerá",
+        "tonalidade": 4,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [
+            {
+                "chords": [
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Quem possui a Cristo, nele firme está"
+            },
+            {
+                "chords": [
+                    "",
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "15",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "11"
+                ],
+                "verse": "Achará poder para o mal combater"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "19",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "Porque Suas promessas Ele cumprirá"
+            },
+            {
+                "chords": [
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Quem está em Cristo, sempre há de vencer"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                ],
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": [
+                ],
+                "verse": ""
+            },
+            {
+                "chords": [
+                    "",
+                    "0"
+                ],
+                "verse": "Vencerá, vencerá,"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4"
+                ],
+                "verse": "por Seu sangue vencerá"
+            },
+            {
+                "chords": [
+                    "1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Vencerá, vencerá, sempre vencerá"
+            },
+            {
+                "chords": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "Pois Jesus que impera,"
+            },
+            {
+                "chords": [
+                    "19",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1"
+                ],
+                "verse": "novas forças  dá"
+            },
+            {
+                "chords": [
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "3",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "4",
+                    "",
+                    "",
+                    "",
+                    "0"
+                ],
+                "verse": "E quem nEle espera sempre  ven_ce__rá"
+            }
+        ]
+    },
+    {
+        "id": 373,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem a Teu Salvador",
+        "cifra": []
+    },
+    {
+        "id": 374,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vida Abundante",
+        "cifra": []
+    },
+    {
+        "id": 375,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Igreja Universal",
+        "cifra": []
+    },
+    {
+        "id": 376,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vamos Todos Trabalhar",
+        "cifra": []
+    },
+    {
+        "id": 377,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Promessas Que Não Falham",
+        "cifra": []
+    },
+    {
+        "id": 378,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Pisadas do Mestre",
+        "cifra": []
+    },
+    {
+        "id": 379,
+        "tipo": "hino_harpa_crista",
+        "nome": "Salvo de Graça",
+        "cifra": []
+    },
+    {
+        "id": 380,
+        "tipo": "hino_harpa_crista",
+        "nome": "Abraão e Seu Sacrifício",
+        "cifra": []
+    },
+    {
+        "id": 381,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Cordeiro de Deus",
+        "cifra": []
+    },
+    {
+        "id": 382,
+        "tipo": "hino_harpa_crista",
+        "nome": "Olhando Para o Calvário",
+        "cifra": []
+    },
+    {
+        "id": 383,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Sustento da Alma",
+        "cifra": []
+    },
+    {
+        "id": 384,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sinto Vida do Senhor",
+        "cifra": []
+    },
+    {
+        "id": 385,
+        "tipo": "hino_harpa_crista",
+        "nome": "Amemos o Senhor",
+        "cifra": []
+    },
+    {
+        "id": 386,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vencidos os Combates",
+        "cifra": []
+    },
+    {
+        "id": 387,
+        "tipo": "hino_harpa_crista",
+        "nome": "Derrama Teu Espírito",
+        "cifra": []
+    },
+    {
+        "id": 388,
+        "tipo": "hino_harpa_crista",
+        "nome": "Canta, ó Crente",
+        "cifra": []
+    },
+    {
+        "id": 389,
+        "tipo": "hino_harpa_crista",
+        "nome": "Lava-me ó Deus",
+        "cifra": []
+    },
+    {
+        "id": 390,
+        "tipo": "hino_harpa_crista",
+        "nome": "Um Coração Bondoso",
+        "cifra": []
+    },
+    {
+        "id": 391,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus no Monte da Ascensão",
+        "cifra": []
+    },
+    {
+        "id": 392,
+        "tipo": "hino_harpa_crista",
+        "nome": "Peregrinos Somos",
+        "cifra": []
+    },
+    {
+        "id": 393,
+        "tipo": "hino_harpa_crista",
+        "nome": "Há um Amigo Mui Chegado",
+        "cifra": []
+    },
+    {
+        "id": 394,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Mão ao Arado!",
+        "cifra": []
+    },
+    {
+        "id": 395,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ide por Todo Mundo",
+        "cifra": []
+    },
+    {
+        "id": 396,
+        "tipo": "hino_harpa_crista",
+        "nome": "Além do Nosso Entendimento",
+        "cifra": []
+    },
+    {
+        "id": 397,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Salvador me Achou",
+        "cifra": []
+    },
+    {
+        "id": 398,
+        "tipo": "hino_harpa_crista",
+        "nome": "Perto do Meu Redentor",
+        "cifra": []
+    },
+    {
+        "id": 399,
+        "tipo": "hino_harpa_crista",
+        "nome": "Terra de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 400,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Jesus",
+        "cifra": []
+    },
+    {
+        "id": 401,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Voltará",
+        "cifra": []
+    },
+    {
+        "id": 402,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Gólgota",
+        "cifra": []
+    },
+    {
+        "id": 403,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gozo Real",
+        "cifra": []
+    },
+    {
+        "id": 404,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Glória Virá",
+        "cifra": []
+    },
+    {
+        "id": 405,
+        "tipo": "hino_harpa_crista",
+        "nome": "Queres Perdão",
+        "cifra": []
+    },
+    {
+        "id": 406,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Sombra do Meu Redentor",
+        "cifra": []
+    },
+    {
+        "id": 407,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Criador Bendito",
+        "cifra": []
+    },
+    {
+        "id": 408,
+        "tipo": "hino_harpa_crista",
+        "nome": "Abre os Meus Olhos",
+        "cifra": []
+    },
+    {
+        "id": 409,
+        "tipo": "hino_harpa_crista",
+        "nome": "Trabalhadores do Evangelho",
+        "cifra": []
+    },
+    {
+        "id": 410,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Meu Rei Glorioso",
+        "cifra": []
+    },
+    {
+        "id": 411,
+        "tipo": "hino_harpa_crista",
+        "nome": "Nós Somos Teus",
+        "cifra": []
+    },
+    {
+        "id": 412,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Cristo, Bem Amado",
+        "cifra": []
+    },
+    {
+        "id": 413,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Pastor",
+        "cifra": []
+    },
+    {
+        "id": 414,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tem Compaixão do Pecador",
+        "cifra": []
+    },
+    {
+        "id": 415,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Te Quer Curar",
+        "cifra": []
+    },
+    {
+        "id": 416,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quando o Povo Salvo Entrar",
+        "cifra": []
+    },
+    {
+        "id": 417,
+        "tipo": "hino_harpa_crista",
+        "nome": "Bastante Para Mim",
+        "cifra": []
+    },
+    {
+        "id": 418,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sou Um Soldado",
+        "tonalidade": 4,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["0"],"verse":"Sou um soldado de Jesus"},{"chords":["","","","4","","","","","","","","","","","","0"],"verse":"E servo do Senhor"},{"chords":["","","","","","","","","","","","","","","","11","","","","","","","0"],"verse":"Não temerei levar a cruz"},{"chords":["","","","4","","","","","","","","","","","","","","","0"],"verse":"Sofrendo grande dor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","4","","","","","0"],"verse":"Depois da batalha me coroará"},{"chords":["","","","","","","4","","","","","","","","","","","","","","","","","","0"],"verse":"Deus me coroará, Deus me coroará"},{"chords":["","","","","","","","","","","","","","","","","","","","","","","","4","","","","","0"],"verse":"Depois da batalha me coroará"},{"chords":["","","","","","","3","","","","4","","","","","","","","0"],"verse":"Na celestial mansão"},{"chords":[],"verse":""},{"chords":["","","","","","","1","","","","","4","","","","","","","","","0"],"verse":"Lá verei     -  o meu Rei"},{"chords":["","","","0","","","","","","","","","5","","","","","","","","1","","","","","4"],"verse":"E terei meu galar__dão"},{"chords":["0","","","","","","","","","","","","","","","","","","","","","","","4","","","","","0"],"verse":"Depois da batalha me coroará"},{"chords":["","","","","","","1","","","","","4","","","","","0"],"verse":"Na cidade de Sião"}]
+    },
+    {
+        "id": 419,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vinde, Pecadores",
+        "cifra": []
+    },
+    {
+        "id": 420,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Que Buscas Ansioso?",
+        "cifra": []
+    },
+    {
+        "id": 421,
+        "tipo": "hino_harpa_crista",
+        "nome": "Careço de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 422,
+        "tipo": "hino_harpa_crista",
+        "nome": "No Céu não Entra Pecado",
+        "cifra": []
+    },
+    {
+        "id": 423,
+        "tipo": "hino_harpa_crista",
+        "nome": "De Ti Preciso Mais",
+        "cifra": []
+    },
+    {
+        "id": 424,
+        "tipo": "hino_harpa_crista",
+        "nome": "Seu Precioso Sangue",
+        "cifra": []
+    },
+    {
+        "id": 425,
+        "tipo": "hino_harpa_crista",
+        "nome": "Perdido Andei",
+        "cifra": []
+    },
+    {
+        "id": 426,
+        "tipo": "hino_harpa_crista",
+        "nome": "União Dos Irmãos",
+        "cifra": []
+    },
+    {
+        "id": 427,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vai Orando",
+        "cifra": []
+    },
+    {
+        "id": 428,
+        "tipo": "hino_harpa_crista",
+        "nome": "A estrela da Alva",
+        "cifra": []
+    },
+    {
+        "id": 429,
+        "tipo": "hino_harpa_crista",
+        "nome": "Escuta o Evangelho",
+        "cifra": []
+    },
+    {
+        "id": 430,
+        "tipo": "hino_harpa_crista",
+        "nome": "Evangelho da Salvação",
+        "cifra": []
+    },
+    {
+        "id": 431,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Chama o Pecador",
+        "cifra": []
+    },
+    {
+        "id": 432,
+        "tipo": "hino_harpa_crista",
+        "nome": "Consagrado ao Senhor",
+        "tonalidade": 1,
+        "categoria": ["Santa Ceia", "Envolvente"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","11","","","","","0"],"verse":"Minha vida seja  sim"},{"chords":["4","","","","","","","","","","","","","","","","","","","","0"],"verse":"Consagrada a Ti, Senhor"},{"chords":["","","","","","","","","7","","","","","","","","","","","","","","","","3"],"verse":"Possas sempre Tu por mim"},{"chords":["0","","","","11","","","","","","","","","","","","0","","","","","7"],"verse":"Operar o Teu amor"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["3","","","","","","","","","","","","","","","","","","","","","","","","0","","","","7"],"verse":"A minh'alma lava Salvador"},{"chords":["3","","","","","","","","","","","","","","","","15","","","","","","","4","","","","","","","11"],"verse":"No Teu sangue puro, carmesim"},{"chords":["0","","","","","","","","","","","","7","","","","","","3","","","","","","","","","","","","0"],"verse":"Minha vida toma  para ser, Senhor"},{"chords":["","","","","","11","","","","","","","","","","","","","","0"],"verse":"Tua para sempre,  sim"}]
+    },
+    {
+        "id": 433,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sois Benvindos",
+        "cifra": []
+    },
+    {
+        "id": 434,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Teus Pés",
+        "cifra": []
+    },
+    {
+        "id": 435,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Me Levantou",
+        "cifra": []
+    },
+    {
+        "id": 436,
+        "tipo": "hino_harpa_crista",
+        "nome": "Crentes Cantai!",
+        "cifra": []
+    },
+    {
+        "id": 437,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Dom Celeste",
+        "cifra": []
+    },
+    {
+        "id": 438,
+        "tipo": "hino_harpa_crista",
+        "nome": "Voltai-vos Para Mim",
+        "cifra": []
+    },
+    {
+        "id": 439,
+        "tipo": "hino_harpa_crista",
+        "nome": "Aos Pés de Cristo Prostrados",
+        "cifra": []
+    },
+    {
+        "id": 440,
+        "tipo": "hino_harpa_crista",
+        "nome": "Faze Já o seu Querer",
+        "cifra": []
+    },
+    {
+        "id": 441,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Chuva do Consolador",
+        "cifra": []
+    },
+    {
+        "id": 442,
+        "tipo": "hino_harpa_crista",
+        "nome": "Breve Verei o Bom Jesus",
+        "cifra": []
+    },
+    {
+        "id": 443,
+        "tipo": "hino_harpa_crista",
+        "nome": "Larga o Mundo!",
+        "cifra": []
+    },
+    {
+        "id": 444,
+        "tipo": "hino_harpa_crista",
+        "nome": "Escuta, Pobre Pecador",
+        "cifra": []
+    },
+    {
+        "id": 445,
+        "tipo": "hino_harpa_crista",
+        "nome": "Resgatado Com O Sangue de Cristo",
+        "cifra": []
+    },
+    {
+        "id": 446,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Vem Já!",
+        "cifra": []
+    },
+    {
+        "id": 447,
+        "tipo": "hino_harpa_crista",
+        "nome": "Nascer de Novo",
+        "cifra": []
+    },
+    {
+        "id": 448,
+        "tipo": "hino_harpa_crista",
+        "nome": "Crentes, Avançai",
+        "cifra": []
+    },
+    {
+        "id": 449,
+        "tipo": "hino_harpa_crista",
+        "nome": "À Beira da Estrada",
+        "cifra": []
+    },
+    {
+        "id": 450,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sol da Justiça",
+        "cifra": []
+    },
+    {
+        "id": 451,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Jesus Vem",
+        "cifra": []
+    },
+    {
+        "id": 452,
+        "tipo": "hino_harpa_crista",
+        "nome": "Seguirei a Cristo",
+        "cifra": []
+    },
+    {
+        "id": 453,
+        "tipo": "hino_harpa_crista",
+        "nome": "Deus é o mesmo",
+        "cifra": []
+    },
+    {
+        "id": 454,
+        "tipo": "hino_harpa_crista",
+        "nome": "Alegrai-vos, ó Remidos",
+        "cifra": []
+    },
+    {
+        "id": 455,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Povo de Deus na Terra",
+        "cifra": []
+    },
+    {
+        "id": 456,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Fonte Transbordante",
+        "cifra": []
+    },
+    {
+        "id": 457,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Festim de Glória",
+        "cifra": []
+    },
+    {
+        "id": 458,
+        "tipo": "hino_harpa_crista",
+        "nome": "Guia Meus Passos",
+        "cifra": []
+    },
+    {
+        "id": 459,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Firmes Promessas",
+        "tonalidade": 4,
+        "categoria": ["Missões", "Introspectivo"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","","","","","1","","","","","","","","","","","","","","2","","","","","","","","5"],"verse":"De Deus mui firmes   -  são as promessas"},{"chords":["","","","","","","","","","","","","","4","","","","","","","","","","","","","","","","","","","0","","","","","","4"],"verse":"Mais firmes que as montanhas são"},{"chords":["","","","","","","","","","","","","","0","","","","","1","","","","","","","","","","","","","2","","","","","","","","5"],"verse":"Quando o socorro  -   terrestre cessa"},{"chords":["","","","","","","","","","","","","4","","","","","","","","","","0"],"verse":"Os de Deus não falharão"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","","","","","","4","","","","","","","","","","","","","","","","","","0"],"verse":"De Deus mui firmes são as promessas"},{"chords":["","","","","","","","","","","4","","","","","","","","","","","","","","","0"],"verse":"Falhando tudo, não falharão"},{"chords":["","","","","","","","","","","4","","","","","","","","","","","","","","","0","","","","","","","5"],"verse":"Se das estrelas o brilho cessa"},{"chords":["","","","","","","","","","","","","4","","","","","","","","","","","","","0"],"verse":"Mas as promessas brilharão"}]
+    },
+    {
+        "id": 460,
+        "tipo": "hino_harpa_crista",
+        "nome": "Dize-o a Cristo",
+        "cifra": []
+    },
+    {
+        "id": 461,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Chorou Sobre Jerusalém",
+        "cifra": []
+    },
+    {
+        "id": 462,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glória ao Salvador",
+        "cifra": []
+    },
+    {
+        "id": 463,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Povo de Abraão",
+        "cifra": []
+    },
+    {
+        "id": 464,
+        "tipo": "hino_harpa_crista",
+        "nome": "Plena Graça",
+        "cifra": []
+    },
+    {
+        "id": 465,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ele Sofreu Por mim",
+        "cifra": []
+    },
+    {
+        "id": 466,
+        "tipo": "hino_harpa_crista",
+        "nome": "Que Maravilha",
+        "cifra": []
+    },
+    {
+        "id": 467,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sobre as Ondas do Mar",
+        "cifra": []
+    },
+    {
+        "id": 468,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Está Chamando",
+        "cifra": []
+    },
+    {
+        "id": 469,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Estrugir a Trombeta",
+        "cifra": []
+    },
+    {
+        "id": 470,
+        "tipo": "hino_harpa_crista",
+        "nome": "Batismo",
+        "cifra": []
+    },
+    {
+        "id": 471,
+        "tipo": "hino_harpa_crista",
+        "nome": "Avançai Fiéis",
+        "cifra": []
+    },
+    {
+        "id": 472,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Meu Lugar",
+        "cifra": []
+    },
+    {
+        "id": 473,
+        "tipo": "hino_harpa_crista",
+        "nome": "Outro Bem Não Acharei",
+        "cifra": []
+    },
+    {
+        "id": 474,
+        "tipo": "hino_harpa_crista",
+        "nome": "Paz, Doce Paz",
+        "cifra": []
+    },
+    {
+        "id": 475,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Belém",
+        "cifra": []
+    },
+    {
+        "id": 476,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Cego de Jericó",
+        "cifra": []
+    },
+    {
+        "id": 477,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sede Fortes",
+        "cifra": []
+    },
+    {
+        "id": 478,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eis-me Jesus",
+        "cifra": []
+    },
+    {
+        "id": 479,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Raiar do Novo Ano",
+        "cifra": []
+    },
+    {
+        "id": 480,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fim do Ano",
+        "cifra": []
+    },
+    {
+        "id": 481,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo e Sua Humilhação",
+        "cifra": []
+    },
+    {
+        "id": 482,
+        "tipo": "hino_harpa_crista",
+        "nome": "Comunhão",
+        "cifra": []
+    },
+    {
+        "id": 483,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ora Vem Jesus",
+        "cifra": []
+    },
+    {
+        "id": 484,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meus Pecados Levou",
+        "cifra": []
+    },
+    {
+        "id": 485,
+        "tipo": "hino_harpa_crista",
+        "nome": "Andando Para o Céu",
+        "cifra": []
+    },
+    {
+        "id": 486,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vasos Transbordantes",
+        "cifra": []
+    },
+    {
+        "id": 487,
+        "tipo": "hino_harpa_crista",
+        "nome": "Doxologia",
+        "cifra": []
+    },
+    {
+        "id": 488,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Áureo Dia",
+        "cifra": []
+    },
+    {
+        "id": 489,
+        "tipo": "hino_harpa_crista",
+        "nome": "Chegai Para Adorar",
+        "cifra": []
+    },
+    {
+        "id": 490,
+        "tipo": "hino_harpa_crista",
+        "nome": "Passando Está",
+        "cifra": []
+    },
+    {
+        "id": 491,
+        "tipo": "hino_harpa_crista",
+        "nome": "Há Poder no Sangue de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 492,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Virá do Céu",
+        "cifra": []
+    },
+    {
+        "id": 493,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Pai Voltai",
+        "cifra": []
+    },
+    {
+        "id": 494,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jerusalém Celestial",
+        "cifra": []
+    },
+    {
+        "id": 495,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo à Porta Está",
+        "cifra": []
+    },
+    {
+        "id": 496,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus me Tirou da Lama",
+        "cifra": []
+    },
+    {
+        "id": 497,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Bom Salvador",
+        "cifra": []
+    },
+    {
+        "id": 498,
+        "tipo": "hino_harpa_crista",
+        "nome": "Guia-me ó Salvador",
+        "cifra": []
+    },
+    {
+        "id": 499,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Santa Bíblia",
+        "cifra": []
+    },
+    {
+        "id": 500,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quero ver a Jesus Cristo",
+        "cifra": []
+    },
+    {
+        "id": 501,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vencendo Com o Bom Capitão",
+        "cifra": []
+    },
+    {
+        "id": 502,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Pastor Bendito",
+        "cifra": []
+    },
+    {
+        "id": 503,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vidas Consagradas ao Trabalho",
+        "cifra": []
+    },
+    {
+        "id": 504,
+        "tipo": "hino_harpa_crista",
+        "nome": "Momento Solene",
+        "cifra": []
+    },
+    {
+        "id": 505,
+        "tipo": "hino_harpa_crista",
+        "nome": "As Palavras de Jesus",
+        "cifra": []
+    },
+    {
+        "id": 506,
+        "tipo": "hino_harpa_crista",
+        "nome": "Bíblia Sagrada",
+        "cifra": []
+    },
+    {
+        "id": 507,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus Salva",
+        "cifra": []
+    },
+    {
+        "id": 508,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sua Palavra Revelada",
+        "cifra": []
+    },
+    {
+        "id": 509,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Passar o Jordão",
+        "cifra": []
+    },
+    {
+        "id": 510,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Riqueza Divinal",
+        "cifra": []
+    },
+    {
+        "id": 511,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glorioso Deus",
+        "cifra": []
+    },
+    {
+        "id": 512,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Amor Inesgotável",
+        "cifra": []
+    },
+    {
+        "id": 513,
+        "tipo": "hino_harpa_crista",
+        "nome": "Minha Alma Quer Ter",
+        "cifra": []
+    },
+    {
+        "id": 514,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Glória Esplendente",
+        "cifra": []
+    },
+    {
+        "id": 515,
+        "tipo": "hino_harpa_crista",
+        "nome": "Se Cristo Comigo Vai",
+        "tonalidade": 0,
+        "categoria": ["Missões", "Envolvente"],
+        "cifra": [{"chords":["","","","0","","","","","","4","","","","","","0","","","","","","","","","3","","","","","","","","","","","","0"],"verse":"Se pelos vales eu, peregrino, vou andar"},{"chords":["","","","","","","","","","","","4","","","","0","","","","","","","4","","","","","","22","","","","","4"],"verse":"Ou na luz gloriosa de Cristo habitar"},{"chords":["11","","","","","","","","","","","","","","","","","","","","","","","","","0","","","","","","3","","","","0"],"verse":"Irei com meu Senhor pra onde  Ele for"},{"chords":["","","","","","","3","","","","","","","","","0","","","","","","","","11","","","","","","","","","","","0"],"verse":"Confiando na graça do meu Salvador"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","0","","","","","","","","4","","","","","","0","","","","","","5","","","","","4"],"verse":"Se Cristo comigo vai, eu i____rei"},{"chords":["","","","","","","","","","","","3","","","","","","","","","4","","","","","","3","","","","","","","4","","","","","0"],"verse":"E não temerei, com gozo irei, comigo vai"},{"chords":["","","","","","","","","","","","4","","","","","","","","0","","","","","","7","","","","","","","3"],"verse":"É grato servir a Jesus, levar a cruz"},{"chords":["","","","","","","","","","","","","","","","","","","0","","","","4","","","","0"],"verse":"Se Cristo comigo vai, eu irei!"}]
+    },
+    {
+        "id": 516,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Meu Vero Amigo",
+        "cifra": []
+    },
+    {
+        "id": 517,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cura Divina",
+        "cifra": []
+    },
+    {
+        "id": 518,
+        "tipo": "hino_harpa_crista",
+        "nome": "Salva-Vidas",
+        "cifra": []
+    },
+    {
+        "id": 519,
+        "tipo": "hino_harpa_crista",
+        "nome": "Achei Jesus, Meu Salvador",
+        "cifra": []
+    },
+    {
+        "id": 520,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Doce e Preciosa Voz",
+        "cifra": []
+    },
+    {
+        "id": 521,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vem o Passo Dar!",
+        "cifra": []
+    },
+    {
+        "id": 522,
+        "tipo": "hino_harpa_crista",
+        "nome": "Rei da Glória",
+        "cifra": []
+    },
+    {
+        "id": 523,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo, a Fonte Escondida",
+        "cifra": []
+    },
+    {
+        "id": 524,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo Pensa em Mim",
+        "cifra": []
+    },
+    {
+        "id": 525,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vencendo Vem Jesus",
+        "tonalidade": 11,
+        "categoria": ["Jovens", "Envolvente"],
+        "cifra": [{"chords":["","","","","","0"],"verse":"Já refulge a glória eterna"},{"chords":["","","","","","","","","","","","","","","","","","","","","7"],"verse":"De Jesus, o Rei dos reis!"},{"chords":["","","","","","","","","","3"],"verse":"Breve os reinos deste mundo"},{"chords":["","","","","","","0","","","","","","","","","","","","4"],"verse":"Seguirão as suas leis!"},{"chords":["","","","","","","0"],"verse":"Os sinais da sua vinda"},{"chords":["","","","","","","","","","23","","","","","","","","","","","","","","5"],"verse":"Mais se mostram cada vez"},{"chords":["","","","","1","","","","","","","4","","","","","0","","","","","","","","","","4"],"verse":"Vencendo vem Jesus!"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0"],"verse":"Glória! Glória! Aleluia!"},{"chords":["3","","","","","","","","","","","","","","","","","","0","","","","","4"],"verse":"Glória! Glória! Alelu___ia!"},{"chords":["0","","","","","","","","","","","","","","","","","","23","","","","","5"],"verse":"Glória! Glória! Alelu___ia!"},{"chords":["","","","","","","1","","","","","4","","","","","","","","0","","","","","","","","4"],"verse":"Vencendo vem Jesus!"}]
+    },
+    {
+        "id": 526,
+        "tipo": "hino_harpa_crista",
+        "nome": "Grandioso És Tu",
+        "cifra": []
+    },
+    {
+        "id": 527,
+        "tipo": "hino_harpa_crista",
+        "nome": "Dominador É Deus",
+        "cifra": []
+    },
+    {
+        "id": 528,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eu Te Amo, Ó Deus",
+        "cifra": []
+    },
+    {
+        "id": 529,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Sua Graça",
+        "cifra": []
+    },
+    {
+        "id": 530,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vivifica a Tua Igreja",
+        "cifra": []
+    },
+    {
+        "id": 531,
+        "tipo": "hino_harpa_crista",
+        "nome": "Nome Precioso",
+        "cifra": []
+    },
+    {
+        "id": 532,
+        "tipo": "hino_harpa_crista",
+        "nome": "Santo Nome",
+        "cifra": []
+    },
+    {
+        "id": 533,
+        "tipo": "hino_harpa_crista",
+        "nome": "Honras Sejam ao Cordeiro",
+        "cifra": []
+    },
+    {
+        "id": 534,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo É Real Pra Mim",
+        "cifra": []
+    },
+    {
+        "id": 535,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tu És Fiel, Senhor",
+        "cifra": []
+    },
+    {
+        "id": 536,
+        "tipo": "hino_harpa_crista",
+        "nome": "Amigo Sem Igual",
+        "cifra": []
+    },
+    {
+        "id": 537,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sempre Comigo",
+        "cifra": []
+    },
+    {
+        "id": 538,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tu, Senhor, És Nosso Amigo",
+        "cifra": []
+    },
+    {
+        "id": 539,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Pensar na Dor Crucial",
+        "cifra": []
+    },
+    {
+        "id": 540,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ao Ver a Cruz",
+        "cifra": []
+    },
+    {
+        "id": 541,
+        "tipo": "hino_harpa_crista",
+        "nome": "Calvário, Revelação de Amor",
+        "cifra": []
+    },
+    {
+        "id": 542,
+        "tipo": "hino_harpa_crista",
+        "nome": "História de Cristo",
+        "cifra": []
+    },
+    {
+        "id": 543,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo, Meu redentor",
+        "cifra": []
+    },
+    {
+        "id": 544,
+        "tipo": "hino_harpa_crista",
+        "nome": "Creio, Senhor",
+        "cifra": []
+    },
+    {
+        "id": 545,
+        "tipo": "hino_harpa_crista",
+        "nome": "Porque Ele Vive",
+        "cifra": []
+    },
+    {
+        "id": 546,
+        "tipo": "hino_harpa_crista",
+        "nome": "Manhã da Ressurreição",
+        "cifra": []
+    },
+    {
+        "id": 547,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Rei Está Voltando",
+        "cifra": []
+    },
+    {
+        "id": 548,
+        "tipo": "hino_harpa_crista",
+        "nome": "Breve Jesus Há de Vir",
+        "cifra": []
+    },
+    {
+        "id": 549,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ora Vem, Senhor Jesus",
+        "cifra": []
+    },
+    {
+        "id": 550,
+        "tipo": "hino_harpa_crista",
+        "nome": "Breve Ele Volta",
+        "cifra": []
+    },
+    {
+        "id": 551,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Santo Espírito",
+        "cifra": []
+    },
+    {
+        "id": 552,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quando para o Céu Nós Formos",
+        "tonalidade": 0,
+        "categoria": ["Envolvente"],
+        "cifra": [{"chords":["0"],"verse":"Canta o grande amor de Cristo"},{"chords":["11","","","","","","","","","","","","","","","","","","","","0"],"verse":"Sua graça e compaixão"},{"chords":["","","","","","","","","","","","","","","","3"],"verse":"Num lugar tranquilo e belo"},{"chords":["0","","","","","","","","","11","","","","","","","","","","","","","0","","","","","3","","","","0"],"verse":"Faz-nos  eternal mansão"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["0"],"verse":"Quando ao Céu nós chegarmos"},{"chords":["","","","","","","","","","","","","","","","22","","","","","","","","","","","","","11"],"verse":"Oh! Que dia de júbilo há de ser!"},{"chords":["","","","","","0","","","","7","","","","","","","","3"],"verse":"A Jesus          daremos"},{"chords":["","","","","","0","","","","","","4","","","","","","","","","","","","","0","","","","","3","","","","0"],"verse":"Hosanas, cheios de prazer"}]
+    },
+    {
+        "id": 553,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh! Pai, o Santo Espírito",
+        "cifra": []
+    },
+    {
+        "id": 554,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Evangelho",
+        "cifra": []
+    },
+    {
+        "id": 555,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Redentor",
+        "cifra": []
+    },
+    {
+        "id": 556,
+        "tipo": "hino_harpa_crista",
+        "nome": "Lê a Bíblia",
+        "cifra": []
+    },
+    {
+        "id": 557,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Palavra da Vida",
+        "cifra": []
+    },
+    {
+        "id": 558,
+        "tipo": "hino_harpa_crista",
+        "nome": "Daí-me a Bíblia",
+        "cifra": []
+    },
+    {
+        "id": 559,
+        "tipo": "hino_harpa_crista",
+        "nome": "Bíblia Sagrada",
+        "cifra": []
+    },
+    {
+        "id": 560,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tenho Paz em Meu Ser",
+        "cifra": []
+    },
+    {
+        "id": 561,
+        "tipo": "hino_harpa_crista",
+        "nome": "Que Bênção!",
+        "cifra": []
+    },
+    {
+        "id": 562,
+        "tipo": "hino_harpa_crista",
+        "nome": "Autor da Vida",
+        "cifra": []
+    },
+    {
+        "id": 563,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sempre Feliz",
+        "cifra": []
+    },
+    {
+        "id": 564,
+        "tipo": "hino_harpa_crista",
+        "nome": "Conta as Bênçãos",
+        "cifra": []
+    },
+    {
+        "id": 565,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tu És Meu",
+        "cifra": []
+    },
+    {
+        "id": 566,
+        "tipo": "hino_harpa_crista",
+        "nome": "Paz Perfeita, Sim, Busquei",
+        "cifra": []
+    },
+    {
+        "id": 567,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sou Feliz",
+        "cifra": []
+    },
+    {
+        "id": 568,
+        "tipo": "hino_harpa_crista",
+        "nome": "Manso e Suave",
+        "cifra": []
+    },
+    {
+        "id": 569,
+        "tipo": "hino_harpa_crista",
+        "nome": "Morri na cruz por Ti",
+        "cifra": []
+    },
+    {
+        "id": 570,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Última Hora",
+        "cifra": []
+    },
+    {
+        "id": 571,
+        "tipo": "hino_harpa_crista",
+        "nome": "Rende o Coração",
+        "cifra": []
+    },
+    {
+        "id": 572,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Porta Sou",
+        "cifra": []
+    },
+    {
+        "id": 573,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Graça de Nosso Senhor",
+        "cifra": []
+    },
+    {
+        "id": 574,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Pai Bondoso",
+        "cifra": []
+    },
+    {
+        "id": 575,
+        "tipo": "hino_harpa_crista",
+        "nome": "Espero em Ti",
+        "cifra": []
+    },
+    {
+        "id": 576,
+        "tipo": "hino_harpa_crista",
+        "nome": "Assim como estou",
+        "cifra": []
+    },
+    {
+        "id": 577,
+        "tipo": "hino_harpa_crista",
+        "nome": "Em Fervente Oração",
+        "tonalidade": 3,
+        "categoria": ["Santa Ceia", "Introspectivo"],
+        "cifra": [{"chords":["0","","","","","","","","","","","","","","","","1","","","","","","","","","","","2","","","","","","","","5"],"verse":"Em fervente oração, vem o teu coração"},{"chords":["","","","","","","","1","","","","","","","","","4","","","","","","","","","","","0"],"verse":"Na presença de Deus derramar"},{"chords":["0","","","","","","","","","","","","","","","","1","","","","","","","","","","","","2","","","","","","","","5"],"verse":"Mas só podes fruir o que estás a pedir"},{"chords":["","","","","","","","","1","","","","","","","","","4","","","","","","","","","","0","","","","","","","7"],"verse":"Quando tudo deixares no altar"},{"chords":[],"verse":""},{"chords":[],"verse":"[ Refrão ]"},{"chords":[],"verse":""},{"chords":["","","","","","","","","","3","","","","","","","","","","","","","","","","","0","","","","","","","","","","7"],"verse":"Quando tudo perante o Senhor estiver"},{"chords":["","","3","","","","","","","","","","","15","","","","","","","","4","","","","","","11"],"verse":"E todo o teu ser Ele controlar"},{"chords":["0","","","","","","","","","","","","","","","","","1","","","","","","","","","","","","2","","","","","","","","","","","","5"],"verse":"Só então hás de ver que o Senhor tem poder"},{"chords":["","","","","","","","","1","","","","","","","","","4","","","","","","","","","","","0"],"verse":"Quando tudo deixares no altar"}]
+    },
+    {
+        "id": 578,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sossegai!",
+        "cifra": []
+    },
+    {
+        "id": 579,
+        "tipo": "hino_harpa_crista",
+        "nome": "Porque te Afliges?",
+        "cifra": []
+    },
+    {
+        "id": 580,
+        "tipo": "hino_harpa_crista",
+        "nome": "Salmo 121",
+        "cifra": []
+    },
+    {
+        "id": 581,
+        "tipo": "hino_harpa_crista",
+        "nome": "Castelo Forte",
+        "cifra": []
+    },
+    {
+        "id": 582,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Barca da Vida",
+        "cifra": []
+    },
+    {
+        "id": 583,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sê Tu Meu Guia",
+        "cifra": []
+    },
+    {
+        "id": 584,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Piloto",
+        "cifra": []
+    },
+    {
+        "id": 585,
+        "tipo": "hino_harpa_crista",
+        "nome": "Jesus me Satisfaz",
+        "cifra": []
+    },
+    {
+        "id": 586,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gozo e Vida Tenho",
+        "cifra": []
+    },
+    {
+        "id": 587,
+        "tipo": "hino_harpa_crista",
+        "nome": "Neste Lenho me Glorio",
+        "cifra": []
+    },
+    {
+        "id": 588,
+        "tipo": "hino_harpa_crista",
+        "nome": "Sou Mui Feliz",
+        "cifra": []
+    },
+    {
+        "id": 589,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quádruplo Amém",
+        "cifra": []
+    },
+    {
+        "id": 590,
+        "tipo": "hino_harpa_crista",
+        "nome": "Contentamento",
+        "cifra": []
+    },
+    {
+        "id": 591,
+        "tipo": "hino_harpa_crista",
+        "nome": "Pura, Sim, Mais Pura",
+        "cifra": []
+    },
+    {
+        "id": 592,
+        "tipo": "hino_harpa_crista",
+        "nome": "O Lugar de Bênção e Paz",
+        "cifra": []
+    },
+    {
+        "id": 593,
+        "tipo": "hino_harpa_crista",
+        "nome": "Estou Seguro",
+        "cifra": []
+    },
+    {
+        "id": 594,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fé Persistente",
+        "cifra": []
+    },
+    {
+        "id": 595,
+        "tipo": "hino_harpa_crista",
+        "nome": "Somente a Ti!",
+        "cifra": []
+    },
+    {
+        "id": 596,
+        "tipo": "hino_harpa_crista",
+        "nome": "Gratidão",
+        "cifra": []
+    },
+    {
+        "id": 597,
+        "tipo": "hino_harpa_crista",
+        "nome": "Graça Dou",
+        "cifra": []
+    },
+    {
+        "id": 598,
+        "tipo": "hino_harpa_crista",
+        "nome": "Riquezas do Céu",
+        "cifra": []
+    },
+    {
+        "id": 599,
+        "tipo": "hino_harpa_crista",
+        "nome": "Herdeiro do Reino",
+        "cifra": []
+    },
+    {
+        "id": 600,
+        "tipo": "hino_harpa_crista",
+        "nome": "Mãos ao Trabalho",
+        "cifra": []
+    },
+    {
+        "id": 601,
+        "tipo": "hino_harpa_crista",
+        "nome": "A Seara está Madura",
+        "cifra": []
+    },
+    {
+        "id": 602,
+        "tipo": "hino_harpa_crista",
+        "nome": "Juntos Trabalhamos",
+        "cifra": []
+    },
+    {
+        "id": 603,
+        "tipo": "hino_harpa_crista",
+        "nome": "Método de Deus",
+        "cifra": []
+    },
+    {
+        "id": 604,
+        "tipo": "hino_harpa_crista",
+        "nome": "Senhor, os Mensageiros Teus",
+        "cifra": []
+    },
+    {
+        "id": 605,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quero te Servir",
+        "cifra": []
+    },
+    {
+        "id": 606,
+        "tipo": "hino_harpa_crista",
+        "nome": "Triunfo",
+        "cifra": []
+    },
+    {
+        "id": 607,
+        "tipo": "hino_harpa_crista",
+        "nome": "Luz após Trevas",
+        "cifra": []
+    },
+    {
+        "id": 608,
+        "tipo": "hino_harpa_crista",
+        "nome": "Se em Teu Caminho",
+        "cifra": []
+    },
+    {
+        "id": 609,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vitória Deus Dará a Mim",
+        "cifra": []
+    },
+    {
+        "id": 610,
+        "tipo": "hino_harpa_crista",
+        "nome": "Fé É a Vitória",
+        "cifra": []
+    },
+    {
+        "id": 611,
+        "tipo": "hino_harpa_crista",
+        "nome": "Cristo, Comandante",
+        "cifra": []
+    },
+    {
+        "id": 612,
+        "tipo": "hino_harpa_crista",
+        "nome": "Ó Pai Eterno",
+        "cifra": []
+    },
+    {
+        "id": 613,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vitória Final",
+        "cifra": []
+    },
+    {
+        "id": 614,
+        "tipo": "hino_harpa_crista",
+        "nome": "Terra Feliz",
+        "cifra": []
+    },
+    {
+        "id": 615,
+        "tipo": "hino_harpa_crista",
+        "nome": "Vou Rumo ao Meu Lar",
+        "cifra": []
+    },
+    {
+        "id": 616,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quanto Almejo!",
+        "cifra": []
+    },
+    {
+        "id": 617,
+        "tipo": "hino_harpa_crista",
+        "nome": "Quanto Anelo",
+        "cifra": []
+    },
+    {
+        "id": 618,
+        "tipo": "hino_harpa_crista",
+        "nome": "É Nosso o Lar",
+        "cifra": []
+    },
+    {
+        "id": 619,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Lar, Jerusalém",
+        "cifra": []
+    },
+    {
+        "id": 620,
+        "tipo": "hino_harpa_crista",
+        "nome": "Na Jornada Para Jerusalém",
+        "cifra": []
+    },
+    {
+        "id": 621,
+        "tipo": "hino_harpa_crista",
+        "nome": "Juntos, no Céu",
+        "cifra": []
+    },
+    {
+        "id": 622,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tão Grato me é Lembrar",
+        "cifra": []
+    },
+    {
+        "id": 623,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oh, Sim, Bem Sei",
+        "cifra": []
+    },
+    {
+        "id": 624,
+        "tipo": "hino_harpa_crista",
+        "nome": "Anseio um Lugar de Amor",
+        "cifra": []
+    },
+    {
+        "id": 625,
+        "tipo": "hino_harpa_crista",
+        "nome": "Glória Indizível",
+        "cifra": []
+    },
+    {
+        "id": 626,
+        "tipo": "hino_harpa_crista",
+        "nome": "Tríplice Amém",
+        "cifra": []
+    },
+    {
+        "id": 627,
+        "tipo": "hino_harpa_crista",
+        "nome": "Finda-se Minha Prisão",
+        "cifra": []
+    },
+    {
+        "id": 628,
+        "tipo": "hino_harpa_crista",
+        "nome": "Além do céu Azul",
+        "cifra": []
+    },
+    {
+        "id": 629,
+        "tipo": "hino_harpa_crista",
+        "nome": "Conversaremos Ali no Céu",
+        "cifra": []
+    },
+    {
+        "id": 630,
+        "tipo": "hino_harpa_crista",
+        "nome": "Não Há Separação na Glória",
+        "cifra": []
+    },
+    {
+        "id": 631,
+        "tipo": "hino_harpa_crista",
+        "nome": "Neste Lugar",
+        "cifra": []
+    },
+    {
+        "id": 632,
+        "tipo": "hino_harpa_crista",
+        "nome": "Mais um Templo",
+        "cifra": []
+    },
+    {
+        "id": 633,
+        "tipo": "hino_harpa_crista",
+        "nome": "Meu Brasil",
+        "cifra": []
+    },
+    {
+        "id": 634,
+        "tipo": "hino_harpa_crista",
+        "nome": "Oração pela Pátria",
+        "cifra": []
+    },
+    {
+        "id": 635,
+        "tipo": "hino_harpa_crista",
+        "nome": "Eis o Brasil em Tuas Mãos",
+        "cifra": []
+    },
+    {
+        "id": 636,
+        "tipo": "hino_harpa_crista",
+        "nome": "Por nossa Pátria Oramos",
+        "cifra": []
+    },
+    {
+        "id": 637,
+        "tipo": "hino_harpa_crista",
+        "nome": "Hino à Bandeira Nacional",
+        "cifra": []
+    },
+    {
+        "id": 638,
+        "tipo": "hino_harpa_crista",
+        "nome": "Hino Nacional Brasileiro",
+        "cifra": []
+    },
+    {
+        "id": 639,
+        "tipo": "hino_harpa_crista",
+        "nome": "Hino da Independência",
+        "cifra": []
+    },
+    {
+        "id": 640,
+        "tipo": "hino_harpa_crista",
+        "nome": "Hino da Proclamação da República do Brasil",
+        "cifra": []
+    }
+]
