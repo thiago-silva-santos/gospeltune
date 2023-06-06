@@ -5,7 +5,7 @@
             <Song :song="song" :tonalidade="tonalidade" />
         </div>
         <div class="song_preview">
-            <h1>{{ actualSong }}</h1>
+            <h1>{{ actualSong + 1 }}</h1>
             <SongNewFormat :song="newSong" :tonalidade="tonalidade" />
         </div>
         <div class="edit_tools">
@@ -41,49 +41,13 @@
 </template>
 <script>
 import campoJSON from '../../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
-import cifra from '../../assets/Cifras/corinhos.json'
+import cifra from '../../assets/Cifras/hinos-harpa-crista.json'
+import cifraParametro from '../../assets/hinos-harpa-crista.json'
 export default {
     data() {
         return {
             song: [],
-            newSong: [
-    {
-        "chords": "    0",
-        "verse": "Visitante seja bem vindo"
-    },
-    {
-        "chords": "                       4",
-        "verse": "Sua presença é um prazer"
-    },
-    {
-        "chords": "        0     7        3   17",
-        "verse": "Com Jesus estamos dizendo"
-    },
-    {
-        "chords": "      0     4      0    3  0",
-        "verse": "Esta Igreja ama você"
-    },
-    {
-        "chords": "",
-        "verse": ""
-    },
-    {
-        "chords": "0              3",
-        "verse": "Deus te ama e eu te amo"
-    },
-    {
-        "chords": "    0      5      1     4",
-        "verse": "E assim devemos viver"
-    },
-    {
-        "chords": "0              3",
-        "verse": "Deus te ama e eu te amo"
-    },
-    {
-        "chords": "    0           4         0    3  0",
-        "verse": "Visitante nós amamos  você"
-    }
-],
+            newSong: [],
             actualSong: 0,
             tonalidade: 0,
             teste: ""
@@ -97,7 +61,12 @@ export default {
             return this.campo[this.tonalidade];
         },
         cifra() {
-            return cifra
+            const items = cifra.filter((item) => item.cifra.length > 0)
+            return items
+        },
+        cifraParametro() {
+            const items = cifra.filter((item) => item.cifra.length > 0)
+            return items
         }
     },
 
@@ -142,17 +111,16 @@ export default {
             }
         },
         converter() {
-            //console.log(this.cifra[this.actualSong].cifra)
             console.log(this.ChordsEmString(this.cifra[this.actualSong].cifra))
-            // this.teste = this.ArrayEmString(['0','','','','','','','3','','','','6'])
-            // console.log(this.teste)
         }
     },
 
     created() {
-        const cifraIndex = 0
+        const cifraIndex = 20
         this.actualSong = cifraIndex
-        this.song = this.cifra[this.actualSong].cifra
+        this.song = this.cifraParametro[this.actualSong].cifra
+        this.newSong = this.cifra[this.actualSong].cifra
+        console.log(this.newSong)
     }
 
 };
