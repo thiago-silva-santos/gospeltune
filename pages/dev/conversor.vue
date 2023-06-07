@@ -41,8 +41,8 @@
 </template>
 <script>
 import campoJSON from '../../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
-import cifra from '../../assets/Cifras/hinos-harpa-crista.json'
-import cifraParametro from '../../assets/hinos-harpa-crista.json'
+import cifra from '../../assets/Cifras/hinos.json'
+import cifraParametro from '../../assets/hinos.json'
 export default {
     data() {
         return {
@@ -65,7 +65,7 @@ export default {
             return items
         },
         cifraParametro() {
-            const items = cifra.filter((item) => item.cifra.length > 0)
+            const items = cifraParametro.filter((item) => item.cifra.length > 0)
             return items
         }
     },
@@ -116,11 +116,11 @@ export default {
     },
 
     created() {
-        const cifraIndex = 20
+        const cifraIndex = 0
         this.actualSong = cifraIndex
         this.song = this.cifraParametro[this.actualSong].cifra
         this.newSong = this.cifra[this.actualSong].cifra
-        console.log(this.newSong)
+        //console.log(this.newSong)
     }
 
 };
