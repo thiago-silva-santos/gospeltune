@@ -17,7 +17,7 @@
        </CifraSection>
 </template>
 <script>
-import corinhos from '../assets/corinhos.json'
+import corinhos from '@/assets/Cifras/corinhos.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
 import { mapState } from 'pinia'

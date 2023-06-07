@@ -16,7 +16,7 @@
           </CifraSection>
 </template>
 <script>
-import hinos from '../assets/hinos-harpa-crista.json'
+import hinos from '@/assets/Cifras/hinos-harpa-crista.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
 import { mapState } from 'pinia'

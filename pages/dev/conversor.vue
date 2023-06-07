@@ -6,7 +6,7 @@
         </div>
         <div class="song_preview">
             <h1>{{ actualSong + 1 }}</h1>
-            <SongNewFormat :song="newSong" :tonalidade="tonalidade" />
+            <!-- <SongNewFormat :song="newSong" :tonalidade="tonalidade" /> -->
         </div>
         <div class="edit_tools">
             <div class="w-full max-w-[940px] ">

@@ -1,7 +1,7 @@
 <template>
   <div class="page_container">
     <div class="input_search_container relative min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-2 flex">
-      <input-search @search="onSearch"></input-search>
+      <menu-input-search @search="onSearch"></menu-input-search>
       <button class="button_filters" @click="show">
         <span class="material-symbols-outlined">
           menu
@@ -14,8 +14,8 @@
     <slot name="section">
 
     </slot>
-    <ScrollTop />
-    <Drawer/>
+    <ButtonScrollTop />
+    <MenuDrawer/>
   </div>
 </template>
 <script>

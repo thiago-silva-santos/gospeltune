@@ -6,11 +6,11 @@
                <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
 
-          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'"></tuning>
+          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'"/>
      </div>
 </template>
 <script>
-import hinos from '@/assets/hinos.json'
+import hinos from '@/assets/Cifras/hinos.json'
 
 export default {
      data() {

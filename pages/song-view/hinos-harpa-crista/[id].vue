@@ -5,11 +5,11 @@
                <span class="song_number"> Número: {{ hino.id }} </span>
                <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
-          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual"></tuning>
+          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual"/>
      </div>
 </template>
 <script>
-import hinos from '~~/assets/hinos-harpa-crista.json'
+import hinos from '@/assets/Cifras/hinos-harpa-crista.json'
 
 export default {
      data() {

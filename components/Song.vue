@@ -5,7 +5,7 @@
                <template v-for="linha in cifraDividida[0]" :key="linha">
                     <template v-if="linha.verse">
                          <span class="flex" v-if="linha.chords.length > 0">
-                              <template v-for="item in linha.chords">
+                              <template v-for="item in parseString(linha.chords)">
                                   <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>    
@@ -13,7 +13,7 @@
                     </template>                         
                     <template v-else>
                          <span v-if="linha.chords.length > 1" class="passagem" >
-                              <template v-for="item in linha.chords">
+                              <template v-for="item in parseString(linha.chords)">
                                    <b class="w-fit">{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
@@ -23,7 +23,7 @@
                <template v-for="linha in cifraDividida[1]" :key="linha">
                          <template v-if="linha.verse">
                               <span class="flex" v-if="linha.chords.length > 0">
-                                   <template v-for="item in linha.chords">
+                                   <template v-for="item in parseString(linha.chords)">
                                         <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
                                    </template>
                               </span>    
@@ -31,7 +31,7 @@
                          </template>                         
                     <template v-else>
                          <span v-if="linha.chords.length > 1" class="passagem" >
-                              <template v-for="item in linha.chords">
+                              <template v-for="item in parseString(linha.chords)">
                                    <b class="w-fit">{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
@@ -41,7 +41,7 @@
                <template v-for="linha in cifraDividida[2]" :key="linha">
                          <template v-if="linha.verse">
                               <span class="flex" v-if="linha.chords.length > 0">
-                                   <template v-for="item in linha.chords">
+                                   <template v-for="item in parseString(linha.chords)">
                                         <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
                                    </template>
                               </span>    
@@ -50,7 +50,7 @@
                          </template>                         
                     <template v-else>
                          <span v-if="linha.chords.length > 1" class="passagem" >
-                              <template v-for="item in linha.chords">
+                              <template v-for="item in parseString(linha.chords)">
                                    <b class="w-fit">{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
@@ -108,7 +108,32 @@ export default {
                }
           }
      },
+     methods: {
+    parseString(string) {
+      const items = [];
+      let currentItem = "";
 
+      for (let i = 0; i < string.length; i++) {
+        const char = string[i];
+
+        if (/\d/.test(char)) {
+          currentItem += char;
+        } else if (char === " ") {
+          if (currentItem !== "") {
+            items.push(currentItem);
+            currentItem = "";
+          }
+
+          items.push(" ");
+        }
+      }
+
+      if (currentItem !== "") {
+        items.push(currentItem);
+      }
+      return items;
+    }
+  },
      created() {
      }
 }

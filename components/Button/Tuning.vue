@@ -215,11 +215,11 @@ export default {
 
 
 .back-fade-enter-active {
-     animation: back-fade-in .5s;
+     animation: back-fade-in .3s;
 
 }
 .back-fade-leave-active {
-     animation: back-fade-in .5s reverse;
+     animation: back-fade-in .3s reverse;
 }
 
 

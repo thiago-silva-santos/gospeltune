@@ -5,11 +5,11 @@
                <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
           </div>
 
-          <tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/corinhos'"></tuning>
+          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/corinhos'"/>
      </div>
 </template>
 <script>
-import corinhos from '@/assets/corinhos.json'
+import corinhos from '@/assets/Cifras/corinhos.json'
 
 export default {
      data() {

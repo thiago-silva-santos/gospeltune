@@ -11,9 +11,9 @@
                             <span class="bar"></span>
                         </div>
                         <div class="sections">
-                            <nuxt-link to="/">Hinos da Harpa</nuxt-link>
-                            <nuxt-link to="/corinhos">Corinhos</nuxt-link>
-                            <nuxt-link to="/hinos">Outros</nuxt-link>
+                            <nuxt-link to="/" @click="hide">Hinos da Harpa</nuxt-link>
+                            <nuxt-link to="/corinhos" @click="hide">Corinhos</nuxt-link>
+                            <nuxt-link to="/hinos" @click="hide">Outros</nuxt-link>
                         </div>
                     </div>
                     <div class="flex flex-col">
