@@ -19,7 +19,7 @@
   </div>
 </template>
 <script>
-import { useFilterStore } from '~~/stores/filters';
+import { useFilterStore } from '@/stores/filters';
 import { mapState, mapActions } from 'pinia'
 
 export default {
