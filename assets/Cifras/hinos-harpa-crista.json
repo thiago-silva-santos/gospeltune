@@ -587,26 +587,6 @@
                 "verse": ""
             },
             {
-                "chords": "5",
-                "verse": "Ouve a mensagem"
-            },
-            {
-                "chords": "1             5",
-                "verse": "De teu bom Jesus"
-            },
-            {
-                "chords": "1             5",
-                "verse": "E tem mais coragem"
-            },
-            {
-                "chords": "16          5",
-                "verse": "leva a tua  cruz"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
                 "chords": "",
                 "verse": "[ Refrão ]"
             },
@@ -808,7 +788,9 @@
         "id": 46,
         "tipo": "hino_harpa_crista",
         "nome": "Um Pendão Real",
-        "cifra": []
+        "tonalidade": 5,
+        "categoria": ["Envolvente", "Missões", "Jovens"],
+        "cifra": [{"chords":"0","verse":"Um pendão real vos entregou o Rei"},{"chords":"   4      11       0    4","verse":"A vós, soldados Seus"},{"chords":"     0","verse":"Corajosos, pois em tudo O defendei"},{"chords":"      4     22       4","verse":"Marchando para os céus"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"       11          0     7","verse":"Com valor, sem temor"},{"chords":"      3     22          4     11","verse":"Por Cristo prontos a sofrer"},{"chords":"      0     7      3       1","verse":"Bem alto erguei o Seu pendão"},{"chords":"0        3       4      0","verse":"Firmes sempre, até morrer"}]
     },
     {
         "id": 47,
@@ -1895,7 +1877,9 @@
         "id": 165,
         "tipo": "hino_harpa_crista",
         "nome": "A Armadura Cristã",
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": ["Envolvente", "Missões"],
+        "cifra": [{"chords":"0                 4         1      4    0                ","verse":"Ao bom Combate vamos, repletos  de amor"},{"chords":"                4      1       4     0","verse":"Vestidos de justiça, ferventes  no Senhor"},{"chords":"   11                  0        4     22    4","verse":"Co'os lombos bem cingidos de verdadeira luz"},{"chords":"    0             3           0    4     0","verse":"Calçados do Evangelho... do Salvador Jesus"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"0               1      4           0","verse":"De Deus, a armadura,  de Cristo, o valor"},{"chords":"3               0       4     11     0","verse":"Irmão meu, segura, pra seres vencedor"}]
     },
     {
         "id": 166,
