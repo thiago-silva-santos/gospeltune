@@ -216,11 +216,16 @@ a.router-link-active {
     }
 
     .menu_logo h1 {
-        @apply text-base
+        @apply text-base;
     }
 
     .drawer {
         @apply w-3/4;
+    }
+}
+@media (max-width: 350px) {
+    .menu_logo {
+        @apply hidden
     }
 }
 

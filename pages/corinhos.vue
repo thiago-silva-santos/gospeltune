@@ -76,4 +76,10 @@ h1 {
 @apply text-[28px] text-slate-800 font-bold text-center py-4
 }
   
+
+@media (max-width: 350px) {
+     h1 {
+          @apply text-[20px]
+     }
+}
 </style>

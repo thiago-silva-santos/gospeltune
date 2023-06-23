@@ -1,6 +1,6 @@
 <template>
   <div class="page_container">
-    <div class="input_search_container relative min-w-[280px] md:w-[300px] lg:-w[350px] max-w-[400px] gap-2 flex">
+    <div class="input_search_container ">
       <menu-input-search @search="onSearch"></menu-input-search>
       <button class="button_filters" @click="show">
         <span class="material-symbols-outlined">
@@ -15,7 +15,7 @@
 
     </slot>
     <ButtonScrollTop />
-    <MenuDrawer/>
+    <MenuDrawer />
   </div>
 </template>
 <script>
@@ -41,7 +41,7 @@ export default {
     showFilters(value) {
       if (value) {
         document.body.classList.add('menu-aberto');
-      } if(!value) {
+      } if (!value) {
         document.body.classList.remove('menu-aberto');
       }
     }
@@ -72,6 +72,9 @@ h1 {
   @apply text-[28px] text-slate-800 font-bold text-center py-4
 }
 
+.input_search_container {
+  @apply relative w-[300px] gap-2 flex;
+}
 
 
 @media (max-width: 420px) {
@@ -81,4 +84,9 @@ h1 {
 }
 
 
+@media (max-width: 350px) {
+  .input_search_container {
+    @apply w-[250px]
+  }
+}
 </style>
