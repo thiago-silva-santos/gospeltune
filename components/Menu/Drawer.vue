@@ -11,9 +11,9 @@
                             <span class="bar"></span>
                         </div>
                         <div class="sections">
-                            <nuxt-link to="/" @click="hide">Hinos da Harpa</nuxt-link>
-                            <nuxt-link to="/corinhos" @click="hide">Corinhos</nuxt-link>
-                            <nuxt-link to="/hinos" @click="hide">Outros</nuxt-link>
+                            <button v-for="(button, index) in routes" :key="index" @click="closeDrawerAndGoToPage(button.path)" :class="{'active_route': this.$route.name == button.name}">
+                                {{ button.title }}
+                            </button>
                         </div>
                     </div>
                     <div class="flex flex-col">
@@ -52,7 +52,24 @@ import { mapState } from 'pinia';
 export default {
     data() {
         return {
-            cifraTypes: ["Santa Ceia", "Jovens", "Missões"]
+            cifraTypes: ["Santa Ceia", "Jovens", "Missões"],
+            routes: [
+                {
+                    title: "Hinos da Harpa",
+                    name: "index",
+                    path: "/"
+                },
+                {
+                    title: "Corinhos",
+                    name: "corinhos",
+                    path: "/corinhos"
+                },
+                {
+                    title: "Outros",
+                    name: "hinos",
+                    path: "/hinos"
+                },
+            ]
         };
     },
     computed: {
@@ -70,6 +87,12 @@ export default {
         ...mapActions(useFilterStore, ['updateSelectedFilters', 'hide']),
         selecionarCategoria(categoria) {
             this.updateSelectedFilters(categoria)
+        },
+        closeDrawerAndGoToPage(route){
+            this.hide()
+            setTimeout(() => {
+                this.$router.push(route)
+            }, 500);
         }
     }
 };
@@ -79,15 +102,6 @@ export default {
     @apply shadow-lg flex flex-col bg-white p-6 w-full h-full gap-10 relative;
     z-index: 999;
 }
-
-a {
-    @apply p-2 w-full text-center rounded-lg
-}
-
-a.router-link-active {
-    @apply text-red-500 bg-slate-100;
-}
-
 .option {
     @apply cursor-pointer flex items-center gap-4 text-slate-700 p-2 rounded-md justify-between;
     transition: all ease .3s;
@@ -97,18 +111,15 @@ a.router-link-active {
     @apply flex items-center py-2 gap-3 font-semibold text-sm;
 }
 
-/* .options_title::before {
-    content: '';
-    position: absolute;
-    width: calc(100% - 60px);
-    height: 4px;
-    left: 60px;
-    top: 50%;
-    transform: translate(0, -50%);
-    @apply bg-slate-200 rounded-lg;
-} */
 .sections {
     @apply flex flex-col w-full items-center font-semibold text-slate-700 p-2
+}
+
+.sections button {
+    @apply p-2 w-full text-center rounded-lg
+}
+.active_route {
+    @apply text-red-500 bg-slate-100;
 }
 
 .drawer {
