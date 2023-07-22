@@ -92,7 +92,7 @@ export default {
             this.hide()
             setTimeout(() => {
                 this.$router.push(route)
-            }, 500);
+            }, 400);
         }
     }
 };

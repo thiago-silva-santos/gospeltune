@@ -1090,7 +1090,9 @@
         "id": 96,
         "tipo": "hino_harpa_crista",
         "nome": "Deixa Penetrar a Luz",
-        "cifra": []
+        "categoria": ["Envolvente", "Santa Ceia", "Jovens"],
+        "tonalidade": 3,
+        "cifra": [{"chords":"0                    11","verse":"Se ao inimigo temes combater"},{"chords":"8            11            0","verse":"Se estás em trevas e não tens poder"},{"chords":"               7              3       8","verse":"Que a formosa luz de Deus fulgure em ti"},{"chords":"0         4     0      3    4","verse":"E serás feliz assim"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"0                 4","verse":"Deixa penetrar a luz"},{"chords":"8           4     0","verse":"Deixa penetrar a luz"},{"chords":"                7              3       8","verse":"Que a formosa  luz de Deus fulgure em ti"},{"chords":"0         4     0       4","verse":"E serás feliz assim"}]
     },
     {
         "id": 97,
@@ -2421,7 +2423,9 @@
         "id": 225,
         "tipo": "hino_harpa_crista",
         "nome": "Sê Valente",
-        "cifra": []
+        "categoria": ["Envolvente", "Missões", "Jovens"],
+        "tonalidade": 4,
+        "cifra": [{"chords":"      0","verse":"Na batalha contra o mal, sê valente!"},{"chords":"           4                    11","verse":"Segue em marcha triunfal, sê valente!"},{"chords":"       0            7","verse":"Olha o alvo que é Jesus"},{"chords":"         3          1","verse":"Que à vitória te conduz"},{"chords":"        0                   4    0","verse":"Ó não deixes tua cruz, sê valen__te!"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"      0                5     4","verse":"Sê valente! Pelejando por Jesus,"},{"chords":"      1            4            0","verse":"Sê valente! Nunca rejeitando a cruz!"},{"chords":"                   7","verse":"Firme sempre no amor,"},{"chords":"        3        1","verse":"Com indômito valor,"},{"chords":"       0                    4    0","verse":"Cheio do Consolador,  sê valen__te!"}]
     },
     {
         "id": 226,
@@ -3090,7 +3094,9 @@
         "id": 298,
         "tipo": "hino_harpa_crista",
         "nome": "Avante, Servos de Jesus",
-        "cifra": []
+        "categoria": ["Envolvente"],
+        "tonalidade": 5,
+        "cifra": [{"chords":"   0      3       4      0","verse":"Avante,   servos   de   Jesus"},{"chords":"3     4       0","verse":"Por   nosso   Deus"},{"chords":"      0       3       4      0","verse":"Nas   trevas   brilhe   vossa   luz"},{"chords":"    3      4       0","verse":"A    luz      lá  dos céus"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"         0","verse":"Glória a Deus, pois vencerei"},{"chords":"         3","verse":"Glória a Deus, pois vencerei"},{"chords":"      4            0","verse":"Triunfante sigo, levando a cruz!"},{"chords":"          0              7","verse":"Glória a Deus, pois vencerei"},{"chords":"          3              1","verse":"Glória a Deus, pois vencerei"},{"chords":"    0     4     0","verse":"Em nome de Jesus!"}]
     },
     {
         "id": 299,
