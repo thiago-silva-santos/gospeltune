@@ -7,7 +7,7 @@
         <div class="w-full max-w-[940px] ">
           <campo-harmonico @tune="getTuneEmitted" />
         </div>
-        <textarea ref="textArea"/>
+        <textarea ref="textArea" v-model="textArea"></textarea>
         <div class="edit_actions">
           <nuxt-link to="/">
             <button class="edit_btn_actions bg-sky-700">
@@ -17,10 +17,16 @@
             </button>
           </nuxt-link>
           <div class="flex gap-4">
+            <button class="edit_btn_actions bg-gray-500" @click="injectRefrao">
+              <span class="material-symbols-outlined">
+                add_circle_outline
+              </span>
+            </button>
             <button class="edit_btn_actions bg-green-500" @click="gerarJSON">
               <span class="material-symbols-outlined">
                 check_circle
-              </span></button>
+              </span>
+            </button>
             <button class="edit_btn_actions bg-yellow-500" @click="copyAndSave">
               <span class="material-symbols-outlined">
                 content_copy
@@ -42,6 +48,7 @@ export default {
   data() {
     return {
       song: [],
+      textArea: '',
       tonalidade: 0,
       arquivo: null,
       copiedObject: null,
@@ -79,6 +86,7 @@ export default {
     limpar() {
       this.song = [],
         this.$refs.textArea.value = ''
+        this.textArea = ''
     },
     gerarJSON() {
       this.song = this.createSong(this.$refs.textArea.value)
@@ -96,8 +104,20 @@ export default {
         .catch((error) => {
           console.error('Failed to copy object:', error);
         });
-    }
+    },
+    injectRefrao() {
+      const textAreaElement = this.$refs.textArea;
+      textAreaElement.value += '\n\n\n\n' + '[ Refrão ]' + '\n\n\n';
+      this.textArea = textAreaElement.value;
+    },
+    injectPonte() {
+      const textAreaElement = this.$refs.textArea;
+      textAreaElement.value += '\n\n\n\n' + '[ Ponte ]' + '\n\n\n';
+      this.textArea = textAreaElement.value;
+    },
+
   },
+
 
 
 
