@@ -1,19 +1,19 @@
 <template>
-          <CifraSection>
-               <template v-slot:section>
-                    <template v-if="searchHinosResults.length == 0">
-                         <div class="no-results">
-                              Nenhuma cifra encontrada...
-                         </div>
-                    </template>
-                    <template v-else>
-                         <section class="w-full" v-if="searchHinosResults.length >= 1">
-                              <h1>Hinos da Harpa Cristã</h1>
-                              <SongsCards :items="searchHinosResults" :text-search="search" />
-                         </section>
-                    </template>
+     <CifraSection>
+          <template v-slot:section>
+               <template v-if="searchHinosResults.length == 0">
+                    <div class="no-results">
+                         Nenhuma cifra encontrada...
+                    </div>
                </template>
-          </CifraSection>
+               <template v-else>
+                    <section class="w-full" v-if="searchHinosResults.length >= 1">
+                         <h1>Hinos da Harpa Cristã</h1>
+                         <CardSongsCards :items="searchHinosResults" :text-search="search" />
+                    </section>
+               </template>
+          </template>
+     </CifraSection>
 </template>
 <script>
 import hinos from '@/assets/Cifras/hinos-harpa-crista.json'
@@ -72,14 +72,25 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
-     @apply text-[28px] text-slate-800 font-bold text-center py-4
+@media (min-width: 320px) {
+     h1 {
+          @apply text-[16px] text-slate-800 font-bold text-center py-4
+     }
 }
-
-
-@media (max-width: 350px) {
+@media (min-width: 414px) {
+     h1 {
+          @apply text-[18px]
+     }
+}
+@media (min-width: 768px) {
      h1 {
           @apply text-[20px]
      }
 }
+@media (min-width: 1366px) {
+     h1 {
+          @apply text-[24px]
+     }
+}
+
 </style>

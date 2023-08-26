@@ -276,8 +276,12 @@
                 "verse": ""
             },
             {
-                "chords": "        0                               11",
-                "verse": "Foi na cruz, foi na cruz, onde um dia eu vi"
+                "chords": "        0",
+                "verse": "Foi na cruz, foi na cruz"
+            },
+            {
+                "chords": "                11",
+                "verse": "onde um dia eu vi"
             },
             {
                 "chords": "       1          11          0     7",

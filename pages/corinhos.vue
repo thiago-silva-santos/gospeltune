@@ -11,22 +11,8 @@
                     <section class="w-full" v-if="searchCorinhosResults.length >= 1">
                          <div class="flex flex-col gap-2 justify-center items-center relative">
                               <h1>Corinhos</h1>
-                              <div class="flex">
-                                   <button @click="updateListMode('false')" class="list_mode_button"
-                                        :class="['list_mode_button', { 'active': listModeOn == 'false' }]">
-                                        <span class="material-symbols-outlined">
-                                             lists
-                                        </span>
-                                   </button>
-                                   <button @click="updateListMode('true')"
-                                        :class="['list_mode_button', { 'active': listModeOn == 'true' }]">
-                                        <span class="material-symbols-outlined">
-                                             format_list_bulleted
-                                        </span>
-                                   </button>
-                              </div>
                          </div>
-                         <SongsCards :items="searchCorinhosResults" :text-search="search" :list-mode="listModeOn" />
+                         <CardSongsCards :items="searchCorinhosResults" :text-search="search" />
                     </section>
                </template>
           </template>
@@ -53,7 +39,6 @@ export default {
      },
      computed: {
           ...mapState(useFilterStore, ['filters', 'selectedFilters']),
-          ...mapState(useListModeStore, ['listModeOn']),
           ...mapState(useSearchStore, ['search']),
           corinhos() {
                return corinhos
@@ -91,29 +76,24 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
-     @apply text-[28px] text-slate-800 font-bold text-center py-4
+@media (min-width: 320px) {
+     h1 {
+          @apply text-[16px] text-slate-800 font-bold text-center py-4
+     }
 }
-
-.list_mode_button {
-     @apply w-8 h-8 flex justify-center items-center p-2 bg-slate-100 rounded-md
+@media (min-width: 414px) {
+     h1 {
+          @apply text-[18px]
+     }
 }
-
-.active {
-     @apply bg-slate-300
-}
-
-.list_mode_button:nth-child(1) {
-     @apply rounded-r-none
-}
-
-.list_mode_button:nth-child(2) {
-     @apply rounded-l-none
-}
-
-@media (max-width: 350px) {
+@media (min-width: 768px) {
      h1 {
           @apply text-[20px]
+     }
+}
+@media (min-width: 1366px) {
+     h1 {
+          @apply text-[24px]
      }
 }
 </style>
