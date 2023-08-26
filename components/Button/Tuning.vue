@@ -2,12 +2,12 @@
      <transition name="overlay-fade">
           <div class="tuning_overlay" v-if="isOpen" @click="() => isOpen = false"></div>
      </transition>
-     <transition name="back-fade" >
+     <transition name="back-fade">
           <div v-if="isOpen" class="go_back">
-               <nuxt-link :to="goBack" @click="() => this.isOpen = false" >
+               <nuxt-link :to="goBack" @click="() => this.isOpen = false">
                     <button class="flex justify-center items-center">
                          <span class="material-symbols-outlined">
-                              home
+                              undo
                          </span>
                     </button>
                </nuxt-link>
@@ -18,7 +18,7 @@
      </button>
      <transition name="fade">
           <div class="tuning_items" v-if="isOpen">
-               <div class="button_container flex gap-6">
+               <div class="button_container">
                     <button :class="[this.tonalidadeAtualString === 'C' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(0)"> C </button>
                     <button :class="[this.tonalidadeAtualString === 'D' ? 'tom_button active' : 'tom_button']"
@@ -34,7 +34,7 @@
                     <button :class="[this.tonalidadeAtualString === 'B' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(6)"> B </button>
                </div>
-               <div class="button_container flex gap-6 mt-2">
+               <div class="button_container">
                     <button :class="[this.tonalidadeAtualString === 'Db' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(7)"> Db </button>
                     <button :class="[this.tonalidadeAtualString === 'Eb' ? 'tom_button active' : 'tom_button']"
@@ -157,20 +157,7 @@ export default {
      z-index: 995;
 }
 
-.tuning_button {
-     @apply fixed rounded-full bg-red-600 text-white p-2 w-10 h-10 flex justify-center items-center text-xl font-bold shadow-lg;
-     transition: all .3s ease;
-     bottom: 20px;
-     right: 20px;
-     z-index: 999;
-}
 
-.go_back {
-     @apply fixed rounded-full bg-white text-slate-700 p-2 w-10 h-10 text-xl font-bold shadow-lg;
-     bottom: 70px;
-     right: 20px;
-     z-index: 999;
-}
 
 .go_back:hover {
      @apply bg-slate-100 transition ease-in-out delay-100;
@@ -180,25 +167,14 @@ export default {
      @apply bg-red-500 transition ease-in-out delay-100;
 }
 
-.tuning_items {
-     @apply fixed w-[400px] h-32 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-center items-center;
-     bottom: 80px;
-     right: 80px;
-     z-index: 999;
-}
 
-.tom_button {
-     @apply rounded-full shadow-slate-400 w-8 h-8 text-slate-700 bg-slate-200;
-     transition: all .3s ease;
-}
+
+
 
 .tom_button:hover {
      @apply bg-slate-300
 }
 
-.active {
-     @apply bg-red-600 text-white
-}
 
 .active:hover {
      @apply bg-red-500
@@ -209,6 +185,7 @@ export default {
      animation: fade-in .3s;
 
 }
+
 .fade-leave-active {
      animation: fade-in .3s reverse;
 }
@@ -218,6 +195,7 @@ export default {
      animation: back-fade-in .3s;
 
 }
+
 .back-fade-leave-active {
      animation: back-fade-in .3s reverse;
 }
@@ -257,25 +235,57 @@ export default {
 
 @keyframes back-fade-in {
 
-0% {
-    transform: translateX(100%);
-    opacity: 0;
-}
-
-100% {
-    opacity: 1;
-    transform: translateX(0);
-}
-}
-
-
-@media (max-width: 500px) {
-     .tuning_items {
-          @apply w-[200px] h-80 p-4 gap-4;
-          bottom: 60px;
+     0% {
+          transform: translateX(100%);
+          opacity: 0;
      }
+
+     100% {
+          opacity: 1;
+          transform: translateX(0);
+     }
+}
+
+@media (min-width: 320px) {
+     .tuning_items {
+          @apply fixed w-[180px] h-72 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-between items-center p-4;
+          bottom: 60px;
+          right: 80px;
+          z-index: 999;
+     }
+
+
 
      .button_container {
-          @apply flex-wrap justify-center
+          @apply flex justify-center gap-4 flex-wrap
      }
-}</style>
+
+     .tom_button {
+          @apply rounded-full shadow-slate-400 w-8 h-8 text-slate-500 bg-slate-200 font-medium text-base;
+          transition: all .3s ease;
+     }
+
+     .active {
+          @apply bg-red-500 text-white
+     }
+
+     .tuning_button {
+          @apply fixed rounded-full bg-red-600 text-white w-8 h-8 flex justify-center items-center text-base font-bold shadow-lg;
+          transition: all .3s ease;
+          bottom: 20px;
+          right: 20px;
+          z-index: 999;
+     }
+
+     .go_back {
+          @apply fixed rounded-full flex justify-center items-center bg-white text-slate-700 p-2 w-8 h-8 text-xl font-bold shadow-lg;
+          bottom: 70px;
+          right: 20px;
+          z-index: 999;
+     }
+
+}
+
+
+
+</style>

@@ -1,7 +1,7 @@
 <template>
   <div class="page_container">
-    <menu-input-search @search="onSearch"/>
-    <div class="filter_tags">
+    <menu-input-search @search="onSearch" />
+    <div class="filter_tags" v-if="selectedFilters.length > 0">
       <span v-for="tag in selectedFilters">{{ tag }}</span>
     </div>
     <slot name="section">
@@ -43,32 +43,24 @@ export default {
 
 </script>
 <style lang="css" scoped>
-.page_container {
-  @apply container p-10 m-auto flex flex-col justify-center items-center gap-10;
-}
-
-
-.filter_tags {
-  @apply w-full flex gap-4 items-center justify-center flex-wrap;
-}
-
-.filter_tags>span {
-  @apply text-slate-600 bg-slate-100 shadow-sm rounded-2xl py-2 px-4 font-semibold
-}
-
-
-
-h1 {
-  @apply text-[28px] text-slate-800 font-bold text-center py-4
-}
-
-
-
-
-@media (max-width: 420px) {
+@media (min-width: 320px) {
   .page_container {
-    @apply py-10 px-4;
+    @apply container py-10 px-4 m-auto flex flex-col justify-center items-center gap-8;
+  }
+
+  .filter_tags {
+    @apply w-full flex gap-2 items-center justify-center flex-wrap;
+  }
+
+  .filter_tags>span {
+    @apply text-slate-500 text-[14px] bg-slate-100 rounded-md px-2 py-1 font-medium
   }
 }
 
+
+@media (min-width: 414px) {
+  .page_container {
+    @apply p-10;
+  }
+}
 </style>

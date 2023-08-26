@@ -6,7 +6,7 @@
                     <template v-if="linha.verse">
                          <span class="flex" v-if="linha.chords.length > 0">
                               <template v-for="item in parseString(linha.chords)">
-                                  <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
+                                  <b>{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>    
                          <span class="linha-verso">{{ linha.verse }}</span>
@@ -24,7 +24,7 @@
                          <template v-if="linha.verse">
                               <span class="flex" v-if="linha.chords.length > 0">
                                    <template v-for="item in parseString(linha.chords)">
-                                        <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
+                                        <b>{{ tom[item]?.notacao }}</b>
                                    </template>
                               </span>    
                               <span class="linha-verso font-bold">{{ linha.verse }}</span>
@@ -42,7 +42,7 @@
                          <template v-if="linha.verse">
                               <span class="flex" v-if="linha.chords.length > 0">
                                    <template v-for="item in parseString(linha.chords)">
-                                        <b class="w-[0.450rem]">{{ tom[item]?.notacao }}</b>
+                                        <b>{{ tom[item]?.notacao }}</b>
                                    </template>
                               </span>    
                               <span v-if="linha.verse === '[ Ponte ]'" class="linha-verso font-semibold text-red-900">{{ linha.verse }}</span>
@@ -51,7 +51,7 @@
                     <template v-else>
                          <span v-if="linha.chords.length > 1" class="passagem" >
                               <template v-for="item in parseString(linha.chords)">
-                                   <b class="w-fit">{{ tom[item]?.notacao }}</b>
+                                   <b>{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
                          <span class="h-10"></span>

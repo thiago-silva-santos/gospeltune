@@ -47,12 +47,12 @@ export default {
     }
 
     .scroll-to-top button {
-        @apply bg-black flex justify-center items-center text-white border-0 rounded-full w-9 h-9 cursor-pointer;
+        @apply bg-red-500 flex justify-center items-center text-white border-0 rounded-full w-9 h-9 cursor-pointer;
         transition: background-color 0.3s ease;
     }
 
     .scroll-to-top button:hover {
-        @apply bg-gray-700
+        @apply bg-red-600
     }
 }
 

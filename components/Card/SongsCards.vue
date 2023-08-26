@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <section class=" py-10">
+    <section class="py-10">
       <div class="cards_container">
         <CardSong v-for="song in props.items" :song-data="song" />
       </div>
     </section>
-  </div>
 </template>
 <script setup lang="ts">
 import { PropType } from "vue";

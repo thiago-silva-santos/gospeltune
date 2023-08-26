@@ -45,20 +45,45 @@ export default {
 }
 </script>
 <style scoped>
-.song_title {
-     @apply text-black font-semibold;
-     font-size: 22px;
-}
-
-.song_container {
-     @apply py-10 px-5 flex flex-col max-w-[400px] mx-auto;
-}
-.song_number {
-     @apply w-full text-left text-slate-400 italic
-}
-@media (max-width: 500px) {
+@media(min-width: 320px) {
      .song_container {
-          margin: 0;
+          @apply py-10 px-5 flex flex-col max-w-[400px] m-0;
      }
 
-}</style>
+     .song_title {
+          @apply text-black font-semibold;
+          font-size: 16px
+
+     }
+
+     .song_number {
+          @apply w-full text-left text-slate-400 italic;
+          font-size: 12px;
+     }
+}
+
+@media (min-width: 768px) {
+     .song_container {
+          @apply mx-auto;
+     }
+     .song_title {
+          font-size: 22px;
+     }
+
+     .song_number {
+          @apply w-full text-left text-slate-400 italic;
+          font-size: 18px;
+     }
+}
+@media (min-width: 1366px) {
+
+     .song_title {
+          font-size: 24px;
+     }
+
+     .song_number {
+          @apply w-full text-left text-slate-400 italic;
+          font-size: 20px;
+     }
+}
+</style>

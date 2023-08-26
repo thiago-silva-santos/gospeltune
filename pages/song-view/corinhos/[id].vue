@@ -47,16 +47,35 @@ export default {
 </script>
 <style scoped>
 
-.song_title {
-     @apply text-black font-semibold;
-     font-size: 22px;
+@media(min-width: 320px) {
+     .song_container {
+          @apply py-10 px-5 flex flex-col max-w-[400px] m-0;
+     }
+
+     .song_title {
+          @apply text-black font-semibold;
+          font-size: 16px
+
+     }
+
 }
 
-.song_container {
-     @apply py-10 px-5  flex flex-col max-w-[400px] mx-auto;
-}
-@media (max-width: 500px) {
+@media (min-width: 768px) {
      .song_container {
-          margin: 0;
+          @apply mx-auto;
      }
-}</style>
+     .song_title {
+          font-size: 22px;
+     }
+
+
+}
+@media (min-width: 1366px) {
+
+     .song_title {
+          font-size: 24px;
+     }
+
+
+}
+</style>

@@ -39,42 +39,59 @@ export default {
 
 <style scoped>
 .input_search_container {
-  @apply w-full flex justify-center relative gap-2 ;
+  @apply w-full flex justify-center relative gap-2;
 }
-.input_search {
-  @apply bg-slate-200 appearance-none border-2 border-slate-200 rounded py-2 px-4 text-gray-700 leading-tight;
-  transition: all ease .3s;
-  outline: none;
-}
+
+
 
 .input_search:focus {
   @apply bg-white border-gray-500
 }
 
-.button_filters {
-  @apply w-14 p-2 rounded-md flex items-center justify-center bg-black text-white;
-}
+
+
 @media (min-width: 320px) {
   .input_search {
-    @apply w-full
+    @apply w-full text-sm h-8 bg-slate-200 appearance-none border-2 border-slate-200 rounded-md py-1 px-2 text-gray-700 leading-tight;
+    transition: all ease .3s;
+    outline: none;
+  }
+
+  .button_filters {
+    @apply w-10 h-8 p-2 rounded-md flex items-center justify-center bg-red-500 text-white;
+  }
+
+  .button_filters span {
+    @apply text-[24px]
   }
 }
 
 @media (min-width: 375px) {
   .input_search {
-    @apply w-full
+    @apply w-full h-10 text-base
+  }
+  .button_filters {
+    @apply w-12 h-10
+  }
+  .button_filters span {
+    @apply text-[28px]
   }
 }
 
 @media (min-width: 414px) {
   .input_search {
-    @apply w-[300px];
+    @apply max-w-[300px] ;
   }
 }
 
+
 @media (min-width: 1366px) {
   .input_search {
-    @apply w-[400px];
+    @apply max-w-[400px] h-12;
   }
+  .button_filters {
+    @apply h-12 w-14
+  }
+
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
      <div :class="['card', { 'card_list_mode': props.listMode == true }]" @click="goToSong">
-          <div class="song_number text-center font-bold text-lg">
+          <div class="song_number">
                {{ props.songData.id }}
           </div>
           <span class="song_title">{{ props.songData.nome }}</span>
@@ -36,11 +36,11 @@ function goToSong() {
      }
 
      .song_title {
-          @apply  text-sm max-w-[230px] truncate text-slate-600
+          @apply  text-sm max-w-[230px] truncate text-black
      }
 
      .song_number {
-          @apply w-10 h-10 text-base text-black rounded-full flex items-center justify-center bg-slate-100
+          @apply w-10 h-10 text-base text-red-500 font-semibold rounded-full flex items-center justify-center bg-slate-50
      }
 }
 

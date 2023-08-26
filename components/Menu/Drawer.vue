@@ -2,47 +2,47 @@
     <Transition name="overlay-fade">
         <div class="overlay" @click="hide" v-if="showFilters"></div>
     </Transition>
-        <Transition name="fade">
-            <div class="drawer" v-if="showFilters">
-                <div class="option_list">
-                    <div class="flex flex-col relative">
-                        <div class="options_title">
-                            <h1>Páginas</h1>
-                            <span class="bar"></span>
-                        </div>
-                        <div class="sections">
-                            <button v-for="(button, index) in routes" :key="index" @click="closeDrawerAndGoToPage(button.path)" :class="{'active_route': this.$route.name == button.name}">
-                                {{ button.title }}
-                            </button>
-                        </div>
+    <Transition name="fade">
+        <div class="drawer" v-if="showFilters">
+            <div class="option_list">
+                <div class="flex flex-col relative">
+                    <div class="options_title">
+                        <h1>Páginas</h1>
+                        <span class="bar"></span>
                     </div>
-                    <div class="flex flex-col">
-                        <div class="options_title">
-                            <h1>Filtros</h1>
-                            <span class="bar"></span>
-                        </div>
-                        <div class="flex flex-col gap-2 w-full p-2">
-                            <div :class="['option', { 'option_active': selectedFilters.includes(categoria), 'option_song_type': !cifraTypes.includes(categoria) }]"
-                                v-for="categoria in usableFilters" :key="categoria" @click="selecionarCategoria(categoria)">
-                                {{ categoria }}
-                                <span v-if="selectedFilters.includes(categoria)"
-                                    class="material-symbols-outlined text-red-500">
-                                    remove
-                                </span>
-                                <span v-else class="material-symbols-outlined text-slate-500">
-                                    add
-                                </span>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="menu_logo" @click="hide">
-                        <img src="/gospeltunelogo.png" alt="logo">
-                        <h1>Gospeltune</h1>
+                    <div class="sections">
+                        <button v-for="(button, index) in routes" :key="index" @click="closeDrawerAndGoToPage(button.path)"
+                            :class="{ 'active_route': this.$route.name == button.name }">
+                            {{ button.title }}
+                        </button>
                     </div>
                 </div>
+                <div class="flex flex-col">
+                    <div class="options_title">
+                        <h1>Filtros</h1>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="options">
+                        <div :class="['option', { 'option_active': selectedFilters.includes(categoria), 'option_song_type': !cifraTypes.includes(categoria) }]"
+                            v-for="categoria in usableFilters" :key="categoria" @click="selecionarCategoria(categoria)">
+                            {{ categoria }}
+                            <span v-if="selectedFilters.includes(categoria)" class="material-symbols-outlined text-red-500">
+                                remove
+                            </span>
+                            <span v-else class="material-symbols-outlined text-slate-500">
+                                add
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu_logo" @click="hide">
+                    <img src="/gospeltunelogo.png" alt="logo">
+                    <h1>Gospeltune</h1>
+                </div>
             </div>
-        </Transition>
+        </div>
+    </Transition>
 </template>
   
 <script>
@@ -88,7 +88,7 @@ export default {
         selecionarCategoria(categoria) {
             this.updateSelectedFilters(categoria)
         },
-        closeDrawerAndGoToPage(route){
+        closeDrawerAndGoToPage(route) {
             this.hide()
             setTimeout(() => {
                 this.$router.push(route)
@@ -98,38 +98,6 @@ export default {
 };
 </script>
 <style scoped>
-.option_list {
-    @apply shadow-lg flex flex-col bg-white p-6 w-full h-full gap-10 relative;
-    z-index: 999;
-}
-.option {
-    @apply cursor-pointer flex items-center gap-4 text-slate-700 p-2 rounded-md justify-between;
-    transition: all ease .3s;
-}
-
-.options_title {
-    @apply flex items-center py-2 gap-3 font-semibold text-sm;
-}
-
-.sections {
-    @apply flex flex-col w-full items-center font-semibold text-slate-700 p-2
-}
-
-.sections button {
-    @apply p-2 w-full text-center rounded-lg
-}
-.active_route {
-    @apply text-red-500 bg-slate-100;
-}
-
-.drawer {
-    @apply absolute w-[384px] max-w-[384px];
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 999;
-}
-
 .bar {
     @apply block w-full h-[4px] bg-slate-200 rounded-lg;
 }
@@ -142,17 +110,6 @@ export default {
     @apply text-red-700
 }
 
-.menu_logo {
-    @apply w-full flex flex-col justify-center items-center absolute bottom-5 left-0 right-0 p-4 pb-0 border-t-[2px] border-slate-200
-}
-
-.menu_logo img {
-    @apply w-14 h-14 object-contain
-}
-
-.menu_logo h1 {
-    @apply text-lg
-}
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.8);
@@ -172,6 +129,7 @@ export default {
 .fade-leave-active {
     animation: fade-out .3s;
 }
+
 .overlay-fade-enter-active {
     animation: overlay-fade .5s;
 }
@@ -208,36 +166,89 @@ export default {
 
 @keyframes overlay-fade {
 
-0% {
-    opacity: 0;
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-100% {
-    opacity: 1;
-}
-}
+@media (min-width: 320px) {
+    .drawer {
+        @apply absolute w-4/5 max-w-[384px];
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 999;
+    }
 
-@media (max-width: 420px) {
     .option_list {
-        @apply p-4
+        @apply shadow-lg flex flex-col bg-white p-6 w-full h-full gap-6 relative;
+        z-index: 999;
+    }
+    .options {
+        @apply flex flex-col gap-2 w-full p-2
+    }
+    .option {
+        @apply cursor-pointer text-sm flex items-center gap-4 text-slate-700 py-1 px-2 rounded-md justify-between;
+        transition: all ease .3s;
+    }
+    .option span {
+        @apply text-[16px]
+    }
+
+    .options_title {
+        @apply flex items-center py-1 gap-3 font-semibold text-sm text-gray-600;
+    }
+
+    .active_route {
+        @apply text-red-500 bg-slate-100;
+    }
+
+    .sections {
+        @apply flex flex-col gap-2 w-full items-center font-medium text-slate-700 p-2
+    }
+
+    .sections button {
+        @apply p-1 w-full text-center rounded-lg text-[14px]
+    }
+
+
+    .menu_logo {
+        @apply w-full flex flex-col justify-center items-center absolute bottom-4 left-0 right-0 p-4 pb-0 border-slate-200
     }
 
     .menu_logo img {
-        @apply w-10 h-10 object-contain
+        @apply w-8 h-8 object-contain
     }
 
     .menu_logo h1 {
-        @apply text-base;
+        @apply text-[14px]
     }
 
-    .drawer {
-        @apply w-3/4;
-    }
-}
-@media (max-width: 350px) {
-    .menu_logo {
-        @apply hidden
-    }
 }
 
+@media (min-width: 414px) {
+    .options_title {
+        @apply text-[16px]
+    }
+    .sections button {
+        @apply text-[16px]
+    }
+    .option {
+        @apply p-2 text-[16px]
+    }
+    .option span {
+        @apply text-[18px]
+    }
+    .menu_logo img {
+        @apply w-10 h-10
+    }
+
+    .menu_logo h1 {
+        @apply text-[16px]
+    }
+}
 </style>
