@@ -1,6 +1,6 @@
 <template>
-     <div class="w-full h-screen">
-          <div class="song_container">
+     <div class="w-full">
+          <div class="song_container" id="song_container">
                <h1 class="song_title">{{ hino.nome }}</h1>
                <span class="song_number"> Número: {{ hino.id }} </span>
                <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>

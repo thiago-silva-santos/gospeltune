@@ -1,6 +1,6 @@
 <template>
-     <div class="w-full h-screen">
-          <div class="song_container">
+     <div class="w-full">
+          <div class="song_container" id="song_container">
                <h1 class="song_title">{{ hino.nome }}</h1>
                <span class="artist_name"> {{ hino.nomeArtista }} </span>
                <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
@@ -73,7 +73,6 @@ export default {
      }
 
      .artist_name {
-          @apply w-full text-left text-slate-400 italic;
           font-size: 18px;
      }
 }
@@ -81,11 +80,6 @@ export default {
 
      .song_title {
           font-size: 24px;
-     }
-
-     .artist_name {
-          @apply w-full text-left text-slate-400 italic;
-          font-size: 20px;
      }
 }
 </style>

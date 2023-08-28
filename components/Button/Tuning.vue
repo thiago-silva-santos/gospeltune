@@ -4,6 +4,25 @@
      </transition>
      <transition name="back-fade">
           <div v-if="isOpen" class="go_back">
+               <div class="zoom_actions_container">
+
+                    <button class="flex justify-center items-center" @click="zoomIn">
+                         <span class="material-symbols-outlined">
+                              zoom_in
+                         </span>
+                    </button>
+                    <button class="flex justify-center items-center" @click="zoomOut">
+                         <span class="material-symbols-outlined">
+                              zoom_out
+                         </span>
+                    </button>
+                    <button class="flex justify-center items-center mt-4" @click="zoomReset">
+                         <span class="material-symbols-outlined">
+                              center_focus_strong
+                         </span>
+                    </button>
+
+               </div>
                <nuxt-link :to="goBack" @click="() => this.isOpen = false">
                     <button class="flex justify-center items-center">
                          <span class="material-symbols-outlined">
@@ -65,7 +84,8 @@ export default {
      data() {
           return {
                isOpen: false,
-               tonalidadeAtual: 0
+               tonalidadeAtual: 0,
+               currentScale: 1.0
           }
      },
 
@@ -80,6 +100,27 @@ export default {
                this.tonalidadeAtual = value;
                this.sendTune()
                this.isOpen = false
+          },
+          zoomIn() {
+               const zoomableDiv = document.getElementById('song_container');
+               if (this.currentScale < 1) {
+                    this.currentScale += 0.1;
+                    zoomableDiv.style.transform = `scale(${this.currentScale})`;
+               }
+               return
+          },
+          zoomOut() {
+               const zoomableDiv = document.getElementById('song_container');
+               if (this.currentScale > 0.5000000000000001) {
+                    this.currentScale -= 0.1;
+                    zoomableDiv.style.transform = `scale(${this.currentScale})`;
+               }
+               return
+          },
+          zoomReset() {
+               const zoomableDiv = document.getElementById('song_container');
+               this.currentScale = 1.0;
+               zoomableDiv.style.transform = `scale(${this.currentScale})`;
           }
 
      },
@@ -159,8 +200,9 @@ export default {
 
 
 
-.go_back:hover {
-     @apply bg-slate-100 transition ease-in-out delay-100;
+.go_back a:hover,
+.go_back span {
+     @apply bg-slate-400 transition ease-in-out delay-100;
 }
 
 .tuning_button:hover {
@@ -260,6 +302,10 @@ export default {
           @apply flex justify-center gap-4 flex-wrap
      }
 
+     .zoom_actions_container {
+          @apply flex flex-col gap-2
+     }
+
      .tom_button {
           @apply rounded-full shadow-slate-400 w-8 h-8 text-slate-500 bg-slate-200 font-medium text-base;
           transition: all .3s ease;
@@ -278,14 +324,15 @@ export default {
      }
 
      .go_back {
-          @apply fixed rounded-full flex justify-center items-center bg-white text-slate-700 p-2 w-8 h-8 text-xl font-bold shadow-lg;
+          @apply fixed flex flex-col items-center gap-10;
           bottom: 70px;
           right: 20px;
           z-index: 999;
      }
 
+     .go_back a,
+     .go_back span {
+          @apply flex justify-center items-center bg-white text-slate-700 p-2 w-8 h-8 text-xl font-medium shadow-lg rounded-full
+     }
 }
-
-
-
 </style>

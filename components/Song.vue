@@ -17,7 +17,7 @@
                                    <b class="w-fit">{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
-                         <span class="h-10"></span>
+                         <span class="divider"></span>
                     </template>
                </template>
                <template v-for="linha in cifraDividida[1]" :key="linha">
@@ -35,7 +35,7 @@
                                    <b class="w-fit">{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
-                         <span class="h-10"></span>
+                         <span class="divider"></span>
                     </template>
                </template>
                <template v-for="linha in cifraDividida[2]" :key="linha">
@@ -54,7 +54,7 @@
                                    <b>{{ tom[item]?.notacao }}</b>
                               </template>
                          </span>
-                         <span class="h-10"></span>
+                         <span class="divider"></span>
                     </template>
                </template>
           </pre>
@@ -150,5 +150,20 @@ export default {
 
 b {
      @apply text-red-600
+}
+@media (min-width: 320px) {
+     .divider {
+          @apply h-6
+     }
+}
+@media (min-width: 768px) {
+     .divider {
+          @apply h-8
+     }
+}
+@media (min-width: 1366px) {
+     .divider {
+          @apply h-10
+     }
 }
 </style>
