@@ -65,7 +65,7 @@ export default {
                     path: "/corinhos"
                 },
                 {
-                    title: "Outros",
+                    title: "Louvores",
                     name: "hinos",
                     path: "/hinos"
                 },

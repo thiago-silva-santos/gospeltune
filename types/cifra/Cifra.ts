@@ -1,4 +1,4 @@
-export interface ISongCifra {
+export interface ISongCifra extends INomeArtista {
      id: string;
      tipo: string;
      nome: string;
@@ -7,6 +7,9 @@ export interface ISongCifra {
      cifra: ICifra[]
 }
 
+export interface INomeArtista {
+     nomeArtista?: string
+}
 
 type SongCategoria = "Envolvente" | "Introspectivo" | "Missões" | "Jovens" | "Santa Ceia"
 

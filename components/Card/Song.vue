@@ -3,7 +3,10 @@
           <div class="song_number">
                {{ props.songData.id }}
           </div>
-          <span class="song_title">{{ props.songData.nome }}</span>
+          <div class="titles">
+               <span class="song_title">{{ props.songData.nome }}</span>
+               <span class="song_subtitle" v-if="props.songData.nomeArtista"> {{ props.songData.nomeArtista }}</span>
+          </div>
 
      </div>
 </template>
@@ -42,6 +45,12 @@ function goToSong() {
      .song_number {
           @apply w-10 h-10 text-base text-red-500 font-semibold rounded-full flex items-center justify-center bg-slate-50
      }
+     .titles {
+          @apply flex flex-col
+     }
+     .song_subtitle {
+          @apply text-[12px] text-slate-400
+     }
 }
 
 @media (min-width: 375px) {
@@ -61,6 +70,9 @@ function goToSong() {
 
      .song_title {
           @apply text-base max-w-[300px] truncate
+     }
+     .song_subtitle {
+          @apply text-sm
      }
 }
 
@@ -89,6 +101,9 @@ function goToSong() {
 
      .song_title {
           @apply text-lg;
+     }
+     .song_subtitle {
+          @apply text-base
      }
 }
 
