@@ -216,6 +216,33 @@
     {
         "id": 5,
         "tipo": "hino",
+        "nome": "Rei da Glória",
+        "nomeArtista": "Todd Dulaney",
+        "tonalidade": 0,
+        "categoria": ["Introspectivo"],
+        "cifra": [{"chords":"      5     1           0       4","verse":"Anti a Ti,     todo joelho se dobrará"},{"chords":"         5     1          0    4","verse":"E confessará,   que Cristo é Senhor"},{"chords":"        3   4    5","verse":"Vamos co__me__çar"},{"chords":"     27     0    4","verse":"A te  a____do___rar"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"0             5","verse":"Rei da glória, enche-me"},{"chords":"         4","verse":"Contigo quero estar"},{"chords":"         3","verse":"Contigo quero estar"},{"chords":"","verse":""},{"chords":"","verse":"[ Ponte ]"},{"chords":"","verse":""},{"chords":"      0                        3","verse":"Cantarei aleluia, até o Senhor voltar"}]
+    },
+    {
+        "id": 6,
+        "tipo": "hino",
+        "nome": "",
+        "nomeArtista": "",
+        "tonalidade": 0,
+        "categoria": [],
+        "cifra": []
+    },
+    {
+        "id": 7,
+        "tipo": "hino",
+        "nome": "",
+        "nomeArtista": "",
+        "tonalidade": 0,
+        "categoria": [],
+        "cifra": []
+    },
+    {
+        "id": 8,
+        "tipo": "hino",
         "nome": "",
         "nomeArtista": "",
         "tonalidade": 0,
