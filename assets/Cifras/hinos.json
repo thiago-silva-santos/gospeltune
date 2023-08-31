@@ -201,8 +201,131 @@
         "nome": "Eis-me Aqui",
         "nomeArtista": "Valesca Mayssa",
         "tonalidade": 1,
-        "categoria": ["Introspectivo"],
-        "cifra": [{"chords":"     12     3               0","verse":"Um Deus    -   rodeado de Glória"},{"chords":"       12      3      0","verse":"És adorado     -   24 horas"},{"chords":"             12       3      0","verse":"Os serafins cantam: Santo, Santo"},{"chords":"            12      3     0","verse":"Incansavelmente, Santo, Santo"},{"chords":"","verse":""},{"chords":"  12     3                  0","verse":"E eu,      -   um homem tão falho"},{"chords":"  12      3           0","verse":"E de        -   impuros lábios"},{"chords":"                    3      4    12","verse":"O que um Deus tão grande assim"},{"chords":"             3     4    0","verse":"Viu de importante em mim?"},{"chords":"","verse":""},{"chords":"           3                12         4","verse":"Então me toca com essas brasas do altar"},{"chords":"           3                 12     4","verse":"E me transforma, vem me puri__ficar"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"0","verse":"Eis-me aqui, estou disponível"},{"chords":"       12                                4","verse":"Então  usa-me, me fiz exclusivo só pra Te servir"},{"chords":"     3            12     4","verse":"Meu Deus, envia-me,    oh"},{"chords":"","verse":""},{"chords":"       0","verse":"Como dizer não para o Teu chamado"},{"chords":"       12","verse":"Se me deste unção para ser usado"},{"chords":"          4                       12     4  3","verse":"Pra Tua glória, somente pra Tua glória"},{"chords":"","verse":""},{"chords":"12   3  0  4","verse":""},{"chords":"","verse":"[ Ponte ]"},{"chords":"","verse":""},{"chords":"12         3     0         4","verse":"Geração eleita (eis-me aqui)"},{"chords":"12           3    0         4","verse":"Sacerdócio real (eis-me aqui)"},{"chords":"12          3             0         4","verse":"Povo exclusivo de Deus (eis-me aqui)"},{"chords":"12      3       0      4","verse":"Nação santa, santa, santa!"}]
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "chords": "     12     3               0",
+                "verse": "Um Deus    -   rodeado de Glória"
+            },
+            {
+                "chords": "       12      3      0",
+                "verse": "És adorado     -   24 horas"
+            },
+            {
+                "chords": "             12       3      0",
+                "verse": "Os serafins cantam: Santo, Santo"
+            },
+            {
+                "chords": "            12      3     0",
+                "verse": "Incansavelmente, Santo, Santo"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "  12     3                  0",
+                "verse": "E eu,      -   um homem tão falho"
+            },
+            {
+                "chords": "  12      3           0",
+                "verse": "E de        -   impuros lábios"
+            },
+            {
+                "chords": "                    3      4    12",
+                "verse": "O que um Deus tão grande assim"
+            },
+            {
+                "chords": "             3     4    0",
+                "verse": "Viu de importante em mim?"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "           3                12         4",
+                "verse": "Então me toca com essas brasas do altar"
+            },
+            {
+                "chords": "           3                 12     4",
+                "verse": "E me transforma, vem me puri__ficar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "0",
+                "verse": "Eis-me aqui, estou disponível"
+            },
+            {
+                "chords": "       12                                4",
+                "verse": "Então  usa-me, me fiz exclusivo só pra Te servir"
+            },
+            {
+                "chords": "     3            12     4",
+                "verse": "Meu Deus, envia-me,    oh"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "       0",
+                "verse": "Como dizer não para o Teu chamado"
+            },
+            {
+                "chords": "       12",
+                "verse": "Se me deste unção para ser usado"
+            },
+            {
+                "chords": "          4                       12     4  3",
+                "verse": "Pra Tua glória, somente pra Tua glória"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "12   3  0  4",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Ponte ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "12         3     0         4",
+                "verse": "Geração eleita (eis-me aqui)"
+            },
+            {
+                "chords": "12           3    0         4",
+                "verse": "Sacerdócio real (eis-me aqui)"
+            },
+            {
+                "chords": "12          3             0         4",
+                "verse": "Povo exclusivo de Deus (eis-me aqui)"
+            },
+            {
+                "chords": "12      3       0      4",
+                "verse": "Nação santa, santa, santa!"
+            }
+        ]
     },
     {
         "id": 4,
@@ -210,17 +333,303 @@
         "nome": "Os Planos de Deus",
         "nomeArtista": "Samuel Messias",
         "tonalidade": 4,
-        "categoria": ["Introspectivo"],
-        "cifra": [{"chords":"0                 27","verse":"Bem sei eu que tudo podes"},{"chords":"5                         3","verse":"Nenhum dos Teus planos pode se frustrar"},{"chords":"0              27","verse":"A vontade é Tua"},{"chords":"","verse":"E a minha vida em Tuas mãos está"},{"chords":"5              3","verse":"E nenhum dos Teus planos pode se frustrar"},{"chords":"5         4            3","verse":"E nenhum dos Teus planos podem se frustrar"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"          0                27","verse":"Não se frustrarão, não se frustrarão"},{"chords":"           5                3","verse":"Os planos de Deus ninguém impedirá"},{"chords":"          0              5","verse":"Pode o vento soprar, a Terra pode se abalar"},{"chords":"         5                3","verse":"Mas os planos de Deus ninguém impedirá"},{"chords":"","verse":""},{"chords":"[ 0  27   12   3 ]","verse":""},{"chords":"","verse":"[ Ponte ]"},{"chords":"","verse":""},{"chords":"             0","verse":"Quando passares pelas águas"},{"chords":"               27","verse":"Eu estarei contigo, filho"},{"chords":"                5","verse":"Quando passares pelo fogo"},{"chords":"             3","verse":"Ele não te queimará"},{"chords":"            0","verse":"Pois Eu estou contigo, filho"},{"chords":"            27","verse":"Eu estou contigo, filho"},{"chords":"           5","verse":"Eu estou contigo, filho"},{"chords":"           3","verse":"Eu estou contigo, filho"},{"chords":"","verse":""},{"chords":"             0","verse":"E se o teu barco parecer que vai naufragar"},{"chords":"           27","verse":"Está balançando pra lá e pra cá"},{"chords":"                12","verse":"Está causando medo em teu coração"},{"chords":"                  0","verse":"Está causando dúvidas, cadê Jesus?"},{"chords":"                     0","verse":"Mas olha só quem vem aí"},{"chords":"","verse":"Andando sobre as águas"},{"chords":"               27","verse":"Parece que é Jesus"},{"chords":"","verse":"Andando sobre as águas"},{"chords":"                    13","verse":"Está dando uma ordem para o vento"},{"chords":"","verse":"Sou Eu o dono do tempo"},{"chords":"    3","verse":"Sou Eu o dono daqui, sou Eu o dono do mar"},{"chords":"","verse":""},{"chords":"0","verse":"Sou Eu, sou Eu"},{"chords":"27","verse":"Sou Eu, sou Eu"},{"chords":"5             3","verse":"Sou Eu, sou Eu"},{"chords":"","verse":""},{"chords":"","verse":"[ Final ]"},{"chords":"","verse":""},{"chords":"          0","verse":"Ninguém pode te ajudar"},{"chords":"             27","verse":"Ninguém pode te levantar"},{"chords":"             5","verse":"Mas se Deus tem um plano contigo"},{"chords":"          3","verse":"Ninguém impedirá"}]
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "chords": "0           27",
+                "verse": "Bem sei eu  -  que tudo podes"
+            },
+            {
+                "chords": "5                            3",
+                "verse": "-   Nenhum dos Teus planos pode se frustrar"
+            },
+            {
+                "chords": "0",
+                "verse": "-   A vontade é Tua"
+            },
+            {
+                "chords": "27",
+                "verse": "-   E a minha vida em Tuas mãos está"
+            },
+            {
+                "chords": "5                              3",
+                "verse": "-   E nenhum dos Teus planos pode se frustrar"
+            },
+            {
+                "chords": "5                      4       3",
+                "verse": "-   E nenhum dos Teus planos pode se frustrar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "               0                 27",
+                "verse": "Não se frustrarão, não se frustrarão"
+            },
+            {
+                "chords": "              5                    3",
+                "verse": "Os planos de Deus ninguém impedirá"
+            },
+            {
+                "chords": "                 0                      27",
+                "verse": "Pode o vento soprar, a Terra pode se abalar"
+            },
+            {
+                "chords": "                  5                     3",
+                "verse": "Mas os planos de Deus ninguém impedirá"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "[ 0  27   12   3 ]",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Ponte ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "                         0",
+                "verse": "Quando passares pelas águas"
+            },
+            {
+                "chords": "               27",
+                "verse": "Eu estarei contigo, filho"
+            },
+            {
+                "chords": "                       5",
+                "verse": "Quando passares pelo fogo"
+            },
+            {
+                "chords": "                 3",
+                "verse": "Ele não te queimará"
+            },
+            {
+                "chords": "                  0",
+                "verse": "Pois Eu estou contigo, filho"
+            },
+            {
+                "chords": "             27",
+                "verse": "Eu estou contigo, filho"
+            },
+            {
+                "chords": "             5",
+                "verse": "Eu estou contigo, filho"
+            },
+            {
+                "chords": "             3",
+                "verse": "Eu estou contigo, filho"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "                    0",
+                "verse": "E se o teu barco parecer que vai naufragar"
+            },
+            {
+                "chords": "           27",
+                "verse": "Está balançando pra lá e pra cá"
+            },
+            {
+                "chords": "                12",
+                "verse": "Está causando medo em teu coração"
+            },
+            {
+                "chords": "                3",
+                "verse": "Está causando dúvidas, cadê Jesus?"
+            },
+            {
+                "chords": "                        0",
+                "verse": "Mas olha só quem vem  aí"
+            },
+            {
+                "chords": "",
+                "verse": "Andando sobre as águas"
+            },
+            {
+                "chords": "               27",
+                "verse": "Parece que é Jesus"
+            },
+            {
+                "chords": "",
+                "verse": "Andando sobre as águas"
+            },
+            {
+                "chords": "                  13",
+                "verse": "Está dando uma ordem para o vento"
+            },
+            {
+                "chords": "",
+                "verse": "Sou Eu o dono do tempo"
+            },
+            {
+                "chords": "    3",
+                "verse": "Sou Eu o dono daqui, sou Eu o dono do mar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "0",
+                "verse": "Sou Eu, sou Eu"
+            },
+            {
+                "chords": "27",
+                "verse": "Sou Eu, sou Eu"
+            },
+            {
+                "chords": "5           3",
+                "verse": "Sou Eu, sou Eu"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Final ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "                    0",
+                "verse": "Ninguém pode te ajudar"
+            },
+            {
+                "chords": "                      27",
+                "verse": "Ninguém pode te levantar"
+            },
+            {
+                "chords": "                               5",
+                "verse": "Mas se Deus tem um plano contigo"
+            },
+            {
+                "chords": "                3",
+                "verse": "Ninguém impedirá"
+            }
+        ]
     },
     {
         "id": 5,
         "tipo": "hino",
         "nome": "Rei da Glória",
         "nomeArtista": "Todd Dulaney",
-        "tonalidade": 0,
-        "categoria": ["Introspectivo"],
-        "cifra": [{"chords":"      5     1           0       4","verse":"Anti a Ti,     todo joelho se dobrará"},{"chords":"         5     1          0    4","verse":"E confessará,   que Cristo é Senhor"},{"chords":"        3   4    5","verse":"Vamos co__me__çar"},{"chords":"     27     0    4","verse":"A te  a____do___rar"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"0             5","verse":"Rei da glória, enche-me"},{"chords":"         4","verse":"Contigo quero estar"},{"chords":"         3","verse":"Contigo quero estar"},{"chords":"","verse":""},{"chords":"","verse":"[ Ponte ]"},{"chords":"","verse":""},{"chords":"      0                        3","verse":"Cantarei aleluia, até o Senhor voltar"}]
+        "tonalidade": 2,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "chords": "      5     1           0       4",
+                "verse": "Anti a Ti,     todo joelho se dobrará"
+            },
+            {
+                "chords": "         5     1          0    4",
+                "verse": "E confessará,   que Cristo é Senhor"
+            },
+            {
+                "chords": "        3",
+                "verse": "Vamos começar"
+            },
+            {
+                "chords": "     4",
+                "verse": "A te  adorar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "0             12",
+                "verse": "Rei da glória, enche-me"
+            },
+            {
+                "chords": "         4",
+                "verse": "Contigo quero estar"
+            },
+            {
+                "chords": "         3",
+                "verse": "Contigo quero estar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "28             12",
+                "verse": "Rei da glória, enche-me"
+            },
+            {
+                "chords": "         4",
+                "verse": "Contigo quero estar"
+            },
+            {
+                "chords": "         3",
+                "verse": "Contigo quero estar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Ponte ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "      0                        3",
+                "verse": "Cantarei aleluia, até o Senhor voltar"
+            },
+            {
+                "chords": "      12                        3",
+                "verse": "Cantarei aleluia, até o Senhor voltar"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "      12",
+                "verse": "Invocarei Tua presença, Tua presença"
+            },
+            {
+                "chords": "3",
+                "verse": "Tua presença, Tua presença"
+            }
+        ]
     },
     {
         "id": 6,
