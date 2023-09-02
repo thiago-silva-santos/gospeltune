@@ -7,7 +7,7 @@
           </div>
 
           <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'" />
-          <button-play/>
+          <!-- <button-play/> -->
 
      </div>
 </template>
@@ -38,53 +38,6 @@ export default {
           getTom(value) {
                this.tonalidadeAtual = value
           },
-          scrollPage() {
-               const pageHeight = document.getElementById("song_container").scrollHeight;
-               const viewportHeight = window.innerHeight
-               const remainingHeight = pageHeight - viewportHeight
-
-               const seconds = 180
-               const interval = 1000
-               let currentTick = 1;
-
-               this.scrollInterval = setInterval(() => {
-                    const scrollPosition = (currentTick / seconds) * remainingHeight;
-                    const reachedBottom = pageHeight - scrollPosition <= viewportHeight
-
-                    window.scrollTo({
-                         top: scrollPosition,
-                         behavior: 'smooth'
-                    });
-                    currentTick++;
-
-
-                    if (currentTick > seconds || reachedBottom) {
-                         console.log('está em loop')
-                         clearInterval(this.scrollInterval);
-                    }
-               }, interval);
-               this.isOpen = false;
-
-               // Monitora o evento de rolagem para detectar uma rolagem para cima
-               let lastScrollTop = window.scrollY || document.documentElement.scrollTop;
-               // Monitora o evento de rolagem para detectar uma rolagem para cima
-               const scrollHandler = () => {
-                    const currentScrollTop = window.scrollY || document.documentElement.scrollTop;
-
-                    if (currentScrollTop < lastScrollTop) {
-                         // Scroll para cima detectado, interrompe a rolagem
-                         console.log('Rolagem para cima detectada. Interrompendo...');
-                         clearInterval(this.scrollInterval);
-                         this.isOpen = false;
-                         window.removeEventListener('scroll', scrollHandler); // Remove o event listener
-                    }
-
-                    lastScrollTop = currentScrollTop;
-               };
-
-               window.addEventListener('scroll', scrollHandler);
-          
-     }
      },
      created() {
           if (this.hino.tonalidade) {

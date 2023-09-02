@@ -550,8 +550,8 @@
                 "verse": "E confessará,   que Cristo é Senhor"
             },
             {
-                "chords": "        3",
-                "verse": "Vamos começar"
+                "chords": "        3   4    5",
+                "verse": "Vamos co__me__çar"
             },
             {
                 "chords": "     4",
@@ -634,28 +634,337 @@
     {
         "id": 6,
         "tipo": "hino",
-        "nome": "",
-        "nomeArtista": "",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "nome": "Santo",
+        "nomeArtista": "Jozyanne",
+        "tonalidade": 4,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "chords": "0                             27",
+                "verse": "Santo, santo, santo, santo És"
+            },
+            {
+                "chords": "5",
+                "verse": "Santo, santo, santo, santo És"
+            },
+            {
+                "chords": "3                           1",
+                "verse": "Tão perfeito, incomparável  És"
+            },
+            {
+                "chords": "                   4",
+                "verse": "Meu Jesus tão adorado"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "       5                    3",
+                "verse": "Que abriu a porta da eternidade"
+            },
+            {
+                "chords": "         0                          4",
+                "verse": "Se entregou pra se cumprir toda verdade"
+            },
+            {
+                "chords": "      5",
+                "verse": "Humilhado foi e não revidou"
+            },
+            {
+                "chords": "      3",
+                "verse": "Foi traído e mesmo assim ele perdoou"
+            },
+            {
+                "chords": "          8",
+                "verse": "Foi crucificado e morto lá na rude cruz"
+            },
+            {
+                "chords": "     4",
+                "verse": "Mas ao terceiro dia"
+            },
+            {
+                "chords": "       0      27     5    4  3",
+                "verse": "Ele provou    que     era   Jesus"
+            },
+            {
+                "chords": "                                  1",
+                "verse": "O filho de Deus, o Messias prometido"
+            },
+            {
+                "chords": "5",
+                "verse": "-  Verdadeiro, justo, mais que excelente"
+            },
+            {
+                "chords": "4",
+                "verse": "-  Toda a pureza está selada no seu coração"
+            },
+            {
+                "chords": "3",
+                "verse": "-  Autor da vida, autor da salvação"
+            },
+            {
+                "chords": "",
+                "verse": "A fonte de água viva que jorra a vida"
+            },
+            {
+                "chords": "1",
+                "verse": "-  Unção que cura, que nos lava e purifica"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "0                             27",
+                "verse": "Santo, santo, santo, santo És"
+            },
+            {
+                "chords": "5",
+                "verse": "Santo, santo, santo, santo És"
+            },
+            {
+                "chords": "3                           1",
+                "verse": "Tão perfeito, incomparável  És"
+            },
+            {
+                "chords": "                   4",
+                "verse": "Meu Jesus tão adorado"
+            }
+        ]
     },
     {
         "id": 7,
         "tipo": "hino",
-        "nome": "",
-        "nomeArtista": "",
+        "nome": "O Medo Não Vai Me Parar",
+        "nomeArtista": "Sarah Beatriz",
         "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "chords": "12                    4",
+                "verse": "Eu vi o fogo, mas a sarça não queimava"
+            },
+            {
+                "chords": "3",
+                "verse": "Ouvi Tua voz e tirei minhas sandálias"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "30                      4",
+                "verse": "Que presença é essa? Eu não resisti"
+            },
+            {
+                "chords": "30                      4",
+                "verse": "Que presença é essa? Me escondi de Ti"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "                 12                 3",
+                "verse": "Vem com Teu poder, faz o Teu querer"
+            },
+            {
+                "chords": "               0        4",
+                "verse": "Tu tens o controle de mim"
+            },
+            {
+                "chords": "               12                3",
+                "verse": "Traz o Teu mover, faz o céu descer"
+            },
+            {
+                "chords": "               0      4",
+                "verse": "Minha vida entrego a Ti"
+            },
+            {
+                "chords": "       12     3        0   4",
+                "verse": "Eu só quero Te conhecer"
+            },
+            {
+                "chords": "       12     3        0   4",
+                "verse": "Eu só quero Te conhecer"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Ponte ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "12        3           0    4",
+                "verse": "O medo não vai me parar"
+            },
+            {
+                "chords": "12             3            0    4",
+                "verse": "O grande \"Eu Sou\" comigo está"
+            },
+            {
+                "chords": "12                    3",
+                "verse": "Mesmo que o mar esteja em frente"
+            },
+            {
+                "chords": "0                4             12",
+                "verse": "-  Tenho certeza que eu vou passar"
+            },
+            {
+                "chords": "         3           0    4       ",
+                "verse": "O medo não vai me parar"
+            }
+        ]
     },
     {
         "id": 8,
         "tipo": "hino",
-        "nome": "",
-        "nomeArtista": "",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "nome": "Jeová Jireh",
+        "nomeArtista": "Aline Barros",
+        "tonalidade": 4,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "chords": "                   0",
+                "verse": "O fogo não me queima"
+            },
+            {
+                "chords": "",
+                "verse": "Nas águas não vou afundar"
+            },
+            {
+                "chords": "        3",
+                "verse": "Pois estás comigo"
+            },
+            {
+                "chords": "",
+                "verse": "Não estou sozinho"
+            },
+            {
+                "chords": "              0",
+                "verse": "Eu estou guardado"
+            },
+            {
+                "chords": "",
+                "verse": "No esconderijo"
+            },
+            {
+                "chords": "        3",
+                "verse": "Não estou sozinho"
+            },
+            {
+                "chords": "",
+                "verse": "Tu estás comigo"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Refrão ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "3                4                5",
+                "verse": "Temer por quê?   -  Se eu estou"
+            },
+            {
+                "chords": "                           2",
+                "verse": "Guardado por quem nunca perdeu batalhas"
+            },
+            {
+                "chords": "3             4",
+                "verse": "Seu nome é,   -  Jeová Jireh"
+            },
+            {
+                "chords": "       0",
+                "verse": "Irás prover de novo, eu creio em Ti"
+            },
+            {
+                "chords": "3                  4",
+                "verse": "Haja o que houver, venha o que vier"
+            },
+            {
+                "chords": "       0",
+                "verse": "Irás prover de novo, eu creio em Ti"
+            },
+            {
+                "chords": "        3                4",
+                "verse": "Eu não vivo do que vejo, vivo do que creio"
+            },
+            {
+                "chords": "       0",
+                "verse": "Irás prover de novo, eu creio em Ti"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": " 3   4 5    0  4  3",
+                "verse": ""
+            },
+            {
+                "chords": "",
+                "verse": "[ Ponte ]"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "3              4                 12",
+                "verse": "A tempestade,  -  e o vento forte"
+            },
+            {
+                "chords": "                        9                   3",
+                "verse": "Não vão roubar a minha fé, em Ti meu Deus"
+            },
+            {
+                "chords": "",
+                "verse": ""
+            },
+            {
+                "chords": "            3                 4",
+                "verse": "Em Ti, meu Deus. Em Ti, meu Deus"
+            },
+            {
+                "chords": "            9       12",
+                "verse": "Em Ti, meu Deus"
+            }
+        ]
     }
 ]

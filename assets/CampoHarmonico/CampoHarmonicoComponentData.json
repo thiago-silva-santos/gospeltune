@@ -118,8 +118,19 @@
             {
                 "grau": 28,
                 "notacao": "C/E"
-            }
-            
+            },
+            {
+                "grau": 29,
+                "notacao": "C7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "F7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "G7M"
+            }            
         ]
     },
     {
@@ -241,7 +252,19 @@
             {
                 "grau": 28,
                 "notacao": "D/F#"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "D7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "G7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "A7M"
+            }       
         ]
     },
     {
@@ -363,7 +386,19 @@
             {
                 "grau": 28,
                 "notacao": "E/G#"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "E7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "A7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "B7M"
+            }       
         ]
     },
     {
@@ -485,7 +520,19 @@
             {
                 "grau": 28,
                 "notacao": "F/A"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "F7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "Bb7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "C7M"
+            }       
         ]
     },
     {
@@ -607,7 +654,19 @@
             {
                 "grau": 28,
                 "notacao": "G/B"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "G7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "C7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "D7M"
+            }       
         ]
     },
     {
@@ -729,7 +788,19 @@
             {
                 "grau": 28,
                 "notacao": "A/C#"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "A7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "D7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "E7M"
+            }       
             
         ]
     },
@@ -852,7 +923,19 @@
             {
                 "grau": 28,
                 "notacao": "B/D#"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "B7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "E7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "F#7M"
+            }       
         ]
     },
     {
@@ -974,7 +1057,19 @@
             {
                 "grau": 28,
                 "notacao": "Db/F"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "Db7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "Gb7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "Ab7M"
+            }       
         ]
     },
     {
@@ -1096,7 +1191,19 @@
             {
                 "grau": 28,
                 "notacao": "Eb/G"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "Eb7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "Ab7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "Bb7M"
+            }       
         ]
     },
     {
@@ -1218,7 +1325,19 @@
             {
                 "grau": 28,
                 "notacao": "Gb/Bb"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "Gb7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "Cb7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "Db7M"
+            }       
         ]
     },
     {
@@ -1340,7 +1459,19 @@
             {
                 "grau": 28,
                 "notacao": "Ab/C"
-            }
+            },
+            {
+                "grau": 29,
+                "notacao": "Ab7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "Db7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "Eb7M"
+            }     
         ]
     },
     {
@@ -1462,6 +1593,18 @@
             {
                 "grau": 28,
                 "notacao": "Bb/D"
+            },
+            {
+                "grau": 29,
+                "notacao": "Bb7M"
+            },
+            {
+                "grau": 30,
+                "notacao": "Eb7M"
+            },
+            {
+                "grau": 31,
+                "notacao": "F7M"
             }
         ]
     }
