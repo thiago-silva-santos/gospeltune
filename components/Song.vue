@@ -145,7 +145,7 @@ export default {
 }
 
 .passagem {
-     @apply flex w-fit gap-1 px-2 border-2 border-slate-200 rounded-lg
+     @apply flex w-fit gap-1 px-4 border-2 border-slate-200 rounded-lg
 }
 
 b {
