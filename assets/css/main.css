@@ -42,6 +42,17 @@ b {
      b {
           width: 0.395rem !important;
      }
+      .pre-1 {
+          max-height: 600px;
+          flex-wrap: wrap;
+          font-size: 6px !important
+     }
+     .pre-1 span {
+          @apply mx-2
+     }
+     .pre-1-b {
+          width: 0.230rem !important;
+     }
 }
 
 @media (min-width: 768px) {

@@ -23,7 +23,7 @@
                         <span class="bar"></span>
                     </div>
                     <div class="options">
-                        <div :class="['option', { 'option_active': selectedFilters.includes(categoria), 'option_song_type': !cifraTypes.includes(categoria) }]"
+                        <div :class="['option', { 'option_active': selectedFilters.includes(categoria)}]"
                             v-for="categoria in usableFilters" :key="categoria" @click="selecionarCategoria(categoria)">
                             {{ categoria }}
                             <span v-if="selectedFilters.includes(categoria)" class="material-symbols-outlined text-red-500">
@@ -52,7 +52,7 @@ import { mapState } from 'pinia';
 export default {
     data() {
         return {
-            cifraTypes: ["Santa Ceia", "Jovens", "Missões"],
+            hinosHarpaTypes: ["Santa Ceia", "Jovens", "Missões"],
             routes: [
                 {
                     title: "Hinos da Harpa",
@@ -75,8 +75,8 @@ export default {
     computed: {
         ...mapState(useFilterStore, ['filters', 'selectedFilters', 'showFilters']),
         usableFilters() {
-            if (this.$route.path == '/corinhos') {
-                return this.filters.filter(item => !this.cifraTypes.includes(item));
+            if (this.$route.path == '/corinhos' || this.$route.path === '/hinos') {
+                return ["Envolvente", "Introspectivo"];
             } else {
                 return this.filters
             }

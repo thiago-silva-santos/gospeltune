@@ -16,12 +16,6 @@
                               zoom_out
                          </span>
                     </button>
-                    <button class="flex justify-center items-center mt-4" @click="zoomReset">
-                         <span class="material-symbols-outlined">
-                              center_focus_strong
-                         </span>
-                    </button>
-
                </div>
                <nuxt-link :to="goBack" @click="() => this.isOpen = false">
                     <button class="flex justify-center items-center">

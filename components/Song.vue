@@ -1,7 +1,7 @@
 <template>
      <section class="flex pt-10">
 
-          <pre class="flex flex-col">
+          <pre class="flex flex-col" v-if="!split">
                <template v-for="linha in cifraDividida[0]" :key="linha">
                     <template v-if="linha.verse">
                          <span class="flex" v-if="linha.chords.length > 0">
@@ -58,6 +58,66 @@
                     </template>
                </template>
           </pre>
+          <div class="flex w-full gap-4" v-else>
+               <pre class="flex flex-col pre-1" >
+                    <template v-for="linha in cifraDividida[0]" :key="linha">
+                         <template v-if="linha.verse">
+                              <span class="flex" v-if="linha.chords.length > 0">
+                                   <template v-for="item in parseString(linha.chords)">
+                                       <b :class="{'pre-1-b': split}">{{ tom[item]?.notacao }}</b>
+                                   </template>
+                              </span>    
+                              <span class="linha-verso">{{ linha.verse }}</span>
+                         </template>                         
+                         <template v-else>
+                              <span v-if="linha.chords.length > 1" class="passagem" >
+                                   <template v-for="item in parseString(linha.chords)">
+                                        <b class="w-fit">{{ tom[item]?.notacao }}</b>
+                                   </template>
+                              </span>
+                              <span class="divider"></span>
+                         </template>
+                    </template>
+                    <template v-for="linha in cifraDividida[1]" :key="linha">
+                              <template v-if="linha.verse">
+                                   <span class="flex" v-if="linha.chords.length > 0">
+                                        <template v-for="item in parseString(linha.chords)">
+                                             <b :class="{'pre-1-b': split}">{{ tom[item]?.notacao }}</b>
+                                        </template>
+                                   </span>    
+                                   <span class="linha-verso font-bold">{{ linha.verse }}</span>
+                              </template>                         
+                         <template v-else>
+                              <span v-if="linha.chords.length > 1" class="passagem" >
+                                   <template v-for="item in parseString(linha.chords)">
+                                        <b class="w-fit">{{ tom[item]?.notacao }}</b>
+                                   </template>
+                              </span>
+                              <span class="divider"></span>
+                         </template>
+                    </template>
+                    <template v-for="linha in cifraDividida[2]" :key="linha">
+                              <template v-if="linha.verse">
+                                   <span class="flex" v-if="linha.chords.length > 0">
+                                        <template v-for="item in parseString(linha.chords)">
+                                             <b :class="{'pre-1-b': split}">{{ tom[item]?.notacao }}</b>
+                                        </template>
+                                   </span>    
+                                   <span v-if="linha.verse === '[ Ponte ]'" class="linha-verso font-semibold text-red-900">{{ linha.verse }}</span>
+                                   <span v-else class="linha-verso text-red-900">{{ linha.verse }}</span>
+                              </template>                         
+                         <template v-else>
+                              <span v-if="linha.chords.length > 1" class="passagem" >
+                                   <template v-for="item in parseString(linha.chords)">
+                                        <b :class="{'pre-1-b': split}">{{ tom[item]?.notacao }}</b>
+                                   </template>
+                              </span>
+                              <span class="divider"></span>
+                         </template>
+                    </template>
+               </pre>
+          </div>
+
 
      </section>
 </template>
@@ -77,6 +137,7 @@ export default {
      },
      data() {
           return {
+               split: false
           };
 
      },
@@ -155,6 +216,8 @@ b {
      .divider {
           @apply h-6
      }
+    
+
 }
 @media (min-width: 768px) {
      .divider {

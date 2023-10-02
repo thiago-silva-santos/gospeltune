@@ -966,5 +966,16 @@
                 "verse": "Em Ti, meu Deus"
             }
         ]
+    },
+    {
+        "id": 9,
+        "tipo": "hino",
+        "nome": "Se Isso Não For Amor",
+        "nomeArtista": "Mara Lima",
+        "tonalidade": 2,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [{"chords":"    0           3            0","verse":"Deixou o esplendor de Sua glória"},{"chords":"    3           4      0","verse":"Ao vir a este mundo aqui"},{"chords":"        0      7       3","verse":"Estava só e ferido no Gólgota"},{"chords":"      0        4        0   7","verse":"Para dar sua vida por mim"},{"chords":"","verse":""},{"chords":"","verse":"[ Refrão ]"},{"chords":"","verse":""},{"chords":"                 3","verse":"Se isto não for amor (amor, amor, amor)"},{"chords":"             0     5","verse":"O oceano secou"},{"chords":"                    1       4","verse":"Não há estrelas no céu"},{"chords":"                    0","verse":"As andorinhas não voam mais"}]
     }
 ]
