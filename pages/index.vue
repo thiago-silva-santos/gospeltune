@@ -1,75 +1,44 @@
 <template>
      <CifraSection>
           <template v-slot:section>
-               <template v-if="searchHinosResults.length == 0">
+               <template v-if="results.length == 0">
                     <div class="no-results">
                          Nenhuma cifra encontrada...
                     </div>
                </template>
                <template v-else>
-                    <section class="w-full" v-if="searchHinosResults.length >= 1">
+                    <section class="w-full" v-if="results.length >= 1">
                          <h1>Hinos da Harpa Cristã</h1>
-                         <CardSongsCards :items="searchHinosResults" :text-search="search" />
+                         <CardSongsCards :items="results" :text-search="SearchStore.search" />
                     </section>
                </template>
           </template>
      </CifraSection>
 </template>
-<script>
-import hinos from '@/assets/Cifras/hinos-harpa-crista.json'
+<script setup lang="ts">
+import hinosDaHarpa from '@/assets/Cifras/hinos-harpa-crista.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
-import { mapState } from 'pinia'
-export default {
-     data() {
-          return {
-               showFilters: false
-          };
-     },
-     methods: {
-          onSearch(value) {
-               this.search = value
-          },
-     },
-     computed: {
-          ...mapState(useFilterStore, ['filters', 'selectedFilters']),
-          ...mapState(useSearchStore, ['search']),
-          hinosHarpa() {
-               return hinos
-          },
-          searchHinosResults() {
-               let eligibleItems = this.hinosHarpa.filter((item) => item.cifra.length > 0)
-               if (this.selectedFilters.length > 0) {
-                    eligibleItems = eligibleItems.filter((item) => this.selectedFilters.every(category => item.categoria?.includes(category)))
-               }
+import { ref, computed } from 'vue'
 
 
-               if (this.search !== '') {
+const FilterStore = useFilterStore()
+const SearchStore = useSearchStore()
+const hinosHarpa = computed(() => {
+     return hinosDaHarpa
+})
 
-                    const lowerCaseSearchTerm = this.search.toLowerCase().normalize("NFD")
-                         .replace(/[\u0300-\u036f]/g, "")
-                         .replace(/[^a-z0-9]/g, "");
+const results = computed(() => {
+     let eligibleItems = hinosHarpa.value.filter((item) => item.cifra.length > 0)
+          .filter((item) => FilterStore.selectedFilters.every(category => item.categoria?.includes(category)))
 
-                    return eligibleItems.filter((item) => {
-                         const itemName = item.nome.toLowerCase().normalize("NFD")
-                              .replace(/[\u0300-\u036f]/g, "")
-                              .replace(/[^a-z0-9]/g, "");
-
-                         const itemId = item.id.toString().normalize("NFD")
-                              .replace(/[\u0300-\u036f]/g, "")
-                              .replace(/[^a-z0-9]/g, "");
-
-                         return (
-                              itemName.includes(lowerCaseSearchTerm) ||
-                              itemId.includes(lowerCaseSearchTerm)
-                         );
-                    });
-               } else {
-                    return eligibleItems
-               }
-          },
+     if (SearchStore.search !== '') {
+          return SearchStore.searchedItems(eligibleItems)
      }
-};
+     return eligibleItems
+
+})
+
 </script>
 <style scoped>
 @media (min-width: 320px) {
@@ -77,20 +46,22 @@ export default {
           @apply text-[16px] text-slate-800 font-bold text-center py-4
      }
 }
+
 @media (min-width: 414px) {
      h1 {
           @apply text-[18px]
      }
 }
+
 @media (min-width: 768px) {
      h1 {
           @apply text-[20px]
      }
 }
+
 @media (min-width: 1366px) {
      h1 {
           @apply text-[24px]
      }
 }
-
 </style>

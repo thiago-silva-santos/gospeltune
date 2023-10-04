@@ -11,7 +11,7 @@ export interface INomeArtista {
      nomeArtista?: string
 }
 
-type SongCategoria = "Envolvente" | "Introspectivo" | "Missões" | "Jovens" | "Santa Ceia"
+export type SongCategoria = "Envolvente" | "Introspectivo" | "Missões" | "Jovens" | "Santa Ceia"
 
 export interface ICifra {
      chords: string;
