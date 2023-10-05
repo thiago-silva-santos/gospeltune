@@ -19,7 +19,7 @@
 import hinosDaHarpa from '@/assets/Cifras/hinos-harpa-crista.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 
 
 const FilterStore = useFilterStore()

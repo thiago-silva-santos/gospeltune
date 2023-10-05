@@ -228,6 +228,7 @@
         "id": 4,
         "nome": "Eu Marquei Um Encontro Com Deus",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Introspectivo"
         ],
@@ -274,6 +275,7 @@
         "id": 5,
         "nome": "Celebrai a Cristo",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Envolvente"
         ],
@@ -340,6 +342,7 @@
         "id": 6,
         "nome": "Você Tem Valor",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Envolvente"
         ],
@@ -489,6 +492,7 @@
         "id": 8,
         "nome": "Vamos adorar a Deus",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Introspectivo"
         ],
@@ -708,6 +712,7 @@
         "id": 12,
         "nome": "Espírito Enche a Minha Vida",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Introspectivo"
         ],
@@ -762,6 +767,7 @@
         "id": 13,
         "nome": "Se o Espírito de Deus Se Move Em Mim",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Envolvente"
         ],
@@ -818,6 +824,7 @@
         "id": 15,
         "nome": "Em Espírito, Em Verdade",
         "tipo": "corinho",
+        "tonalidade": 0,
         "categoria": [
             "Introspectivo"
         ],

@@ -1,79 +1,45 @@
 <template>
      <CifraSection>
           <template v-slot:section>
-               <template v-if="searchCorinhosResults.length == 0">
+               <template v-if="results.length == 0">
                     <div class="no-results">
                          Nenhuma cifra encontrada...
                     </div>
                </template>
                <template v-else>
 
-                    <section class="w-full" v-if="searchCorinhosResults.length >= 1">
+                    <section class="w-full" v-if="results.length >= 1">
                          <div class="flex flex-col gap-2 justify-center items-center relative">
                               <h1>Corinhos</h1>
                          </div>
-                         <CardSongsCards :items="searchCorinhosResults" :text-search="search" />
+                         <CardSongsCards :items="results" :text-search="SearchStore.search" />
                     </section>
                </template>
           </template>
      </CifraSection>
 </template>
-<script>
-import corinhos from '@/assets/Cifras/corinhos.json'
+<script setup lang="ts">
+import corinhosData from '@/assets/Cifras/corinhos.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
-import { useListModeStore } from '~~/stores/listMode';
+import { computed } from 'vue'
 
-import { mapState, mapActions } from 'pinia'
-export default {
-     data() {
-          return {
-               showFilters: false,
-          };
-     },
-     methods: {
-          onSearch(value) {
-               this.search = value;
-          },
-          ...mapActions(useListModeStore, ['updateListMode'])
-     },
-     computed: {
-          ...mapState(useFilterStore, ['filters', 'selectedFilters']),
-          ...mapState(useSearchStore, ['search']),
-          corinhos() {
-               return corinhos
-          },
-          searchCorinhosResults() {
-               let eligibleItems = this.corinhos.filter((item) => item.cifra.length > 0)
+const FilterStore = useFilterStore()
+const SearchStore = useSearchStore()
+const corinhos = computed(() => {
+     return corinhosData
+})
 
-               if (this.selectedFilters.length > 0) {
-                    eligibleItems = eligibleItems.filter((item) => this.selectedFilters.every(category => item.categoria?.includes(category)))
-               }
-               if (this.search !== '') {
-                    const lowerCaseSearchTerm = this.search.toLowerCase().normalize("NFD")
-                         .replace(/[\u0300-\u036f]/g, "")
-                         .replace(/[^a-z0-9]/g, "");
+const results = computed(() => {
+     let eligibleItems = corinhos.value.filter((item) => item.cifra.length > 0)
+          .filter((item) => FilterStore.selectedFilters.every(category => item.categoria?.includes(category)))
 
-                    return eligibleItems.filter((item) => {
-                         const itemName = item.nome.toLowerCase().normalize("NFD")
-                              .replace(/[\u0300-\u036f]/g, "")
-                              .replace(/[^a-z0-9]/g, "");
+     if (SearchStore.search !== '') {
+          return SearchStore.searchedItems(eligibleItems)
+     }
+     return eligibleItems
+})
 
-                         const itemId = item.id.toString().normalize("NFD")
-                              .replace(/[\u0300-\u036f]/g, "")
-                              .replace(/[^a-z0-9]/g, "");
-
-                         return (
-                              itemName.includes(lowerCaseSearchTerm) ||
-                              itemId.includes(lowerCaseSearchTerm)
-                         );
-                    });
-               } else {
-                    return eligibleItems
-               }
-          },
-     },
-};
 </script>
 <style scoped>
 @media (min-width: 320px) {
