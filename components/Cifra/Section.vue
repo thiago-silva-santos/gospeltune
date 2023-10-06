@@ -1,8 +1,8 @@
 <template>
   <div class="page_container">
-    <menu-input-search @search="onSearch" />
-    <div class="filter_tags" v-if="selectedFilters.length > 0">
-      <span v-for="tag in selectedFilters">{{ tag }}</span>
+    <search-input />
+    <div class="filter_tags" v-if="FilterStore.selectedFilters.length > 0">
+      <span v-for="categoria in FilterStore.selectedFilters">{{ categoria }}</span>
     </div>
     <slot name="section">
 
@@ -11,35 +11,18 @@
     <MenuDrawer />
   </div>
 </template>
-<script>
+<script setup lang="ts">
 import { useFilterStore } from '@/stores/filters';
-import { mapState } from 'pinia'
 
-export default {
-  data() {
-    return {
-      search: "",
-    };
-  },
-  methods: {
-    onSearch(value) {
-      this.search = value
-    }
-  },
-  computed: {
-    ...mapState(useFilterStore, ['filters', 'selectedFilters', 'showFilters'])
-  },
-  watch: {
-    showFilters(value) {
-      if (value) {
-        document.body.classList.add('menu-aberto');
-      } if (!value) {
-        document.body.classList.remove('menu-aberto');
-      }
-    }
-  },
-};
+const FilterStore = useFilterStore()
 
+
+watch(() => FilterStore.showFilters, (value) => {
+  if (value) {
+    document.body.classList.add('menu-aberto');
+  }
+  document.body.classList.remove('menu-aberto');
+})
 
 </script>
 <style lang="css" scoped>

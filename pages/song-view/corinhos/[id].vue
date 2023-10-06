@@ -1,52 +1,35 @@
 <template>
      <div class="w-full">
           <div class="song_container" id="song_container">
-               <h1 class="song_title">{{ corinho.nome }}</h1>
-               <Song :song="corinho.cifra" :tonalidade="tonalidadeAtual"></Song>
+               <h1 class="song_title">{{ song.nome }}</h1>
+               <cifra-song :song="song.cifra" :tonalidade="tonalidadeAtual" />
           </div>
-
-          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/corinhos'"/>
+          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/corinhos'" />
      </div>
 </template>
-<script>
-import corinhos from '@/assets/Cifras/corinhos.json'
+<script setup lang="ts">
+import cifras from '@/assets/Cifras/corinhos.json'
 
-export default {
-     data() {
-          return {
-               tonalidadeAtual: 0,
-               nomeArquivo: ''
-          };
+const route = useRoute()
+const tonalidadeAtual = ref<number>(0)
 
-     },
-     computed: {
+const song = computed(() => {
+     const item = cifras.filter(item => item.id.toString() == route.params.id)[0]
+     return item
+})
 
-          corinho() {
-               const song = corinhos.filter(item => item.id == this.$route.params.id)[0]
-               return song
-          },
-
-
-     },
-     methods: {
-          changeTom(value) {
-               this.tonalidadeAtual = value;
-          },
-          getTom(value) {
-               this.tonalidadeAtual = value
-          }
-     },
-     created() {
-          if (this.corinho.tonalidade) {
-               this.changeTom(this.corinho.tonalidade)
-          }
-     }
-     
-
+function getTom(value: number) {
+     tonalidadeAtual.value = value
 }
+
+onBeforeMount(() => {
+     if (song.value.tonalidade) {
+          tonalidadeAtual.value = song.value.tonalidade
+     }
+})
+
 </script>
 <style scoped>
-
 @media(min-width: 320px) {
      .song_container {
           @apply py-10 px-5 flex flex-col max-w-[400px] m-0;
@@ -55,7 +38,6 @@ export default {
      .song_title {
           @apply text-black font-semibold;
           font-size: 16px
-
      }
 
 }
@@ -64,12 +46,14 @@ export default {
      .song_container {
           @apply mx-auto;
      }
+
      .song_title {
           font-size: 22px;
      }
 
 
 }
+
 @media (min-width: 1366px) {
 
      .song_title {

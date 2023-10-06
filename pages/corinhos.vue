@@ -7,13 +7,12 @@
                     </div>
                </template>
                <template v-else>
-
-                    <section class="w-full" v-if="results.length >= 1">
+                    <div class="w-full" v-if="results.length >= 1">
                          <div class="flex flex-col gap-2 justify-center items-center relative">
                               <h1>Corinhos</h1>
                          </div>
-                         <CardSongsCards :items="results" :text-search="SearchStore.search" />
-                    </section>
+                         <cifra-link-section :items="results" :text-search="SearchStore.search" />
+                    </div>
                </template>
           </template>
      </CifraSection>
@@ -22,7 +21,6 @@
 import corinhosData from '@/assets/Cifras/corinhos.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
-import { computed } from 'vue'
 
 const FilterStore = useFilterStore()
 const SearchStore = useSearchStore()

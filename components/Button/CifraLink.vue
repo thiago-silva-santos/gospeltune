@@ -1,5 +1,5 @@
 <template>
-     <div :class="['card', { 'card_list_mode': props.listMode == true }]" @click="goToSong">
+     <div class="cifra_link" @click="goToSong">
           <div class="song_number">
                {{ props.songData.id }}
           </div>
@@ -19,10 +19,6 @@ const props = defineProps({
      songData: {
           type: Object as PropType<ISongCifra>,
           required: true
-     },
-     listMode: {
-          type: Boolean,
-          default: false
      }
 })
 
@@ -34,7 +30,7 @@ function goToSong() {
 
 
 @media (min-width: 320px) {
-     .card {
+     .cifra_link {
           @apply w-full flex items-center justify-start p-2 gap-3 rounded-lg bg-white cursor-pointer relative;
      }
 
@@ -60,7 +56,7 @@ function goToSong() {
 }
 
 @media (min-width: 414px) {
-     .card {
+     .cifra_link {
           @apply max-w-[398px]
      }
 
@@ -77,7 +73,7 @@ function goToSong() {
 }
 
 @media (min-width: 768px) {
-     .card {
+     .cifra_link {
           @apply max-w-full
      }
 

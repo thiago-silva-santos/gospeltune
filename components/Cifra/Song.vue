@@ -122,7 +122,7 @@
      </section>
 </template>
 <script>
-import campoJSON from '../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
+import campoJSON from '@/assets/CampoHarmonico/CampoHarmonicoComponentData.json'
 export default {
 
      props: {

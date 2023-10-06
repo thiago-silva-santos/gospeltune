@@ -1,7 +1,7 @@
 <template>
     <section class="py-10">
       <div class="cards_container">
-        <CardSong v-for="song in props.items" :song-data="song" />
+        <button-cifra-link v-for="song in props.items" :song-data="song" />
       </div>
     </section>
 </template>

@@ -7,11 +7,10 @@
                       </div>
                  </template>
                  <template v-else>
-
-                      <section class="w-full" v-if="results.length >= 1">
+                      <div class="w-full" v-if="results.length >= 1">
                            <h1>Louvores</h1>
-                           <CardSongsCards :items="results" :text-search="SearchStore.search" />
-                      </section>
+                           <cifra-link-section :items="results" :text-search="SearchStore.search" />
+                      </div>
                  </template>
             </template>
        </CifraSection>
@@ -20,9 +19,6 @@
 import louvoresData from '@/assets/Cifras/hinos.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
-
-import { computed } from 'vue'
-
 
 const FilterStore = useFilterStore()
 const SearchStore = useSearchStore()

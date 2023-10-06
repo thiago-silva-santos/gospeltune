@@ -1,52 +1,34 @@
 <template>
      <div class="w-full">
           <div class="song_container" id="song_container">
-               <h1 class="song_title">{{ hino.nome }}</h1>
-               <span class="artist_name"> {{ hino.nomeArtista }} </span>
-               <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
+               <h1 class="song_title">{{ song.nome }}</h1>
+               <span class="artist_name"> {{ song.nomeArtista }} </span>
+               <cifra-song :song="song.cifra" :tonalidade="tonalidadeAtual" />
           </div>
-
           <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'" />
-          <!-- <button-play/> -->
-
      </div>
 </template>
-<script>
-import hinos from '@/assets/Cifras/hinos.json'
+<script setup lang="ts">
+import cifras from '@/assets/Cifras/hinos.json'
 
-export default {
-     data() {
-          return {
-               tonalidadeAtual: 0,
-               nomeArquivo: ''
-          };
+const route = useRoute()
+const tonalidadeAtual = ref<number>(0)
 
-     },
-     computed: {
+const song = computed(() => {
+     const item = cifras.filter(item => item.id.toString() == route.params.id)[0]
+     return item
+})
 
-          hino() {
-               const song = hinos.filter(item => item.id == this.$route.params.id)[0]
-               return song
-          },
-
-
-     },
-     methods: {
-          changeTom(value) {
-               this.tonalidadeAtual = value;
-          },
-          getTom(value) {
-               this.tonalidadeAtual = value
-          },
-     },
-     created() {
-          if (this.hino.tonalidade) {
-               this.changeTom(this.hino.tonalidade)
-          }
-     }
-
-
+function getTom(value: number) {
+     tonalidadeAtual.value = value
 }
+
+onBeforeMount(() => {
+     if (song.value.tonalidade) {
+          tonalidadeAtual.value = song.value.tonalidade
+     }
+})
+
 </script>
 <style scoped>
 .testing_scroll {

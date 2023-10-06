@@ -1,48 +1,34 @@
 <template>
      <div class="w-full">
           <div class="song_container" id="song_container">
-               <h1 class="song_title">{{ hino.nome }}</h1>
-               <span class="song_number"> Número: {{ hino.id }} </span>
-               <Song :song="hino.cifra" :tonalidade="tonalidadeAtual"></Song>
+               <h1 class="song_title">{{ song.nome }}</h1>
+               <span class="song_number"> Número: {{ song.id }} </span>
+               <cifra-song :song="song.cifra" :tonalidade="tonalidadeAtual" />
           </div>
-          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual"/>
+          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" />
      </div>
 </template>
-<script>
-import hinos from '@/assets/Cifras/hinos-harpa-crista.json'
+<script setup lang="ts">
+import cifras from '@/assets/Cifras/hinos-harpa-crista.json'
 
-export default {
-     data() {
-          return {
-               tonalidadeAtual: 0,
-               nomeArquivo: ''
-          };
+const route = useRoute()
+const tonalidadeAtual = ref<number>(0)
 
-     },
-     computed: {
+const song = computed(() => {
+     const item = cifras.filter(item => item.id.toString() == route.params.id)[0]
+     return item
+})
 
-          hino() {
-               const song = hinos.filter(item => item.id == this.$route.params.id)[0]
-               return song
-          },
-
-     },
-     methods: {
-          changeTom(value) {
-               this.tonalidadeAtual = value;
-          },
-          getTom(value) {
-               this.tonalidadeAtual = value
-          }
-     },
-     created() {
-          if (this.hino.tonalidade) {
-               this.changeTom(this.hino.tonalidade)
-          }
-     }
-
-
+function getTom(value: number) {
+     tonalidadeAtual.value = value
 }
+
+onBeforeMount(() => {
+     if (song.value.tonalidade) {
+          tonalidadeAtual.value = song.value.tonalidade
+     }
+})
+
 </script>
 <style scoped>
 @media(min-width: 320px) {
@@ -53,7 +39,6 @@ export default {
      .song_title {
           @apply text-black font-semibold;
           font-size: 16px
-
      }
 
      .song_number {
@@ -66,6 +51,7 @@ export default {
      .song_container {
           @apply mx-auto;
      }
+
      .song_title {
           font-size: 22px;
      }
@@ -75,6 +61,7 @@ export default {
           font-size: 18px;
      }
 }
+
 @media (min-width: 1366px) {
 
      .song_title {
