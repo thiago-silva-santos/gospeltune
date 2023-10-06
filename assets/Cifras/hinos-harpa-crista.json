@@ -2160,24 +2160,32 @@
         "id": 152,
         "tipo": "hino_harpa_crista",
         "nome": "Pela Cruz ao Céu Irei",
+        "tonalidade": 0,
+        "categoria": [],
         "cifra": []
     },
     {
         "id": 153,
         "tipo": "hino_harpa_crista",
         "nome": "Soldados de Cristo",
+        "tonalidade": 0,
+        "categoria": [],
         "cifra": []
     },
     {
         "id": 154,
         "tipo": "hino_harpa_crista",
         "nome": "Doce Nome de Jesus",
+        "tonalidade": 0,
+        "categoria": [],
         "cifra": []
     },
     {
         "id": 155,
         "tipo": "hino_harpa_crista",
         "nome": "Imploramos Teu Poder",
+        "tonalidade": 0,
+        "categoria": [],
         "cifra": []
     },
     {
