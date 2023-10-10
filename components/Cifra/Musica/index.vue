@@ -1,5 +1,5 @@
 <template>
-    <div :class="split ? 'cifra_dividida_container' : 'cifra_container'">
+    <div :class="SplitStore.split ? 'cifra_dividida_container' : 'cifra_container'">
         <div class="flex flex-col">
 
             <div class="pt-10">
@@ -14,7 +14,7 @@
     
     
             <div class="flex flex-col pt-10 gap-2" v-if="musica.refrao_1 && musica.refrao_1.length > 0">
-                <span :class=" split ? 'titulo_verso_xs' : 'titulo_verso'">[ Refrão ]</span>
+                <span :class=" SplitStore.split ? 'titulo_verso_xs' : 'titulo_verso'">[ Refrão ]</span>
                 <cifra-musica-refrao :refrao="musica.refrao_1" :tonalidade="tom" />
             </div>
             <div class="pt-6" v-if="musica.refrao_2 && musica.refrao_2.length > 0">
@@ -40,7 +40,7 @@
     
     
             <div class="flex flex-col pt-10 gap-2" v-if="musica.ponte_1 && musica.ponte_1.length > 0">
-                <span :class=" split ? 'titulo_verso_xs text-red-900' : 'titulo_verso text-red-900'">[ Ponte ]</span>
+                <span :class=" SplitStore.split ? 'titulo_verso_xs text-red-900' : 'titulo_verso text-red-900'">[ Ponte ]</span>
                 <cifra-musica-ponte :ponte="musica.ponte_1" :tonalidade="tom" />
             </div>
             <div class="pt-6" v-if="musica.ponte_2 && musica.ponte_2.length > 0">
@@ -58,6 +58,10 @@
 import hinosV2 from '@/assets/Cifras/hinosV2.json'
 import { ISongPartes } from '@/types/cifra/Cifra'
 import { PropType } from 'vue'
+
+import { useSplitStore } from '~~/stores/split'
+const SplitStore = useSplitStore()
+
 const props = defineProps({
     musica: {
         type: Object as PropType<ISongPartes>,
@@ -69,7 +73,6 @@ const props = defineProps({
     }
 })
 
-const split = ref<boolean>(true)
 
 
 const musica = computed(() => {

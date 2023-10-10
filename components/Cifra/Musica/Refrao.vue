@@ -1,10 +1,10 @@
 <template>
-    <pre :class="['flex flex-col', {'cifra_dividida': split}]">
+    <pre :class="['flex flex-col', {'cifra_dividida': SplitStore.split}]">
             <template v-for="linha in cifra" :key="linha">
                 <template v-if="linha.verse">
                     <span class="flex" v-if="linha.chords.length > 0">
                         <template v-for="item in parseString(linha.chords)">
-                            <b :class="{'cifra_dividida_b': split}">{{ tom[item as any]?.notacao }}</b>
+                            <b :class="{'cifra_dividida_b': SplitStore.split}">{{ tom[item as any]?.notacao }}</b>
                         </template>
                     </span>
                     <span class="linha-verso font-bold">{{ linha.verse }}</span>
@@ -16,6 +16,9 @@
 import { ICifra } from '~~/types/cifra/Cifra'
 import campo from '@/assets/CampoHarmonico/CampoHarmonicoComponentData.json'
 
+import { useSplitStore } from '~~/stores/split'
+const SplitStore = useSplitStore()
+
 const props = defineProps({
     refrao: {
         type: Array as PropType<ICifra[]>
@@ -26,7 +29,6 @@ const props = defineProps({
     }
 })
 
-const split = ref<boolean>(true)
 
 watch(() => props.tonalidade, (value) => {
     console.log(value)
