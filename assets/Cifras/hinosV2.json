@@ -1,6 +1,96 @@
 [
     {
         "id": 1,
+        "numero": 1,
+        "tipo": "hino",
+        "nome": "Bondade de Deus",
+        "nomeArtista": "Isaías Saad",
+        "tonalidade": 1,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": {
+            "parte_1": [
+                {
+                    "chords": "0                  3             0",
+                    "verse": "Te amo, Deus, tua graça nunca falha"
+                },
+                {
+                    "chords": "   27        5         3             4",
+                    "verse": "Todos os    dias eu estou em tuas mãos"
+                },
+                {
+                    "chords": "                     5      3",
+                    "verse": "Desde quando me levanto"
+                },
+                {
+                    "chords": "        0     27     5",
+                    "verse": "Até eu me deitar"
+                },
+                {
+                    "chords": "         3          4       0",
+                    "verse": "Eu cantarei da bondade de Deus"
+                }
+            ],
+            "refrao_1": [
+                {
+                    "chords": "3                    0      3",
+                    "verse": "-     És fiel em todo tempo"
+                },
+                {
+                    "chords": "                      0       4     3",
+                    "verse": "Em todo tempo tu és tão, tão bom"
+                },
+                {
+                    "chords": "                      0      5",
+                    "verse": "Com todo fôlego que tenho"
+                },
+                {
+                    "chords": "         3         4        0",
+                    "verse": "Eu cantarei da bondade de Deus"
+                }
+            ],
+            "ponte_1": [
+                {
+                    "chords": "28                3           ",
+                    "verse": "Tua bondade me seguirá"
+                },
+                {
+                    "chords": "     4         0",
+                    "verse": "Me seguirá, Senhor"
+                },
+                {
+                    "chords": "28                3           ",
+                    "verse": "Tua bondade me seguirá"
+                },
+                {
+                    "chords": "     4         0",
+                    "verse": "Me seguirá, Senhor"
+                }
+            ],
+            "ponte_2": [
+                {
+                    "chords": "28                        3           ",
+                    "verse": "Eu me rendo a Ti, te dou o meu ser"
+                },
+                {
+                    "chords": "    4          5",
+                    "verse": "Entrego tudo a Ti"
+                },
+                {
+                    "chords": "     28           3",
+                    "verse": "Tua bondade me seguirá"
+                },
+                {
+                    "chords": "    4          0           ",
+                    "verse": "Me seguirá, Senhor"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "numero": 2,
         "tipo": "hino",
         "nome": "Os Planos de Deus",
         "nomeArtista": "Samuel Messias",
@@ -8,201 +98,7 @@
         "categoria": [
             "Introspectivo"
         ],
-        "cifra": [
-            {
-                "chords": "0           27",
-                "verse": "Bem sei eu  -  que tudo podes"
-            },
-            {
-                "chords": "5                            3",
-                "verse": "-   Nenhum dos Teus planos pode se frustrar"
-            },
-            {
-                "chords": "0",
-                "verse": "-   A vontade é Tua"
-            },
-            {
-                "chords": "27",
-                "verse": "-   E a minha vida em Tuas mãos está"
-            },
-            {
-                "chords": "5                              3",
-                "verse": "-   E nenhum dos Teus planos pode se frustrar"
-            },
-            {
-                "chords": "5                      4       3",
-                "verse": "-   E nenhum dos Teus planos pode se frustrar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "               0                 27",
-                "verse": "Não se frustrarão, não se frustrarão"
-            },
-            {
-                "chords": "              5                    3",
-                "verse": "Os planos de Deus ninguém impedirá"
-            },
-            {
-                "chords": "                 0                      27",
-                "verse": "Pode o vento soprar, a Terra pode se abalar"
-            },
-            {
-                "chords": "                  5                     3",
-                "verse": "Mas os planos de Deus ninguém impedirá"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "[ 0  27   12   3 ]",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Ponte ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "                         0",
-                "verse": "Quando passares pelas águas"
-            },
-            {
-                "chords": "               27",
-                "verse": "Eu estarei contigo, filho"
-            },
-            {
-                "chords": "                       5",
-                "verse": "Quando passares pelo fogo"
-            },
-            {
-                "chords": "                 3",
-                "verse": "Ele não te queimará"
-            },
-            {
-                "chords": "                  0",
-                "verse": "Pois Eu estou contigo, filho"
-            },
-            {
-                "chords": "             27",
-                "verse": "Eu estou contigo, filho"
-            },
-            {
-                "chords": "             5",
-                "verse": "Eu estou contigo, filho"
-            },
-            {
-                "chords": "             3",
-                "verse": "Eu estou contigo, filho"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "                    0",
-                "verse": "E se o teu barco parecer que vai naufragar"
-            },
-            {
-                "chords": "           27",
-                "verse": "Está balançando pra lá e pra cá"
-            },
-            {
-                "chords": "                12",
-                "verse": "Está causando medo em teu coração"
-            },
-            {
-                "chords": "                3",
-                "verse": "Está causando dúvidas, cadê Jesus?"
-            },
-            {
-                "chords": "                        0",
-                "verse": "Mas olha só quem vem  aí"
-            },
-            {
-                "chords": "",
-                "verse": "Andando sobre as águas"
-            },
-            {
-                "chords": "               27",
-                "verse": "Parece que é Jesus"
-            },
-            {
-                "chords": "",
-                "verse": "Andando sobre as águas"
-            },
-            {
-                "chords": "                  13",
-                "verse": "Está dando uma ordem para o vento"
-            },
-            {
-                "chords": "",
-                "verse": "Sou Eu o dono do tempo"
-            },
-            {
-                "chords": "    3",
-                "verse": "Sou Eu o dono daqui, sou Eu o dono do mar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0",
-                "verse": "Sou Eu, sou Eu"
-            },
-            {
-                "chords": "27",
-                "verse": "Sou Eu, sou Eu"
-            },
-            {
-                "chords": "5           3",
-                "verse": "Sou Eu, sou Eu"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Final ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "                    0",
-                "verse": "Ninguém pode te ajudar"
-            },
-            {
-                "chords": "                      27",
-                "verse": "Ninguém pode te levantar"
-            },
-            {
-                "chords": "                               5",
-                "verse": "Mas se Deus tem um plano contigo"
-            },
-            {
-                "chords": "                3",
-                "verse": "Ninguém impedirá"
-            }
-        ],
-        "teste": {
+        "cifra": {
             "parte_1": [
                 {
                     "chords": "0           27",
@@ -278,7 +174,7 @@
             "refrao_3": [],
             "parte_4": [],
             "parte_5": [],
-            "parte-6": [],
+            "parte_6": [],
             "ponte_1": [
                 {
                     "chords": "                         0",

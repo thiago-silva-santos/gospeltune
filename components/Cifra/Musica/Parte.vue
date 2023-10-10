@@ -1,10 +1,10 @@
 <template>
-    <pre class="flex flex-col cifra">
+    <pre :class="['flex flex-col', {'cifra_dividida': split}]">
         <template v-for="linha in cifra" :key="linha">
             <template v-if="linha.verse">
                 <span class="flex" v-if="linha.chords.length > 0">
                     <template v-for="item in parseString(linha.chords)">
-                        <b>{{ tom[item as any]?.notacao }}</b>
+                        <b :class="{'cifra_dividida_b': split}">{{ tom[item as any]?.notacao }}</b>
                     </template>
                 </span>
                 <span class="linha-verso">{{ linha.verse }}</span>
@@ -39,7 +39,7 @@ const campoHarmonico = computed(() => {
 const tom = computed(() => {
     return campoHarmonico.value[props.tonalidade].acordes;
 })
-
+const split = ref<boolean>(true)
 
 function parseString(string: string) {
     const items = [];

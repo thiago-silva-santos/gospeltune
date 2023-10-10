@@ -11,14 +11,17 @@
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/hinos.json'
+import cifras2 from '@/assets/Cifras/hinosV2.json'
 
 const route = useRoute()
 const tonalidadeAtual = ref<number>(0)
 
 const song = computed(() => {
-     const item = cifras.filter(item => item.id.toString() == route.params.id)[0]
+     const item = cifras2.filter(item => item.id.toString() == route.params.id)[0]
      return item
 })
+
+
 
 function getTom(value: number) {
      tonalidadeAtual.value = value
@@ -32,9 +35,7 @@ onBeforeMount(() => {
 
 </script>
 <style scoped>
-.testing_scroll {
-     @apply absolute top-0 bg-black text-white
-}
+
 
 @media(min-width: 320px) {
      .song_container {

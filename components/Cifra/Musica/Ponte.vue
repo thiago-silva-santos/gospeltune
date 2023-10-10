@@ -1,10 +1,10 @@
 <template>
-    <pre class="flex flex-col">
+    <pre :class="['flex flex-col', {'cifra_dividida': split}]">
             <template v-for="linha in cifra" :key="linha">
                 <template v-if="linha.verse">
                     <span class="flex" v-if="linha.chords.length > 0">
                         <template v-for="item in parseString(linha.chords)">
-                            <b>{{ tom[item as any]?.notacao }}</b>
+                            <b :class="{'cifra_dividida_b': split}">{{ tom[item as any]?.notacao }}</b>
                         </template>
                     </span>
                     <span class="linha-verso text-red-900">{{ linha.verse }}</span>
@@ -26,6 +26,7 @@ const props = defineProps({
     }
 })
 
+const split = ref<boolean>(true)
 
 watch(() => props.tonalidade, (value) => {
     console.log(value)
