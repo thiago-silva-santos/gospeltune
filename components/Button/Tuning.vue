@@ -4,6 +4,12 @@
      </transition>
      <transition name="back-fade">
           <div v-if="isOpen" class="go_back">
+               <button :class="['flex justify-center items-center', { 'cifra_dividida_active': SplitStore.split }]"
+                    @click="SplitStore.updateSplit()">
+                    <span class="material-symbols-outlined">
+                         splitscreen_right
+                    </span>
+               </button>
                <div class="zoom_actions_container">
 
                     <button class="flex justify-center items-center" @click="zoomIn">
@@ -17,7 +23,7 @@
                          </span>
                     </button>
                </div>
-               <nuxt-link :to="goBack" @click="() => this.isOpen = false">
+               <nuxt-link :to="goBack" @click="() => isOpen = false">
                     <button class="flex justify-center items-center">
                          <span class="material-symbols-outlined">
                               undo
@@ -27,159 +33,157 @@
           </div>
      </transition>
      <button class="tuning_button" @click="openTuningOptions">
-          {{ this.tonalidadeAtualString }}
+          {{ tonalidadeAtualString }}
      </button>
      <transition name="fade">
           <div class="tuning_items" v-if="isOpen">
                <div class="button_container">
-                    <button :class="[this.tonalidadeAtualString === 'C' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'C' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(0)"> C </button>
-                    <button :class="[this.tonalidadeAtualString === 'D' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'D' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(1)"> D </button>
-                    <button :class="[this.tonalidadeAtualString === 'E' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'E' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(2)"> E </button>
-                    <button :class="[this.tonalidadeAtualString === 'F' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'F' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(3)"> F </button>
-                    <button :class="[this.tonalidadeAtualString === 'G' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'G' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(4)"> G </button>
-                    <button :class="[this.tonalidadeAtualString === 'A' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'A' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(5)"> A </button>
-                    <button :class="[this.tonalidadeAtualString === 'B' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'B' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(6)"> B </button>
                </div>
                <div class="button_container">
-                    <button :class="[this.tonalidadeAtualString === 'Db' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'Db' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(7)"> Db </button>
-                    <button :class="[this.tonalidadeAtualString === 'Eb' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'Eb' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(8)"> Eb </button>
-                    <button :class="[this.tonalidadeAtualString === 'Gb' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'Gb' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(9)"> Gb </button>
-                    <button :class="[this.tonalidadeAtualString === 'Ab' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'Ab' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(10)"> Ab </button>
-                    <button :class="[this.tonalidadeAtualString === 'Bb' ? 'tom_button active' : 'tom_button']"
+                    <button :class="[tonalidadeAtualString === 'Bb' ? 'tom_button active' : 'tom_button']"
                          @click="changeTom(11)"> Bb </button>
                </div>
           </div>
      </transition>
 </template>
-<script>
-export default {
-     props: {
-          tonalidadePadrao: {
-               type: Number,
-               default: 0
-          },
-          goBack: {
-               type: String,
-               default: '/'
-          }
-     },
-     emits: ['tuning-component-tune'],
-     data() {
-          return {
-               isOpen: false,
-               tonalidadeAtual: 0,
-               currentScale: 1.0
-          }
-     },
+<script setup lang="ts">
+import { useSplitStore } from '~~/stores/split'
+const SplitStore = useSplitStore()
+const emits = defineEmits(['tuning-component-tune'])
+import { onBeforeMount } from 'vue'
 
-     methods: {
-          sendTune() {
-               this.$emit("tuning-component-tune", this.tonalidadeAtual);
-          },
-          openTuningOptions() {
-               this.isOpen = !this.isOpen
-          },
-          changeTom(value) {
-               this.tonalidadeAtual = value;
-               this.sendTune()
-               this.isOpen = false
-          },
-          zoomIn() {
-               const zoomableDiv = document.getElementById('song_container');
-               if (this.currentScale < 1) {
-                    this.currentScale += 0.1;
-                    zoomableDiv.style.transform = `scale(${this.currentScale})`;
-               }
-               return
-          },
-          zoomOut() {
-               const zoomableDiv = document.getElementById('song_container');
-               if (this.currentScale > 0.5000000000000001) {
-                    this.currentScale -= 0.1;
-                    zoomableDiv.style.transform = `scale(${this.currentScale})`;
-               }
-               return
-          },
-          zoomReset() {
-               const zoomableDiv = document.getElementById('song_container');
-               this.currentScale = 1.0;
-               zoomableDiv.style.transform = `scale(${this.currentScale})`;
-          }
-
+const props = defineProps({
+     goBack: {
+          type: String,
+          default: '/'
      },
-     computed: {
-          tonalidadeAtualString() {
-               let tom = 0
-               switch (this.tonalidadeAtual) {
-                    case 0:
-                         tom = "C"
-                         break;
-                    case 1:
-                         tom = "D"
-                         break;
-                    case 2:
-                         tom = "E"
-                         break;
-                    case 3:
-                         tom = "F"
-                         break;
-                    case 4:
-                         tom = "G"
-                         break;
-                    case 5:
-                         tom = "A"
-                         break;
-                    case 6:
-                         tom = "B"
-                         break;
-                    case 7:
-                         tom = "Db"
-                         break;
-                    case 8:
-                         tom = "Eb"
-                         break;
-                    case 9:
-                         tom = "Gb"
-                         break;
-                    case 10:
-                         tom = "Ab"
-                         break;
-                    case 11:
-                         tom = "Bb"
-                         break;
-
-                    default:
-                         break;
-               }
-               return tom
-          }
-     },
-     watch: {
-          isOpen(value) {
-               if (value) {
-                    document.body.style.overflowY = 'hidden'
-               } else {
-                    document.body.style.overflowY = 'auto'
-               }
-          }
-     },
-     created() {
-          if (this.tonalidadePadrao !== 0) {
-               this.tonalidadeAtual = this.tonalidadePadrao
-          }
+     tonalidadePadrao: {
+          type: Number,
+          default: 0
      }
+})
+
+const isOpen = ref<boolean>(false)
+const tonalidadeAtual = ref(0)
+const currentScale = ref(1.0)
+
+function sendTune() {
+     emits("tuning-component-tune", tonalidadeAtual.value);
 }
+function openTuningOptions() {
+     isOpen.value = !isOpen.value
+}
+function changeTom(value: number) {
+     tonalidadeAtual.value = value;
+     sendTune()
+     isOpen.value = false
+}
+function zoomIn() {
+     const zoomableDiv = document.getElementById('song_container');
+     if (currentScale.value < 1 && zoomableDiv) {
+          currentScale.value += 0.1;
+          zoomableDiv.style.transform = `scale(${currentScale.value})`;
+     }
+     return
+}
+function zoomOut() {
+     const zoomableDiv = document.getElementById('song_container');
+     if (currentScale.value > 0.5000000000000001 && zoomableDiv) {
+          currentScale.value -= 0.1;
+          zoomableDiv.style.transform = `scale(${currentScale.value})`;
+     }
+     return
+}
+function zoomReset() {
+     const zoomableDiv = document.getElementById('song_container');
+     currentScale.value = 1.0;
+     if (zoomableDiv)
+          zoomableDiv.style.transform = `scale(${currentScale.value})`;
+}
+
+
+const tonalidadeAtualString = computed(() => {
+     let tom = "C"
+     switch (tonalidadeAtual.value) {
+          case 0:
+               tom = "C"
+               break;
+          case 1:
+               tom = "D"
+               break;
+          case 2:
+               tom = "E"
+               break;
+          case 3:
+               tom = "F"
+               break;
+          case 4:
+               tom = "G"
+               break;
+          case 5:
+               tom = "A"
+               break;
+          case 6:
+               tom = "B"
+               break;
+          case 7:
+               tom = "Db"
+               break;
+          case 8:
+               tom = "Eb"
+               break;
+          case 9:
+               tom = "Gb"
+               break;
+          case 10:
+               tom = "Ab"
+               break;
+          case 11:
+               tom = "Bb"
+               break;
+
+          default:
+               break;
+     }
+     return tom
+})
+
+watch(() => isOpen.value, (value) => {
+     if (value) {
+          document.body.style.overflowY = 'hidden'
+     } else {
+          document.body.style.overflowY = 'auto'
+     }
+})
+
+onBeforeMount(() => {
+     if (props.tonalidadePadrao !== 0) {
+          tonalidadeAtual.value = props.tonalidadePadrao
+     }
+})
+
 </script>
 <style lang="css" scoped>
 .tuning_overlay {
@@ -327,6 +331,9 @@ export default {
      .go_back a,
      .go_back span {
           @apply flex justify-center items-center bg-white text-slate-700 p-2 w-8 h-8 text-xl font-medium shadow-lg rounded-full
+     }
+     .cifra_dividida_active span {
+          @apply bg-red-600 rounded-full text-white;
      }
 }
 </style>

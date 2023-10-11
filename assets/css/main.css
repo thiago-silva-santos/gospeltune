@@ -45,13 +45,10 @@ b {
       .cifra_dividida {
           max-height: 600px;
           flex-wrap: wrap;
-          font-size: 6px !important
+          font-size: 7px !important
      }
-     /* .cifra_dividida span {
-          @apply mx-2
-     } */
      .cifra_dividida_b {
-          width: 0.230rem !important;
+          width: 0.260rem !important;
      }
 }
 
