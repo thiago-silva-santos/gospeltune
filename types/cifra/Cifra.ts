@@ -15,21 +15,14 @@ export type SongCategoria = "Envolvente" | "Introspectivo" | "Missões" | "Joven
 
 export interface ICifra {
      chords: string;
-     verse: string
+     verse: string;
+     divider: boolean;
 }
 export interface ISongPartes {
-     parte_1: ICifra[];
-     parte_2?: ICifra[];
-     parte_3?: ICifra[];
-     parte_4?: ICifra[];
-     parte_5?: ICifra[];
-     parte_6?: ICifra[];
-     refrao_1?: ICifra[];
-     refrao_2?: ICifra[];
-     refrao_3?: ICifra[];
-     ponte_1?: ICifra[];
-     ponte_2?: ICifra[];
-     ponte_3?: ICifra[];
+     parte1: ICifra[];
+     parte2?: ICifra[];
+     refrao?: ICifra[];
+     ponte?: ICifra[];
      final?: ICifra[];
 }
 
@@ -43,3 +36,8 @@ export interface ISongCifra2 extends INomeArtista{
      categoria: SongCategoria[];
      cifra: ISongPartes;
 }
+
+export interface IStyle {
+     textColor: 'text-black' | 'text-red-900' | 'text-green-900';
+     fontWeigth: 'font-normal' | 'font-medium' | 'font-bold' | 'font-semibold';
+ }

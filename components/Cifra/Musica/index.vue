@@ -1,62 +1,27 @@
 <template>
-    <div :class="SplitStore.split ? 'cifra_dividida_container' : 'cifra_container'">
-        <div class="flex flex-col">
+    <div class="cifra_container" id="cifra">
 
-            <div class="pt-10">
-                <cifra-musica-parte :parte="musica.parte_1" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.parte_2 && musica.parte_2.length > 0">
-                <cifra-musica-parte :parte="musica.parte_2 " :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.parte_3 && musica.parte_3.length > 0">
-                <cifra-musica-parte :parte="musica.parte_3" :tonalidade="tom" />
-            </div>
-    
-    
-            <div class="flex flex-col pt-10 gap-2" v-if="musica.refrao_1 && musica.refrao_1.length > 0">
-                <span :class=" SplitStore.split ? 'titulo_verso_xs' : 'titulo_verso'">[ Refrão ]</span>
-                <cifra-musica-refrao :refrao="musica.refrao_1" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.refrao_2 && musica.refrao_2.length > 0">
-                <cifra-musica-refrao :refrao="musica.refrao_2" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.refrao_3 && musica.refrao_3.length > 0">
-                <cifra-musica-refrao :refrao="musica.refrao_3" :tonalidade="tom" />
-            </div>
-
+        <div class="pt-10">
+            <cifra-musica-parte :parte="musica.parte" :tonalidade="tom" :style-props="parteStyle" />
         </div>
-        
-        <div class="flex flex-col">
 
-            <div class="pt-10" v-if="musica.parte_4 && musica.parte_4.length > 0">
-                <cifra-musica-parte :parte="musica.parte_4" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.parte_5 && musica.parte_5.length > 0">
-                <cifra-musica-parte :parte="musica.parte_5" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.parte_6 && musica.parte_6.length > 0">
-                <cifra-musica-parte :parte="musica.parte_6" :tonalidade="tom" />
-            </div>
-    
-    
-            <div class="flex flex-col pt-10 gap-2" v-if="musica.ponte_1 && musica.ponte_1.length > 0">
-                <span :class=" SplitStore.split ? 'titulo_verso_xs text-red-900' : 'titulo_verso text-red-900'">[ Ponte ]</span>
-                <cifra-musica-ponte :ponte="musica.ponte_1" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.ponte_2 && musica.ponte_2.length > 0">
-                <cifra-musica-ponte :ponte="musica.ponte_2" :tonalidade="tom" />
-            </div>
-            <div class="pt-6" v-if="musica.ponte_3 && musica.ponte_3.length > 0">
-                <cifra-musica-ponte :ponte="musica.ponte_3" :tonalidade="tom" />
-            </div>
-
+        <div class="flex flex-col pt-5 gap-2" v-if="musica.refrao && musica.refrao.length > 0">
+            <span class="titulo_verso">[ Refrão ]</span>
+            <cifra-musica-parte :parte="musica.refrao" :tonalidade="tom" :style-props="refraoStyle" />
+        </div>
+        <div class="flex flex-col pt-5 gap-2" v-if="musica.ponte && musica.ponte.length > 0">
+            <span class="titulo_verso text-red-900">[ Ponte ]</span>
+            <cifra-musica-parte :parte="musica.ponte" :tonalidade="tom" :style-props="ponteStyle" />
+        </div>
+        <div class="flex flex-col pt-5 gap-2" v-if="musica.final && musica.final.length > 0">
+            <span class="titulo_verso text-green-900">[ Final ]</span>
+            <cifra-musica-parte :parte="musica.final" :tonalidade="tom" :style-props="finalStyle" />
         </div>
 
     </div>
 </template>
 <script setup lang="ts">
-import hinosV2 from '@/assets/Cifras/hinosV2.json'
-import { ISongPartes } from '@/types/cifra/Cifra'
+import { ISongPartes, IStyle } from '@/types/cifra/Cifra'
 import { PropType } from 'vue'
 
 import { useSplitStore } from '~~/stores/split'
@@ -73,15 +38,18 @@ const props = defineProps({
     }
 })
 
-
+const parteStyle = ref<IStyle>({ textColor: 'text-black', fontWeigth: 'font-normal' })
+const refraoStyle = ref<IStyle>({ textColor: 'text-black', fontWeigth: 'font-bold' })
+const ponteStyle = ref<IStyle>({ textColor: 'text-red-900', fontWeigth: 'font-medium' })
+const finalStyle = ref<IStyle>({ textColor: 'text-green-900', fontWeigth: 'font-normal' })
 
 const musica = computed(() => {
     return props.musica
 })
+
 const tom = computed(() => {
     return props.tonalidade
 })
-
 
 </script>
 <style scoped>
@@ -89,13 +57,16 @@ const tom = computed(() => {
     @apply mb-2 font-bold text-xs;
     letter-spacing: 1px;
 }
+
 .titulo_verso_xs {
     @apply text-[9px]
 }
+
 .cifra_container {
     @apply flex flex-col
 }
+
 .cifra_dividida_container {
-    @apply w-fit flex justify-start gap-4
+    @apply w-fit gap-4
 }
 </style>

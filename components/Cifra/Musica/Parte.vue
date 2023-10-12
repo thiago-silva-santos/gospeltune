@@ -1,22 +1,21 @@
 <template>
-    <pre :class="['flex flex-col', {'cifra_dividida': SplitStore.split}]">
+    <pre class="flex flex-col">
         <template v-for="linha in cifra" :key="linha">
-            <template v-if="linha.verse">
-                <span class="flex" v-if="linha.chords.length > 0">
-                    <template v-for="item in parseString(linha.chords)">
-                        <b :class="{'cifra_dividida_b': SplitStore.split}">{{ tom[item as any]?.notacao }}</b>
-                    </template>
-                </span>
-                <span class="linha-verso">{{ linha.verse }}</span>
-            </template>
+            <span class="flex">
+                <b v-for="item in parseString(linha.chords)">{{ tom[item as any]?.notacao }}</b>
+            </span>
+            <span :class="`linha-verso ${props.styleProps?.fontWeigth} ${props.styleProps?.textColor}`">{{ linha.verse }}</span>
+            <span v-if="linha.divider" class="h-5"></span>
         </template>
     </pre>
 </template>
 <script setup lang="ts">
-import { ICifra } from '~~/types/cifra/Cifra'
+import { ICifra, IStyle } from '~~/types/cifra/Cifra'
 import campo from '@/assets/CampoHarmonico/CampoHarmonicoComponentData.json'
 import { useSplitStore } from '~~/stores/split'
+import { PropType } from 'nuxt/dist/app/compat/capi';
 const SplitStore = useSplitStore()
+
 
 const props = defineProps({
     parte: {
@@ -25,6 +24,10 @@ const props = defineProps({
     tonalidade: {
         type: Number,
         required: true
+    },
+    styleProps: {
+        type: Object as PropType<IStyle>,
+        required: true
     }
 })
 
@@ -32,6 +35,7 @@ watch(() => props.tonalidade, (value) => {
     console.log(value)
 })
 const cifra = computed(() => {
+    console.log(props.parte)
     return props.parte
 })
 const campoHarmonico = computed(() => {
@@ -75,7 +79,4 @@ function parseString(string: string) {
 b {
     @apply text-red-600
 }
-
-
-
 </style>
