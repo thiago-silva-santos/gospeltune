@@ -19,11 +19,8 @@ export interface ICifra {
      divider: boolean;
 }
 export interface ISongPartes {
-     parte1: ICifra[];
-     parte2?: ICifra[];
-     refrao?: ICifra[];
-     ponte?: ICifra[];
-     final?: ICifra[];
+     tipo: "Primeira Parte" | "Segunda Parte" | "Refrão" | "Ponte" | "Final";
+     versos: ICifra[];
 }
 
 
@@ -34,10 +31,10 @@ export interface ISongCifra2 extends INomeArtista{
      nome: string;
      tonalidade: number;
      categoria: SongCategoria[];
-     cifra: ISongPartes;
+     cifra: ISongPartes[];
 }
 
 export interface IStyle {
-     textColor: 'text-black' | 'text-red-900' | 'text-green-900';
+     textColor: 'text-black' | 'text-red-900' | 'text-red-500';
      fontWeigth: 'font-normal' | 'font-medium' | 'font-bold' | 'font-semibold';
  }

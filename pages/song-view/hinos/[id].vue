@@ -3,7 +3,6 @@
           <div class="song_container" id="song_container">
                <h1 class="song_title">{{ song.nome }}</h1>
                <span class="artist_name"> {{ song.nomeArtista }} </span>
-               <!-- <cifra-song :song="song.cifra" :tonalidade="tonalidadeAtual" /> -->
                <cifra-musica :musica="song.cifra" :tonalidade="tonalidadeAtual"/>
           </div>
           <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'" />
@@ -11,17 +10,14 @@
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/hinos.json'
-import cifras2 from '@/assets/Cifras/hinosV2.json'
 
 const route = useRoute()
 const tonalidadeAtual = ref<number>(0)
 
 const song = computed(() => {
-     const item = cifras2.filter(item => item.id.toString() == route.params.id)[0]
+     const item = cifras.filter(item => item.id.toString() == route.params.id)[0]
      return item
 })
-
-
 
 function getTom(value: number) {
      tonalidadeAtual.value = value
