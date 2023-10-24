@@ -345,7 +345,7 @@
                 ]
             },
             {
-                "tipo": "Ponte",
+                "tipo": "Terceira Parte",
                 "versos": [
                     {
                         "chords": "                         0",
@@ -377,9 +377,13 @@
                     },
                     {
                         "chords": "             3",
-                        "verse": "Eu estou contigo, filho",
-                        "divider": true
-                    },
+                        "verse": "Eu estou contigo, filho"
+                    }
+                ]
+            },
+            {
+                "tipo": "Ponte",
+                "versos": [
                     {
                         "chords": "                    0",
                         "verse": "E se o teu barco parecer que vai naufragar"
@@ -753,7 +757,7 @@
         ],
         "cifra": [
             {
-                "tipo":"Primeira Parte",
+                "tipo": "Primeira Parte",
                 "versos": [
                     {
                         "chords": "                   0",

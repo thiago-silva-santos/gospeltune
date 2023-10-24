@@ -19,7 +19,7 @@ export interface ICifra {
      divider: boolean;
 }
 export interface ISongPartes {
-     tipo: "Primeira Parte" | "Segunda Parte" | "Refrão" | "Ponte" | "Final";
+     tipo: "Primeira Parte" | "Segunda Parte" | "Terceira Parte" | "Refrão" | "Ponte" | "Final";
      versos: ICifra[];
 }
 

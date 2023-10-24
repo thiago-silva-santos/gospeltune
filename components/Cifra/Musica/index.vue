@@ -1,5 +1,5 @@
 <template>
-    <div class="cifra_container" id="cifra">
+    <div :class="['cifra_container', {'cifra_dividida_container': DivideStore.divide}]" id="cifra">
         <div class="flex flex-col pt-10 gap-2" v-for="parte in musica">
             <span class="titulo_verso" v-if="parte.tipo !== 'Primeira Parte'">{{ parteTitulo(parte.tipo) }}</span>
             <cifra-musica-parte :parte="parte.versos" :tonalidade="tom" :style-props="parteTipo(parte.tipo)" />
@@ -9,6 +9,10 @@
 <script setup lang="ts">
 import { ISongPartes, IStyle } from '@/types/cifra/Cifra'
 import { PropType } from 'vue'
+import { useDivideStore } from '~~/stores/divide'
+const DivideStore = useDivideStore()
+
+
 
 const props = defineProps({
     musica: {
@@ -40,6 +44,8 @@ function parteTitulo(tipo: string) {
             return
         case "Segunda Parte":
             return "[ Segunda Parte ]"
+        case "Terceira Parte":
+            return "[ Terceira Parte ]"
         case "Refrão":
             return "[ Refrão ]"
         case "Ponte":
@@ -56,6 +62,8 @@ function parteTipo(tipo: string) {
         case "Primeira Parte":
             return parteStyle.value
         case "Segunda Parte":
+            return parteStyle.value
+        case "Terceira Parte":
             return parteStyle.value
         case "Refrão":
             return refraoStyle.value
@@ -81,10 +89,12 @@ function parteTipo(tipo: string) {
 }
 
 .cifra_container {
-    @apply flex flex-col
+    @apply flex flex-col 
 }
 
 .cifra_dividida_container {
-    @apply w-fit gap-4
+    position: absolute;
+    top: 120px;
+    @apply w-fit justify-start items-start box-border max-h-[1000px] gap-10 flex-wrap pb-10
 }
 </style>

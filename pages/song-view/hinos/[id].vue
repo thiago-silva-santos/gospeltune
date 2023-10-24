@@ -68,5 +68,8 @@ onBeforeMount(() => {
      .song_title {
           font-size: 24px;
      }
+     .song_container {
+          @apply py-10 px-20 flex flex-col max-w-full m-0;
+     }
 }
 </style>

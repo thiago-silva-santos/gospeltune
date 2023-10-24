@@ -4,8 +4,8 @@
      </transition>
      <transition name="back-fade">
           <div v-if="isOpen" class="go_back">
-               <button :class="['flex justify-center items-center', { 'cifra_dividida_active': SplitStore.split }]"
-                    @click="SplitStore.updateSplit()">
+               <button v-if="DivideStore.divideButton" :class="['flex justify-center items-center', { 'cifra_dividida_active': DivideStore.divide }]"
+                    @click="DivideStore.updateDivide()">
                     <span class="material-symbols-outlined">
                          splitscreen_right
                     </span>
@@ -69,8 +69,8 @@
      </transition>
 </template>
 <script setup lang="ts">
-import { useSplitStore } from '~~/stores/split'
-const SplitStore = useSplitStore()
+import { useDivideStore } from '~~/stores/divide'
+const DivideStore = useDivideStore()
 const emits = defineEmits(['tuning-component-tune'])
 import { onBeforeMount } from 'vue'
 
