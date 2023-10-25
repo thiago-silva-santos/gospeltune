@@ -17,80 +17,78 @@
         ],
         "cifra": [
             {
-                "chords": "0            4        0",
-                "verse": "Oh! Que saudosa lembrança"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0            4        0",
+                        "verse": "Oh! Que saudosa lembrança"
+                    },
+                    {
+                        "chords": "          19     1",
+                        "verse": "Tenho de Ti, ó Sião"
+                    },
+                    {
+                        "chords": "                   4",
+                        "verse": "Terra que eu tanto amo"
+                    },
+                    {
+                        "chords": "                     0    4",
+                        "verse": "Pois és do meu coração"
+                    },
+                    {
+                        "chords": "0       4     0",
+                        "verse": "Eu para Ti voarei"
+                    },
+                    {
+                        "chords": "  7                      3",
+                        "verse": "Quando o Senhor meu voltar"
+                    },
+                    {
+                        "chords": "                   0",
+                        "verse": "Pois Ele foi para o Céu"
+                    },
+                    {
+                        "chords": "11                   0    4",
+                        "verse": "E breve vem me buscar"
+                    }
+                ]
             },
             {
-                "chords": "          19     1",
-                "verse": "Tenho de Ti, ó Sião"
-            },
-            {
-                "chords": "                   4",
-                "verse": "Terra que eu tanto amo"
-            },
-            {
-                "chords": "                     0    4",
-                "verse": "Pois és do meu coração"
-            },
-            {
-                "chords": "0       4     0",
-                "verse": "Eu para Ti voarei"
-            },
-            {
-                "chords": "  7                      3",
-                "verse": "Quando o Senhor meu voltar"
-            },
-            {
-                "chords": "                   0",
-                "verse": "Pois Ele foi para o Céu"
-            },
-            {
-                "chords": "11                   0    4",
-                "verse": "E breve vem me buscar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0        4    0",
-                "verse": "Sim, eu porfiarei"
-            },
-            {
-                "chords": "          5         4",
-                "verse": "Por essa  terra de além"
-            },
-            {
-                "chords": "1    4",
-                "verse": "E lá  terminarei"
-            },
-            {
-                "chords": "                      0     4",
-                "verse": "As muitas lutas de aquém"
-            },
-            {
-                "chords": "0        4           0",
-                "verse": "Lá está meu bom Senhor"
-            },
-            {
-                "chords": "7                  3",
-                "verse": "Ao qual eu desejo ver"
-            },
-            {
-                "chords": "                0",
-                "verse": "Ele é tudo pra mim"
-            },
-            {
-                "chords": "       2          1    4    0    4",
-                "verse": "E sem Ele eu não po__sso viver"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0        4    0",
+                        "verse": "Sim, eu porfiarei"
+                    },
+                    {
+                        "chords": "          5         4",
+                        "verse": "Por essa  terra de além"
+                    },
+                    {
+                        "chords": "1    4",
+                        "verse": "E lá  terminarei"
+                    },
+                    {
+                        "chords": "                      0     4",
+                        "verse": "As muitas lutas de aquém"
+                    },
+                    {
+                        "chords": "0        4           0",
+                        "verse": "Lá está meu bom Senhor"
+                    },
+                    {
+                        "chords": "7                  3",
+                        "verse": "Ao qual eu desejo ver"
+                    },
+                    {
+                        "chords": "                0",
+                        "verse": "Ele é tudo pra mim"
+                    },
+                    {
+                        "chords": "       2          1    4    0    4",
+                        "verse": "E sem Ele eu não po__sso viver"
+                    }
+                ]
             }
         ]
     },
@@ -104,68 +102,66 @@
         ],
         "cifra": [
             {
-                "chords": "0                  7",
-                "verse": "Plena paz e santo gozo"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                  7",
+                        "verse": "Plena paz e santo gozo"
+                    },
+                    {
+                        "chords": "          3            0",
+                        "verse": "Tenho em ti, ó meu Jesus!"
+                    },
+                    {
+                        "chords": "                      22              11",
+                        "verse": "Pois eu creio em Tua morte sobre a cruz"
+                    },
+                    {
+                        "chords": "       0           7",
+                        "verse": "No Senhor só confiando"
+                    },
+                    {
+                        "chords": "       3          0",
+                        "verse": "Neste mundo viverei"
+                    },
+                    {
+                        "chords": "              11            0    7",
+                        "verse": "Entoando aleluias ao meu Rei!"
+                    }
+                ]
             },
             {
-                "chords": "          3            0",
-                "verse": "Tenho em ti, ó meu Jesus!"
-            },
-            {
-                "chords": "                      22              11",
-                "verse": "Pois eu creio em Tua morte sobre a cruz"
-            },
-            {
-                "chords": "       0           7",
-                "verse": "No Senhor só confiando"
-            },
-            {
-                "chords": "       3          0",
-                "verse": "Neste mundo viverei"
-            },
-            {
-                "chords": "              11            0    7",
-                "verse": "Entoando aleluias ao meu Rei!"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "    3",
-                "verse": "Oh! Glória ao meu Jesus!"
-            },
-            {
-                "chords": "       0           7",
-                "verse": "Pois é digno de louvor"
-            },
-            {
-                "chords": "       3                 0",
-                "verse": "É meu Rei, meu bom Pastor"
-            },
-            {
-                "chords": "          4",
-                "verse": "E meu Senhor"
-            },
-            {
-                "chords": "          0            7",
-                "verse": "Como os anjos, que O louvam"
-            },
-            {
-                "chords": "       3            0",
-                "verse": "Eu também O louvarei"
-            },
-            {
-                "chords": "             4             0",
-                "verse": "Entoando aleluias ao meu Rei"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "    3",
+                        "verse": "Oh! Glória ao meu Jesus!"
+                    },
+                    {
+                        "chords": "       0           7",
+                        "verse": "Pois é digno de louvor"
+                    },
+                    {
+                        "chords": "       3                 0",
+                        "verse": "É meu Rei, meu bom Pastor"
+                    },
+                    {
+                        "chords": "          4",
+                        "verse": "E meu Senhor"
+                    },
+                    {
+                        "chords": "          0            7",
+                        "verse": "Como os anjos, que O louvam"
+                    },
+                    {
+                        "chords": "       3            0",
+                        "verse": "Eu também O louvarei"
+                    },
+                    {
+                        "chords": "             4             0",
+                        "verse": "Entoando aleluias ao meu Rei"
+                    }
+                ]
             }
         ]
     },
@@ -267,56 +263,54 @@
         ],
         "cifra": [
             {
-                "chords": "          0                       11",
-                "verse": "Oh! Quão cego andei e perdido vaguei"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "          0                       11",
+                        "verse": "Oh! Quão cego andei e perdido vaguei"
+                    },
+                    {
+                        "chords": "       1         11         0     7",
+                        "verse": "Longe, longe do meu Salvador!"
+                    },
+                    {
+                        "chords": "         3",
+                        "verse": "Mas do céu Ele desceu"
+                    },
+                    {
+                        "chords": "       0   27      5",
+                        "verse": "E Seu san_gue     verteu"
+                    },
+                    {
+                        "chords": "      1           11           0    11",
+                        "verse": "Pra salvar um tão pobre pecador"
+                    }
+                ]
             },
             {
-                "chords": "       1         11         0     7",
-                "verse": "Longe, longe do meu Salvador!"
-            },
-            {
-                "chords": "         3",
-                "verse": "Mas do céu Ele desceu"
-            },
-            {
-                "chords": "       0   27      5",
-                "verse": "E Seu san_gue     verteu"
-            },
-            {
-                "chords": "      1           11           0    11",
-                "verse": "Pra salvar um tão pobre pecador"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "        0",
-                "verse": "Foi na cruz, foi na cruz"
-            },
-            {
-                "chords": "                11",
-                "verse": "onde um dia eu vi"
-            },
-            {
-                "chords": "       1          11          0     7",
-                "verse": "meu pecado castigado em Jesus"
-            },
-            {
-                "chords": "     3                 0  27     5",
-                "verse": "Foi ali, pela fé, que os o__lhos   abri"
-            },
-            {
-                "chords": "    1        11             0",
-                "verse": "E agora me alegro em sua Luz"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "        0",
+                        "verse": "Foi na cruz, foi na cruz"
+                    },
+                    {
+                        "chords": "                11",
+                        "verse": "onde um dia eu vi"
+                    },
+                    {
+                        "chords": "       1          11          0     7",
+                        "verse": "meu pecado castigado em Jesus"
+                    },
+                    {
+                        "chords": "     3                 0  27     5",
+                        "verse": "Foi ali, pela fé, que os o__lhos   abri"
+                    },
+                    {
+                        "chords": "    1        11             0",
+                        "verse": "E agora me alegro em sua Luz"
+                    }
+                ]
             }
         ]
     },
@@ -331,48 +325,46 @@
         ],
         "cifra": [
             {
-                "chords": "0      7          3       0",
-                "verse": "Posso, tendo as mãos vazias"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0      7          3       0",
+                        "verse": "Posso, tendo as mãos vazias"
+                    },
+                    {
+                        "chords": "1       11                0",
+                        "verse": "Com Jesus, eu me encontrar?"
+                    },
+                    {
+                        "chords": "            3         0",
+                        "verse": "Nada fiz, e vão-se os dias"
+                    },
+                    {
+                        "chords": " 3       0       4     0",
+                        "verse": "Que lhe posso apresentar?"
+                    }
+                ]
             },
             {
-                "chords": "1       11                0",
-                "verse": "Com Jesus, eu me encontrar?"
-            },
-            {
-                "chords": "            3         0",
-                "verse": "Nada fiz, e vão-se os dias"
-            },
-            {
-                "chords": " 3       0       4     0",
-                "verse": "Que lhe posso apresentar?"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "        3         4       0",
-                "verse": "Posso, tendo as mãos vazias"
-            },
-            {
-                "chords": " 3                  4     0",
-                "verse": "Com Jesus, eu me encontrar?"
-            },
-            {
-                "chords": "          7     3    0",
-                "verse": "Quantas almas poderia"
-            },
-            {
-                "chords": "3      0     4     0",
-                "verse": "Ao Senhor apresentar?"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "        3         4       0",
+                        "verse": "Posso, tendo as mãos vazias"
+                    },
+                    {
+                        "chords": " 3                  4     0",
+                        "verse": "Com Jesus, eu me encontrar?"
+                    },
+                    {
+                        "chords": "          7     3    0",
+                        "verse": "Quantas almas poderia"
+                    },
+                    {
+                        "chords": "3      0     4     0",
+                        "verse": "Ao Senhor apresentar?"
+                    }
+                ]
             }
         ]
     },
@@ -386,20 +378,25 @@
         ],
         "cifra": [
             {
-                "chords": "     0                   3             0",
-                "verse": "Nas horas que passo pensando em Jesus"
-            },
-            {
-                "chords": "             2          3       4",
-                "verse": "As trevas desfaço, buscando a  luz"
-            },
-            {
-                "chords": "              0        22          4",
-                "verse": "Que horas de vida tão doces pra mim"
-            },
-            {
-                "chords": "   3          0            4       0",
-                "verse": "Jesus me convida que eu suba pra Si"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "     0                   3             0",
+                        "verse": "Nas horas que passo pensando em Jesus"
+                    },
+                    {
+                        "chords": "             2          3       4",
+                        "verse": "As trevas desfaço, buscando a  luz"
+                    },
+                    {
+                        "chords": "              0        22          4",
+                        "verse": "Que horas de vida tão doces pra mim"
+                    },
+                    {
+                        "chords": "   3          0            4       0",
+                        "verse": "Jesus me convida que eu suba pra Si"
+                    }
+                ]
             }
         ]
     },
@@ -414,68 +411,63 @@
         ],
         "cifra": [
             {
-                "chords": "      5     16       5",
-                "verse": "Grata nova Deus proclama"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "      5     16       5",
+                        "verse": "Grata nova Deus proclama"
+                    },
+                    {
+                        "chords": "         18      26    1",
+                        "verse": "Hoje ao mundo pecador"
+                    },
+                    {
+                        "chords": "                16",
+                        "verse": "Doce nova revelada"
+                    },
+                    {
+                        "chords": "       3      16     5    16",
+                        "verse": "Lá na cruz do Salvador",
+                        "divider": true
+                    },
+                    {
+                        "chords": "        5    16      5",
+                        "verse": "Cego e desviado, o homem"
+                    },
+                    {
+                        "chords": "               26     1",
+                        "verse": "Dos caminhos do Senhor"
+                    },
+                    {
+                        "chords": "                     16",
+                        "verse": "Desconhece e desconfia"
+                    },
+                    {
+                        "chords": "       3       16        5      4",
+                        "verse": "Deste Deus, o Deus de amor"
+                    }
+                ]
             },
             {
-                "chords": "         18      26    1",
-                "verse": "Hoje ao mundo pecador"
-            },
-            {
-                "chords": "                16",
-                "verse": "Doce nova revelada"
-            },
-            {
-                "chords": "       3      16     5    16",
-                "verse": "Lá na cruz do Salvador"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "        5    16      5",
-                "verse": "Cego e desviado, o homem"
-            },
-            {
-                "chords": "               26     1",
-                "verse": "Dos caminhos do Senhor"
-            },
-            {
-                "chords": "                     16",
-                "verse": "Desconhece e desconfia"
-            },
-            {
-                "chords": "       3       16        5      4",
-                "verse": "Deste Deus, o Deus de amor"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "       0     4     0",
-                "verse": "Grata nova, doce nova"
-            },
-            {
-                "chords": "                26     1",
-                "verse": "Vem dos lábios do Senhor"
-            },
-            {
-                "chords": "                 4",
-                "verse": "Escutai com alegria"
-            },
-            {
-                "chords": "        0        4    0    16",
-                "verse": "Deus é luz, Deus é  amor"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "       0     4     0",
+                        "verse": "Grata nova, doce nova"
+                    },
+                    {
+                        "chords": "                26     1",
+                        "verse": "Vem dos lábios do Senhor"
+                    },
+                    {
+                        "chords": "                 4",
+                        "verse": "Escutai com alegria"
+                    },
+                    {
+                        "chords": "        0        4    0    16",
+                        "verse": "Deus é luz, Deus é  amor"
+                    }
+                ]
             }
         ]
     },
@@ -498,48 +490,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                 3      4      0",
-                "verse": "Livres de pecado vós quereis ficar?"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                 3      4      0",
+                        "verse": "Livres de pecado vós quereis ficar?"
+                    },
+                    {
+                        "chords": "               5    22     11",
+                        "verse": "Olhai pra o Cordei__ro de Deus"
+                    },
+                    {
+                        "chords": "0                 3       4     0",
+                        "verse": "Ele morto foi na cruz pra vos salvar"
+                    },
+                    {
+                        "chords": "2         3     4        0      4",
+                        "verse": "Olhai pra  o Cordeiro de  Deus"
+                    }
+                ]
             },
             {
-                "chords": "               5    22     11",
-                "verse": "Olhai pra o Cordei__ro de Deus"
-            },
-            {
-                "chords": "0                 3       4     0",
-                "verse": "Ele morto foi na cruz pra vos salvar"
-            },
-            {
-                "chords": "2         3     4        0      4",
-                "verse": "Olhai pra  o Cordeiro de  Deus"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "  0             5       4",
-                "verse": "Olhai pra o Cordeiro de Deus"
-            },
-            {
-                "chords": "  1             4       0",
-                "verse": "Olhai pra o Cordeiro de Deus"
-            },
-            {
-                "chords": "  7            3           1",
-                "verse": "Porque só Ele vos pode salvar"
-            },
-            {
-                "chords": "  0            4        0",
-                "verse": "Olhai pra o Cordeiro de Deus"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "  0             5       4",
+                        "verse": "Olhai pra o Cordeiro de Deus"
+                    },
+                    {
+                        "chords": "  1             4       0",
+                        "verse": "Olhai pra o Cordeiro de Deus"
+                    },
+                    {
+                        "chords": "  7            3           1",
+                        "verse": "Porque só Ele vos pode salvar"
+                    },
+                    {
+                        "chords": "  0            4        0",
+                        "verse": "Olhai pra o Cordeiro de Deus"
+                    }
+                ]
             }
         ]
     },
@@ -610,48 +600,46 @@
         ],
         "cifra": [
             {
-                "chords": "            5",
-                "verse": "Andas carregado"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "            5",
+                        "verse": "Andas carregado"
+                    },
+                    {
+                        "chords": "1             5",
+                        "verse": "De tristeza e  dor?"
+                    },
+                    {
+                        "chords": "1               5",
+                        "verse": "Sem nenhum auxílio"
+                    },
+                    {
+                        "chords": "16             5",
+                        "verse": "Nem um Salvador?"
+                    }
+                ]
             },
             {
-                "chords": "1             5",
-                "verse": "De tristeza e  dor?"
-            },
-            {
-                "chords": "1               5",
-                "verse": "Sem nenhum auxílio"
-            },
-            {
-                "chords": "16             5",
-                "verse": "Nem um Salvador?"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "19             1     4              0",
-                "verse": "Deus vai te guiar    com Sua forte mão"
-            },
-            {
-                "chords": "5             16   23        5",
-                "verse": "Podes descansar na tribulação"
-            },
-            {
-                "chords": "19        1     4          0",
-                "verse": "Seja tua vida   livre de pesar"
-            },
-            {
-                "chords": "5             16                  5",
-                "verse": "Em tristeza e lida, Deus vai te guiar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "19             1     4              0",
+                        "verse": "Deus vai te guiar    com Sua forte mão"
+                    },
+                    {
+                        "chords": "5             16   23        5",
+                        "verse": "Podes descansar na tribulação"
+                    },
+                    {
+                        "chords": "19        1     4          0",
+                        "verse": "Seja tua vida   livre de pesar"
+                    },
+                    {
+                        "chords": "5             16                  5",
+                        "verse": "Em tristeza e lida, Deus vai te guiar"
+                    }
+                ]
             }
         ]
     },
@@ -746,68 +734,63 @@
         ],
         "cifra": [
             {
-                "chords": "0                  2     5  ",
-                "verse": "Bendito seja o Cordei____ro"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                  2     5  ",
+                        "verse": "Bendito seja o Cordei____ro"
+                    },
+                    {
+                        "chords": "        1                 4",
+                        "verse": "Que na cruz por nós padeceu"
+                    },
+                    {
+                        "chords": "0                  2     5",
+                        "verse": "Bendito seja o Seu san__gue"
+                    },
+                    {
+                        "chords": "         1     4         0    7",
+                        "verse": "Que por  nós   ali Ele verteu",
+                        "divider": true
+                    },
+                    {
+                        "chords": "3                   0    7",
+                        "verse": "Eis nesse sangue, lava__dos"
+                    },
+                    {
+                        "chords": "3            22              4    11",
+                        "verse": "Com roupas que tão alvas  são"
+                    },
+                    {
+                        "chords": "0               2      5",
+                        "verse": "Os pecadores remi____dos"
+                    },
+                    {
+                        "chords": "       1         4          0    4",
+                        "verse": "Que perante seu Deus já estão"
+                    }
+                ]
             },
             {
-                "chords": "        1                 4",
-                "verse": "Que na cruz por nós padeceu"
-            },
-            {
-                "chords": "0                  2     5",
-                "verse": "Bendito seja o Seu san__gue"
-            },
-            {
-                "chords": "         1     4         0    7",
-                "verse": "Que por  nós   ali Ele verteu"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "3                   0    7",
-                "verse": "Eis nesse sangue, lava__dos"
-            },
-            {
-                "chords": "3            22              4    11",
-                "verse": "Com roupas que tão alvas  são"
-            },
-            {
-                "chords": "0               2      5",
-                "verse": "Os pecadores remi____dos"
-            },
-            {
-                "chords": "       1         4          0    4",
-                "verse": "Que perante seu Deus já estão"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0                4",
-                "verse": "Alvo mais que a neve"
-            },
-            {
-                "chords": "1    4               0     4",
-                "verse": "Al____vo mais que a  ne___ve"
-            },
-            {
-                "chords": "0            7       3",
-                "verse": "Sim, neste sangue lavado"
-            },
-            {
-                "chords": "      0   5         1     4    0    4",
-                "verse": "Mais al___vo que a  ne___ve serei"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0                4",
+                        "verse": "Alvo mais que a neve"
+                    },
+                    {
+                        "chords": "1    4               0     4",
+                        "verse": "Al____vo mais que a  ne___ve"
+                    },
+                    {
+                        "chords": "0            7       3",
+                        "verse": "Sim, neste sangue lavado"
+                    },
+                    {
+                        "chords": "      0   5         1     4    0    4",
+                        "verse": "Mais al___vo que a  ne___ve serei"
+                    }
+                ]
             }
         ]
     },
@@ -871,48 +854,46 @@
         ],
         "cifra": [
             {
-                "chords": "0",
-                "verse": "Um pendão real vos entregou o Rei"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Um pendão real vos entregou o Rei"
+                    },
+                    {
+                        "chords": "   4      11       0    4",
+                        "verse": "A vós, soldados Seus"
+                    },
+                    {
+                        "chords": "     0",
+                        "verse": "Corajosos, pois em tudo O defendei"
+                    },
+                    {
+                        "chords": "      4     22       4",
+                        "verse": "Marchando para os céus"
+                    }
+                ]
             },
             {
-                "chords": "   4      11       0    4",
-                "verse": "A vós, soldados Seus"
-            },
-            {
-                "chords": "     0",
-                "verse": "Corajosos, pois em tudo O defendei"
-            },
-            {
-                "chords": "      4     22       4",
-                "verse": "Marchando para os céus"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "       11          0     7",
-                "verse": "Com valor, sem temor"
-            },
-            {
-                "chords": "      3     22          4     11",
-                "verse": "Por Cristo prontos a sofrer"
-            },
-            {
-                "chords": "      0     7      3       1",
-                "verse": "Bem alto erguei o Seu pendão"
-            },
-            {
-                "chords": "0        3       4      0",
-                "verse": "Firmes sempre, até morrer"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "       11          0     7",
+                        "verse": "Com valor, sem temor"
+                    },
+                    {
+                        "chords": "      3     22          4     11",
+                        "verse": "Por Cristo prontos a sofrer"
+                    },
+                    {
+                        "chords": "      0     7      3       1",
+                        "verse": "Bem alto erguei o Seu pendão"
+                    },
+                    {
+                        "chords": "0        3       4      0",
+                        "verse": "Firmes sempre, até morrer"
+                    }
+                ]
             }
         ]
     },
@@ -1320,48 +1301,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                    11",
-                "verse": "Se ao inimigo temes combater"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                    11",
+                        "verse": "Se ao inimigo temes combater"
+                    },
+                    {
+                        "chords": "8            11            0",
+                        "verse": "Se estás em trevas e não tens poder"
+                    },
+                    {
+                        "chords": "               7              3       8",
+                        "verse": "Que a formosa luz de Deus fulgure em ti"
+                    },
+                    {
+                        "chords": "0         4     0      3    4",
+                        "verse": "E serás feliz assim"
+                    }
+                ]
             },
             {
-                "chords": "8            11            0",
-                "verse": "Se estás em trevas e não tens poder"
-            },
-            {
-                "chords": "               7              3       8",
-                "verse": "Que a formosa luz de Deus fulgure em ti"
-            },
-            {
-                "chords": "0         4     0      3    4",
-                "verse": "E serás feliz assim"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0                 4",
-                "verse": "Deixa penetrar a luz"
-            },
-            {
-                "chords": "8           4     0",
-                "verse": "Deixa penetrar a luz"
-            },
-            {
-                "chords": "                7              3       8",
-                "verse": "Que a formosa  luz de Deus fulgure em ti"
-            },
-            {
-                "chords": "0         4     0       4",
-                "verse": "E serás feliz assim"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0                 4",
+                        "verse": "Deixa penetrar a luz"
+                    },
+                    {
+                        "chords": "8           4     0",
+                        "verse": "Deixa penetrar a luz"
+                    },
+                    {
+                        "chords": "                7              3       8",
+                        "verse": "Que a formosa  luz de Deus fulgure em ti"
+                    },
+                    {
+                        "chords": "0         4     0       4",
+                        "verse": "E serás feliz assim"
+                    }
+                ]
             }
         ]
     },
@@ -1456,48 +1435,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                                   7",
-                "verse": "Firme nas promessas do meu Salvador"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                                   7",
+                        "verse": "Firme nas promessas do meu Salvador"
+                    },
+                    {
+                        "chords": "3                          0    4",
+                        "verse": "Cantarei louvores ao meu Cria_dor"
+                    },
+                    {
+                        "chords": "0                            27      5",
+                        "verse": "Fico na dispensação do Seu  a_____mor"
+                    },
+                    {
+                        "chords": "3             4             0      3  4",
+                        "verse": "Firme nas promessas de Jesus"
+                    }
+                ]
             },
             {
-                "chords": "3                          0    4",
-                "verse": "Cantarei louvores ao meu Cria_dor"
-            },
-            {
-                "chords": "0                            27      5",
-                "verse": "Fico na dispensação do Seu  a_____mor"
-            },
-            {
-                "chords": "3             4             0      3  4",
-                "verse": "Firme nas promessas de Jesus"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0    7     3",
-                "verse": "Fir__me,    firme"
-            },
-            {
-                "chords": "4                           0       3    4",
-                "verse": "Firme nas promessas de Jesus, o  Cris__to"
-            },
-            {
-                "chords": "0    7     3   17",
-                "verse": "Fir__me,    fir__me"
-            },
-            {
-                "chords": "      0             4            0      4",
-                "verse": "Sim, firme nas promessas de Jesus"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0    7     3",
+                        "verse": "Fir__me,    firme"
+                    },
+                    {
+                        "chords": "4                           0       3    4",
+                        "verse": "Firme nas promessas de Jesus, o  Cris__to"
+                    },
+                    {
+                        "chords": "0    7     3   17",
+                        "verse": "Fir__me,    fir__me"
+                    },
+                    {
+                        "chords": "      0             4            0      4",
+                        "verse": "Sim, firme nas promessas de Jesus"
+                    }
+                ]
             }
         ]
     },
@@ -1512,48 +1489,46 @@
         ],
         "cifra": [
             {
-                "chords": " 0     7          3",
-                "verse": "Por Jesus vamos pelejar"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": " 0     7          3",
+                        "verse": "Por Jesus vamos pelejar"
+                    },
+                    {
+                        "chords": " 4     11         0        4",
+                        "verse": "Prosseguindo o nosso andar"
+                    },
+                    {
+                        "chords": "0      7      3",
+                        "verse": "E com Ele, então, no céu"
+                    },
+                    {
+                        "chords": "  4                  0   4",
+                        "verse": "Nós iremos a paz gozar"
+                    }
+                ]
             },
             {
-                "chords": " 4     11         0        4",
-                "verse": "Prosseguindo o nosso andar"
-            },
-            {
-                "chords": "0      7      3",
-                "verse": "E com Ele, então, no céu"
-            },
-            {
-                "chords": "  4                  0   4",
-                "verse": "Nós iremos a paz gozar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "   0      7       3       15",
-                "verse": "Lutemos todos contra o mal"
-            },
-            {
-                "chords": "   4          0      4",
-                "verse": "E vamos a Jesus seguir"
-            },
-            {
-                "chords": "     0   7      3    15",
-                "verse": "Ele  é o nosso General"
-            },
-            {
-                "chords": "     4            0    4",
-                "verse": "E a glória do porvir!"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "   0      7       3       15",
+                        "verse": "Lutemos todos contra o mal"
+                    },
+                    {
+                        "chords": "   4          0      4",
+                        "verse": "E vamos a Jesus seguir"
+                    },
+                    {
+                        "chords": "     0   7      3    15",
+                        "verse": "Ele  é o nosso General"
+                    },
+                    {
+                        "chords": "     4            0    4",
+                        "verse": "E a glória do porvir!"
+                    }
+                ]
             }
         ]
     },
@@ -1680,48 +1655,46 @@
         ],
         "cifra": [
             {
-                "chords": "     0   3          0",
-                "verse": "Um dia, Cristo voltará"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "     0   3          0",
+                        "verse": "Um dia, Cristo voltará"
+                    },
+                    {
+                        "chords": "   1                  4",
+                        "verse": "Ao ascender, o prometeu"
+                    },
+                    {
+                        "chords": "     0     3          0",
+                        "verse": "Do modo  que subiu virá"
+                    },
+                    {
+                        "chords": "       3           4           0    7",
+                        "verse": "Há de ver o Rei Jesus, o povo Seu"
+                    }
+                ]
             },
             {
-                "chords": "   1                  4",
-                "verse": "Ao ascender, o prometeu"
-            },
-            {
-                "chords": "     0     3          0",
-                "verse": "Do modo  que subiu virá"
-            },
-            {
-                "chords": "       3           4           0    7",
-                "verse": "Há de ver o Rei Jesus, o povo Seu"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "     3            0",
-                "verse": "Mui breve sim, Jesus virá"
-            },
-            {
-                "chords": "  4                 0    7",
-                "verse": "Alegre O verá Seu po__vo"
-            },
-            {
-                "chords": "   3             0",
-                "verse": "Velando, todos devem sempre estar"
-            },
-            {
-                "chords": "   4               0     4",
-                "verse": "A fim de vê-Lo voltar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "     3            0",
+                        "verse": "Mui breve sim, Jesus virá"
+                    },
+                    {
+                        "chords": "  4                 0    7",
+                        "verse": "Alegre O verá Seu po__vo"
+                    },
+                    {
+                        "chords": "   3             0",
+                        "verse": "Velando, todos devem sempre estar"
+                    },
+                    {
+                        "chords": "   4               0     4",
+                        "verse": "A fim de vê-Lo voltar"
+                    }
+                ]
             }
         ]
     },
@@ -1736,48 +1709,46 @@
         ],
         "cifra": [
             {
-                "chords": "0               4     0",
-                "verse": "Adorai o Rei do universo"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0               4     0",
+                        "verse": "Adorai o Rei do universo"
+                    },
+                    {
+                        "chords": "3        0       22           11",
+                        "verse": "Terra e céus, cantai o Seu louvor"
+                    },
+                    {
+                        "chords": "0              4              0",
+                        "verse": "Todo o ser no grande mar submerso"
+                    },
+                    {
+                        "chords": "1           11     0    4",
+                        "verse": "Louve ao Dominador"
+                    }
+                ]
             },
             {
-                "chords": "3        0       22           11",
-                "verse": "Terra e céus, cantai o Seu louvor"
-            },
-            {
-                "chords": "0              4              0",
-                "verse": "Todo o ser no grande mar submerso"
-            },
-            {
-                "chords": "1           11     0    4",
-                "verse": "Louve ao Dominador"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "        0     3     0",
-                "verse": "Todos juntos  O louvemos"
-            },
-            {
-                "chords": "1            11     0    4    0",
-                "verse": "Grande Salvador e Re--den--tor"
-            },
-            {
-                "chords": "0           2     5",
-                "verse": "Todos O louve----mos"
-            },
-            {
-                "chords": "1        11     0     4",
-                "verse": "Régio Dominador"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "        0     3     0",
+                        "verse": "Todos juntos  O louvemos"
+                    },
+                    {
+                        "chords": "1            11     0    4    0",
+                        "verse": "Grande Salvador e Re--den--tor"
+                    },
+                    {
+                        "chords": "0           2     5",
+                        "verse": "Todos O louve----mos"
+                    },
+                    {
+                        "chords": "1        11     0     4",
+                        "verse": "Régio Dominador"
+                    }
+                ]
             }
         ]
     },
@@ -1808,48 +1779,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                           3",
-                "verse": "O Senhor da ceifa está chamando"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                           3",
+                        "verse": "O Senhor da ceifa está chamando"
+                    },
+                    {
+                        "chords": "1                 11           0    11",
+                        "verse": "Quem quer ir por Mim a procurar"
+                    },
+                    {
+                        "chords": "0              7               3    17",
+                        "verse": "Almas que no mundo, vão chorando"
+                    },
+                    {
+                        "chords": "0             11         0     4",
+                        "verse": "Sem da salvação participar?"
+                    }
+                ]
             },
             {
-                "chords": "1                 11           0    11",
-                "verse": "Quem quer ir por Mim a procurar"
-            },
-            {
-                "chords": "0              7               3    17",
-                "verse": "Almas que no mundo, vão chorando"
-            },
-            {
-                "chords": "0             11         0     4",
-                "verse": "Sem da salvação participar?"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "      0          4",
-                "verse": "Fala Deus! Fala Deus!"
-            },
-            {
-                "chords": "                          0    11",
-                "verse": "Toca-me com brasas do altar"
-            },
-            {
-                "chords": "      0     7       3      17",
-                "verse": "Fala Deus!      Fala Deus!"
-            },
-            {
-                "chords": "0             11                 0",
-                "verse": "Sim, alegre, atendo ao Teu mandar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "      0          4",
+                        "verse": "Fala Deus! Fala Deus!"
+                    },
+                    {
+                        "chords": "                          0    11",
+                        "verse": "Toca-me com brasas do altar"
+                    },
+                    {
+                        "chords": "      0     7       3      17",
+                        "verse": "Fala Deus!      Fala Deus!"
+                    },
+                    {
+                        "chords": "0             11                 0",
+                        "verse": "Sim, alegre, atendo ao Teu mandar"
+                    }
+                ]
             }
         ]
     },
@@ -1968,48 +1937,46 @@
         ],
         "cifra": [
             {
-                "chords": "          0       4     0",
-                "verse": "Aonde guiar-me, meu Senhor"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "          0       4     0",
+                        "verse": "Aonde guiar-me, meu Senhor"
+                    },
+                    {
+                        "chords": "3        0      22     4",
+                        "verse": "Eu seguirei por Seu amor"
+                    },
+                    {
+                        "chords": "       0        4      0",
+                        "verse": "É Sua mão que me conduz"
+                    },
+                    {
+                        "chords": "3          0    4       0",
+                        "verse": "Por mim ferida sobre a cruz"
+                    }
+                ]
             },
             {
-                "chords": "3        0      22     4",
-                "verse": "Eu seguirei por Seu amor"
-            },
-            {
-                "chords": "       0        4      0",
-                "verse": "É Sua mão que me conduz"
-            },
-            {
-                "chords": "3          0    4       0",
-                "verse": "Por mim ferida sobre a cruz"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "          3                0",
-                "verse": "Guia-me sempre, meu Senhor"
-            },
-            {
-                "chords": "            3       22     4",
-                "verse": "Guia meus passos, Salvador"
-            },
-            {
-                "chords": "            0               3",
-                "verse": "Tu me compraste sobre a cruz"
-            },
-            {
-                "chords": "              0     4      0",
-                "verse": "Rege-me em tudo, meu Jesus"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "          3                0",
+                        "verse": "Guia-me sempre, meu Senhor"
+                    },
+                    {
+                        "chords": "            3       22     4",
+                        "verse": "Guia meus passos, Salvador"
+                    },
+                    {
+                        "chords": "            0               3",
+                        "verse": "Tu me compraste sobre a cruz"
+                    },
+                    {
+                        "chords": "              0     4      0",
+                        "verse": "Rege-me em tudo, meu Jesus"
+                    }
+                ]
             }
         ]
     },
@@ -2095,64 +2062,62 @@
         ],
         "cifra": [
             {
-                "chords": "0       26       1    11             0",
-                "verse": "Fala, Jesus querido; fala-me: Hoje sim!"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0       26       1    11             0",
+                        "verse": "Fala, Jesus querido; fala-me: Hoje sim!"
+                    },
+                    {
+                        "chords": "5                 1     4               0",
+                        "verse": "Fala com Tua bondade; fica aos pés de mim"
+                    },
+                    {
+                        "chords": "         26    1           11             0",
+                        "verse": "Meu coração aberto está; pra Tua voz ouvir"
+                    },
+                    {
+                        "chords": "5                1     4                0",
+                        "verse": "Enche-me de louvores; e gozo pra Te servir"
+                    }
+                ]
             },
             {
-                "chords": "5                 1     4               0",
-                "verse": "Fala com Tua bondade; fica aos pés de mim"
-            },
-            {
-                "chords": "         26    1           11             0",
-                "verse": "Meu coração aberto está; pra Tua voz ouvir"
-            },
-            {
-                "chords": "5                1     4                0",
-                "verse": "Enche-me de louvores; e gozo pra Te servir"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "          5    1",
-                "verse": "Fala-me suavemente"
-            },
-            {
-                "chords": "11                0     13",
-                "verse": "Fala com muito amor"
-            },
-            {
-                "chords": "26               1",
-                "verse": "Vencedor para sempre"
-            },
-            {
-                "chords": "11                0",
-                "verse": "Livre, Te hei de por"
-            },
-            {
-                "chords": "0        5    1",
-                "verse": "Fala-me cada dia"
-            },
-            {
-                "chords": "11                 0    13",
-                "verse": "Sempre em terno tom"
-            },
-            {
-                "chords": "26                 1",
-                "verse": "Ouvir Tua voz eu quero"
-            },
-            {
-                "chords": "11                0",
-                "verse": "E neste mesmo som"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "          5    1",
+                        "verse": "Fala-me suavemente"
+                    },
+                    {
+                        "chords": "11                0     13",
+                        "verse": "Fala com muito amor"
+                    },
+                    {
+                        "chords": "26               1",
+                        "verse": "Vencedor para sempre"
+                    },
+                    {
+                        "chords": "11                0",
+                        "verse": "Livre, Te hei de por"
+                    },
+                    {
+                        "chords": "0        5    1",
+                        "verse": "Fala-me cada dia"
+                    },
+                    {
+                        "chords": "11                 0    13",
+                        "verse": "Sempre em terno tom"
+                    },
+                    {
+                        "chords": "26                 1",
+                        "verse": "Ouvir Tua voz eu quero"
+                    },
+                    {
+                        "chords": "11                0",
+                        "verse": "E neste mesmo som"
+                    }
+                ]
             }
         ]
     },
@@ -2199,56 +2164,54 @@
         ],
         "cifra": [
             {
-                "chords": "   0      5        4",
-                "verse": "O bom pastor buscou-me"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "   0      5        4",
+                        "verse": "O bom pastor buscou-me"
+                    },
+                    {
+                        "chords": "    1     4    0",
+                        "verse": "Já longe  do redil"
+                    },
+                    {
+                        "chords": "                4",
+                        "verse": "E com ternura achou-me"
+                    },
+                    {
+                        "chords": "  22           4",
+                        "verse": "Caído, triste, vil!"
+                    },
+                    {
+                        "chords": "    1       4              0",
+                        "verse": "As chagas, com amor, pensou"
+                    },
+                    {
+                        "chords": "     3       22       4   15   4    11",
+                        "verse": "E ao lar, nos braços, me  le__vou"
+                    }
+                ]
             },
             {
-                "chords": "    1     4    0",
-                "verse": "Já longe  do redil"
-            },
-            {
-                "chords": "                4",
-                "verse": "E com ternura achou-me"
-            },
-            {
-                "chords": "  22           4",
-                "verse": "Caído, triste, vil!"
-            },
-            {
-                "chords": "    1       4              0",
-                "verse": "As chagas, com amor, pensou"
-            },
-            {
-                "chords": "     3       22       4   15   4    11",
-                "verse": "E ao lar, nos braços, me  le__vou"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": " 0      5     8     4",
-                "verse": "Sim, Jesus amou - me"
-            },
-            {
-                "chords": "               3   0",
-                "verse": "Com amor buscou-me"
-            },
-            {
-                "chords": "    7       3      0        4",
-                "verse": "Ele mesmo restaurou-me a Deus"
-            },
-            {
-                "chords": " 0       3       0      4        0",
-                "verse": "Por Seu sangue, restaurou-me a Deus"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": " 0      5     8     4",
+                        "verse": "Sim, Jesus amou - me"
+                    },
+                    {
+                        "chords": "               3   0",
+                        "verse": "Com amor buscou-me"
+                    },
+                    {
+                        "chords": "    7       3      0        4",
+                        "verse": "Ele mesmo restaurou-me a Deus"
+                    },
+                    {
+                        "chords": " 0       3       0      4        0",
+                        "verse": "Por Seu sangue, restaurou-me a Deus"
+                    }
+                ]
             }
         ]
     },
@@ -2327,40 +2290,38 @@
         ],
         "cifra": [
             {
-                "chords": "0                 4         1      4    0                ",
-                "verse": "Ao bom Combate vamos, repletos  de amor"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                 4         1      4    0                ",
+                        "verse": "Ao bom Combate vamos, repletos  de amor"
+                    },
+                    {
+                        "chords": "                4      1       4     0",
+                        "verse": "Vestidos de justiça, ferventes  no Senhor"
+                    },
+                    {
+                        "chords": "   11                  0        4     22    4",
+                        "verse": "Co'os lombos bem cingidos de verdadeira luz"
+                    },
+                    {
+                        "chords": "    0             3           0    4     0",
+                        "verse": "Calçados do Evangelho... do Salvador Jesus"
+                    }
+                ]
             },
             {
-                "chords": "                4      1       4     0",
-                "verse": "Vestidos de justiça, ferventes  no Senhor"
-            },
-            {
-                "chords": "   11                  0        4     22    4",
-                "verse": "Co'os lombos bem cingidos de verdadeira luz"
-            },
-            {
-                "chords": "    0             3           0    4     0",
-                "verse": "Calçados do Evangelho... do Salvador Jesus"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0               1      4           0",
-                "verse": "De Deus, a armadura,  de Cristo, o valor"
-            },
-            {
-                "chords": "3               0       4     11     0",
-                "verse": "Irmão meu, segura, pra seres vencedor"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0               1      4           0",
+                        "verse": "De Deus, a armadura,  de Cristo, o valor"
+                    },
+                    {
+                        "chords": "3               0       4     11     0",
+                        "verse": "Irmão meu, segura, pra seres vencedor"
+                    }
+                ]
             }
         ]
     },
@@ -2590,48 +2551,46 @@
         ],
         "cifra": [
             {
-                "chords": "            0    1             2       5",
-                "verse": "Se tu, minh'alma, --  a Deus suplicas"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "            0    1             2       5",
+                        "verse": "Se tu, minh'alma, --  a Deus suplicas"
+                    },
+                    {
+                        "chords": "        3      4             0     4",
+                        "verse": "E não recebes, --  confiando fica"
+                    },
+                    {
+                        "chords": "              0      1               2      5",
+                        "verse": "Em Suas promessas, --  que são mui ricas"
+                    },
+                    {
+                        "chords": "      3    4          0    7",
+                        "verse": "E infalíveis -- pra te valer"
+                    }
+                ]
             },
             {
-                "chords": "        3      4             0     4",
-                "verse": "E não recebes, --  confiando fica"
-            },
-            {
-                "chords": "              0      1               2      5",
-                "verse": "Em Suas promessas, --  que são mui ricas"
-            },
-            {
-                "chords": "      3    4          0    7",
-                "verse": "E infalíveis -- pra te valer"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "            3      4          2      5",
-                "verse": "Por que te abates, -- ó minha alma?"
-            },
-            {
-                "chords": "       3       4              0        7",
-                "verse": "E te comoves,  -- perdendo a calma?"
-            },
-            {
-                "chords": "            3      4             2      5",
-                "verse": "Não tenhas medo, -- em Deus espera"
-            },
-            {
-                "chords": "             3    4          0",
-                "verse": "Porque bem cedo -- Jesus virá"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "            3      4          2      5",
+                        "verse": "Por que te abates, -- ó minha alma?"
+                    },
+                    {
+                        "chords": "       3       4              0        7",
+                        "verse": "E te comoves,  -- perdendo a calma?"
+                    },
+                    {
+                        "chords": "            3      4             2      5",
+                        "verse": "Não tenhas medo, -- em Deus espera"
+                    },
+                    {
+                        "chords": "             3    4          0",
+                        "verse": "Porque bem cedo -- Jesus virá"
+                    }
+                ]
             }
         ]
     },
@@ -2694,40 +2653,42 @@
         ],
         "cifra": [
             {
-                "chords": "0        7              3",
-                "verse": "Quão bondoso amigo é Cristo!"
-            },
-            {
-                "chords": "0                      11",
-                "verse": "Carregou com a nossa dor"
-            },
-            {
-                "chords": "0      7            3",
-                "verse": "E nos manda que levemos"
-            },
-            {
-                "chords": "0      11           0",
-                "verse": "Os cuidados ao Senhor"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "1        11          0   7    ",
-                "verse": "Falta ao coração dori___do"
-            },
-            {
-                "chords": "3      0           11",
-                "verse": "Gozo, paz, consolação?"
-            },
-            {
-                "chords": "0      7             3    17",
-                "verse": "Isso é porque não  leva___mos"
-            },
-            {
-                "chords": "0       11            0",
-                "verse": "Tudo a Deus em oração"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0        7              3",
+                        "verse": "Quão bondoso amigo é Cristo!"
+                    },
+                    {
+                        "chords": "0                      11",
+                        "verse": "Carregou com a nossa dor"
+                    },
+                    {
+                        "chords": "0      7            3",
+                        "verse": "E nos manda que levemos"
+                    },
+                    {
+                        "chords": "0      11           0",
+                        "verse": "Os cuidados ao Senhor",
+                        "divider": true
+                    },
+                    {
+                        "chords": "1        11          0   7    ",
+                        "verse": "Falta ao coração dori___do"
+                    },
+                    {
+                        "chords": "3      0           11",
+                        "verse": "Gozo, paz, consolação?"
+                    },
+                    {
+                        "chords": "0      7             3    17",
+                        "verse": "Isso é porque não  leva___mos"
+                    },
+                    {
+                        "chords": "0       11            0",
+                        "verse": "Tudo a Deus em oração"
+                    }
+                ]
             }
         ]
     },
@@ -2830,64 +2791,62 @@
         ],
         "cifra": [
             {
-                "chords": "0       3      0",
-                "verse": "Os guerreiros  se preparam"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0       3      0",
+                        "verse": "Os guerreiros  se preparam"
+                    },
+                    {
+                        "chords": "4              0     7",
+                        "verse": "Para a grande luta"
+                    },
+                    {
+                        "chords": "3          0             15            4",
+                        "verse": "É Jesus, o Capitão, que avante os levará"
+                    },
+                    {
+                        "chords": "0    3    0            4           0     7",
+                        "verse": "A milícia dos remidos marcha impoluta"
+                    },
+                    {
+                        "chords": "3            0     4     0      4",
+                        "verse": "Certa que vitória alcançará"
+                    }
+                ]
             },
             {
-                "chords": "4              0     7",
-                "verse": "Para a grande luta"
-            },
-            {
-                "chords": "3          0             15            4",
-                "verse": "É Jesus, o Capitão, que avante os levará"
-            },
-            {
-                "chords": "0    3    0            4           0     7",
-                "verse": "A milícia dos remidos marcha impoluta"
-            },
-            {
-                "chords": "3            0     4     0      4",
-                "verse": "Certa que vitória alcançará"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "     0      4        0",
-                "verse": "Eu quero estar com Cristo"
-            },
-            {
-                "chords": "               5     4",
-                "verse": "Onde a luta se tra___var"
-            },
-            {
-                "chords": "    11           0",
-                "verse": "No lance imprevisto"
-            },
-            {
-                "chords": "    15              4",
-                "verse": "Na frente m'encontrar"
-            },
-            {
-                "chords": "           0                    7",
-                "verse": "Até que O possa ver na glória"
-            },
-            {
-                "chords": "        3          0",
-                "verse": "Se alegrando da vitória"
-            },
-            {
-                "chords": "                   4   0",
-                "verse": "Onde Deus vai me coroar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "     0      4        0",
+                        "verse": "Eu quero estar com Cristo"
+                    },
+                    {
+                        "chords": "               5     4",
+                        "verse": "Onde a luta se tra___var"
+                    },
+                    {
+                        "chords": "    11           0",
+                        "verse": "No lance imprevisto"
+                    },
+                    {
+                        "chords": "    15              4",
+                        "verse": "Na frente m'encontrar"
+                    },
+                    {
+                        "chords": "           0                    7",
+                        "verse": "Até que O possa ver na glória"
+                    },
+                    {
+                        "chords": "        3          0",
+                        "verse": "Se alegrando da vitória"
+                    },
+                    {
+                        "chords": "                   4   0",
+                        "verse": "Onde Deus vai me coroar"
+                    }
+                ]
             }
         ]
     },
@@ -2990,68 +2949,66 @@
         ],
         "cifra": [
             {
-                "chords": "0                             4   0",
-                "verse": "É o tempo de segar, e tu sem vacilar"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                             4   0",
+                        "verse": "É o tempo de segar, e tu sem vacilar"
+                    },
+                    {
+                        "chords": "1                           4      15    4",
+                        "verse": "Declaraste sem temor: Não posso trabalhar"
+                    },
+                    {
+                        "chords": "0",
+                        "verse": "Vem, enquanto Cristo,"
+                    },
+                    {
+                        "chords": "                    4    0",
+                        "verse": "o Mestre, está a te chamar"
+                    },
+                    {
+                        "chords": "4                           11",
+                        "verse": "Jovem, jovem, ó, vem trabalhar"
+                    }
+                ]
             },
             {
-                "chords": "1                           4      15    4",
-                "verse": "Declaraste sem temor: Não posso trabalhar"
-            },
-            {
-                "chords": "0",
-                "verse": "Vem, enquanto Cristo,"
-            },
-            {
-                "chords": "                    4    0",
-                "verse": "o Mestre, está a te chamar"
-            },
-            {
-                "chords": "4                           11",
-                "verse": "Jovem, jovem, ó, vem trabalhar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0             4        0",
-                "verse": "Vem e vê, os campos brancos já estão"
-            },
-            {
-                "chords": "             26      1",
-                "verse": "Aguardando braços que os segarão"
-            },
-            {
-                "chords": "11                         0        7",
-                "verse": "Jovem, desperta, faz-te pronto e alerta"
-            },
-            {
-                "chords": "          3           22            11",
-                "verse": "E queiras logo responder: Eis-me aqui, Senhor"
-            },
-            {
-                "chords": "0             4    0",
-                "verse": "Olha, que a seara bem madura está"
-            },
-            {
-                "chords": "              26     1",
-                "verse": "Que colheita glori__osa não será?"
-            },
-            {
-                "chords": "4                        0         7",
-                "verse": "Jovem, desperta, faz-te pronto e alerta"
-            },
-            {
-                "chords": "         3            22             4     0",
-                "verse": "Poucos dias são que restam para o segador"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0             4        0",
+                        "verse": "Vem e vê, os campos brancos já estão"
+                    },
+                    {
+                        "chords": "             26      1",
+                        "verse": "Aguardando braços que os segarão"
+                    },
+                    {
+                        "chords": "11                         0        7",
+                        "verse": "Jovem, desperta, faz-te pronto e alerta"
+                    },
+                    {
+                        "chords": "          3           22            11",
+                        "verse": "E queiras logo responder: Eis-me aqui, Senhor"
+                    },
+                    {
+                        "chords": "0             4    0",
+                        "verse": "Olha, que a seara bem madura está"
+                    },
+                    {
+                        "chords": "              26     1",
+                        "verse": "Que colheita glori__osa não será?"
+                    },
+                    {
+                        "chords": "4                        0         7",
+                        "verse": "Jovem, desperta, faz-te pronto e alerta"
+                    },
+                    {
+                        "chords": "         3            22             4     0",
+                        "verse": "Poucos dias são que restam para o segador"
+                    }
+                ]
             }
         ]
     },
@@ -3067,56 +3024,54 @@
         "tonalidade": 4,
         "cifra": [
             {
-                "chords": "      0",
-                "verse": "Na batalha contra o mal, sê valente!"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "      0",
+                        "verse": "Na batalha contra o mal, sê valente!"
+                    },
+                    {
+                        "chords": "           4                    11",
+                        "verse": "Segue em marcha triunfal, sê valente!"
+                    },
+                    {
+                        "chords": "       0            7",
+                        "verse": "Olha o alvo que é Jesus"
+                    },
+                    {
+                        "chords": "         3          1",
+                        "verse": "Que à vitória te conduz"
+                    },
+                    {
+                        "chords": "        0                   4    0",
+                        "verse": "Ó não deixes tua cruz, sê valen__te!"
+                    }
+                ]
             },
             {
-                "chords": "           4                    11",
-                "verse": "Segue em marcha triunfal, sê valente!"
-            },
-            {
-                "chords": "       0            7",
-                "verse": "Olha o alvo que é Jesus"
-            },
-            {
-                "chords": "         3          1",
-                "verse": "Que à vitória te conduz"
-            },
-            {
-                "chords": "        0                   4    0",
-                "verse": "Ó não deixes tua cruz, sê valen__te!"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "      0                5     4",
-                "verse": "Sê valente! Pelejando por Jesus,"
-            },
-            {
-                "chords": "      1            4            0",
-                "verse": "Sê valente! Nunca rejeitando a cruz!"
-            },
-            {
-                "chords": "                   7",
-                "verse": "Firme sempre no amor,"
-            },
-            {
-                "chords": "        3        1",
-                "verse": "Com indômito valor,"
-            },
-            {
-                "chords": "       0                    4    0",
-                "verse": "Cheio do Consolador,  sê valen__te!"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "      0                5     4",
+                        "verse": "Sê valente! Pelejando por Jesus,"
+                    },
+                    {
+                        "chords": "      1            4            0",
+                        "verse": "Sê valente! Nunca rejeitando a cruz!"
+                    },
+                    {
+                        "chords": "                   7",
+                        "verse": "Firme sempre no amor,"
+                    },
+                    {
+                        "chords": "        3        1",
+                        "verse": "Com indômito valor,"
+                    },
+                    {
+                        "chords": "       0                    4    0",
+                        "verse": "Cheio do Consolador,  sê valen__te!"
+                    }
+                ]
             }
         ]
     },
@@ -3338,80 +3293,78 @@
         ],
         "cifra": [
             {
-                "chords": "0",
-                "verse": "Santo, Santo és Tu, Senhor"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Santo, Santo és Tu, Senhor"
+                    },
+                    {
+                        "chords": "                      5     4",
+                        "verse": "Em Teu louvor eu vou can__tar"
+                    },
+                    {
+                        "chords": "          1                    4",
+                        "verse": "Com esperança, oh, Deus de amor"
+                    },
+                    {
+                        "chords": "              11     0     4",
+                        "verse": "Tu me queres consolar"
+                    },
+                    {
+                        "chords": "      0",
+                        "verse": "Eu Te peço, oh, meu Jesus"
+                    },
+                    {
+                        "chords": "              7     3",
+                        "verse": "Só Tu és meu Salvador"
+                    },
+                    {
+                        "chords": "                       0    5",
+                        "verse": "Que me faça andar na luz"
+                    },
+                    {
+                        "chords": "       1        11     0     4",
+                        "verse": "Santo  és, meu  Redentor"
+                    }
+                ]
             },
             {
-                "chords": "                      5     4",
-                "verse": "Em Teu louvor eu vou can__tar"
-            },
-            {
-                "chords": "          1                    4",
-                "verse": "Com esperança, oh, Deus de amor"
-            },
-            {
-                "chords": "              11     0     4",
-                "verse": "Tu me queres consolar"
-            },
-            {
-                "chords": "      0",
-                "verse": "Eu Te peço, oh, meu Jesus"
-            },
-            {
-                "chords": "              7     3",
-                "verse": "Só Tu és meu Salvador"
-            },
-            {
-                "chords": "                       0    5",
-                "verse": "Que me faça andar na luz"
-            },
-            {
-                "chords": "       1        11     0     4",
-                "verse": "Santo  és, meu  Redentor"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "           0",
-                "verse": "Ao meu Jesus, eu cantarei"
-            },
-            {
-                "chords": "                  5      4",
-                "verse": "Entrando na feliz Si_____ão"
-            },
-            {
-                "chords": "           1               11",
-                "verse": "Oh, Santo, Santo, proclamarei"
-            },
-            {
-                "chords": "                       0    4",
-                "verse": "Na minha eternal mansão"
-            },
-            {
-                "chords": "      0",
-                "verse": "Com os anjos e serafins"
-            },
-            {
-                "chords": "                7       3",
-                "verse": "Santo, sempre vou cantar"
-            },
-            {
-                "chords": "              17           0    5",
-                "verse": "Com arcanjos      e querubins"
-            },
-            {
-                "chords": "     1      11          0      4",
-                "verse": "A Jesus, eu     vou adorar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "           0",
+                        "verse": "Ao meu Jesus, eu cantarei"
+                    },
+                    {
+                        "chords": "                  5      4",
+                        "verse": "Entrando na feliz Si_____ão"
+                    },
+                    {
+                        "chords": "           1               11",
+                        "verse": "Oh, Santo, Santo, proclamarei"
+                    },
+                    {
+                        "chords": "                       0    4",
+                        "verse": "Na minha eternal mansão"
+                    },
+                    {
+                        "chords": "      0",
+                        "verse": "Com os anjos e serafins"
+                    },
+                    {
+                        "chords": "                7       3",
+                        "verse": "Santo, sempre vou cantar"
+                    },
+                    {
+                        "chords": "              17           0    5",
+                        "verse": "Com arcanjos      e querubins"
+                    },
+                    {
+                        "chords": "     1      11          0      4",
+                        "verse": "A Jesus, eu     vou adorar"
+                    }
+                ]
             }
         ]
     },
@@ -3442,48 +3395,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                   3        0",
-                "verse": "Na cruz morrendo meu redentor"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                   3        0",
+                        "verse": "Na cruz morrendo meu redentor"
+                    },
+                    {
+                        "chords": "1                  4       0",
+                        "verse": "Minhas maldades todas levou"
+                    },
+                    {
+                        "chords": "              3",
+                        "verse": "Se O recebes tens Seu amor"
+                    },
+                    {
+                        "chords": "             0            4     0",
+                        "verse": "Pois seus pecados Jesus perdoou"
+                    }
+                ]
             },
             {
-                "chords": "1                  4       0",
-                "verse": "Minhas maldades todas levou"
-            },
-            {
-                "chords": "              3",
-                "verse": "Se O recebes tens Seu amor"
-            },
-            {
-                "chords": "             0            4     0",
-                "verse": "Pois seus pecados Jesus perdoou"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "                 3      0",
-                "verse": "Quando Deus o sangue vir"
-            },
-            {
-                "chords": "        4        0    4",
-                "verse": "Que Jesus já verteu"
-            },
-            {
-                "chords": "      0      7    3",
-                "verse": "Passará sem te ferir"
-            },
-            {
-                "chords": "      0     4        0      3   0",
-                "verse": "No Egito assim sucedeu"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "                 3      0",
+                        "verse": "Quando Deus o sangue vir"
+                    },
+                    {
+                        "chords": "        4        0    4",
+                        "verse": "Que Jesus já verteu"
+                    },
+                    {
+                        "chords": "      0      7    3",
+                        "verse": "Passará sem te ferir"
+                    },
+                    {
+                        "chords": "      0     4        0      3   0",
+                        "verse": "No Egito assim sucedeu"
+                    }
+                ]
             }
         ]
     },
@@ -3666,48 +3617,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                                3    0",
-                "verse": "Tens achado em Cristo plena salva__ção"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                                3    0",
+                        "verse": "Tens achado em Cristo plena salva__ção"
+                    },
+                    {
+                        "chords": "                5    22      11",
+                        "verse": "Pelo sangue verti___do na cruz?"
+                    },
+                    {
+                        "chords": "       0      7           3",
+                        "verse": "Toda mancha lava de teu coração"
+                    },
+                    {
+                        "chords": "      0         4         0",
+                        "verse": "Este sangue eficaz de Jesus"
+                    }
+                ]
             },
             {
-                "chords": "                5    22      11",
-                "verse": "Pelo sangue verti___do na cruz?"
-            },
-            {
-                "chords": "       0      7           3",
-                "verse": "Toda mancha lava de teu coração"
-            },
-            {
-                "chords": "      0         4         0",
-                "verse": "Este sangue eficaz de Jesus"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "              7            3",
-                "verse": "Salvo estás,          limpo estás"
-            },
-            {
-                "chords": "       0        5      22      4",
-                "verse": "Pelo sangue de Cris___to   Jesus?"
-            },
-            {
-                "chords": "          0             7     3",
-                "verse": "Tens teu coração mais alvo   que a luz"
-            },
-            {
-                "chords": "       0         4         0",
-                "verse": "Foste limpo no sangue eficaz?"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "              7            3",
+                        "verse": "Salvo estás,          limpo estás"
+                    },
+                    {
+                        "chords": "       0        5      22      4",
+                        "verse": "Pelo sangue de Cris___to   Jesus?"
+                    },
+                    {
+                        "chords": "          0             7     3",
+                        "verse": "Tens teu coração mais alvo   que a luz"
+                    },
+                    {
+                        "chords": "       0         4         0",
+                        "verse": "Foste limpo no sangue eficaz?"
+                    }
+                ]
             }
         ]
     },
@@ -3826,48 +3775,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                7         3     1",
-                "verse": "Rude cruz se erigiu, dela o dia fugiu"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                7         3     1",
+                        "verse": "Rude cruz se erigiu, dela o dia fugiu"
+                    },
+                    {
+                        "chords": "          11                    0     4   ",
+                        "verse": "Como emblema de vergonha e dor"
+                    },
+                    {
+                        "chords": "         0            7           3      1",
+                        "verse": "Mas contemplo esta cruz, porque nela Jesus"
+                    },
+                    {
+                        "chords": "       11                  0",
+                        "verse": "Deu a vida por mim, pecador"
+                    }
+                ]
             },
             {
-                "chords": "          11                    0     4   ",
-                "verse": "Como emblema de vergonha e dor"
-            },
-            {
-                "chords": "         0            7           3      1",
-                "verse": "Mas contemplo esta cruz, porque nela Jesus"
-            },
-            {
-                "chords": "       11                  0",
-                "verse": "Deu a vida por mim, pecador"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "         11                    0     7",
-                "verse": "Sim, eu amo a mensagem da cruz"
-            },
-            {
-                "chords": "        3                  0     4",
-                "verse": "Até morrer eu a vou proclamar"
-            },
-            {
-                "chords": "     0          7          3     17",
-                "verse": "Levarei eu também minha cruz"
-            },
-            {
-                "chords": "         0      4     0",
-                "verse": "Até por uma coroa trocar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "         11                    0     7",
+                        "verse": "Sim, eu amo a mensagem da cruz"
+                    },
+                    {
+                        "chords": "        3                  0     4",
+                        "verse": "Até morrer eu a vou proclamar"
+                    },
+                    {
+                        "chords": "     0          7          3     17",
+                        "verse": "Levarei eu também minha cruz"
+                    },
+                    {
+                        "chords": "         0      4     0",
+                        "verse": "Até por uma coroa trocar"
+                    }
+                ]
             }
         ]
     },
@@ -3929,56 +3876,54 @@
         "tonalidade": 5,
         "cifra": [
             {
-                "chords": "   0      3       4      0",
-                "verse": "Avante,   servos   de   Jesus"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "   0      3       4      0",
+                        "verse": "Avante,   servos   de   Jesus"
+                    },
+                    {
+                        "chords": "3     4       0",
+                        "verse": "Por   nosso   Deus"
+                    },
+                    {
+                        "chords": "      0       3       4      0",
+                        "verse": "Nas   trevas   brilhe   vossa   luz"
+                    },
+                    {
+                        "chords": "    3      4       0",
+                        "verse": "A    luz      lá  dos céus"
+                    }
+                ]
             },
             {
-                "chords": "3     4       0",
-                "verse": "Por   nosso   Deus"
-            },
-            {
-                "chords": "      0       3       4      0",
-                "verse": "Nas   trevas   brilhe   vossa   luz"
-            },
-            {
-                "chords": "    3      4       0",
-                "verse": "A    luz      lá  dos céus"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "         0",
-                "verse": "Glória a Deus, pois vencerei"
-            },
-            {
-                "chords": "         3",
-                "verse": "Glória a Deus, pois vencerei"
-            },
-            {
-                "chords": "      4            0",
-                "verse": "Triunfante sigo, levando a cruz!"
-            },
-            {
-                "chords": "          0              7",
-                "verse": "Glória a Deus, pois vencerei"
-            },
-            {
-                "chords": "          3              1",
-                "verse": "Glória a Deus, pois vencerei"
-            },
-            {
-                "chords": "    0     4     0",
-                "verse": "Em nome de Jesus!"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "         0",
+                        "verse": "Glória a Deus, pois vencerei"
+                    },
+                    {
+                        "chords": "         3",
+                        "verse": "Glória a Deus, pois vencerei"
+                    },
+                    {
+                        "chords": "      4            0",
+                        "verse": "Triunfante sigo, levando a cruz!"
+                    },
+                    {
+                        "chords": "          0              7",
+                        "verse": "Glória a Deus, pois vencerei"
+                    },
+                    {
+                        "chords": "          3              1",
+                        "verse": "Glória a Deus, pois vencerei"
+                    },
+                    {
+                        "chords": "    0     4     0",
+                        "verse": "Em nome de Jesus!"
+                    }
+                ]
             }
         ]
     },
@@ -4001,68 +3946,66 @@
         ],
         "cifra": [
             {
-                "chords": " 0",
-                "verse": "Jesus, sim, vem do céu, em glória Ele vem!"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": " 0",
+                        "verse": "Jesus, sim, vem do céu, em glória Ele vem!"
+                    },
+                    {
+                        "chords": "1       11                  0",
+                        "verse": "Ecoa a  nova pelo mundo além"
+                    },
+                    {
+                        "chords": "               7           3",
+                        "verse": "Oh, esperança que a Sua Igreja tem"
+                    },
+                    {
+                        "chords": "     0      27      5",
+                        "verse": "Dai glória    a         Deus"
+                    },
+                    {
+                        "chords": "   3       4      0      11",
+                        "verse": "Jesus em breve  vem!"
+                    }
+                ]
             },
             {
-                "chords": "1       11                  0",
-                "verse": "Ecoa a  nova pelo mundo além"
-            },
-            {
-                "chords": "               7           3",
-                "verse": "Oh, esperança que a Sua Igreja tem"
-            },
-            {
-                "chords": "     0      27      5",
-                "verse": "Dai glória    a         Deus"
-            },
-            {
-                "chords": "   3       4      0      11",
-                "verse": "Jesus em breve  vem!"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "            0",
-                "verse": "Nossa esperança é Sua vinda"
-            },
-            {
-                "chords": "                    19      1",
-                "verse": "O Rei dos reis vem nos buscar"
-            },
-            {
-                "chords": "          11               1",
-                "verse": "Nós aguardamos, Jesus, ainda"
-            },
-            {
-                "chords": "         11           0    11",
-                "verse": "Té a luz da manhã raiar"
-            },
-            {
-                "chords": "            0",
-                "verse": "Nossa esperança é Sua vinda"
-            },
-            {
-                "chords": "           7                3",
-                "verse": "O Rei dos reis vem nos buscar"
-            },
-            {
-                "chords": "           17               0    5",
-                "verse": "Nós aguardamos, Jesus, ainda"
-            },
-            {
-                "chords": "         1      11    0    11",
-                "verse": "Té a luz da manhã raiar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "            0",
+                        "verse": "Nossa esperança é Sua vinda"
+                    },
+                    {
+                        "chords": "                    19      1",
+                        "verse": "O Rei dos reis vem nos buscar"
+                    },
+                    {
+                        "chords": "          11               1",
+                        "verse": "Nós aguardamos, Jesus, ainda"
+                    },
+                    {
+                        "chords": "         11           0    11",
+                        "verse": "Té a luz da manhã raiar"
+                    },
+                    {
+                        "chords": "            0",
+                        "verse": "Nossa esperança é Sua vinda"
+                    },
+                    {
+                        "chords": "           7                3",
+                        "verse": "O Rei dos reis vem nos buscar"
+                    },
+                    {
+                        "chords": "           17               0    5",
+                        "verse": "Nós aguardamos, Jesus, ainda"
+                    },
+                    {
+                        "chords": "         1      11    0    11",
+                        "verse": "Té a luz da manhã raiar"
+                    }
+                ]
             }
         ]
     },
@@ -4077,60 +4020,58 @@
         ],
         "cifra": [
             {
-                "chords": "0                  7",
-                "verse": "Cristo já nos preparou"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                  7",
+                        "verse": "Cristo já nos preparou"
+                    },
+                    {
+                        "chords": "        3                1",
+                        "verse": "Um manjar que nos comprou"
+                    },
+                    {
+                        "chords": "    11                     0    11",
+                        "verse": "E, agora, nos convida a cear"
+                    },
+                    {
+                        "chords": "         0         7",
+                        "verse": "E com celestial maná"
+                    },
+                    {
+                        "chords": "         3            1",
+                        "verse": "Que de graça Deus te dá"
+                    },
+                    {
+                        "chords": "         11                 0    5",
+                        "verse": "Vem, faminto, tua alma saciar"
+                    }
+                ]
             },
             {
-                "chords": "        3                1",
-                "verse": "Um manjar que nos comprou"
-            },
-            {
-                "chords": "    11                     0    11",
-                "verse": "E, agora, nos convida a cear"
-            },
-            {
-                "chords": "         0         7",
-                "verse": "E com celestial maná"
-            },
-            {
-                "chords": "         3            1",
-                "verse": "Que de graça Deus te dá"
-            },
-            {
-                "chords": "         11                 0    5",
-                "verse": "Vem, faminto, tua alma saciar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "       11                           0    7",
-                "verse": "Vem cear, o Mestre chama, vem cear"
-            },
-            {
-                "chords": "         3        22          11",
-                "verse": "Mesmo hoje tu te podes saciar"
-            },
-            {
-                "chords": "         0",
-                "verse": "Poucos pães multiplicou"
-            },
-            {
-                "chords": "          7              3",
-                "verse": "Água em vinho transformou"
-            },
-            {
-                "chords": "1        11                    0    11",
-                "verse": "Vem, faminto, a Jesus, vem cear"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "       11                           0    7",
+                        "verse": "Vem cear, o Mestre chama, vem cear"
+                    },
+                    {
+                        "chords": "         3        22          11",
+                        "verse": "Mesmo hoje tu te podes saciar"
+                    },
+                    {
+                        "chords": "         0",
+                        "verse": "Poucos pães multiplicou"
+                    },
+                    {
+                        "chords": "          7              3",
+                        "verse": "Água em vinho transformou"
+                    },
+                    {
+                        "chords": "1        11                    0    11",
+                        "verse": "Vem, faminto, a Jesus, vem cear"
+                    }
+                ]
             }
         ]
     },
@@ -4161,48 +4102,46 @@
         ],
         "cifra": [
             {
-                "chords": "0             3      0          3     0",
-                "verse": "Desprezando toda a dor eu vou  a cantar"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0             3      0          3     0",
+                        "verse": "Desprezando toda a dor eu vou  a cantar"
+                    },
+                    {
+                        "chords": "                3    0    5       22    11",
+                        "verse": "E o Calvário, ao pecador,  sempre apontar"
+                    },
+                    {
+                        "chords": "0                       7        3       0",
+                        "verse": "Flechas transpassaram-me, padeci gran dor"
+                    },
+                    {
+                        "chords": "        3          0          4     0",
+                        "verse": "Mas Jesus, minha luz, fez-me vencedor"
+                    }
+                ]
             },
             {
-                "chords": "                3    0    5       22    11",
-                "verse": "E o Calvário, ao pecador,  sempre apontar"
-            },
-            {
-                "chords": "0                       7        3       0",
-                "verse": "Flechas transpassaram-me, padeci gran dor"
-            },
-            {
-                "chords": "        3          0          4     0",
-                "verse": "Mas Jesus, minha luz, fez-me vencedor"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "                3           0",
-                "verse": "A face adorada de Jesus verei"
-            },
-            {
-                "chords": "             5      22           4",
-                "verse": "Com a grei amada,  no céu estarei"
-            },
-            {
-                "chords": "0                    3             0",
-                "verse": "Na mansão dourada, hinos vou cantar"
-            },
-            {
-                "chords": "     3          0            4       0",
-                "verse": "A Jesus, minha luz,  que me quis salvar!"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "                3           0",
+                        "verse": "A face adorada de Jesus verei"
+                    },
+                    {
+                        "chords": "             5      22           4",
+                        "verse": "Com a grei amada,  no céu estarei"
+                    },
+                    {
+                        "chords": "0                    3             0",
+                        "verse": "Na mansão dourada, hinos vou cantar"
+                    },
+                    {
+                        "chords": "     3          0            4       0",
+                        "verse": "A Jesus, minha luz,  que me quis salvar!"
+                    }
+                ]
             }
         ]
     },
@@ -4217,64 +4156,62 @@
         ],
         "cifra": [
             {
-                "chords": "0",
-                "verse": "Soldados somos  de Jesus"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Soldados somos  de Jesus"
+                    },
+                    {
+                        "chords": "                        4",
+                        "verse": "E campeões do bem, da luz"
+                    },
+                    {
+                        "chords": "      1            4",
+                        "verse": "Nos exércitos de Deus"
+                    },
+                    {
+                        "chords": "                   0     4",
+                        "verse": "Batalhamos pelos céus"
+                    },
+                    {
+                        "chords": "           0          4    0",
+                        "verse": "Cantando, vamos comba__ter"
+                    },
+                    {
+                        "chords": "        7             3",
+                        "verse": "O vil pecado e seu poder"
+                    },
+                    {
+                        "chords": "                    0    5",
+                        "verse": "A batalha ganha  está"
+                    },
+                    {
+                        "chords": "    1    4         0    4",
+                        "verse": "A vitória Deus nos dá"
+                    }
+                ]
             },
             {
-                "chords": "                        4",
-                "verse": "E campeões do bem, da luz"
-            },
-            {
-                "chords": "      1            4",
-                "verse": "Nos exércitos de Deus"
-            },
-            {
-                "chords": "                   0     4",
-                "verse": "Batalhamos pelos céus"
-            },
-            {
-                "chords": "           0          4    0",
-                "verse": "Cantando, vamos comba__ter"
-            },
-            {
-                "chords": "        7             3",
-                "verse": "O vil pecado e seu poder"
-            },
-            {
-                "chords": "                    0    5",
-                "verse": "A batalha ganha  está"
-            },
-            {
-                "chords": "    1    4         0    4",
-                "verse": "A vitória Deus nos dá"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0             4    0       5       4",
-                "verse": "Breve vamos terminar a batalha aqui"
-            },
-            {
-                "chords": "1             11                      0    4",
-                "verse": "E pra sempre descansar com Jesus ali"
-            },
-            {
-                "chords": "0              4    0   7           3",
-                "verse": "Todos os que são fiéis ao bom Capitão"
-            },
-            {
-                "chords": "            0      5    1     4     0",
-                "verse": "Hão de receber lauréis  como galardão"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0             4    0       5       4",
+                        "verse": "Breve vamos terminar a batalha aqui"
+                    },
+                    {
+                        "chords": "1             11                      0    4",
+                        "verse": "E pra sempre descansar com Jesus ali"
+                    },
+                    {
+                        "chords": "0              4    0   7           3",
+                        "verse": "Todos os que são fiéis ao bom Capitão"
+                    },
+                    {
+                        "chords": "            0      5    1     4     0",
+                        "verse": "Hão de receber lauréis  como galardão"
+                    }
+                ]
             }
         ]
     },
@@ -4817,56 +4754,54 @@
         ],
         "cifra": [
             {
-                "chords": " 0                          4       0",
-                "verse": "Quem possui a Cristo, nele firme está"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": " 0                          4       0",
+                        "verse": "Quem possui a Cristo, nele firme está"
+                    },
+                    {
+                        "chords": " 1        11               15     11",
+                        "verse": "Achará poder para o mal combater"
+                    },
+                    {
+                        "chords": "0                        19        1",
+                        "verse": "Porque Suas promessas Ele cumprirá"
+                    },
+                    {
+                        "chords": "0               3                11      0",
+                        "verse": "Quem está em Cristo, sempre há de vencer"
+                    }
+                ]
             },
             {
-                "chords": " 1        11               15     11",
-                "verse": "Achará poder para o mal combater"
-            },
-            {
-                "chords": "0                        19        1",
-                "verse": "Porque Suas promessas Ele cumprirá"
-            },
-            {
-                "chords": "0               3                11      0",
-                "verse": "Quem está em Cristo, sempre há de vencer"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": " 0",
-                "verse": "Vencerá, vencerá,"
-            },
-            {
-                "chords": "                4",
-                "verse": "por Seu sangue vencerá"
-            },
-            {
-                "chords": "1         4                     0",
-                "verse": "Vencerá, vencerá, sempre vencerá"
-            },
-            {
-                "chords": "                    0",
-                "verse": "Pois Jesus que impera,"
-            },
-            {
-                "chords": "19             1",
-                "verse": "novas forças  dá"
-            },
-            {
-                "chords": "3              0             3    4   0",
-                "verse": "E quem nEle espera sempre  ven_ce__rá"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": " 0",
+                        "verse": "Vencerá, vencerá,"
+                    },
+                    {
+                        "chords": "                4",
+                        "verse": "por Seu sangue vencerá"
+                    },
+                    {
+                        "chords": "1         4                     0",
+                        "verse": "Vencerá, vencerá, sempre vencerá"
+                    },
+                    {
+                        "chords": "                    0",
+                        "verse": "Pois Jesus que impera,"
+                    },
+                    {
+                        "chords": "19             1",
+                        "verse": "novas forças  dá"
+                    },
+                    {
+                        "chords": "3              0             3    4   0",
+                        "verse": "E quem nEle espera sempre  ven_ce__rá"
+                    }
+                ]
             }
         ]
     },
@@ -5241,68 +5176,67 @@
         ],
         "cifra": [
             {
-                "chords": "0",
-                "verse": "Sou um soldado de Jesus"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Sou um soldado de Jesus"
+                    },
+                    {
+                        "chords": "   4           0",
+                        "verse": "E servo do Senhor"
+                    },
+                    {
+                        "chords": "               11      0",
+                        "verse": "Não temerei levar a cruz"
+                    },
+                    {
+                        "chords": "   4              0",
+                        "verse": "Sofrendo grande dor"
+                    },
+                    {
+                        "chords": "",
+                        "verse": ""
+                    }
+                ]
             },
             {
-                "chords": "   4           0",
-                "verse": "E servo do Senhor"
-            },
-            {
-                "chords": "               11      0",
-                "verse": "Não temerei levar a cruz"
-            },
-            {
-                "chords": "   4              0",
-                "verse": "Sofrendo grande dor"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "                       4    0",
-                "verse": "Depois da batalha me coroará"
-            },
-            {
-                "chords": "      1        4        0",
-                "verse": "Deus me coroará, Deus me coroará"
-            },
-            {
-                "chords": "                       4    0",
-                "verse": "Depois da batalha me coroará"
-            },
-            {
-                "chords": "      3   4       0",
-                "verse": "Na celestial mansão"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "      1    4        0",
-                "verse": "Lá verei     -  o meu Rei"
-            },
-            {
-                "chords": "   0        5       1    4",
-                "verse": "E terei meu galar__dão"
-            },
-            {
-                "chords": "0                      4    0",
-                "verse": "Depois da batalha me coroará"
-            },
-            {
-                "chords": "      1    4    0",
-                "verse": "Na cidade de Sião"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "                       4    0",
+                        "verse": "Depois da batalha me coroará"
+                    },
+                    {
+                        "chords": "      1        4        0",
+                        "verse": "Deus me coroará, Deus me coroará"
+                    },
+                    {
+                        "chords": "                       4    0",
+                        "verse": "Depois da batalha me coroará"
+                    },
+                    {
+                        "chords": "      3   4       0",
+                        "verse": "Na celestial mansão",
+                        "divider": true
+                    },
+                    {
+                        "chords": "      1    4        0",
+                        "verse": "Lá verei     -  o meu Rei"
+                    },
+                    {
+                        "chords": "   0        5       1    4",
+                        "verse": "E terei meu galar__dão"
+                    },
+                    {
+                        "chords": "0                      4    0",
+                        "verse": "Depois da batalha me coroará"
+                    },
+                    {
+                        "chords": "      1    4    0",
+                        "verse": "Na cidade de Sião"
+                    }
+                ]
             }
         ]
     },
@@ -5421,48 +5355,46 @@
         ],
         "cifra": [
             {
-                "chords": "0           11    0",
-                "verse": "Minha vida seja  sim"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0           11    0",
+                        "verse": "Minha vida seja  sim"
+                    },
+                    {
+                        "chords": "4                   0",
+                        "verse": "Consagrada a Ti, Senhor"
+                    },
+                    {
+                        "chords": "        7               3",
+                        "verse": "Possas sempre Tu por mim"
+                    },
+                    {
+                        "chords": "0   11           0    7",
+                        "verse": "Operar o Teu amor"
+                    }
+                ]
             },
             {
-                "chords": "4                   0",
-                "verse": "Consagrada a Ti, Senhor"
-            },
-            {
-                "chords": "        7               3",
-                "verse": "Possas sempre Tu por mim"
-            },
-            {
-                "chords": "0   11           0    7",
-                "verse": "Operar o Teu amor"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "3                       0   7",
-                "verse": "A minh'alma lava Salvador"
-            },
-            {
-                "chords": "3               15      4      11",
-                "verse": "No Teu sangue puro, carmesim"
-            },
-            {
-                "chords": "0           7     3           0",
-                "verse": "Minha vida toma  para ser, Senhor"
-            },
-            {
-                "chords": "     11             0",
-                "verse": "Tua para sempre,  sim"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "3                       0   7",
+                        "verse": "A minh'alma lava Salvador"
+                    },
+                    {
+                        "chords": "3               15      4      11",
+                        "verse": "No Teu sangue puro, carmesim"
+                    },
+                    {
+                        "chords": "0           7     3           0",
+                        "verse": "Minha vida toma  para ser, Senhor"
+                    },
+                    {
+                        "chords": "     11             0",
+                        "verse": "Tua para sempre,  sim"
+                    }
+                ]
             }
         ]
     },
@@ -5685,48 +5617,46 @@
         ],
         "cifra": [
             {
-                "chords": "0                   1             2       5",
-                "verse": "De Deus mui firmes   -  são as promessas"
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                   1             2       5",
+                        "verse": "De Deus mui firmes   -  são as promessas"
+                    },
+                    {
+                        "chords": "             4                  0     4",
+                        "verse": "Mais firmes que as montanhas são"
+                    },
+                    {
+                        "chords": "             0    1            2       5",
+                        "verse": "Quando o socorro  -   terrestre cessa"
+                    },
+                    {
+                        "chords": "            4         0",
+                        "verse": "Os de Deus não falharão"
+                    }
+                ]
             },
             {
-                "chords": "             4                  0     4",
-                "verse": "Mais firmes que as montanhas são"
-            },
-            {
-                "chords": "             0    1            2       5",
-                "verse": "Quando o socorro  -   terrestre cessa"
-            },
-            {
-                "chords": "            4         0",
-                "verse": "Os de Deus não falharão"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "              4                 0",
-                "verse": "De Deus mui firmes são as promessas"
-            },
-            {
-                "chords": "          4              0",
-                "verse": "Falhando tudo, não falharão"
-            },
-            {
-                "chords": "          4              0      5",
-                "verse": "Se das estrelas o brilho cessa"
-            },
-            {
-                "chords": "            4            0",
-                "verse": "Mas as promessas brilharão"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "              4                 0",
+                        "verse": "De Deus mui firmes são as promessas"
+                    },
+                    {
+                        "chords": "          4              0",
+                        "verse": "Falhando tudo, não falharão"
+                    },
+                    {
+                        "chords": "          4              0      5",
+                        "verse": "Se das estrelas o brilho cessa"
+                    },
+                    {
+                        "chords": "            4            0",
+                        "verse": "Mas as promessas brilharão"
+                    }
+                ]
             }
         ]
     },
@@ -6181,49 +6111,48 @@
         ],
         "cifra": [
             {
-                "chords": "   0     4     0        3           0",
-                "verse": "Se pelos vales eu, peregrino, vou andar"
+                "tipo":"Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "   0     4     0        3           0",
+                        "verse": "Se pelos vales eu, peregrino, vou andar"
+                    },
+                    {
+                        "chords": "           4   0      4     22    4",
+                        "verse": "Ou na luz gloriosa de Cristo habitar"
+                    },
+                    {
+                        "chords": "11                        0     3   0",
+                        "verse": "Irei com meu Senhor pra onde  Ele for"
+                    },
+                    {
+                        "chords": "      3        0       11          0",
+                        "verse": "Confiando na graça do meu Salvador"
+                    }
+                ]
             },
             {
-                "chords": "           4   0      4     22    4",
-                "verse": "Ou na luz gloriosa de Cristo habitar"
-            },
-            {
-                "chords": "11                        0     3   0",
-                "verse": "Irei com meu Senhor pra onde  Ele for"
-            },
-            {
-                "chords": "      3        0       11          0",
-                "verse": "Confiando na graça do meu Salvador"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "     0       4     0     5    4",
-                "verse": "Se Cristo comigo vai, eu i____rei"
-            },
-            {
-                "chords": "           3        4     3      4    0",
-                "verse": "E não temerei, com gozo irei, comigo vai"
-            },
-            {
-                "chords": "           4       0     7      3",
-                "verse": "É grato servir a Jesus, levar a cruz"
-            },
-            {
-                "chords": "                  0   4   0",
-                "verse": "Se Cristo comigo vai, eu irei!"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "     0       4     0     5    4",
+                        "verse": "Se Cristo comigo vai, eu i____rei"
+                    },
+                    {
+                        "chords": "           3        4     3      4    0",
+                        "verse": "E não temerei, com gozo irei, comigo vai"
+                    },
+                    {
+                        "chords": "           4       0     7      3",
+                        "verse": "É grato servir a Jesus, levar a cruz"
+                    },
+                    {
+                        "chords": "                  0   4   0",
+                        "verse": "Se Cristo comigo vai, eu irei!"
+                    }
+                ]
             }
+            
         ]
     },
     {
@@ -6309,61 +6238,60 @@
         ],
         "cifra": [
             {
-                "chords": "     0",
-                "verse": "Já refulge a glória eterna"
+                "tipo":"Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "     0",
+                        "verse": "Já refulge a glória eterna"
+                    },
+                    {
+                        "chords": "                    7",
+                        "verse": "De Jesus, o Rei dos reis!"
+                    },
+                    {
+                        "chords": "         3",
+                        "verse": "Breve os reinos deste mundo"
+                    },
+                    {
+                        "chords": "      0           4",
+                        "verse": "Seguirão as suas leis!"
+                    },
+                    {
+                        "chords": "      0",
+                        "verse": "Os sinais da sua vinda"
+                    },
+                    {
+                        "chords": "         23             5",
+                        "verse": "Mais se mostram cada vez"
+                    },
+                    {
+                        "chords": "    1      4    0         4",
+                        "verse": "Vencendo vem Jesus!"
+                    }
+                ]
             },
             {
-                "chords": "                    7",
-                "verse": "De Jesus, o Rei dos reis!"
-            },
-            {
-                "chords": "         3",
-                "verse": "Breve os reinos deste mundo"
-            },
-            {
-                "chords": "      0           4",
-                "verse": "Seguirão as suas leis!"
-            },
-            {
-                "chords": "      0",
-                "verse": "Os sinais da sua vinda"
-            },
-            {
-                "chords": "         23             5",
-                "verse": "Mais se mostram cada vez"
-            },
-            {
-                "chords": "    1      4    0         4",
-                "verse": "Vencendo vem Jesus!"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0",
-                "verse": "Glória! Glória! Aleluia!"
-            },
-            {
-                "chords": "3                 0    4",
-                "verse": "Glória! Glória! Alelu___ia!"
-            },
-            {
-                "chords": "0                 23    5",
-                "verse": "Glória! Glória! Alelu___ia!"
-            },
-            {
-                "chords": "      1    4       0       4",
-                "verse": "Vencendo vem Jesus!"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Glória! Glória! Aleluia!"
+                    },
+                    {
+                        "chords": "3                 0    4",
+                        "verse": "Glória! Glória! Alelu___ia!"
+                    },
+                    {
+                        "chords": "0                 23    5",
+                        "verse": "Glória! Glória! Alelu___ia!"
+                    },
+                    {
+                        "chords": "      1    4       0       4",
+                        "verse": "Vencendo vem Jesus!"
+                    }
+                ]
             }
+            
         ]
     },
     {
@@ -6529,49 +6457,48 @@
         ],
         "cifra": [
             {
-                "chords": "         0   7             3",
-                "verse": "Deus enviou  --  Seu filho amado"
+                "tipo":"Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "         0   7             3",
+                        "verse": "Deus enviou  --  Seu filho amado"
+                    },
+                    {
+                        "chords": "          0    5            1     4",
+                        "verse": "Pra perdoar,     -- pra me salvar"
+                    },
+                    {
+                        "chords": "             0   7              3      17",
+                        "verse": "Na cruz morreu   --  por meus pecados"
+                    },
+                    {
+                        "chords": "            0    5    1     3   4   0",
+                        "verse": "Mas ressurgiu e vivo com o Pai es--tá"
+                    }
+                ]
             },
             {
-                "chords": "          0    5            1     4",
-                "verse": "Pra perdoar,     -- pra me salvar"
-            },
-            {
-                "chords": "             0   7              3      17",
-                "verse": "Na cruz morreu   --  por meus pecados"
-            },
-            {
-                "chords": "            0    5    1     3   4   0",
-                "verse": "Mas ressurgiu e vivo com o Pai es--tá"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "            0                  3",
-                "verse": "Porque Ele vive, posso crer no amanhã"
-            },
-            {
-                "chords": "            0    5            4",
-                "verse": "Porque Ele vive, -- temor não há"
-            },
-            {
-                "chords": "             0                       3",
-                "verse": "Mas eu bem sei, eu sei que a minha vida"
-            },
-            {
-                "chords": "           0       5       1       4       0",
-                "verse": "Está nas mãos do  meu Jesus, que vivo está"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "            0                  3",
+                        "verse": "Porque Ele vive, posso crer no amanhã"
+                    },
+                    {
+                        "chords": "            0    5            4",
+                        "verse": "Porque Ele vive, -- temor não há"
+                    },
+                    {
+                        "chords": "             0                       3",
+                        "verse": "Mas eu bem sei, eu sei que a minha vida"
+                    },
+                    {
+                        "chords": "           0       5       1       4       0",
+                        "verse": "Está nas mãos do  meu Jesus, que vivo está"
+                    }
+                ]
             }
+            
         ]
     },
     {
@@ -6632,49 +6559,48 @@
         ],
         "cifra": [
             {
-                "chords": "0",
-                "verse": "Canta o grande amor de Cristo"
+                "tipo":"Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Canta o grande amor de Cristo"
+                    },
+                    {
+                        "chords": "11                   0",
+                        "verse": "Sua graça e compaixão"
+                    },
+                    {
+                        "chords": "               3",
+                        "verse": "Num lugar tranquilo e belo"
+                    },
+                    {
+                        "chords": "0        11            0    3   0",
+                        "verse": "Faz-nos  eternal mansão"
+                    }
+                ]
             },
             {
-                "chords": "11                   0",
-                "verse": "Sua graça e compaixão"
-            },
-            {
-                "chords": "               3",
-                "verse": "Num lugar tranquilo e belo"
-            },
-            {
-                "chords": "0        11            0    3   0",
-                "verse": "Faz-nos  eternal mansão"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "0",
-                "verse": "Quando ao Céu nós chegarmos"
-            },
-            {
-                "chords": "               22            11",
-                "verse": "Oh! Que dia de júbilo há de ser!"
-            },
-            {
-                "chords": "     0   7       3",
-                "verse": "A Jesus          daremos"
-            },
-            {
-                "chords": "     0     4            0    3   0",
-                "verse": "Hosanas, cheios de prazer"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Quando ao Céu nós chegarmos"
+                    },
+                    {
+                        "chords": "               22            11",
+                        "verse": "Oh! Que dia de júbilo há de ser!"
+                    },
+                    {
+                        "chords": "     0   7       3",
+                        "verse": "A Jesus          daremos"
+                    },
+                    {
+                        "chords": "     0     4            0    3   0",
+                        "verse": "Hosanas, cheios de prazer"
+                    }
+                ]
             }
+           
         ]
     },
     {
@@ -6880,49 +6806,48 @@
         ],
         "cifra": [
             {
-                "chords": "0               1          2       5",
-                "verse": "Em fervente oração, vem o teu coração"
+                "tipo":"Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0               1          2       5",
+                        "verse": "Em fervente oração, vem o teu coração"
+                    },
+                    {
+                        "chords": "       1        4          0",
+                        "verse": "Na presença de Deus derramar"
+                    },
+                    {
+                        "chords": "0               1           2       5",
+                        "verse": "Mas só podes fruir o que estás a pedir"
+                    },
+                    {
+                        "chords": "        1        4         0      7",
+                        "verse": "Quando tudo deixares no altar"
+                    }
+                ]
             },
             {
-                "chords": "       1        4          0",
-                "verse": "Na presença de Deus derramar"
-            },
-            {
-                "chords": "0               1           2       5",
-                "verse": "Mas só podes fruir o que estás a pedir"
-            },
-            {
-                "chords": "        1        4         0      7",
-                "verse": "Quando tudo deixares no altar"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "",
-                "verse": "[ Refrão ]"
-            },
-            {
-                "chords": "",
-                "verse": ""
-            },
-            {
-                "chords": "         3                0         7",
-                "verse": "Quando tudo perante o Senhor estiver"
-            },
-            {
-                "chords": "  3          15       4     11",
-                "verse": "E todo o teu ser Ele controlar"
-            },
-            {
-                "chords": "0                1           2           5",
-                "verse": "Só então hás de ver que o Senhor tem poder"
-            },
-            {
-                "chords": "        1        4          0",
-                "verse": "Quando tudo deixares no altar"
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "         3                0         7",
+                        "verse": "Quando tudo perante o Senhor estiver"
+                    },
+                    {
+                        "chords": "  3          15       4     11",
+                        "verse": "E todo o teu ser Ele controlar"
+                    },
+                    {
+                        "chords": "0                1           2           5",
+                        "verse": "Só então hás de ver que o Senhor tem poder"
+                    },
+                    {
+                        "chords": "        1        4          0",
+                        "verse": "Quando tudo deixares no altar"
+                    }
+                ]
             }
+            
         ]
     },
     {

@@ -28,11 +28,7 @@ const props = defineProps({
     }
 })
 
-watch(() => props.tonalidade, (value) => {
-    console.log(value)
-})
 const cifra = computed(() => {
-    console.log(props.parte)
     return props.parte
 })
 const campoHarmonico = computed(() => {

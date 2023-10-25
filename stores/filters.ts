@@ -1,7 +1,7 @@
 import { defineStore } from "pinia"
 import { SongCategoria } from '@/types/cifra/Cifra'
 export const useFilterStore = defineStore('filters', () => {
-    const filters = ref<SongCategoria[]>([])
+    const filters = ref<SongCategoria[]>(["Santa Ceia", "Jovens", "Missões", "Envolvente", "Introspectivo"])
     const showFilters = ref<boolean>(false)
     const selectedFilters = ref<SongCategoria[]>([])
 
@@ -15,7 +15,6 @@ export const useFilterStore = defineStore('filters', () => {
       } else {
         selectedFilters.value = selectedFilters.value.filter(item => item !== payload)
       }
-
     }
    function clearSelectedFilters() {
       selectedFilters.value = []

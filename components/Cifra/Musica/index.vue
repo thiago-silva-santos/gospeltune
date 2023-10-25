@@ -1,5 +1,5 @@
 <template>
-    <div :class="['cifra_container', {'cifra_dividida_container': DivideStore.divide}]" id="cifra">
+    <div :class="DivideStore.divide ? 'cifra_dividida_container': 'cifra_container'" id="cifra">
         <div class="flex flex-col pt-10 gap-2" v-for="parte in musica">
             <span class="titulo_verso" v-if="parte.tipo !== 'Primeira Parte'">{{ parteTitulo(parte.tipo) }}</span>
             <cifra-musica-parte :parte="parte.versos" :tonalidade="tom" :style-props="parteTipo(parte.tipo)" />
@@ -93,8 +93,6 @@ function parteTipo(tipo: string) {
 }
 
 .cifra_dividida_container {
-    position: absolute;
-    top: 120px;
-    @apply w-fit justify-start items-start box-border max-h-[1000px] gap-10 flex-wrap pb-10
+    @apply flex w-fit justify-start items-start box-border max-h-[1000px] gap-10 flex-wrap pb-10
 }
 </style>

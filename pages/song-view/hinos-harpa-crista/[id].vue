@@ -3,7 +3,7 @@
           <div class="song_container" id="song_container">
                <h1 class="song_title">{{ song.nome }}</h1>
                <span class="song_number"> Número: {{ song.id }} </span>
-               <cifra-song :song="song.cifra" :tonalidade="tonalidadeAtual" />
+               <cifra-musica :musica="song.cifra" :tonalidade="tonalidadeAtual" />
           </div>
           <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" />
      </div>
