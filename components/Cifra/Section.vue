@@ -1,12 +1,15 @@
 <template>
-  <div class="page_container">
+  <div :class="['page_container', { 'menu_aberto': FilterStore.showFilters }]">
     <search-input />
     <div class="filter_tags" v-if="FilterStore.selectedFilters.length > 0">
       <span v-for="categoria in FilterStore.selectedFilters">{{ categoria }}</span>
     </div>
-    <slot name="section">
+    <div class="section_content">
+      <slot name="section">
 
-    </slot>
+      </slot>
+    </div>
+
     <ButtonScrollTop />
     <MenuDrawer />
   </div>
@@ -16,19 +19,18 @@ import { useFilterStore } from '@/stores/filters';
 
 const FilterStore = useFilterStore()
 
-
-watch(() => FilterStore.showFilters, (value) => {
-  if (value) {
-    document.body.classList.add('menu-aberto');
-  }
-  document.body.classList.remove('menu-aberto');
-})
-
 </script>
 <style lang="css" scoped>
+.menu_aberto {
+  @apply fixed w-full right-0
+}
+
 @media (min-width: 320px) {
+  .section_content {
+    @apply w-full max-w-[1366px]
+  }
   .page_container {
-    @apply container py-10 px-4 m-auto flex flex-col justify-center items-center gap-8;
+    @apply w-full py-10 px-4 m-auto flex flex-col justify-center items-center gap-8;
   }
 
   .filter_tags {
@@ -43,7 +45,7 @@ watch(() => FilterStore.showFilters, (value) => {
 
 @media (min-width: 414px) {
   .page_container {
-    @apply p-10;
+    @apply py-10;
   }
 }
 </style>

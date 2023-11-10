@@ -3,13 +3,24 @@
           <div class="tuning_overlay" v-if="isOpen" @click="() => isOpen = false"></div>
      </transition>
      <button class="tuning_button" @click="openTuningOptions">
-          {{ tonalidades.filter(x => x.id == TonalidadeStore.tonalidadeAtual)[0].notacao }}
+          {{ TonalidadeStore.tonalidadeAtualNotacao }}
      </button>
+     <transition name="back-fade">
+          <div v-if="isOpen" class="go_back">
+               <nuxt-link :to="props.goBack" @click="() => isOpen = false">
+                    <button class="flex justify-center items-center">
+                         <span class="material-symbols-outlined">
+                              undo
+                         </span>
+                    </button>
+               </nuxt-link>
+          </div>
+     </transition>
      <transition name="fade">
           <div class="tuning_items" v-if="isOpen">
                <div class="button_container">
 
-                    <button v-for="btn in tonalidades" @click="changeTom(btn.id)"
+                    <button v-for="btn in TonalidadeStore.tonalidades" @click="changeTom(btn.id)"
                          :class="[TonalidadeStore.tonalidadeAtual === btn.id ? 'tom_button active' : 'tom_button']">
                          {{ btn.notacao }}
                     </button>
@@ -20,82 +31,30 @@
 </template>
 <script setup lang="ts">
 const emits = defineEmits(['tuning-component-tune'])
-import { onBeforeMount } from 'vue'
 import { useTonalidadeStore } from '~~/stores/tonalidade'
 
-const TonalidadeStore = useTonalidadeStore()
 const props = defineProps({
      goBack: {
           type: String,
           default: '/'
-     },
-     tonalidadePadrao: {
-          type: Number,
-          default: 0
      }
 })
 
+
+const TonalidadeStore = useTonalidadeStore()
+
 const isOpen = ref<boolean>(false)
-const tonalidadeAtual = ref(0)
 
 function openTuningOptions() {
      isOpen.value = !isOpen.value
 }
 function changeTom(value: number) {
-     TonalidadeStore.updateTonalidade(value);
-     isOpen.value = false
+     TonalidadeStore.updateTonalidade(value)
+     setTimeout(() => {
+          
+          isOpen.value = false
+     }, 0);
 }
-
-const tonalidades = ref([
-     {
-          id: 0,
-          notacao: "C"
-     },
-     {
-          id: 1,
-          notacao: "D"
-     },
-     {
-          id: 2,
-          notacao: "E"
-     },
-     {
-          id: 3,
-          notacao: "F"
-     },
-     {
-          id: 4,
-          notacao: "G"
-     },
-     {
-          id: 5,
-          notacao: "A"
-     },
-     {
-          id: 6,
-          notacao: "B"
-     },
-     {
-          id: 7,
-          notacao: "Db"
-     },
-     {
-          id: 8,
-          notacao: "Eb"
-     },
-     {
-          id: 9,
-          notacao: "Gb"
-     },
-     {
-          id: 10,
-          notacao: "Ab"
-     },
-     {
-          id: 11,
-          notacao: "Bb"
-     }
-])
 
 
 watch(() => isOpen.value, (value) => {
@@ -106,11 +65,6 @@ watch(() => isOpen.value, (value) => {
      }
 })
 
-onBeforeMount(() => {
-     if (props.tonalidadePadrao !== 0) {
-          TonalidadeStore.updateTonalidade(props.tonalidadePadrao)
-     }
-})
 
 </script>
 <style lang="css" scoped>
@@ -216,7 +170,7 @@ onBeforeMount(() => {
 
 @media (min-width: 320px) {
      .tuning_items {
-          @apply fixed w-[180px] h-72 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-between items-center p-4;
+          @apply fixed w-fit h-fit bg-slate-100 rounded-lg shadow-lg flex flex-col justify-between items-center p-4;
           bottom: 60px;
           right: 80px;
           z-index: 999;
@@ -225,7 +179,7 @@ onBeforeMount(() => {
 
 
      .button_container {
-          @apply flex justify-center gap-4 flex-wrap
+          @apply grid grid-cols-3 gap-4
      }
 
      .zoom_actions_container {
