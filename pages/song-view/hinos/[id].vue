@@ -1,12 +1,10 @@
 <template>
-     <div class="w-full">
-          <div class="song_container" id="song_container">
-               <h1 class="song_title">{{ song.nome }}</h1>
-               <span class="artist_name"> {{ song.nomeArtista }} </span>
-               <cifra-musica :musica="song.cifra" :tonalidade="tonalidadeAtual"/>
-          </div>
-          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'" />
+     <div class="song_container" id="song_container">
+          <h1 class="song_title">{{ song.nome }}</h1>
+          <span class="artist_name"> {{ song.nomeArtista }} </span>
+          <cifra-musica :musica="song.cifra" :tonalidade="tonalidadeAtual" />
      </div>
+     <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" :go-back="'/hinos'" />
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/hinos.json'
@@ -31,11 +29,9 @@ onBeforeMount(() => {
 
 </script>
 <style scoped>
-
-
 @media(min-width: 320px) {
      .song_container {
-          @apply py-10 px-5 flex flex-col max-w-[400px] m-0;
+          @apply py-10 px-5 flex flex-col max-w-[400px] m-0 h-screen;
      }
 
      .song_title {
@@ -68,8 +64,9 @@ onBeforeMount(() => {
      .song_title {
           font-size: 24px;
      }
+
      .song_container {
-          @apply py-10 px-20 flex flex-col max-w-full m-0;
+          @apply py-10 px-20 flex flex-col max-w-fit m-0;
      }
 }
 </style>

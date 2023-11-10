@@ -35,6 +35,7 @@ const campoHarmonico = computed(() => {
     return campo
 })
 const tom = computed(() => {
+    console.log(campoHarmonico.value[props.tonalidade].acordes)
     return campoHarmonico.value[props.tonalidade].acordes;
 })
 

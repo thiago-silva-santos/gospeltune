@@ -92,7 +92,14 @@ function parteTipo(tipo: string) {
     @apply flex flex-col 
 }
 
+/* .cifra_dividida_container {
+    @apply grid items-start justify-start;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(3, minmax(300px, max-content));
+    grid-auto-flow: column;
+} */
 .cifra_dividida_container {
-    @apply flex w-fit justify-start items-start box-border max-h-[1000px] gap-10 flex-wrap pb-10
+   @apply flex flex-col flex-wrap max-h-[90vh] gap-10 ;
+   row-gap: 0px;
 }
 </style>
