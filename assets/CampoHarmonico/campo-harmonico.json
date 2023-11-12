@@ -1,133 +1,134 @@
 [
     {
+        "tom": "C",
         "id": 0,
         "acordes": [
             {
-                "grau": 1,
+                "grau": 0,
                 "notacao": "C"
             },
             {
-                "grau": 2,
+                "grau": 1,
                 "notacao": "Dm"
             },
             {
-                "grau": 3,
+                "grau": 2,
                 "notacao": "Em"
             },
             {
-                "grau": 4,
+                "grau": 3,
                 "notacao": "F"
             },
             {
-                "grau": 5,
+                "grau": 4,
                 "notacao": "G"
             },
             {
-                "grau": 6,
+                "grau": 5,
                 "notacao": "Am"
             },
             {
-                "grau": 7,
+                "grau": 6,
                 "notacao": "Bdim"
             },
             {
-                "grau": 8,
+                "grau": 7,
                 "notacao": "C7"
             },
             {
-                "grau": 9,
+                "grau": 8,
                 "notacao": "Dm7"
             },
             {
-                "grau": 10,
+                "grau": 9,
                 "notacao": "Em7"
             },
             {
-                "grau": 11,
+                "grau": 10,
                 "notacao": "F7"
             },
             {
-                "grau": 12,
+                "grau": 11,
                 "notacao": "G7"
             },
             {
-                "grau": 13,
+                "grau": 12,
                 "notacao": "Am7"
             },
             {
-                "grau": 14,
+                "grau": 13,
                 "notacao": "B"
             },
             {
-                "grau": 15,
+                "grau": 14,
                 "notacao": "Cm"
             },
             {
-                "grau": 16,
+                "grau": 15,
                 "notacao": "D"
             },
             {
-                "grau": 17,
+                "grau": 16,
                 "notacao": "E"
             },
             {
-                "grau": 18,
+                "grau": 17,
                 "notacao": "Fm"
             },
             {
-                "grau": 19,
+                "grau": 18,
                 "notacao": "Gm"
             },
             {
-                "grau": 20,
+                "grau": 19,
                 "notacao": "A"
             },
             {
-                "grau": 21,
+                "grau": 20,
                 "notacao": "Bm"
             },
             {
-                "grau": 22,
+                "grau": 21,
                 "notacao": "Cm7"
             },
             {
-                "grau": 23,
+                "grau": 22,
                 "notacao": "D7"
             },
             {
-                "grau": 24,
+                "grau": 23,
                 "notacao": "E7"
             },
             {
-                "grau": 25,
+                "grau": 24,
                 "notacao": "Fm7"
             },
             {
-                "grau": 26,
+                "grau": 25,
                 "notacao": "Gm7"
             },
             {
-                "grau": 27,
+                "grau": 26,
                 "notacao": "A7"
             },
             {
-                "grau": 28,
+                "grau": 27,
                 "notacao": "G/B"
             },
             {
-                "grau": 29,
+                "grau": 28,
                 "notacao": "C/E"
             },
             {
-                "grau": 30,
+                "grau": 29,
                 "notacao": "C7M"
             },
             {
-                "grau": 31,
+                "grau": 30,
                 "notacao": "F7M"
             },
             {
-                "grau": 32,
+                "grau": 31,
                 "notacao": "G7M"
             }            
         ]

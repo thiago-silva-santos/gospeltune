@@ -26,11 +26,11 @@ const FilterStore = useFilterStore()
 }
 
 @media (min-width: 320px) {
+  .page_container {
+    @apply w-full min-h-screen py-10 px-4 m-auto flex flex-col justify-start items-center gap-8;
+  }
   .section_content {
     @apply w-full max-w-[1366px]
-  }
-  .page_container {
-    @apply w-full py-10 px-4 m-auto flex flex-col justify-center items-center gap-8;
   }
 
   .filter_tags {

@@ -4,7 +4,7 @@
           <span class="artist_name"> {{ song.nomeArtista }} </span>
           <cifra-musica :musica="song.cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
      </div>
-     <button-tuning-copy go-back="/hinos" />
+     <button-tuning go-back="/hinos" />
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/hinos.json'

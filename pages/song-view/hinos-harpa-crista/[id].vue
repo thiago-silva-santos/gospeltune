@@ -3,29 +3,28 @@
           <div class="song_container" id="song_container">
                <h1 class="song_title">{{ song.nome }}</h1>
                <span class="song_number"> Número: {{ song.id }} </span>
-               <cifra-musica :musica="song.cifra" :tonalidade="tonalidadeAtual" />
+               <cifra-musica :musica="song.cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
           </div>
-          <button-tuning @tuning-component-tune="getTom" :tonalidade-padrao="tonalidadeAtual" />
+          <button-tuning/>
      </div>
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/hinos-harpa-crista.json'
+import { useTonalidadeStore } from '~~/stores/tonalidade'
+
+const TonalidadeStore = useTonalidadeStore()
 
 const route = useRoute()
-const tonalidadeAtual = ref<number>(0)
 
 const song = computed(() => {
      const item = cifras.filter(item => item.id.toString() == route.params.id)[0]
      return item
 })
 
-function getTom(value: number) {
-     tonalidadeAtual.value = value
-}
 
 onBeforeMount(() => {
      if (song.value.tonalidade) {
-          tonalidadeAtual.value = song.value.tonalidade
+          TonalidadeStore.updateTonalidade(song.value.tonalidade)
      }
 })
 

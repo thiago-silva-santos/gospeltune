@@ -39,6 +39,7 @@
                 <div class="menu_logo" @click="hide">
                     <img src="/gospeltunelogo.png" alt="logo">
                     <h1>Gospeltune</h1>
+                    <h2 class="text-xs text-gray-200">Developed by Thiago Silva.</h2>
                 </div>
             </div>
         </div>
@@ -177,9 +178,8 @@ export default {
 
 @media (min-width: 320px) {
     .drawer {
-        @apply absolute w-4/5 max-w-[384px];
+        @apply absolute w-4/5 max-w-[384px] h-screen;
         right: 0;
-        bottom: 0;
         top: 0;
         z-index: 999;
     }

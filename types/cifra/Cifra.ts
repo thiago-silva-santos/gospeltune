@@ -16,13 +16,14 @@ export type SongCategoria = "Envolvente" | "Introspectivo" | "Missões" | "Joven
 export interface ICifra {
      chords: string;
      verse: string;
-     divider: boolean;
+     divider?: boolean;
 }
 export interface ISongPartes {
-     tipo: "Primeira Parte" | "Segunda Parte" | "Terceira Parte" | "Refrão" | "Ponte" | "Final";
+     tipo: ISongTipos;
      versos: ICifra[];
 }
 
+export type ISongTipos = "Primeira Parte" | "Segunda Parte" | "Terceira Parte" | "Refrão" | "Ponte" | "Final"
 
 export interface ISongCifra2 extends INomeArtista{
      id: string;

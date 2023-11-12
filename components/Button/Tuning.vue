@@ -2,28 +2,12 @@
      <transition name="overlay-fade">
           <div class="tuning_overlay" v-if="isOpen" @click="() => isOpen = false"></div>
      </transition>
+     <button class="tuning_button" @click="openTuningOptions">
+          {{ TonalidadeStore.tonalidadeAtualNotacao }}
+     </button>
      <transition name="back-fade">
           <div v-if="isOpen" class="go_back">
-               <button v-if="DivideStore.divideButton" :class="['flex justify-center items-center', { 'cifra_dividida_active': DivideStore.divide }]"
-                    @click="DivideStore.updateDivide()">
-                    <span class="material-symbols-outlined">
-                         splitscreen_right
-                    </span>
-               </button>
-               <div class="zoom_actions_container">
-
-                    <button class="flex justify-center items-center" @click="zoomIn">
-                         <span class="material-symbols-outlined">
-                              zoom_in
-                         </span>
-                    </button>
-                    <button class="flex justify-center items-center" @click="zoomOut">
-                         <span class="material-symbols-outlined">
-                              zoom_out
-                         </span>
-                    </button>
-               </div>
-               <nuxt-link :to="goBack" @click="() => isOpen = false">
+               <nuxt-link :to="props.goBack" @click="() => isOpen = false">
                     <button class="flex justify-center items-center">
                          <span class="material-symbols-outlined">
                               undo
@@ -32,143 +16,46 @@
                </nuxt-link>
           </div>
      </transition>
-     <button class="tuning_button" @click="openTuningOptions">
-          {{ tonalidadeAtualString }}
-     </button>
      <transition name="fade">
           <div class="tuning_items" v-if="isOpen">
                <div class="button_container">
-                    <button :class="[tonalidadeAtualString === 'C' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(0)"> C </button>
-                    <button :class="[tonalidadeAtualString === 'D' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(1)"> D </button>
-                    <button :class="[tonalidadeAtualString === 'E' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(2)"> E </button>
-                    <button :class="[tonalidadeAtualString === 'F' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(3)"> F </button>
-                    <button :class="[tonalidadeAtualString === 'G' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(4)"> G </button>
-                    <button :class="[tonalidadeAtualString === 'A' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(5)"> A </button>
-                    <button :class="[tonalidadeAtualString === 'B' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(6)"> B </button>
-               </div>
-               <div class="button_container">
-                    <button :class="[tonalidadeAtualString === 'Db' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(7)"> Db </button>
-                    <button :class="[tonalidadeAtualString === 'Eb' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(8)"> Eb </button>
-                    <button :class="[tonalidadeAtualString === 'Gb' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(9)"> Gb </button>
-                    <button :class="[tonalidadeAtualString === 'Ab' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(10)"> Ab </button>
-                    <button :class="[tonalidadeAtualString === 'Bb' ? 'tom_button active' : 'tom_button']"
-                         @click="changeTom(11)"> Bb </button>
+
+                    <button v-for="btn in TonalidadeStore.tonalidades" @click="changeTom(btn.id)"
+                         :class="[TonalidadeStore.tonalidadeAtual === btn.id ? 'tom_button active' : 'tom_button']">
+                         {{ btn.notacao }}
+                    </button>
+
                </div>
           </div>
      </transition>
 </template>
 <script setup lang="ts">
-import { useDivideStore } from '~~/stores/divide'
-const DivideStore = useDivideStore()
 const emits = defineEmits(['tuning-component-tune'])
-import { onBeforeMount } from 'vue'
+import { useTonalidadeStore } from '~~/stores/tonalidade'
 
 const props = defineProps({
      goBack: {
           type: String,
           default: '/'
-     },
-     tonalidadePadrao: {
-          type: Number,
-          default: 0
      }
 })
 
-const isOpen = ref<boolean>(false)
-const tonalidadeAtual = ref(0)
-const currentScale = ref(1.0)
 
-function sendTune() {
-     emits("tuning-component-tune", tonalidadeAtual.value);
-}
+const TonalidadeStore = useTonalidadeStore()
+
+const isOpen = ref<boolean>(false)
+
 function openTuningOptions() {
      isOpen.value = !isOpen.value
 }
 function changeTom(value: number) {
-     tonalidadeAtual.value = value;
-     sendTune()
-     isOpen.value = false
-}
-function zoomIn() {
-     const zoomableDiv = document.getElementById('song_container');
-     if (currentScale.value < 1 && zoomableDiv) {
-          currentScale.value += 0.1;
-          zoomableDiv.style.transform = `scale(${currentScale.value})`;
-     }
-     return
-}
-function zoomOut() {
-     const zoomableDiv = document.getElementById('song_container');
-     if (currentScale.value > 0.5000000000000001 && zoomableDiv) {
-          currentScale.value -= 0.1;
-          zoomableDiv.style.transform = `scale(${currentScale.value})`;
-     }
-     return
-}
-function zoomReset() {
-     const zoomableDiv = document.getElementById('song_container');
-     currentScale.value = 1.0;
-     if (zoomableDiv)
-          zoomableDiv.style.transform = `scale(${currentScale.value})`;
+     TonalidadeStore.updateTonalidade(value)
+     setTimeout(() => {
+          
+          isOpen.value = false
+     }, 0);
 }
 
-
-const tonalidadeAtualString = computed(() => {
-     let tom = "C"
-     switch (tonalidadeAtual.value) {
-          case 0:
-               tom = "C"
-               break;
-          case 1:
-               tom = "D"
-               break;
-          case 2:
-               tom = "E"
-               break;
-          case 3:
-               tom = "F"
-               break;
-          case 4:
-               tom = "G"
-               break;
-          case 5:
-               tom = "A"
-               break;
-          case 6:
-               tom = "B"
-               break;
-          case 7:
-               tom = "Db"
-               break;
-          case 8:
-               tom = "Eb"
-               break;
-          case 9:
-               tom = "Gb"
-               break;
-          case 10:
-               tom = "Ab"
-               break;
-          case 11:
-               tom = "Bb"
-               break;
-
-          default:
-               break;
-     }
-     return tom
-})
 
 watch(() => isOpen.value, (value) => {
      if (value) {
@@ -178,11 +65,6 @@ watch(() => isOpen.value, (value) => {
      }
 })
 
-onBeforeMount(() => {
-     if (props.tonalidadePadrao !== 0) {
-          tonalidadeAtual.value = props.tonalidadePadrao
-     }
-})
 
 </script>
 <style lang="css" scoped>
@@ -288,7 +170,7 @@ onBeforeMount(() => {
 
 @media (min-width: 320px) {
      .tuning_items {
-          @apply fixed w-[180px] h-72 bg-slate-100 rounded-lg shadow-lg flex flex-col justify-between items-center p-4;
+          @apply fixed w-fit h-fit bg-slate-100 rounded-lg shadow-lg flex flex-col justify-between items-center p-4;
           bottom: 60px;
           right: 80px;
           z-index: 999;
@@ -297,7 +179,7 @@ onBeforeMount(() => {
 
 
      .button_container {
-          @apply flex justify-center gap-4 flex-wrap
+          @apply grid grid-cols-3 gap-4
      }
 
      .zoom_actions_container {
@@ -332,6 +214,7 @@ onBeforeMount(() => {
      .go_back span {
           @apply flex justify-center items-center bg-white text-slate-700 p-2 w-8 h-8 text-xl font-medium shadow-lg rounded-full
      }
+
      .cifra_dividida_active span {
           @apply bg-red-600 rounded-full text-white;
      }
