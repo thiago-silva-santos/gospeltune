@@ -64,6 +64,7 @@ function parteTipo(tipo: string) {
         case "Segunda Parte":
             return parteStyle.value
         case "Terceira Parte":
+            console.log(parteStyle.value)
             return parteStyle.value
         case "Refrão":
             return refraoStyle.value

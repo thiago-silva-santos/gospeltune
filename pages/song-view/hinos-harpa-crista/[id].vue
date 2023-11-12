@@ -1,12 +1,10 @@
 <template>
-     <div class="w-full">
-          <div class="song_container" id="song_container">
-               <h1 class="song_title">{{ song.nome }}</h1>
-               <span class="song_number"> Número: {{ song.id }} </span>
-               <cifra-musica :musica="song.cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
-          </div>
-          <button-tuning/>
+     <div class="song_container" id="song_container">
+          <h1 class="song_title">{{ song.nome }}</h1>
+          <span class="song_number"> Número: {{ song.id }} </span>
+          <cifra-musica :musica="song.cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
      </div>
+     <button-tuning />
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/hinos-harpa-crista.json'

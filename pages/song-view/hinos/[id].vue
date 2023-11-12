@@ -64,7 +64,7 @@ onBeforeMount(() => {
      }
 
      .song_container {
-          @apply py-10 px-20 flex flex-col max-w-fit m-0;
+          @apply py-10 px-20 flex flex-col max-w-fit;
      }
 }
 </style>

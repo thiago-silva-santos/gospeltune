@@ -2,7 +2,7 @@
      <div class="campo_harmonico">
           <div v-for="(acorde, index) in campoHarmonico" :key="acorde.grau" class="w-12 h-12">
                <div class="flex flex-col items-center">
-                    <span>{{ acorde.grau }}°</span>
+                    <span class="text-slate-500">{{ acorde.grau }}°</span>
                     <span class="text-red-600 font-semibold"> {{ acorde.notacao }} </span>
                </div>
           </div>
@@ -19,7 +19,7 @@ const TonalidadeStore = useTonalidadeStore();
 </script>
 <style scoped>
 .campo_harmonico {
-     @apply grid grid-cols-7 gap-4 p-4 w-fit bg-white border-2 border-black;
+     @apply grid grid-cols-7 gap-4 p-8 w-fit bg-white border-2 border-slate-200 rounded-lg;
 }
 
 </style>
