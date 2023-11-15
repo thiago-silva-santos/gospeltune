@@ -20,8 +20,8 @@
           <div class="tuning_items" v-if="isOpen">
                <div class="button_container">
 
-                    <button v-for="btn in TonalidadeStore.tonalidades" @click="changeTom(btn.id)"
-                         :class="[TonalidadeStore.tonalidadeAtual === btn.id ? 'tom_button active' : 'tom_button']">
+                    <button v-for="btn in TonalidadeStore.tonalidades" @click="changeTom(btn.posicao)"
+                         :class="[TonalidadeStore.tonalidadeAtual === btn.posicao ? 'tom_button active' : 'tom_button']">
                          {{ btn.notacao }}
                     </button>
 

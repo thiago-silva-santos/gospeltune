@@ -134,8 +134,8 @@ textarea {
      width: 100%;
      max-width: 940px;
      font-family: 'Roboto', sans-serif;
-     font-size: 16px;
-     word-spacing: 0.210rem;
+     font-size: 14px;
+     word-spacing: 0.220rem;
      @apply p-4 w-full max-w-[375px] min-h-full bg-gray-200
 }
 

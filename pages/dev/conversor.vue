@@ -40,7 +40,7 @@
     </div>
 </template>
 <script>
-import campoJSON from '@/assets/CampoHarmonico/CampoHarmonicoComponentData.json'
+import campoJSON from '@/assets/CampoHarmonico/campo-harmonico.json'
 import cifra from '@/assets/Cifras/hinos.json'
 import cifraParametro from '@/assets/Cifras/hinos.json'
 export default {

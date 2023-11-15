@@ -1,9 +1,9 @@
 <template>
      <div class="campo_harmonico">
-          <div v-for="(acorde, index) in campoHarmonico" :key="acorde.grau" class="w-12 h-12">
+          <div v-for="(acorde, index) in campoHarmonico" :key="acorde.posicao" class="w-12 h-12">
                <div class="flex flex-col items-center">
-                    <span class="text-slate-500">{{ acorde.grau }}°</span>
-                    <span class="text-red-600 font-semibold"> {{ acorde.notacao }} </span>
+                    <span class="text-slate-500">{{ acorde.posicao }}°</span>
+                    <span class="text-red-600 font-semibold" :class="acorde.notacao == 'N/A' ? 'text-blue-500' : 'text-red-600'"> {{ acorde.notacao }} </span>
                </div>
           </div>
      </div>
@@ -11,8 +11,11 @@
 <script setup lang="ts">
 import data from '@/assets/CampoHarmonico/campo-harmonico.json'
 import {useTonalidadeStore} from '@/stores/tonalidade'
+const campo = computed(() => {
+     return data
+})
 const campoHarmonico = computed(() => {
-     return data[TonalidadeStore.tonalidadeAtual].acordes
+     return campo.value[TonalidadeStore.tonalidadeAtual].acordes
 })
 const TonalidadeStore = useTonalidadeStore();
 

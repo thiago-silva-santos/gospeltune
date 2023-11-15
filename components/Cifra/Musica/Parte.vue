@@ -2,7 +2,7 @@
     <pre class="flex flex-col">
         <template v-for="linha in cifra" :key="linha">
             <span class="flex">
-                <b v-for="item in parseString(linha.chords)">{{ tom[item as any]?.notacao }}</b>
+                <b v-for="acorde in parseString(linha.chords)">{{ tom[acorde as any]?.notacao }}</b>
             </span>
             <span :class="`linha-verso ${props.styleProps?.fontWeigth} ${props.styleProps?.textColor}`">{{ linha.verse }}</span>
             <span v-if="linha.divider" class="h-5"></span>
@@ -11,7 +11,7 @@
 </template>
 <script setup lang="ts">
 import { ICifra, IStyle } from '~~/types/cifra/Cifra'
-import campo from '@/assets/CampoHarmonico/CampoHarmonicoComponentData.json'
+import campo from '@/assets/CampoHarmonico/campo-harmonico.json'
 import { PropType } from 'nuxt/dist/app/compat/capi';
 
 const props = defineProps({
