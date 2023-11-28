@@ -50,7 +50,7 @@
   </div>
 </template>
 <script>
-import campoJSON from '../../assets/CampoHarmonico/CampoHarmonicoComponentData.json'
+import campoJSON from '../../assets/CampoHarmonico/campo-harmonico.json'
 export default {
   data() {
     return {
