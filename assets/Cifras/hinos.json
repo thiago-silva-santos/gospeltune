@@ -17,7 +17,7 @@
                         "verse": "Te amo, Deus, tua graça nunca falha"
                     },
                     {
-                        "chords": "   27        5         3             4",
+                        "chords": "   53        5         3             4",
                         "verse": "Todos os    dias eu estou em tuas mãos"
                     },
                     {
@@ -25,7 +25,7 @@
                         "verse": "Desde quando me levanto"
                     },
                     {
-                        "chords": "        0     27     5",
+                        "chords": "        0     53     5",
                         "verse": "Até eu me deitar"
                     },
                     {
@@ -59,7 +59,7 @@
                 "tipo": "Ponte",
                 "versos": [
                     {
-                        "chords": "28                3           ",
+                        "chords": "49                3           ",
                         "verse": "Tua bondade me seguirá"
                     },
                     {
@@ -67,7 +67,7 @@
                         "verse": "Me seguirá, Senhor"
                     },
                     {
-                        "chords": "28                3           ",
+                        "chords": "49                3           ",
                         "verse": "Tua bondade me seguirá"
                     },
                     {
@@ -76,7 +76,7 @@
                         "divider": true
                     },
                     {
-                        "chords": "28                        3           ",
+                        "chords": "49                        3           ",
                         "verse": "Eu me rendo a Ti, te dou o meu ser"
                     },
                     {
@@ -84,7 +84,7 @@
                         "verse": "Entrego tudo a Ti"
                     },
                     {
-                        "chords": "     28           3",
+                        "chords": "     49           3",
                         "verse": "Tua bondade me seguirá"
                     },
                     {
@@ -298,7 +298,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "0           27",
+                        "chords": "0           53",
                         "verse": "Bem sei eu  -  que tudo podes"
                     },
                     {
@@ -310,7 +310,7 @@
                         "verse": "-   A vontade é Tua"
                     },
                     {
-                        "chords": "27",
+                        "chords": "53",
                         "verse": "-   E a minha vida em Tuas mãos está"
                     },
                     {
@@ -327,7 +327,7 @@
                 "tipo": "Refrão",
                 "versos": [
                     {
-                        "chords": "               0                 27",
+                        "chords": "               0                 53",
                         "verse": "Não se frustrarão, não se frustrarão"
                     },
                     {
@@ -335,7 +335,7 @@
                         "verse": "Os planos de Deus ninguém impedirá"
                     },
                     {
-                        "chords": "                 0                      27",
+                        "chords": "                 0                      53",
                         "verse": "Pode o vento soprar, a Terra pode se abalar"
                     },
                     {
@@ -352,7 +352,7 @@
                         "verse": "Quando passares pelas águas"
                     },
                     {
-                        "chords": "               27",
+                        "chords": "               53",
                         "verse": "Eu estarei contigo, filho"
                     },
                     {
@@ -368,7 +368,7 @@
                         "verse": "Pois Eu estou contigo, filho"
                     },
                     {
-                        "chords": "             27",
+                        "chords": "             53",
                         "verse": "Eu estou contigo, filho"
                     },
                     {
@@ -389,7 +389,7 @@
                         "verse": "E se o teu barco parecer que vai naufragar"
                     },
                     {
-                        "chords": "           27",
+                        "chords": "           53",
                         "verse": "Está balançando pra lá e pra cá"
                     },
                     {
@@ -409,7 +409,7 @@
                         "verse": "Andando sobre as águas"
                     },
                     {
-                        "chords": "               27",
+                        "chords": "               53",
                         "verse": "Parece que é Jesus"
                     },
                     {
@@ -417,7 +417,7 @@
                         "verse": "Andando sobre as águas"
                     },
                     {
-                        "chords": "                  13",
+                        "chords": "                  48",
                         "verse": "Está dando uma ordem para o vento"
                     },
                     {
@@ -434,7 +434,7 @@
                         "verse": "Sou Eu, sou Eu"
                     },
                     {
-                        "chords": "27",
+                        "chords": "53",
                         "verse": "Sou Eu, sou Eu"
                     },
                     {
@@ -451,7 +451,7 @@
                         "verse": "Ninguém pode te ajudar"
                     },
                     {
-                        "chords": "                      27",
+                        "chords": "                      53",
                         "verse": "Ninguém pode te levantar"
                     },
                     {
@@ -514,7 +514,7 @@
                         "divider": true
                     },
                     {
-                        "chords": "28             12",
+                        "chords": "49             12",
                         "verse": "Rei da glória, enche-me"
                     },
                     {
@@ -565,7 +565,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "0                             27",
+                        "chords": "0                             53",
                         "verse": "Santo, santo, santo, santo És"
                     },
                     {
@@ -606,7 +606,7 @@
                         "verse": "Mas ao terceiro dia"
                     },
                     {
-                        "chords": "       0      27     5    4  3",
+                        "chords": "       0      53     5    4  3",
                         "verse": "Ele provou    que     era   Jesus"
                     },
                     {

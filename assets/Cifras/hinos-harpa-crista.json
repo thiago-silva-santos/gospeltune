@@ -24,7 +24,7 @@
                         "verse": "Oh! Que saudosa lembrança"
                     },
                     {
-                        "chords": "          19     1",
+                        "chords": "          26     1",
                         "verse": "Tenho de Ti, ó Sião"
                     },
                     {
@@ -278,7 +278,7 @@
                         "verse": "Mas do céu Ele desceu"
                     },
                     {
-                        "chords": "       0   27      5",
+                        "chords": "       0   53      5",
                         "verse": "E Seu san_gue     verteu"
                     },
                     {
@@ -303,7 +303,7 @@
                         "verse": "meu pecado castigado em Jesus"
                     },
                     {
-                        "chords": "     3                 0  27     5",
+                        "chords": "     3                 0  53     5",
                         "verse": "Foi ali, pela fé, que os o__lhos   abri"
                     },
                     {
@@ -414,36 +414,36 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "      5     16       5",
+                        "chords": "      5     23       5",
                         "verse": "Grata nova Deus proclama"
                     },
                     {
-                        "chords": "         18      26    1",
+                        "chords": "         25      33    1",
                         "verse": "Hoje ao mundo pecador"
                     },
                     {
-                        "chords": "                16",
+                        "chords": "                23",
                         "verse": "Doce nova revelada"
                     },
                     {
-                        "chords": "       3      16     5    16",
+                        "chords": "       3      23     5    23",
                         "verse": "Lá na cruz do Salvador",
                         "divider": true
                     },
                     {
-                        "chords": "        5    16      5",
+                        "chords": "        5    23      5",
                         "verse": "Cego e desviado, o homem"
                     },
                     {
-                        "chords": "               26     1",
+                        "chords": "               33     1",
                         "verse": "Dos caminhos do Senhor"
                     },
                     {
-                        "chords": "                     16",
+                        "chords": "                     23",
                         "verse": "Desconhece e desconfia"
                     },
                     {
-                        "chords": "       3       16        5      4",
+                        "chords": "       3       23        5      4",
                         "verse": "Deste Deus, o Deus de amor"
                     }
                 ]
@@ -456,7 +456,7 @@
                         "verse": "Grata nova, doce nova"
                     },
                     {
-                        "chords": "                26     1",
+                        "chords": "                33     1",
                         "verse": "Vem dos lábios do Senhor"
                     },
                     {
@@ -464,7 +464,7 @@
                         "verse": "Escutai com alegria"
                     },
                     {
-                        "chords": "        0        4    0    16",
+                        "chords": "        0        4    0    23",
                         "verse": "Deus é luz, Deus é  amor"
                     }
                 ]
@@ -615,7 +615,7 @@
                         "verse": "Sem nenhum auxílio"
                     },
                     {
-                        "chords": "16             5",
+                        "chords": "23             5",
                         "verse": "Nem um Salvador?"
                     }
                 ]
@@ -624,19 +624,19 @@
                 "tipo": "Refrão",
                 "versos": [
                     {
-                        "chords": "19             1     4              0",
+                        "chords": "26             1     4              0",
                         "verse": "Deus vai te guiar    com Sua forte mão"
                     },
                     {
-                        "chords": "5             16   23        5",
+                        "chords": "5             23   30        5",
                         "verse": "Podes descansar na tribulação"
                     },
                     {
-                        "chords": "19        1     4          0",
+                        "chords": "26        1     4          0",
                         "verse": "Seja tua vida   livre de pesar"
                     },
                     {
-                        "chords": "5             16                  5",
+                        "chords": "5             23                  5",
                         "verse": "Em tristeza e lida, Deus vai te guiar"
                     }
                 ]
@@ -1446,7 +1446,7 @@
                         "verse": "Cantarei louvores ao meu Cria_dor"
                     },
                     {
-                        "chords": "0                            27      5",
+                        "chords": "0                            53      5",
                         "verse": "Fico na dispensação do Seu  a_____mor"
                     },
                     {
@@ -2065,7 +2065,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "0       26       1    11             0",
+                        "chords": "0       33       1    11             0",
                         "verse": "Fala, Jesus querido; fala-me: Hoje sim!"
                     },
                     {
@@ -2073,7 +2073,7 @@
                         "verse": "Fala com Tua bondade; fica aos pés de mim"
                     },
                     {
-                        "chords": "         26    1           11             0",
+                        "chords": "         33    1           11             0",
                         "verse": "Meu coração aberto está; pra Tua voz ouvir"
                     },
                     {
@@ -2090,11 +2090,11 @@
                         "verse": "Fala-me suavemente"
                     },
                     {
-                        "chords": "11                0     13",
+                        "chords": "11                0     48",
                         "verse": "Fala com muito amor"
                     },
                     {
-                        "chords": "26               1",
+                        "chords": "33               1",
                         "verse": "Vencedor para sempre"
                     },
                     {
@@ -2106,11 +2106,11 @@
                         "verse": "Fala-me cada dia"
                     },
                     {
-                        "chords": "11                 0    13",
+                        "chords": "11                 0    48",
                         "verse": "Sempre em terno tom"
                     },
                     {
-                        "chords": "26                 1",
+                        "chords": "33                 1",
                         "verse": "Ouvir Tua voz eu quero"
                     },
                     {
@@ -2981,7 +2981,7 @@
                         "verse": "Vem e vê, os campos brancos já estão"
                     },
                     {
-                        "chords": "             26      1",
+                        "chords": "             33      1",
                         "verse": "Aguardando braços que os segarão"
                     },
                     {
@@ -2997,7 +2997,7 @@
                         "verse": "Olha, que a seara bem madura está"
                     },
                     {
-                        "chords": "              26     1",
+                        "chords": "              33     1",
                         "verse": "Que colheita glori__osa não será?"
                     },
                     {
@@ -3961,7 +3961,7 @@
                         "verse": "Oh, esperança que a Sua Igreja tem"
                     },
                     {
-                        "chords": "     0      27      5",
+                        "chords": "     0      53      5",
                         "verse": "Dai glória    a         Deus"
                     },
                     {
@@ -3978,7 +3978,7 @@
                         "verse": "Nossa esperança é Sua vinda"
                     },
                     {
-                        "chords": "                    19      1",
+                        "chords": "                    26      1",
                         "verse": "O Rei dos reis vem nos buscar"
                     },
                     {
@@ -4765,7 +4765,7 @@
                         "verse": "Achará poder para o mal combater"
                     },
                     {
-                        "chords": "0                        19        1",
+                        "chords": "0                        26        1",
                         "verse": "Porque Suas promessas Ele cumprirá"
                     },
                     {
@@ -4794,7 +4794,7 @@
                         "verse": "Pois Jesus que impera,"
                     },
                     {
-                        "chords": "19             1",
+                        "chords": "26             1",
                         "verse": "novas forças  dá"
                     },
                     {
@@ -6261,7 +6261,7 @@
                         "verse": "Os sinais da sua vinda"
                     },
                     {
-                        "chords": "         23             5",
+                        "chords": "         30             5",
                         "verse": "Mais se mostram cada vez"
                     },
                     {
@@ -6282,7 +6282,7 @@
                         "verse": "Glória! Glória! Alelu___ia!"
                     },
                     {
-                        "chords": "0                 23    5",
+                        "chords": "0                 30    5",
                         "verse": "Glória! Glória! Alelu___ia!"
                     },
                     {

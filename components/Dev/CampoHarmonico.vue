@@ -22,7 +22,7 @@ const TonalidadeStore = useTonalidadeStore();
 </script>
 <style scoped>
 .campo_harmonico {
-     @apply grid grid-cols-7 gap-4 p-8 w-fit bg-white border-2 border-slate-200 rounded-lg;
+     @apply grid grid-cols-7 gap-4 p-8 w-fit bg-white border-2 border-slate-200 rounded-lg max-h-[520px] overflow-y-scroll;
 }
 
 </style>

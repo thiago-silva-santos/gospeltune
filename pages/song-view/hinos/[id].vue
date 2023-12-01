@@ -22,6 +22,8 @@ const song = computed(() => {
 onBeforeMount(() => {
      if (song.value.tonalidade) {
           TonalidadeStore.updateTonalidade(song.value.tonalidade)
+     } else {
+          TonalidadeStore.updateTonalidade(0)
      }
 })
 

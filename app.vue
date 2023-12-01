@@ -29,13 +29,5 @@ watch(() => screenWidth.value, (value) => {
 })
 
 
-onBeforeMount(() => {
-  window.addEventListener('resize', handleWindowResize)
-  if (screenWidth.value >= 1358)
-    DivideStore.showDivideButton()
-})
-onBeforeUnmount(() => {
-  window.removeEventListener('resize', handleWindowResize);
-})
 
 </script>

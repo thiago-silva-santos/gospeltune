@@ -147,7 +147,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "      5              16",
+                        "chords": "      5              23",
                         "verse": "Deus forte como Jeová,"
                     },
                     {
@@ -155,7 +155,7 @@
                         "verse": "não há outro que eu conheça"
                     },
                     {
-                        "chords": "      5              16",
+                        "chords": "      5              23",
                         "verse": "Deus forte como Jeová,"
                     },
                     {
@@ -168,7 +168,7 @@
                         "verse": "Deus de vitória, varão de guerra"
                     },
                     {
-                        "chords": "          16          5",
+                        "chords": "          23          5",
                         "verse": "Deus poderoso é o Senhor"
                     },
                     {
@@ -176,7 +176,7 @@
                         "verse": "Deus de vitória, varão de guerra"
                     },
                     {
-                        "chords": "          16          5",
+                        "chords": "          23          5",
                         "verse": "Deus poderoso é o Senhor"
                     }
                 ]
@@ -185,7 +185,7 @@
                 "tipo": "Segunda Parte",
                 "versos": [
                     {
-                        "chords": "                       16",
+                        "chords": "                       23",
                         "verse": "Onde, onde está o seu Deus,"
                     },
                     {
@@ -193,7 +193,7 @@
                         "verse": "onde, onde ele está"
                     },
                     {
-                        "chords": "                       16",
+                        "chords": "                       23",
                         "verse": "Onde, onde está o seu Deus,"
                     },
                     {
@@ -206,7 +206,7 @@
                 "tipo": "Refrão",
                 "versos": [
                     {
-                        "chords": "      19            1",
+                        "chords": "      26            1",
                         "verse": "Meu Deus está no céu,"
                     },
                     {
@@ -214,7 +214,7 @@
                         "verse": "também no meu coração"
                     },
                     {
-                        "chords": "       3           1            16  ",
+                        "chords": "       3           1            23  ",
                         "verse": "O do mundo está morto, mas o meu"
                     },
                     {
@@ -222,7 +222,7 @@
                         "verse": "ressuscitou"
                     },
                     {
-                        "chords": "      19            1",
+                        "chords": "      26            1",
                         "verse": "Meu Deus está no céu,"
                     },
                     {
@@ -230,7 +230,7 @@
                         "verse": "também no meu coração"
                     },
                     {
-                        "chords": "       3           1            16  ",
+                        "chords": "       3           1            23  ",
                         "verse": "O do mundo está morto, mas o meu"
                     },
                     {
@@ -543,7 +543,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "0          27     5",
+                        "chords": "0          53     5",
                         "verse": "Vamos adorar a  Deus,"
                     },
                     {
@@ -579,7 +579,7 @@
                         "verse": "Não há Deus maior"
                     },
                     {
-                        "chords": "                0     27     5",
+                        "chords": "                0     53     5",
                         "verse": "Não há Deus melhor"
                     },
                     {
@@ -596,11 +596,11 @@
                 "tipo": "Ponte",
                 "versos": [
                     {
-                        "chords": "          16           5      20",
+                        "chords": "          23           5      20",
                         "verse": "Criou os céus, criou a terra"
                     },
                     {
-                        "chords": "        16          5",
+                        "chords": "        23          5",
                         "verse": "Criou o sol e as estrelas"
                     },
                     {
@@ -629,7 +629,7 @@
                         "verse": "Para o seu louvor"
                     },
                     {
-                        "chords": "        4    16",
+                        "chords": "        4    23",
                         "verse": "Para o seu,"
                     },
                     {
@@ -901,7 +901,7 @@
                         "verse": "Em Espírito, em verdade"
                     },
                     {
-                        "chords": "       3              0       27",
+                        "chords": "       3              0       53",
                         "verse": "Te adoramos,  Te adoramos"
                     }
                 ]
@@ -914,7 +914,7 @@
                         "verse": "Rei dos reis,       e Senhor"
                     },
                     {
-                        "chords": "         3      4      0     27",
+                        "chords": "         3      4      0     53",
                         "verse": "Te entregamos nosso viver"
                     },
                     {
@@ -939,7 +939,7 @@
                         "verse": "Foi que eu nasci, ó  rei     Jesus"
                     },
                     {
-                        "chords": "        16          5",
+                        "chords": "        23          5",
                         "verse": "Meu prazer é te louvar"
                     },
                     {
@@ -983,7 +983,7 @@
                         "verse": "E ali adorarei"
                     },
                     {
-                        "chords": "                  23",
+                        "chords": "                  30",
                         "verse": "Ao Deus do meu amor"
                     }
                 ]
@@ -1004,7 +1004,7 @@
                         "verse": "Vem como em Pentecostes"
                     },
                     {
-                        "chords": "                23",
+                        "chords": "                30",
                         "verse": "E enche-me de novo"
                     }
                 ]
@@ -1024,7 +1024,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "    0           27        5",
+                        "chords": "    0           53        5",
                         "verse": "Ao único que é digno de receber"
                     },
                     {
@@ -1053,7 +1053,7 @@
                 "tipo": "Refrão",
                 "versos": [
                     {
-                        "chords": "   5     2       3    4   0     16",
+                        "chords": "   5     2       3    4   0     23",
                         "verse": "Coroa___mos   a Ti, ó rei Jesus"
                     },
                     {
@@ -1065,7 +1065,7 @@
                         "verse": "Adoramos o Teu nome"
                     },
                     {
-                        "chords": "        16                5",
+                        "chords": "        23                5",
                         "verse": "Nos rendemos aos Teus  pés"
                     },
                     {
@@ -1142,7 +1142,7 @@
                 "tipo": "Primeira Parte",
                 "versos": [
                     {
-                        "chords": "0      27      5",
+                        "chords": "0      53      5",
                         "verse": "Deus, está    aqui"
                     },
                     {
@@ -1154,7 +1154,7 @@
                         "verse": "Tão certo como o amanhã"
                     },
                     {
-                        "chords": "         0   27      5",
+                        "chords": "         0   53      5",
                         "verse": "que se leva__an____ ta"
                     },
                     {
@@ -1190,7 +1190,7 @@
                         "verse": "Contemplamos tua face"
                     },
                     {
-                        "chords": "      4        0  27",
+                        "chords": "      4        0  53",
                         "verse": "rendemo-nos a ti",
                         "divider": true
                     },
@@ -1207,7 +1207,7 @@
                         "verse": "E nos deu completo acesso"
                     },
                     {
-                        "chords": "    4          0   27",
+                        "chords": "    4          0   53",
                         "verse": "ao coração do pai"
                     }
                 ]
@@ -1224,7 +1224,7 @@
                         "verse": "A luz que outrora apagada agora brilha"
                     },
                     {
-                        "chords": "   4              19",
+                        "chords": "   4              26",
                         "verse": "E cada dia brilha mais"
                     }
                 ]
@@ -1241,7 +1241,7 @@
                         "verse": "E fazer Teu nome grande"
                     },
                     {
-                        "chords": "3        4       0       27          15",
+                        "chords": "3        4       0       53          15",
                         "verse": "E___e te dar o louvor que é           devido"
                     },
                     {
@@ -1275,7 +1275,7 @@
                         "divider": true
                     },
                     {
-                        "chords": "    18                7",
+                        "chords": "    25                7",
                         "verse": "Reunimo-nos aqui para glorificar"
                     },
                     {
