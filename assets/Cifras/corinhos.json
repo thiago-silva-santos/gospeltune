@@ -20,7 +20,7 @@
                         "verse": "Sua presença é um prazer"
                     },
                     {
-                        "chords": "        0     7        3   17",
+                        "chords": "        0     7        3   31",
                         "verse": "Com Jesus estamos dizendo"
                     },
                     {
@@ -283,7 +283,7 @@
                         "verse": "Neste santo lugar de oração"
                     },
                     {
-                        "chords": "      0     7         3    17",
+                        "chords": "      0     7         3    31",
                         "verse": "Seu amor é real, sua paz gozarei"
                     },
                     {
@@ -498,7 +498,7 @@
                         "verse": "Caminhando eu vou para Canaã"
                     },
                     {
-                        "chords": "                 7           3   17",
+                        "chords": "                 7           3   31",
                         "verse": "Caminhando eu vou para Canaã"
                     },
                     {
@@ -519,7 +519,7 @@
                         "verse": "Se você não vai, não impeça eu ir"
                     },
                     {
-                        "chords": "             7                  3   17",
+                        "chords": "             7                  3   31",
                         "verse": "Se você não vai, não impeça eu ir"
                     },
                     {
@@ -665,7 +665,7 @@
                         "verse": "Sua presença sinto logo ao transitar"
                     },
                     {
-                        "chords": "         7          3      17",
+                        "chords": "         7          3      31",
                         "verse": "Já dissipaste toda sombra"
                     },
                     {
@@ -686,7 +686,7 @@
                         "verse": "Tens meu coração para pousar"
                     },
                     {
-                        "chords": "                7          3    17",
+                        "chords": "                7          3    31",
                         "verse": "Faz em mim morada permanente"
                     },
                     {
@@ -1012,7 +1012,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 24,
         "nome": "Ao Único",
         "tipo": "corinho",
         "tonalidade": 1,

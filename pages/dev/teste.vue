@@ -1,7 +1,7 @@
 <template>
      <div class="devpage">
           <div class="song_preview">
-               <cifra-musica :musica="cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
+               <cifra-musica :musica="cifra"/>
           </div>
           <textarea v-model="textAreaValores"></textarea>
           <div class="flex flex-col gap-10">

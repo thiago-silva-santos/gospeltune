@@ -2,7 +2,7 @@
      <div class="w-full">
           <div class="song_container" id="song_container">
                <h1 class="song_title">{{ song.nome }}</h1>
-               <cifra-musica :musica="song.cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
+               <cifra-musica :musica="song.cifra" />
           </div>
           <button-tuning :go-back="'/corinhos'" />
      </div>

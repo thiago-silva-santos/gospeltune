@@ -2,26 +2,23 @@
     <div :class="DivideStore.divide ? 'cifra_dividida_container': 'cifra_container'" id="cifra">
         <div class="flex flex-col pt-10 gap-2" v-for="parte in musica">
             <span class="titulo_verso" v-if="parte.tipo !== 'Primeira Parte'">{{ parteTitulo(parte.tipo) }}</span>
-            <cifra-musica-parte :parte="parte.versos" :tonalidade="tom" :style-props="parteTipo(parte.tipo)" />
+            <cifra-musica-parte :parte="parte.versos" :tonalidade="TonalidadeStore.tonalidadeAtual" :style-props="parteTipo(parte.tipo)" />
         </div>
     </div>
 </template>
 <script setup lang="ts">
 import { ISongPartes, IStyle } from '@/types/cifra/Cifra'
+import { useTonalidadeStore } from '@/stores/tonalidade'
 import { PropType } from 'vue'
 import { useDivideStore } from '~~/stores/divide'
 const DivideStore = useDivideStore()
-
+const TonalidadeStore = useTonalidadeStore();
 
 
 const props = defineProps({
     musica: {
         type: Array as PropType<ISongPartes[]>,
         required: true,
-    },
-    tonalidade: {
-        type: Number,
-        default: 0
     }
 })
 
@@ -34,9 +31,6 @@ const musica = computed(() => {
     return props.musica
 })
 
-const tom = computed(() => {
-    return props.tonalidade
-})
 
 function parteTitulo(tipo: string) {
     switch (tipo) {

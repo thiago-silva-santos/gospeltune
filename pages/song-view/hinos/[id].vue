@@ -2,7 +2,7 @@
      <div class="song_container">
           <h1 class="song_title">{{ song.nome }}</h1>
           <span class="artist_name"> {{ song.nomeArtista }} </span>
-          <cifra-musica :musica="song.cifra" :tonalidade="TonalidadeStore.tonalidadeAtual" />
+          <cifra-musica :musica="song.cifra"/>
      </div>
      <button-tuning go-back="/hinos" />
 </template>
