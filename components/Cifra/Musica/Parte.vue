@@ -1,9 +1,7 @@
 <template>
     <pre class="flex flex-col">
         <template v-for="linha in cifra" :key="linha">
-            <span class="flex">
-                <b v-for="acorde in parseString(linha.chords)">{{ tom[acorde as any]?.notacao }}</b>
-            </span>
+            <b>{{ parseString(linha.chords) }}</b>
             <span :class="`linha-verso ${props.styleProps?.fontWeigth} ${props.styleProps?.textColor}`">{{ linha.verse }}</span>
             <span v-if="linha.divider" class="h-5"></span>
         </template>
@@ -39,34 +37,48 @@ const tom = computed(() => {
 })
 
 function parseString(string: string) {
+    // Array para armazenar os itens extraídos da string
     const items = [];
+    // Variável para armazenar o item atual sendo construído
     let currentItem = "";
 
+    // Loop através de cada caractere na string
     for (let i = 0; i < string.length; i++) {
+        //debugger
+        // Obtém o caractere atual
         const char = string[i];
 
+        // Verifica se o caractere é um dígito (0-9)
         if (/\d/.test(char)) {
+            // Se for um dígito, adiciona ao item atual
             currentItem += char;
         } else if (char === " ") {
+            // Se o caractere for um espaço em branco
             if (currentItem !== "") {
-                items.push(currentItem);
+                // Se o item atual não estiver vazio, adiciona à lista de itens
+                items.push(tom.value.filter(x => x.posicao as any == currentItem)[0].notacao);
+                // Reseta o item atual para começar a construir um novo
                 currentItem = "";
             }
 
+            // Adiciona um espaço em branco à lista de itens
             items.push(" ");
         }
     }
 
+    // Verifica se há um item não vazio pendente no final da string
     if (currentItem !== "") {
-        items.push(currentItem);
+        // Adiciona o item final à lista de itens
+        items.push(tom.value.filter(x => x.posicao as any == currentItem)[0].notacao)
     }
-    return items;
+
+    // Retorna a lista de itens extraídos da string
+    return items.join('');;
 }
 </script>
 <style scoped>
 .linha-verso {
     @apply mb-2;
-    letter-spacing: 1px;
 }
 
 b {

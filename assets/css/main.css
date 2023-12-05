@@ -9,13 +9,6 @@ body {
      -webkit-tap-highlight-color: transparent;
 }
 
-pre {
-     font-family: 'Roboto', sans-serif;
-     font-size: 12px
-}
-b {
-     width: 0.395rem !important;
-}
 .menu-aberto {
      overflow-y: hidden !important;
 }
@@ -34,19 +27,17 @@ b {
 @media (min-width: 320px) {
      pre {
           font-family: 'Roboto', sans-serif;
-          font-size: 12px
-     }
-     b {
-          width: 0.395rem !important;
+          font-size: 12px;
+          word-spacing: 0.180rem;
+          letter-spacing: 1px;
      }
 }
 
 @media (min-width: 768px) {
      pre {
           font-family: 'Roboto', sans-serif;
-          font-size: 14px
+          font-size: 14px;
+          word-spacing: 0.220rem;
      }
-     b {
-          width: 0.450rem !important;
-     }
+
 }
