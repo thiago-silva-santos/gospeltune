@@ -1,7 +1,9 @@
 <template>
     <pre class="flex flex-col">
         <template v-for="linha in cifra" :key="linha">
-            <b>{{ parseString(linha.chords) }}</b>
+            <div class="flex">
+                <b v-for="posicao in parseString(linha.chords)">{{ tom[posicao as any]?.notacao }}</b>
+            </div>
             <span :class="`linha-verso ${props.styleProps?.fontWeigth} ${props.styleProps?.textColor}`">{{ linha.verse }}</span>
             <span v-if="linha.divider" class="h-5"></span>
         </template>
@@ -56,7 +58,7 @@ function parseString(string: string) {
             // Se o caractere for um espaço em branco
             if (currentItem !== "") {
                 // Se o item atual não estiver vazio, adiciona à lista de itens
-                items.push(tom.value.filter(x => x.posicao as any == currentItem)[0].notacao);
+                items.push(currentItem);
                 // Reseta o item atual para começar a construir um novo
                 currentItem = "";
             }
@@ -69,11 +71,11 @@ function parseString(string: string) {
     // Verifica se há um item não vazio pendente no final da string
     if (currentItem !== "") {
         // Adiciona o item final à lista de itens
-        items.push(tom.value.filter(x => x.posicao as any == currentItem)[0].notacao)
+        items.push(currentItem)
     }
 
     // Retorna a lista de itens extraídos da string
-    return items.join('');;
+    return items;
 }
 </script>
 <style scoped>
@@ -81,7 +83,31 @@ function parseString(string: string) {
     @apply mb-2;
 }
 
-b {
-    @apply text-red-600
+@media (min-width: 320px) {
+    pre {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    b {
+        width: 0.395rem;
+        letter-spacing: 0px;
+        @apply text-red-600;
+    }
 }
+
+@media (min-width: 768px) {
+    pre {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    b {
+        width: 0.450rem;
+        letter-spacing: 0px;
+    }
+
+}
+
 </style>

@@ -24,20 +24,3 @@ body {
      background-color: rgba(255, 0, 0, 0.1)
 }
 
-@media (min-width: 320px) {
-     pre {
-          font-family: 'Roboto', sans-serif;
-          font-size: 12px;
-          word-spacing: 0.180rem;
-          letter-spacing: 1px;
-     }
-}
-
-@media (min-width: 768px) {
-     pre {
-          font-family: 'Roboto', sans-serif;
-          font-size: 14px;
-          word-spacing: 0.220rem;
-     }
-
-}
