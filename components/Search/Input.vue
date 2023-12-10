@@ -1,7 +1,7 @@
 <template>
   <div class="input_search_container">
     <input v-model="searchQuery" placeholder="Buscar cifra" class="input_search" type="text" />
-    <button class="button_filters" @click="show">
+    <button class="button_filters" @click="FilterStore.show">
       <span class="material-symbols-outlined">
         menu
       </span>
@@ -9,32 +9,19 @@
   </div>
 </template>
    
-<script>
-import { mapState, mapActions } from 'pinia'
+<script setup lang="ts">
 import { useSearchStore } from '~~/stores/search';
 import { useFilterStore } from '@/stores/filters';
 
+const SearchStore = useSearchStore()
+const FilterStore = useFilterStore()
 
-export default {
-  data() {
-    return {
-      searchQuery: "",
-    };
-  },
-  computed: {
-    ...mapState(useSearchStore, ['search']),
+const searchQuery = ref<string>('')
 
-  },
-  methods: {
-    ...mapActions(useSearchStore, ['updateSearch']),
-    ...mapActions(useFilterStore, ['hide', 'show'])
-  },
-  watch: {
-    searchQuery(value) {
-      this.updateSearch(value)
-    },
-  },
-};
+watch(() => searchQuery.value, (value) => {
+  SearchStore.updateSearch(value)
+})
+
 </script>
 
 <style scoped>

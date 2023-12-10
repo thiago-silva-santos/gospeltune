@@ -1,9 +1,9 @@
 <template>
     <Transition name="overlay-fade">
-        <div class="overlay" @click="hide" v-if="showFilters"></div>
+        <div class="overlay" @click="FilterStore.hide()" v-if="FilterStore.showFilters"></div>
     </Transition>
     <Transition name="fade">
-        <div class="drawer" v-if="showFilters">
+        <div class="drawer" v-if="FilterStore.showFilters">
             <div class="option_list">
                 <div class="flex flex-col relative">
                     <div class="options_title">
@@ -12,7 +12,7 @@
                     </div>
                     <div class="sections">
                         <button v-for="(button, index) in routes" :key="index" @click="closeDrawerAndGoToPage(button.path)"
-                            :class="{ 'active_route': this.$route.name == button.name }">
+                            :class="{ 'active_route': $route.name == button.name }">
                             {{ button.title }}
                         </button>
                     </div>
@@ -23,10 +23,11 @@
                         <span class="bar"></span>
                     </div>
                     <div class="options">
-                        <div :class="['option', { 'option_active': selectedFilters.includes(categoria)}]"
-                            v-for="categoria in usableFilters" :key="categoria" @click="selecionarCategoria(categoria)">
+                        <div :class="['option', { 'option_active': FilterStore.selectedFilters.includes(categoria) }]"
+                            v-for="categoria in usableFilters" :key="categoria"
+                            @click="FilterStore.updateSelectedFilters(categoria)">
                             {{ categoria }}
-                            <span v-if="selectedFilters.includes(categoria)" class="material-symbols-outlined text-red-500">
+                            <span v-if="FilterStore.selectedFilters.includes(categoria)" class="material-symbols-outlined text-red-500">
                                 remove
                             </span>
                             <span v-else class="material-symbols-outlined text-slate-500">
@@ -36,7 +37,7 @@
 
                     </div>
                 </div>
-                <div class="menu_logo" @click="hide">
+                <div class="menu_logo" @click="FilterStore.hide()">
                     <img src="/gospeltunelogo.png" alt="logo">
                     <h1>Gospeltune</h1>
                     <h2 class="text-xs text-gray-200">Developed by Thiago Silva.</h2>
@@ -46,57 +47,59 @@
     </Transition>
 </template>
   
-<script>
-import { useFilterStore } from '~~/stores/filters';
-import { mapActions } from 'pinia';
-import { mapState } from 'pinia';
-export default {
-    data() {
-        return {
-            hinosHarpaTypes: ["Santa Ceia", "Jovens", "Missões"],
-            routes: [
-                {
-                    title: "Hinos da Harpa",
-                    name: "index",
-                    path: "/"
-                },
-                {
-                    title: "Corinhos",
-                    name: "corinhos",
-                    path: "/corinhos"
-                },
-                {
-                    title: "Louvores",
-                    name: "hinos",
-                    path: "/hinos"
-                },
-            ]
-        };
-    },
-    computed: {
-        ...mapState(useFilterStore, ['filters', 'selectedFilters', 'showFilters']),
-        usableFilters() {
-            if (this.$route.path == '/corinhos' || this.$route.path === '/hinos') {
-                return ["Envolvente", "Introspectivo"];
-            } else {
-                return this.filters
-            }
-        }
-    },
-    methods: {
+<script setup lang="ts">
+import { useRoute } from 'vue-router';
+import { useRouter } from 'vue-router';
 
-        ...mapActions(useFilterStore, ['updateSelectedFilters', 'hide']),
-        selecionarCategoria(categoria) {
-            this.updateSelectedFilters(categoria)
+const $route = useRoute()
+const $router = useRouter()
+
+import { useFilterStore } from '@/stores/filters';
+import { SongCategoria } from '~~/types/cifra/Cifra';
+
+const FilterStore = useFilterStore()
+
+interface IRoute {
+    title: string,
+    name: string,
+    path: string
+}
+
+const routes = ref<IRoute[]>(
+    [
+        {
+            title: "Hinos da Harpa",
+            name: "index",
+            path: "/"
         },
-        closeDrawerAndGoToPage(route) {
-            this.hide()
-            setTimeout(() => {
-                this.$router.push(route)
-            }, 400);
+        {
+            title: "Corinhos",
+            name: "corinhos",
+            path: "/corinhos"
+        },
+        {
+            title: "Louvores",
+            name: "louvores",
+            path: "/louvores"
         }
+    ]
+)
+
+const usableFilters = computed(() => {
+    if ($route.path == '/corinhos' || $route.path === '/louvores') {
+        return ["Envolvente", "Introspectivo"] as SongCategoria[];
+    } else {
+        return FilterStore.filters as SongCategoria[]
     }
-};
+})
+
+function closeDrawerAndGoToPage(route: string) {
+    FilterStore.hide()
+    setTimeout(() => {
+        $router.push(route)
+    }, 400);
+}
+
 </script>
 <style scoped>
 .bar {
@@ -188,13 +191,16 @@ export default {
         @apply shadow-lg flex flex-col bg-white p-6 w-full h-full gap-6 relative;
         z-index: 999;
     }
+
     .options {
         @apply flex flex-col gap-2 w-full p-2
     }
+
     .option {
         @apply cursor-pointer text-sm flex items-center gap-4 text-slate-700 py-1 px-2 rounded-md justify-between;
         transition: all ease .3s;
     }
+
     .option span {
         @apply text-[16px]
     }
@@ -234,15 +240,19 @@ export default {
     .options_title {
         @apply text-[16px]
     }
+
     .sections button {
         @apply text-[16px]
     }
+
     .option {
         @apply p-2 text-[16px]
     }
+
     .option span {
         @apply text-[18px]
     }
+
     .menu_logo img {
         @apply w-10 h-10
     }

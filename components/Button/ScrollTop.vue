@@ -8,33 +8,31 @@
     </div>
 </template>
   
-<script>
-export default {
-    data() {
-        return {
-            show: false,
-            scrollY: 0
-        }
-    },
-    created() {
-        window.addEventListener('scroll', this.handleScroll)
-    },
-    destroyed() {
-        window.removeEventListener('scroll', this.handleScroll)
-    },
-    methods: {
-        handleScroll() {
-            this.scrollY = window.scrollY
-            this.show = this.scrollY > 300
-        },
-        scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            })
-        }
-    }
+<script setup lang="ts">
+
+const show = ref<boolean>(false)
+const scrollY = ref<number>(0)
+
+function handleScroll() {
+    scrollY.value = window.scrollY
+    show.value = scrollY.value > 300
 }
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
+
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll)
+})
+
 </script>
   
 <style scoped>
@@ -60,7 +58,7 @@ export default {
 
 @media (min-width: 414px) {
     .scroll-to-top button {
-        @apply w-10 h-10 
+        @apply w-10 h-10
     }
 
 }

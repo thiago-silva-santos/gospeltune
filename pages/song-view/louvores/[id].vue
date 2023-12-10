@@ -4,10 +4,10 @@
           <span class="artist_name"> {{ song.nomeArtista }} </span>
           <cifra-musica :musica="song.cifra"/>
      </div>
-     <button-tuning go-back="/hinos" />
+     <button-tuning go-back="/louvores" />
 </template>
 <script setup lang="ts">
-import cifras from '@/assets/Cifras/hinos.json'
+import cifras from '@/assets/Cifras/louvores.json'
 import { useTonalidadeStore } from '~~/stores/tonalidade'
 
 const TonalidadeStore = useTonalidadeStore()

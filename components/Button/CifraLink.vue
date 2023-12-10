@@ -23,7 +23,7 @@ const props = defineProps({
 })
 
 function goToSong() {
-     router.push(props.songData.tipo == 'corinho' ? `/song-view/corinhos/${props.songData.id}` : props.songData.tipo == 'hino' ? `/song-view/hinos/${props.songData.id}` : `/song-view/hinos-harpa-crista/${props.songData.id}`)
+     router.push(props.songData.tipo == 'corinho' ? `/song-view/corinhos/${props.songData.id}` : props.songData.tipo == 'hino' ? `/song-view/louvores/${props.songData.id}` : `/song-view/hinos-harpa-crista/${props.songData.id}`)
 }
 </script>
 <style scoped>

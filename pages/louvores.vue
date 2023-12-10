@@ -16,7 +16,7 @@
        </CifraSection>
 </template>
 <script setup lang="ts">
-import louvoresData from '@/assets/Cifras/hinos.json'
+import louvoresData from '@/assets/Cifras/louvores.json'
 import { useFilterStore } from '~~/stores/filters';
 import { useSearchStore } from '~~/stores/search';
 
