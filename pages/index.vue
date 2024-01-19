@@ -17,8 +17,8 @@
 </template>
 <script setup lang="ts">
 import hinosDaHarpa from '@/assets/Cifras/hinos-harpa-crista.json'
-import { useFilterStore } from '~~/stores/filters';
-import { useSearchStore } from '~~/stores/search';
+import { useFilterStore } from '@/stores/filters';
+import { useSearchStore } from '@/stores/search';
 
 const FilterStore = useFilterStore()
 const SearchStore = useSearchStore()

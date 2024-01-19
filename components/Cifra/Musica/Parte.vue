@@ -10,7 +10,7 @@
     </pre>
 </template>
 <script setup lang="ts">
-import { ICifra, IStyle } from '~~/types/cifra/Cifra'
+import { ICifra, IStyle } from '@/types/cifra/Cifra'
 import campo from '@/assets/CampoHarmonico/campo-harmonico.json'
 import { PropType } from 'nuxt/dist/app/compat/capi';
 
@@ -23,7 +23,7 @@ const props = defineProps({
         required: true
     },
     styleProps: {
-        type: Object as PropType<IStyle>,
+        type: Object as PropType<IStyle | undefined>,
         required: true
     }
 })

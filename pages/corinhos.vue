@@ -19,8 +19,8 @@
 </template>
 <script setup lang="ts">
 import corinhosData from '@/assets/Cifras/corinhos.json'
-import { useFilterStore } from '~~/stores/filters';
-import { useSearchStore } from '~~/stores/search';
+import { useFilterStore } from '@/stores/filters';
+import { useSearchStore } from '@/stores/search';
 
 const FilterStore = useFilterStore()
 const SearchStore = useSearchStore()

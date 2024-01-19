@@ -1,4 +1,5 @@
 {
      "css.lint.unknownAtRules": "ignore",
-     "vue.inlayHints.optionsWrapper": false
+     "vue.inlayHints.optionsWrapper": false,
+     "typescript.tsdk": "node_modules/typescript/lib"
 }

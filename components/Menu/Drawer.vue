@@ -55,7 +55,7 @@ const $route = useRoute()
 const $router = useRouter()
 
 import { useFilterStore } from '@/stores/filters';
-import { SongCategoria } from '~~/types/cifra/Cifra';
+import { SongCategoria } from '@/types/cifra/Cifra';
 
 const FilterStore = useFilterStore()
 

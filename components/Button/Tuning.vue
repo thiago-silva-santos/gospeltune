@@ -31,7 +31,7 @@
 </template>
 <script setup lang="ts">
 const emits = defineEmits(['tuning-component-tune'])
-import { useTonalidadeStore } from '~~/stores/tonalidade'
+import { useTonalidadeStore } from '@/stores/tonalidade'
 
 const props = defineProps({
      goBack: {

@@ -1,11 +1,11 @@
-export interface ISongCifra extends INomeArtista {
-     id: string;
-     tipo: string;
-     nome: string;
-     tonalidade: number;
-     categoria: SongCategoria[];
-     cifra: ICifra[]
-}
+// export interface ISongCifra extends INomeArtista {
+//      id: string;
+//      tipo: string;
+//      nome: string;
+//      tonalidade: number;
+//      categoria: SongCategoria[];
+//      cifra: ICifra[]
+// }
 
 export interface INomeArtista {
      nomeArtista?: string
@@ -19,13 +19,13 @@ export interface ICifra {
      divider?: boolean;
 }
 export interface ISongPartes {
-     tipo: ISongTipos;
+     tipo: SongTipos;
      versos: ICifra[];
 }
 
-export type ISongTipos = "Primeira Parte" | "Segunda Parte" | "Terceira Parte" | "Refrão" | "Ponte" | "Final"
+export type SongTipos = "Primeira Parte" | "Segunda Parte" | "Terceira Parte" | "Refrão" | "Ponte" | "Final"
 
-export interface ISongCifra2 extends INomeArtista{
+export interface ISongCifra extends INomeArtista{
      id: string;
      numero: number;
      tipo: string;

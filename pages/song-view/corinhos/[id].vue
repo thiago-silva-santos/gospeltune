@@ -2,15 +2,15 @@
      <div class="w-full">
           <div class="song_container" id="song_container">
                <h1 class="song_title">{{ song.nome }}</h1>
-               <cifra-musica :musica="song.cifra" />
+               <cifra-musica :musica="(song.cifra as ISongPartes[])" />
           </div>
           <button-tuning :go-back="'/corinhos'" />
      </div>
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/corinhos.json'
-
-import { useTonalidadeStore } from '~~/stores/tonalidade'
+import { ISongPartes } from '@/types/cifra/Cifra';
+import { useTonalidadeStore } from '@/stores/tonalidade'
 
 const TonalidadeStore = useTonalidadeStore()
 

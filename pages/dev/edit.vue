@@ -59,9 +59,9 @@
 </template>
 <script setup lang="ts">
 import { useTonalidadeStore } from '@/stores/tonalidade'
-import { ICifra, ISongPartes, ISongTipos } from '~~/types/cifra/Cifra'
+import { ICifra, ISongPartes, SongTipos } from '@/types/cifra/Cifra'
 import { ref } from 'vue'
-const cifraTipo = ref<ISongTipos>('Primeira Parte')
+const cifraTipo = ref<SongTipos>('Primeira Parte')
 const textAreaValores = ref<string>('')
 const cifra = ref<ISongPartes[]>([])
 const TonalidadeStore = useTonalidadeStore();

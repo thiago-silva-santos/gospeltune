@@ -11,11 +11,11 @@ import { PropType } from "vue";
 import { ISongCifra } from "@/types/cifra/Cifra";
 const props = defineProps({
   items: {
-    type: Object as PropType<ISongCifra>,
+    type: Array as PropType<ISongCifra[]>,
     required: true,
   },
   textSearch: {
-    type: String,
+    type: String as PropType<String | Number>,
     default: "",
   }
 })

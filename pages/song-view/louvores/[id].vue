@@ -2,14 +2,14 @@
      <div class="song_container">
           <h1 class="song_title">{{ song.nome }}</h1>
           <span class="artist_name"> {{ song.nomeArtista }} </span>
-          <cifra-musica :musica="song.cifra"/>
+          <cifra-musica :musica="(song.cifra as ISongPartes[])"/>
      </div>
      <button-tuning go-back="/louvores" />
 </template>
 <script setup lang="ts">
 import cifras from '@/assets/Cifras/louvores.json'
-import { useTonalidadeStore } from '~~/stores/tonalidade'
-
+import { useTonalidadeStore } from '@/stores/tonalidade'
+import { ISongPartes } from '@/types/cifra/Cifra';
 const TonalidadeStore = useTonalidadeStore()
 
 const route = useRoute()
