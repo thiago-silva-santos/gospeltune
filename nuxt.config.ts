@@ -35,5 +35,12 @@ export default defineNuxtConfig({
     // ...
     '@pinia/nuxt',
   ],
-  ssr: false
+  ssr: false,
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        'date-fns'
+      ]
+    }
+  }
 })
