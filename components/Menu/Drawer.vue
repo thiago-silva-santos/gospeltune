@@ -40,7 +40,7 @@
                 <div class="menu_logo" @click="FilterStore.hide()">
                     <img src="/gospeltunelogo.png" alt="logo">
                     <h1>Gospeltune</h1>
-                    <h2 class="text-xs text-gray-200">Developed by Thiago Silva.</h2>
+                    <!-- <h2 class="text-xs text-gray-200">Developed by Thiago Silva.</h2> -->
                 </div>
             </div>
         </div>

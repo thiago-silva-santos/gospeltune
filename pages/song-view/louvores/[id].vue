@@ -46,9 +46,9 @@ onBeforeMount(() => {
 }
 
 @media (min-width: 768px) {
-     /* .song_container {
+     .song_container {
           @apply mx-auto;
-     } */
+     }
 
      .song_title {
           font-size: 22px;

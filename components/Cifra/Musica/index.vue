@@ -22,8 +22,8 @@ const props = defineProps({
 
 const parteStyle = ref<IStyle>({ textColor: 'text-black', fontWeigth: 'font-normal' })
 const refraoStyle = ref<IStyle>({ textColor: 'text-black', fontWeigth: 'font-bold' })
-const ponteStyle = ref<IStyle>({ textColor: 'text-red-900', fontWeigth: 'font-medium' })
-const finalStyle = ref<IStyle>({ textColor: 'text-red-500', fontWeigth: 'font-normal' })
+const ponteStyle = ref<IStyle>({ textColor: 'text-black', fontWeigth: 'font-medium' })
+const finalStyle = ref<IStyle>({ textColor: 'text-red-900', fontWeigth: 'font-normal' })
 
 const musica = computed(() => {
     return props.musica

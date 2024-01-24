@@ -815,13 +815,60 @@
     },
     {
         "id": 13,
-        "nome": "Se o Espírito de Deus Se Move Em Mim",
+        "nome": "Feliz Aniversário",
         "tipo": "corinho",
         "tonalidade": 0,
         "categoria": [
-            "Envolvente"
+            "Introspectivo"
         ],
-        "cifra": []
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "  28         24    11             28",
+                        "verse": "Feliz aniversário junto com os seus"
+                    },
+                    {
+                        "chords": "  28          24       11                  28",
+                        "verse": "Muitas felicidades, muitas bênçãos dos céus"
+                    },
+                    {
+                        "chords": "     28            24        11        28",
+                        "verse": "Que Deus resplandeça em vós a sua luz"
+                    },
+                    {
+                        "chords": "        28         24",
+                        "verse": "Que em toda sua vida,"
+                    },
+                    {
+                        "chords": "       11                     28",
+                        "verse": "bem feliz possa estar com Jesus"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "         11              28",
+                        "verse": "Deus te guarde, Deus te guie,"
+                    },
+                    {
+                        "chords": "      11          28",
+                        "verse": "E te ajude a caminhar"
+                    },
+                    {
+                        "chords": "        24              28",
+                        "verse": "Nos caminhos da felicidade"
+                    },
+                    {
+                        "chords": "        11                 28",
+                        "verse": "Muitos anos com Cristo andar"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 14,
@@ -1012,7 +1059,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 17,
         "nome": "Ao Único",
         "tipo": "corinho",
         "tonalidade": 1,
