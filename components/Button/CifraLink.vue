@@ -32,20 +32,34 @@ function goToSong() {
 @media (min-width: 320px) {
      .cifra_link {
           @apply w-full flex items-center justify-start p-2 gap-3 rounded-lg bg-white cursor-pointer relative;
+          box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.050);
+          transition: all .3s ease;
      }
 
+
+     
      .song_title {
           @apply  text-sm max-w-[230px] truncate text-black
      }
 
      .song_number {
-          @apply w-10 h-10 text-base text-red-500 font-semibold rounded-full flex items-center justify-center bg-slate-50
+          @apply w-10 h-10 text-base text-red-500 font-semibold rounded-lg flex items-center justify-center bg-slate-50;
+          transition: all .3s ease;
      }
+
      .titles {
           @apply flex flex-col
      }
      .song_subtitle {
           @apply text-[12px] text-slate-400
+     }
+
+
+     .cifra_link:hover {
+          box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.050);
+     }
+     .cifra_link:hover > .song_number{
+          @apply underline underline-offset-4 decoration-2;
      }
 }
 

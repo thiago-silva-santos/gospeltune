@@ -1,7 +1,7 @@
 <template>
     <section class="py-10">
       <div class="cards_container">
-        <button-cifra-link v-for="song in props.items" :song-data="song" />
+        <button-cifra-link class="mx-auto" v-for="song in props.items" :song-data="song" />
       </div>
     </section>
 </template>
@@ -24,7 +24,7 @@ const props = defineProps({
 <style lang="css" scoped>
 @media (min-width: 320px) {
   .cards_container {
-    @apply grid;
+    @apply grid gap-6 w-full bg-white;
     grid-template-columns: 1fr;
   }
 
@@ -32,14 +32,12 @@ const props = defineProps({
 
 @media (min-width: 768px) {
   .cards_container {
-    @apply grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1366px) {
   .cards_container {
-    @apply grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
