@@ -2465,9 +2465,64 @@
         "id": 183,
         "tipo": "hino_harpa_crista",
         "nome": "Ressuscitou!",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": [
+            "Envolvente",
+            "Santa Ceia"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                           4",
+                        "verse": "Da sepultura, para o céu, Jesus voltou"
+                    },
+                    {
+                        "chords": "                            0",
+                        "verse": "Depois que o pecado aniquilou"
+                    },
+                    {
+                        "chords": "                                 4",
+                        "verse": "Com gran poder foi que ressuscitou"
+                    },
+                    {
+                        "chords": "                               0",
+                        "verse": "E liberdade aos presos proclamou"
+                    },
+                    {
+                        "chords": "                  7      3     1",
+                        "verse": "Tremendo, a terra O saudou"
+                    },
+                    {
+                        "chords": "              0       4     0     4 ",
+                        "verse": "Pois que da morte se levantou",
+                        "divider": true
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "          0",
+                        "verse": "Ressuscitou! Ressuscitou!"
+                    },
+                    {
+                        "chords": "                       4",
+                        "verse": "E para o céu Jesus tornou"
+                    },
+                    {
+                        "chords": "         1               4",
+                        "verse": "Mas voltará, também de lá"
+                    },
+                    {
+                        "chords": "                           0",
+                        "verse": "E neste mundo, então reinará"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 184,
@@ -4874,8 +4929,49 @@
         "tipo": "hino_harpa_crista",
         "nome": "O Cordeiro de Deus",
         "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "categoria": [
+            "Envolvente",
+            "Santa Ceia"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                    3         0",
+                        "verse": "Vejo um homem na cruz pendurado"
+                    },
+                    {
+                        "chords": "4                              0",
+                        "verse": "A derramar sangue, por meu pecado"
+                    },
+                    {
+                        "chords": "                 3       0",
+                        "verse": "É o cordeiro de Deus imolado"
+                    },
+                    {
+                        "chords": "4             0          3       0",
+                        "verse": "Que por mim sofre grandíssima dor"
+                    },
+                    {
+                        "chords": "0                   4        0",
+                        "verse": "Quanto padece na cruz, no altar"
+                    },
+                    {
+                        "chords": "4         22          29         4     11",
+                        "verse": "Cristo Jesus, o meu bom salvador"
+                    },
+                    {
+                        "chords": "0                    7        3",
+                        "verse": "Para fazer-me um tesouro herdar"
+                    },
+                    {
+                        "chords": "1          4          0",
+                        "verse": "No santo reino do Senhor!"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 382,
@@ -5841,8 +5937,54 @@
         "tipo": "hino_harpa_crista",
         "nome": "Comunhão",
         "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "categoria": [
+            "Envolvente",
+            "Santa Ceia"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "     0                  3          0",
+                        "verse": "Bendito Jesus, nós chamamos por Ti"
+                    },
+                    {
+                        "chords": "                5        11   ",
+                        "verse": "Cercamos Tua mesa, Senhor"
+                    },
+                    {
+                        "chords": "     0                  3       29  ",
+                        "verse": "Por Teu Paracleto nos preside aqui"
+                    },
+                    {
+                        "chords": "         0          11        0",
+                        "verse": "Vem encher-nos de santo fervor"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "     0               3        0",
+                        "verse": "A grande ternura do Teu coração"
+                    },
+                    {
+                        "chords": "              5           11   ",
+                        "verse": "Chamou-nos aqui, oh! Senhor"
+                    },
+                    {
+                        "chords": "     0                    3       29  ",
+                        "verse": "Pra nós celebrarmos em santa união"
+                    },
+                    {
+                        "chords": "     0          11         0",
+                        "verse": "Tua morte, oh! Bom Redentor"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 483,
@@ -5856,9 +5998,64 @@
         "id": 484,
         "tipo": "hino_harpa_crista",
         "nome": "Meus Pecados Levou",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": ["Envolvente", "Santa Ceia"],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "        0          7 ",
+                        "verse": "Houve um que morreu"
+                    },
+                    {
+                        "chords": "           3          0",
+                        "verse": "Por meus crimes na cruz"
+                    },
+                    {
+                        "chords": "               11          0",
+                        "verse": "'Inda indigno e vil como sou"
+                    },
+                    {
+                        "chords": "                   7          3          0",
+                        "verse": "Sou feliz, pois seu sangue verteu meu Jesus"
+                    },
+                    {
+                        "chords": "                   4        0",
+                        "verse": "E com este, meus crimes lavou"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "          0      2",
+                        "verse": "Meus pecados levou"
+                    },
+                    {
+                        "chords": "          3       0",
+                        "verse": "Na cruz onde morreu"
+                    },
+                    {
+                        "chords": "     22                4",
+                        "verse": "O sublime e meigo Jesus"
+                    },
+                    {
+                        "chords": "        3        0",
+                        "verse": "Os desprezos sofreu"
+                    },
+                    {
+                        "chords": "        3       0",
+                        "verse": "A minh'alma salvou"
+                    },
+                    {
+                        "chords": "     22            4         0",
+                        "verse": "E mudou minhas trevas em luz"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 485,
@@ -6111,7 +6308,7 @@
         ],
         "cifra": [
             {
-                "tipo":"Primeira Parte",
+                "tipo": "Primeira Parte",
                 "versos": [
                     {
                         "chords": "   0     4     0        3           0",
@@ -6152,7 +6349,6 @@
                     }
                 ]
             }
-            
         ]
     },
     {
@@ -6238,7 +6434,7 @@
         ],
         "cifra": [
             {
-                "tipo":"Primeira Parte",
+                "tipo": "Primeira Parte",
                 "versos": [
                     {
                         "chords": "     0",
@@ -6291,7 +6487,6 @@
                     }
                 ]
             }
-            
         ]
     },
     {
@@ -6457,7 +6652,7 @@
         ],
         "cifra": [
             {
-                "tipo":"Primeira Parte",
+                "tipo": "Primeira Parte",
                 "versos": [
                     {
                         "chords": "         0   7             3",
@@ -6498,7 +6693,6 @@
                     }
                 ]
             }
-            
         ]
     },
     {
@@ -6559,7 +6753,7 @@
         ],
         "cifra": [
             {
-                "tipo":"Primeira Parte",
+                "tipo": "Primeira Parte",
                 "versos": [
                     {
                         "chords": "0",
@@ -6600,7 +6794,6 @@
                     }
                 ]
             }
-           
         ]
     },
     {
@@ -6806,7 +6999,7 @@
         ],
         "cifra": [
             {
-                "tipo":"Primeira Parte",
+                "tipo": "Primeira Parte",
                 "versos": [
                     {
                         "chords": "0               1          2       5",
@@ -6847,7 +7040,6 @@
                     }
                 ]
             }
-            
         ]
     },
     {

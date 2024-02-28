@@ -30,7 +30,7 @@ const FilterStore = useFilterStore()
     @apply w-full min-h-screen py-10 px-4 m-auto flex flex-col justify-start items-center gap-8;
   }
   .section_content {
-    @apply w-full max-w-[1366px]
+    @apply w-full max-w-[1366px] flex justify-center
   }
 
   .filter_tags {
