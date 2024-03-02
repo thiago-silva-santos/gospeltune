@@ -1,42 +1,12 @@
-# Nuxt 3 Minimal Starter
+Este projeto é um site de cifras de músicas gospel.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+O intuito desse site é ser uma ferramenta que auxilia músicos nos cultos e ensaios da igreja que faço parte.
 
-## Setup
 
-Make sure to install the dependencies:
+A ideia de desenvolver essa ferramenta surgiu de uma necessidade que tínhamos de criar e acessar cifras personalizadas
+e que funcionasse em todas as tonalidades, servindo tanto para os hinos da harpa cristã, corinhos e outras músicas gospel.
 
-```bash
-# yarn
-yarn install
+Removendo assim a limitação que tínhamos de tocar determinada música sempre na mesma tonalidade,
+o que acabava por limitar também quem estivesse cantando a música, algo que poderia ser desconfortável, uma vez que as pessoas têm classificações vocais diferentes.
 
-# npm
-npm install
 
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
