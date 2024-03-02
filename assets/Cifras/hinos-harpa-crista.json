@@ -4951,7 +4951,8 @@
                     },
                     {
                         "chords": "4             0          3       0",
-                        "verse": "Que por mim sofre grandíssima dor"
+                        "verse": "Que por mim sofre grandíssima dor",
+                        "divider": true
                     },
                     {
                         "chords": "0                   4        0",
