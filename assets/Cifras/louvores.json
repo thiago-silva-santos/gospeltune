@@ -907,5 +907,201 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 10,
+        "tipo": "hino",
+        "nome": "De Volta a Inocência",
+        "nomeArtista": "Quatro Por Um",
+        "tonalidade": 11,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Sabe Senhor"
+                    },
+                    {
+                        "chords": "                9",
+                        "verse": "Tenho andado meio sem rumo"
+                    },
+                    {
+                        "chords": "   3            31     ",
+                        "verse": "Perdi a visão, perdi o temor"
+                    },
+                    {
+                        "chords": "         0      4",
+                        "verse": "Não fui sábio"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0",
+                        "verse": "Sabe Senhor"
+                    },
+                    {
+                        "chords": "               9",
+                        "verse": "Eu pensei que Te conhecia"
+                    },
+                    {
+                        "chords": "         12",
+                        "verse": "Mas enganei a mim mesmo"
+                    },
+                    {
+                        "chords": "    4                0                   3",
+                        "verse": "Manchei a pureza, e fui pra bem longe de Ti"
+                    },
+                    {
+                        "chords": "               8      4     0     4",
+                        "verse": "Mas estou de volta     -   pra Ti"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": " 4                0",
+                        "verse": "Ao tempo da inocência eu quero voltar"
+                    },
+                    {
+                        "chords": "                4",
+                        "verse": "Ao tempo da pureza eu quero voltar"
+                    },
+                    {
+                        "chords": "           12                    3",
+                        "verse": "Da simplicidade com Pai, humildade com Deus"
+                    },
+                    {
+                        "chords": "      0                         4",
+                        "verse": "Ser curado do que o mundo me fez",
+                        "divider": true
+                    },
+                    {
+                        "chords": "             0",
+                        "verse": "Ouvir a Tua voz como sempre ouvi"
+                    },
+                    {
+                        "chords": "             4",
+                        "verse": "Amar Tua palavra com todo meu ser"
+                    },
+                    {
+                        "chords": "                     12",
+                        "verse": "Oh Deus, tô com saudades de Ti"
+                    },
+                    {
+                        "chords": "     3               0              4",
+                        "verse": "Saudades de Ti, saudades de Ti"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "tipo": "hino",
+        "nome": "Ser Conhecido de Deus",
+        "nomeArtista": "Renascer Praise",
+        "tonalidade": 5,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                 4          5",
+                        "verse": "Quero me apresentar a Ti, ó Deus"
+                    },
+                    {
+                        "chords": "       3",
+                        "verse": "Te ofertar em louvor"
+                    },
+                    {
+                        "chords": "0            4",
+                        "verse": "Me entregar, me derramar"
+                    },
+                    {
+                        "chords": "          5          3",
+                        "verse": "Os Teus planos cumprir"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "       0               4     5",
+                        "verse": "Que possas achar em mim a voz"
+                    },
+                    {
+                        "chords": "       3",
+                        "verse": "Que deseja ouvir"
+                    },
+                    {
+                        "chords": "      0              4",
+                        "verse": "Que toca o Espírito, abre os céus"
+                    },
+                    {
+                        "chords": "   5               3",
+                        "verse": "E enche o Teu coração"
+                    }
+                ]
+            },
+            {
+                "tipo": "Terceira Parte",
+                "versos": [
+                    {
+                        "chords": " 5                   3",
+                        "verse": "Ser reconhecido, marcado por transformação"
+                    },
+                    {
+                        "chords": "    5                     3",
+                        "verse": "Aprovado pelo fogo, habilitado pela unção"
+                    },
+                    {
+                        "chords": "      5",
+                        "verse": "Sabe todos os meus dias"
+                    },
+                    {
+                        "chords": "         3",
+                        "verse": "Que pra vida e para morte"
+                    },
+                    {
+                        "chords": "    8               4",
+                        "verse": "Eu vou andar com Deus"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "      0                    4",
+                        "verse": "O Senhor conhece os que são Seus"
+                    },
+                    {
+                        "chords": "        5              3",
+                        "verse": "Ouve a voz sincera de um adorador"
+                    },
+                    {
+                        "chords": "    0                4            5",
+                        "verse": "Me separou, me marcou no Seu altar"
+                    },
+                    {
+                        "chords": "        3",
+                        "verse": "Para servir"
+                    }
+                ]
+            }
+        ]
     }
 ]
