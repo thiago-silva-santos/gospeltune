@@ -178,8 +178,74 @@
         "tipo": "hino_harpa_crista",
         "nome": "Ó Desce Fogo Santo",
         "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "categoria": [
+            "Envolvente"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "   0      3      11",
+                        "verse": "Espírito, alma e corpo"
+                    },
+                    {
+                        "chords": "  0      3     4",
+                        "verse": "Oferto a Ti, Senhor"
+                    },
+                    {
+                        "chords": "       0      3     11",
+                        "verse": "Como hóstia verdadeira"
+                    },
+                    {
+                        "chords": "    0    4        0",
+                        "verse": "Em oblação de amor"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "    0      3       0",
+                        "verse": "Eu tudo a Deus consagro"
+                    },
+                    {
+                        "chords": "     3       4     0",
+                        "verse": "Em Cristo, o vivo altar"
+                    },
+                    {
+                        "chords": "   3      2    1",
+                        "verse": "Ó desce, fogo santo"
+                    },
+                    {
+                        "chords": "    0        4    0",
+                        "verse": "Do céu vem Tu selar"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "     0      3     11",
+                        "verse": "Sou teu, ó Jesus Cristo"
+                    },
+                    {
+                        "chords": "     0       3       4",
+                        "verse": "Teu sangue me comprou"
+                    },
+                    {
+                        "chords": "    0       3   11",
+                        "verse": "Eu quero a Tua graça"
+                    },
+                    {
+                        "chords": "     0      4      0",
+                        "verse": "Pois de Ti sempre sou"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 6,
@@ -838,9 +904,75 @@
         "id": 45,
         "tipo": "hino_harpa_crista",
         "nome": "Redentor Onipotente",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 3,
+        "categoria": [
+            "Envolvente"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0          4    0",
+                        "verse": "Redentor onipotente"
+                    },
+                    {
+                        "chords": "11               0   4",
+                        "verse": "Poderoso Salvador"
+                    },
+                    {
+                        "chords": "0           4    0",
+                        "verse": "Advogado onisciente"
+                    },
+                    {
+                        "chords": "11                     0   7",
+                        "verse": "É Jesus, meu bom Senhor"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "3          0",
+                        "verse": "Ó Amante da minh'alma"
+                    },
+                    {
+                        "chords": "3     1          11",
+                        "verse": "Tu és tudo para mim!"
+                    },
+                    {
+                        "chords": "0             4    0",
+                        "verse": "Tudo quanto  eu careço"
+                    },
+                    {
+                        "chords": "11                    0   4",
+                        "verse": "Acho, Jesus,  só em Ti"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0           4       0",
+                        "verse": "Um abrigo sempre perto"
+                    },
+                    {
+                        "chords": "11                 0   4",
+                        "verse": "Para todo o pecador"
+                    },
+                    {
+                        "chords": "0            4        0",
+                        "verse": "Um refúgio sempre aberto"
+                    },
+                    {
+                        "chords": "11                   0   7",
+                        "verse": "É Jesus, meu Salvador"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 46,
@@ -933,9 +1065,70 @@
         "id": 51,
         "tipo": "hino_harpa_crista",
         "nome": "Adoração Reconhecida",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 3,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0      2      3      2",
+                        "verse": "Ó minh'alma, sem demora"
+                    },
+                    {
+                        "chords": "5     1        4   0",
+                        "verse": "Ergue-te para entoar"
+                    },
+                    {
+                        "chords": "      5      22      5",
+                        "verse": "Os louvores do teu Cristo"
+                    },
+                    {
+                        "chords": "      4      29    11",
+                        "verse": "E Seu nome celebrar!"
+                    },
+                    {
+                        "chords": "0      3     4      0",
+                        "verse": "Pra remir-te, pra remir-te"
+                    },
+                    {
+                        "chords": "1    4            0",
+                        "verse": "Sua vida Ele quis dar!"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0      2    3       2",
+                        "verse": "Minha condição tão triste"
+                    },
+                    {
+                        "chords": "5     1        4    0",
+                        "verse": "Conheceu meu Salvador"
+                    },
+                    {
+                        "chords": "         5        22     5",
+                        "verse": "Que dos céus desceu à terra"
+                    },
+                    {
+                        "chords": "      4       29     11",
+                        "verse": "Para ser meu Redentor!"
+                    },
+                    {
+                        "chords": "0          3      4          0",
+                        "verse": "Oh! Quão grande! Oh! Quão grande!"
+                    },
+                    {
+                        "chords": "1     4              0",
+                        "verse": "É o amor de meu Senhor!"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 52,
@@ -1125,9 +1318,75 @@
         "id": 75,
         "tipo": "hino_harpa_crista",
         "nome": "Em Jesus Tens a Palma da Vitória",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 4,
+        "categoria": [
+            "Introspectivo"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0             30      5   3       30",
+                        "verse": "Tentado, não cedas, ce - der é pecar"
+                    },
+                    {
+                        "chords": "3               0     11        0",
+                        "verse": "Melhor e mais nobre, será triunfar"
+                    },
+                    {
+                        "chords": "0            30      5    3          30",
+                        "verse": "Coragem, ó crente,  do - mina o teu mal"
+                    },
+                    {
+                        "chords": "3             0     1     11       0   4",
+                        "verse": "Deus pode livrar-te  de    queda fatal"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "0     11           0",
+                        "verse": "Em Jesus tens a palma"
+                    },
+                    {
+                        "chords": "11              0    7",
+                        "verse": "Da vitória, minh'alma"
+                    },
+                    {
+                        "chords": "3                0   5",
+                        "verse": "E também doce cal - ma"
+                    },
+                    {
+                        "chords": "1     11          0    4",
+                        "verse": "Pelo sangue da cruz"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0         30     5     3        30",
+                        "verse": "Evita o pecado, pro - cura agradar"
+                    },
+                    {
+                        "chords": "3                0     11            0",
+                        "verse": "A Deus, a quem deves no corpo exaltar"
+                    },
+                    {
+                        "chords": "0                 30      5    3      30",
+                        "verse": "Não manche teus lábios com impura voz"
+                    },
+                    {
+                        "chords": "3            0    1    11      0   4",
+                        "verse": "Defende tua alma do   vício atroz"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 76,
@@ -1142,8 +1401,74 @@
         "tipo": "hino_harpa_crista",
         "nome": "Guarda o Contacto",
         "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "categoria": [
+            "Envolvente"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                             5     4",
+                        "verse": "Queres, neste mundo, ser um vencedor?"
+                    },
+                    {
+                        "chords": "1            4                  0",
+                        "verse": "Queres tu cantar nas lutas e na dor?"
+                    },
+                    {
+                        "chords": "                   7             3",
+                        "verse": "Queres ser alegre, qual bom lutador?"
+                    },
+                    {
+                        "chords": "              0     4            0",
+                        "verse": "Guarda o conctato com teu Salvador"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "             11                    0",
+                        "verse": "Guarda o contacto com teu Salvador"
+                    },
+                    {
+                        "chords": "3          0              29     11",
+                        "verse": "E a nuvem do mal não te cobri - rá"
+                    },
+                    {
+                        "chords": "0                  7           3",
+                        "verse": "Pela senda alegre, tu caminharás"
+                    },
+                    {
+                        "chords": "             0     4             0",
+                        "verse": "Indo em contacto com teu Salvador"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0                           5      4",
+                        "verse": "Neste mundo, vivem muitos  a   penar"
+                    },
+                    {
+                        "chords": "1          4                       0",
+                        "verse": "Cujos corações transbordam de pesar"
+                    },
+                    {
+                        "chords": "                      7             3",
+                        "verse": "Dá-lhes a mensagem  de amor sem par"
+                    },
+                    {
+                        "chords": "                 0     4           0",
+                        "verse": "Com Deus o contacto deves tu guardar"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 78,
@@ -3909,9 +4234,73 @@
         "id": 296,
         "tipo": "hino_harpa_crista",
         "nome": "No Jardim",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": ["Envolvente"],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                 3        0",
+                        "verse": "No jardim Jesus Cristo clamava"
+                    },
+                    {
+                        "chords": "           29         4          0   4",
+                        "verse": "Quando os ímpios O foram prender"
+                    },
+                    {
+                        "chords": "    0            3        0",
+                        "verse": "E falando com o Pai suplicava"
+                    },
+                    {
+                        "chords": "      4         29    4",
+                        "verse": "Pelo cálice que  ia beber"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "       11                    0",
+                        "verse": "Com Jesus a minha alma deseja estar"
+                    },
+                    {
+                        "chords": "       4            11        0",
+                        "verse": "No jardim, em constante oração"
+                    },
+                    {
+                        "chords": "                   7         3",
+                        "verse": "Quando a noite chegar, e o mal me cercar"
+                    },
+                    {
+                        "chords": "         0           4         0",
+                        "verse": "Quero estar em constante oração"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "        0         3          0",
+                        "verse": "Qual orvalho que dá vida às flores"
+                    },
+                    {
+                        "chords": "       29         4           0   4",
+                        "verse": "Assim  é para o crente a oração"
+                    },
+                    {
+                        "chords": "          0         3       0",
+                        "verse": "Meus cuidados, tristezas e dores"
+                    },
+                    {
+                        "chords": "          4        29          4",
+                        "verse": "Cristo as sabe por minha oração"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 297,
@@ -6000,7 +6389,10 @@
         "tipo": "hino_harpa_crista",
         "nome": "Meus Pecados Levou",
         "tonalidade": 1,
-        "categoria": ["Envolvente", "Santa Ceia"],
+        "categoria": [
+            "Envolvente",
+            "Santa Ceia"
+        ],
         "cifra": [
             {
                 "tipo": "Primeira Parte",
