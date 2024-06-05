@@ -745,9 +745,52 @@
         "id": 33,
         "tipo": "hino_harpa_crista",
         "nome": "Com Tua Mão Segura",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": ["Envolvente"],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                             4",
+                        "verse": "Com Tua mão, segura bem a minha"
+                    },
+                    {
+                        "chords": "11                              0",
+                        "verse": "Pois eu tão fraco sou, oh Salvador!"
+                    },
+                    {
+                        "chords": "                      7              3",
+                        "verse": "Que não me atrevo a dar nem um só passo"
+                    },
+                    {
+                        "chords": "             4    11              0",
+                        "verse": "Sem Teu amparo, meu Jesus Senhor!"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0                             4",
+                        "verse": "Com Tua mão, segura bem a minha"
+                    },
+                    {
+                        "chords": "11                           0",
+                        "verse": "E mais e mais unido a Ti, Jesus"
+                    },
+                    {
+                        "chords": "                  7            3",
+                        "verse": "Oh traze-me, que nunca me desvie"
+                    },
+                    {
+                        "chords": "          4     11             0",
+                        "verse": "De Ti, Senhor, a minha vida e luz!"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 34,
@@ -4235,7 +4278,9 @@
         "tipo": "hino_harpa_crista",
         "nome": "No Jardim",
         "tonalidade": 1,
-        "categoria": ["Envolvente"],
+        "categoria": [
+            "Envolvente"
+        ],
         "cifra": [
             {
                 "tipo": "Primeira Parte",
@@ -5511,9 +5556,54 @@
         "id": 400,
         "tipo": "hino_harpa_crista",
         "nome": "Em Jesus",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 1,
+        "categoria": [
+            "Envolvente"
+        ],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "0                        4",
+                        "verse": "Em Jesus, vivendo cada dia"
+                    },
+                    {
+                        "chords": "11                      0",
+                        "verse": "Em Jesus, eu tenho alegria"
+                    },
+                    {
+                        "chords": "               7          3",
+                        "verse": "Em Jesus, oh, doce harmonia"
+                    },
+                    {
+                        "chords": "       0       4              0",
+                        "verse": "Em Jesus, desfruto a paz de Deus!"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "0                        4",
+                        "verse": "Em Jesus, na rocha inabalável"
+                    },
+                    {
+                        "chords": "11                              0",
+                        "verse": "Em Jesus, no homem incomparável"
+                    },
+                    {
+                        "chords": "               7           3",
+                        "verse": "Em Jesus, no Deus tão adorável"
+                    },
+                    {
+                        "chords": "       0      4           0",
+                        "verse": "Em Jesus, o mal não temerei!"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 401,
