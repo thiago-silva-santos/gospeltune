@@ -746,7 +746,9 @@
         "tipo": "hino_harpa_crista",
         "nome": "Com Tua Mão Segura",
         "tonalidade": 1,
-        "categoria": ["Envolvente"],
+        "categoria": [
+            "Envolvente"
+        ],
         "cifra": [
             {
                 "tipo": "Primeira Parte",
@@ -3646,9 +3648,73 @@
         "id": 244,
         "tipo": "hino_harpa_crista",
         "nome": "Louvai a Jesus",
-        "tonalidade": 0,
-        "categoria": [],
-        "cifra": []
+        "tonalidade": 5,
+        "categoria": ["Envolvente"],
+        "cifra": [
+            {
+                "tipo": "Primeira Parte",
+                "versos": [
+                    {
+                        "chords": "    0",
+                        "verse": "Louvai a Jesus, amoroso"
+                    },
+                    {
+                        "chords": "    1          4      0     4",
+                        "verse": "Na cruz os pecados levou"
+                    },
+                    {
+                        "chords": "     0",
+                        "verse": "Que nos enche de Santo gozo"
+                    },
+                    {
+                        "chords": "      1         4          0    7",
+                        "verse": "Com sangue o céu nos ganhou"
+                    }
+                ]
+            },
+            {
+                "tipo": "Refrão",
+                "versos": [
+                    {
+                        "chords": "     3      0     5",
+                        "verse": "Ao meu, Senhor"
+                    },
+                    {
+                        "chords": "     1         4        0    7",
+                        "verse": "Que tenho no meu coração"
+                    },
+                    {
+                        "chords": "    3      0     5",
+                        "verse": "Eu dou, louvor"
+                    },
+                    {
+                        "chords": "     4                 0    4",
+                        "verse": "Pois Ele me deu salvação"
+                    }
+                ]
+            },
+            {
+                "tipo": "Segunda Parte",
+                "versos": [
+                    {
+                        "chords": "    0",
+                        "verse": "Louvai a Jesus poderoso"
+                    },
+                    {
+                        "chords": "     1     4         0     4",
+                        "verse": "Que veio livrar da prisão"
+                    },
+                    {
+                        "chords": "     0",
+                        "verse": "Um povo cativo, medroso"
+                    },
+                    {
+                        "chords": "     1         4       0     7",
+                        "verse": "Que não tinha consolação"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 245,
